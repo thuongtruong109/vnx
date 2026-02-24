@@ -1,0 +1,200 @@
+[
+  {
+    "province_id": "15",
+    "districts": [
+      {
+        "name": "Thành phố Yên Bái",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Minh Tân",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Yên Ninh", "Điện Biên"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Nguyễn Thái Học",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Thái Học", "Thành Công"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Đồng Tâm",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Đinh Tiên Hoàng"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Yên Thịnh",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Yên Ninh",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Nguyễn Phúc",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hồng Hà",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Giới Phiên",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Tân Thịnh",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Nghĩa Lộ",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Pú Trạng",
+            "division_type": "phường",
+            "details": { "streets": ["Điện Biên"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tân An",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Trung Tâm",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Cầu Thia",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Mù Cang Chải",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Mù Cang Chải",
+            "division_type": "thị trấn",
+            "details": { "streets": ["Quốc lộ 32"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã La Pán Tẩn",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Chế Cu Nha",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Dế Xu Phình",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Trạm Tấu",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Trạm Tấu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Văn Chấn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Liên Sơn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Trần Phú",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Tú Lệ",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Văn Yên",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Mậu A",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lục Yên",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Yên Thế",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Trấn Yên",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cổ Phúc",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Yên Bình",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Yên Bình",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Thác Bà",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

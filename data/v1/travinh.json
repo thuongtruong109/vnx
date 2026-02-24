@@ -1,0 +1,137 @@
+[
+  {
+    "province_id": "84",
+    "districts": [
+      {
+        "name": "Thành phố Trà Vinh",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Phạm Ngũ Lão", "Nam Kỳ Khởi Nghĩa"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường 2",
+            "division_type": "phường",
+            "details": { "streets": ["Điện Biên Phủ"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 8",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Đáng"],
+              "villages_hamlets": ["Ao Bà Om", "Chùa Ang"]
+            }
+          },
+          {
+            "name": "Xã Long Đức",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Đền thờ Bác Hồ"] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Duyên Hải",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Hiệp Thạnh",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Biển Ba Động"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cầu Kè",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cầu Kè",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tiểu Cần",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tiểu Cần",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Thành",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Châu Thành",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Càng Long",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Càng Long",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Trà Cú",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Trà Cú",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Hàm Giang",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Chùa Vàm Ray"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cầu Ngang",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cầu Ngang",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Duyên Hải",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cái Đôi Vàm",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

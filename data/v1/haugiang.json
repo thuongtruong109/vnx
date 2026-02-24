@@ -1,0 +1,147 @@
+[
+  {
+    "province_id": "93",
+    "districts": [
+      {
+        "name": "Thành phố Vị Thanh",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Hưng Đạo", "Nguyễn Công Trứ"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường 3",
+            "division_type": "phường",
+            "details": { "streets": ["Lê Hồng Phong"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 5",
+            "division_type": "phường",
+            "details": { "streets": ["Võ Nguyên Giáp"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Vị Tân",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Kênh Xáng Xà No"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Ngã Bảy",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Ngã Bảy",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Hùng Vương"],
+              "villages_hamlets": ["Chợ nổi Ngã Bảy"]
+            }
+          },
+          {
+            "name": "Phường Hiệp Thành",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Long Mỹ",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Thuận An",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Bình Thạnh",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Thành",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Ngã Sáu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Phú Hữu",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Thành A",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Một Ngàn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Bảy Ngàn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phụng Hiệp",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cây Dương",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Phương Bình",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu bảo tồn thiên nhiên Lung Ngọc Hoàng"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Vị Thủy",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Nàng Mau",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Long Mỹ",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Vĩnh Viễn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

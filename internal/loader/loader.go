@@ -13,17 +13,18 @@ type Store struct {
 	Provinces []models.Province
 	Addresses []models.AddressEntry
 
-	// Index maps: province_id -> AddressEntry
+	// Index maps: province string id -> AddressEntry
 	AddressByProvince map[string]*models.AddressEntry
 }
 
-// Load reads and parses both JSON data files from the given data directory
+// Load reads province.json then loads each {province_id}.json file from dataDir.
+// Province IDs are the string slugs defined in province.json (e.g. "hanoi", "tphcm").
 func Load(dataDir string) (*Store, error) {
 	store := &Store{
 		AddressByProvince: make(map[string]*models.AddressEntry),
 	}
 
-	// Load provinces
+	// 1. Load provinces
 	provinceFile := fmt.Sprintf("%s/province.json", dataDir)
 	pData, err := os.ReadFile(provinceFile)
 	if err != nil {
@@ -33,20 +34,30 @@ func Load(dataDir string) (*Store, error) {
 		return nil, fmt.Errorf("failed to parse province.json: %w", err)
 	}
 
-	// Load address
-	addressFile := fmt.Sprintf("%s/address.json", dataDir)
-	aData, err := os.ReadFile(addressFile)
-	if err != nil {
-		return nil, fmt.Errorf("failed to read address.json: %w", err)
-	}
-	if err := json.Unmarshal(aData, &store.Addresses); err != nil {
-		return nil, fmt.Errorf("failed to parse address.json: %w", err)
-	}
+	// 2. For each province, load its individual {id}.json address file
+	for _, p := range store.Provinces {
+		addrFile := fmt.Sprintf("%s/%s.json", dataDir, p.ID)
+		raw, err := os.ReadFile(addrFile)
+		if err != nil {
+			// Address file may not exist for every province — skip silently
+			continue
+		}
 
-	// Build index
-	for i := range store.Addresses {
-		entry := &store.Addresses[i]
-		store.AddressByProvince[entry.ProvinceID] = entry
+		// Each file is a JSON array of AddressEntry objects
+		var entries []models.AddressEntry
+		if err := json.Unmarshal(raw, &entries); err != nil {
+			return nil, fmt.Errorf("failed to parse %s.json: %w", p.ID, err)
+		}
+
+		// Merge into global list and index by the province string id
+		for i := range entries {
+			entry := entries[i]
+			// Override ProvinceID with the canonical string slug from province.json
+			entry.ProvinceID = p.ID
+			store.Addresses = append(store.Addresses, entry)
+			last := &store.Addresses[len(store.Addresses)-1]
+			store.AddressByProvince[p.ID] = last
+		}
 	}
 
 	return store, nil

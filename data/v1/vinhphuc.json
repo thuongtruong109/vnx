@@ -1,0 +1,205 @@
+[
+  {
+    "province_id": "26",
+    "districts": [
+      {
+        "name": "Thành phố Vĩnh Yên",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Liên Bảo",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Tất Thành", "Lê Hồng Phong"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Tích Sơn",
+            "division_type": "phường",
+            "details": { "streets": ["Phạm Văn Đồng"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Ngô Quyền",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Quốc Tuấn"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Đống Đa",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Khai Quang",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Định Trung",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Đồng Tâm",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hội Hợp",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Thanh Trù",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Phúc Yên",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Trưng Trắc",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Hưng Đạo"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hùng Vương",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Đồng Xuân",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Ngọc Thanh",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu du lịch Đại Lải"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bình Xuyên",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Hương Canh",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Gia Khánh",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Bá Hiến",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Đạo Đức",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tam Đảo",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tam Đảo",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Hợp Châu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Đại Đình",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu danh thắng Tây Thiên"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Yên Lạc",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Yên Lạc",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Vĩnh Tường",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Vĩnh Tường",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Thổ Tang",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lập Thạch",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Lập Thạch",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Hoa Sơn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tam Dương",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Hợp Hòa",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Sông Lô",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tam Sơn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,193 @@
+[
+  {
+    "province_id": "20",
+    "districts": [
+      {
+        "name": "Thành phố Lạng Sơn",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Chi Lăng",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Lê Lợi", "Trần Hưng Đạo", "Chi Lăng"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Đông Kinh",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Phai Vệ", "Bà Triệu"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hoàng Văn Thụ",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Hoàng Văn Thụ", "Lý Tự Trọng"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Tam Thanh",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Tam Thanh", "Tô Thị"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Vĩnh Trại",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Lê Đại Hành", "Ngô Quyền"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Mai Pha",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Quảng Lạc",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cao Lộc",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cao Lộc",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Đồng Đăng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hữu Lũng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Hữu Lũng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Chi Lăng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đồng Mỏ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Chi Lăng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bắc Sơn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Bắc Sơn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bình Gia",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Bình Gia",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lộc Bình",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Lộc Bình",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Na Dương",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đình Lập",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đình Lập",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Nông trường Thái Bình",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tràng Định",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thất Khê",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Văn Lãng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Na Sầm",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Văn Quan",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Văn Quan",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

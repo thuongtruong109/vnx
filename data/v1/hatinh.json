@@ -1,0 +1,219 @@
+[
+  {
+    "province_id": "42",
+    "districts": [
+      {
+        "name": "Thành phố Hà Tĩnh",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Bắc Hà",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Phú", "Lý Tự Trọng"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Nam Hà",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Phan Đình Phùng"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Nguyễn Du",
+            "division_type": "phường",
+            "details": { "streets": ["Nguyễn Huy Tự"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Trần Phú",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hà Huy Tập",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tân Giang",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Đại Nài",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Thạch Trung",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Hồng Lĩnh",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Bắc Hồng",
+            "division_type": "phường",
+            "details": { "streets": ["Quốc lộ 1A"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Nam Hồng",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Kỳ Anh",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Sông Trí",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Kỳ Liên",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu kinh tế Vũng Áng"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Nghi Xuân",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tiên Điền",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu di tích đại thi hào Nguyễn Du"]
+            }
+          },
+          {
+            "name": "Thị trấn Xuân An",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Can Lộc",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Nghèn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Đồng Lộc",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ngã ba Đồng Lộc"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thạch Hà",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thạch Hà",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cẩm Xuyên",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cẩm Xuyên",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Thiên Cầm",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": ["Biển Thiên Cầm"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lộc Hà",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Lộc Hà",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đức Thọ",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đức Thọ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hương Sơn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phố Châu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Tây Sơn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hương Khê",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Hương Khê",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Vũ Quang",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Vũ Quang",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

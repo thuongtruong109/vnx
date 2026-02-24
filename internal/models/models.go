@@ -39,3 +39,9 @@ type AddressEntry struct {
 	ProvinceID string     `json:"province_id"`
 	Districts  []District `json:"districts"`
 }
+
+// ProvinceDetail combines full province info with its address data
+type ProvinceDetail struct {
+	Province
+	Districts []District `json:"districts"`
+}

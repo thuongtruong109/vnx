@@ -1,0 +1,223 @@
+[
+  {
+    "province_id": "40",
+    "districts": [
+      {
+        "name": "Thành phố Vinh",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Quang Trung",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Quang Trung", "Hồng Bàng", "Đào Tấn"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Lê Mao",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Phú", "Lê Mao"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hưng Dũng",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Phong Sắc"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Trường Thi",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trường Thi", "An Dương Vương"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Bến Thủy",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Văn Trỗi"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Cửa Nam",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Lê Lợi",
+            "division_type": "phường",
+            "details": { "streets": ["Lê Lợi"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Nghi Liên",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Sân bay Vinh"] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Cửa Lò",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Nghi Thu",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Bình Minh"],
+              "villages_hamlets": ["Bãi tắm Cửa Lò"]
+            }
+          },
+          {
+            "name": "Phường Thu Thủy",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Nghi Thủy",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": ["Đảo Ngư"] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Thái Hòa",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Hòa Hiếu",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Hoàng Mai",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Quỳnh Thiện",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Nam Đàn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Nam Đàn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Kim Liên",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Làng Sen", "Làng Chùa"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đô Lương",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đô Lương",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Diễn Châu",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Diễn Châu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Diễn Thành",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Biển Diễn Thành"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Nghi Lộc",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Quán Hành",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Quỳnh Lưu",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cầu Giát",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Nghĩa Đàn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Nghĩa Đàn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Nghĩa Lâm",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Cánh đồng hoa hướng dương"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thanh Chương",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thanh Chương",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Thanh An",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Đảo chè Thanh Chương"]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

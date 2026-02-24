@@ -1,0 +1,180 @@
+[
+  {
+    "province_id": "70",
+    "districts": [
+      {
+        "name": "Thành phố Đồng Xoài",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Tân Bình",
+            "division_type": "phường",
+            "details": { "streets": ["Lê Quý Đôn"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tân Phú",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Phú Riềng Đỏ", "Hùng Vương"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Tân Đồng",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Hưng Đạo"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tân Xuân",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tân Thiện",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tiến Thành",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Phước Long",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Thác Mơ",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Núi Bà Rá", "Hồ Thác Mơ"]
+            }
+          },
+          {
+            "name": "Phường Long Phước",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Bình Long",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường An Lộc",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Hưng Đạo"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hưng Chiến",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Chơn Thành",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Hưng Long",
+            "division_type": "phường",
+            "details": { "streets": ["Quốc lộ 13"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Minh Hưng",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phú Riềng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Xã Phú Riềng",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bù Gia Mập",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Xã Bù Gia Mập",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Vườn quốc gia Bù Gia Mập"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lộc Ninh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Lộc Ninh",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Cửa khẩu quốc tế Hoa Lư"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bù Đốp",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thanh Bình",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bù Đăng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đức Phong",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": ["Sóc Bom Bo"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đồng Phú",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Phú",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hớn Quản",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Khai",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

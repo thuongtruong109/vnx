@@ -1,0 +1,269 @@
+[
+  {
+    "province_id": "30",
+    "districts": [
+      {
+        "name": "Thành phố Hải Dương",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Trần Phú",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Phú", "Sơn Hòa", "Bạch Đằng"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Quang Trung",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Quang Trung", "Thanh Niên"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Nguyễn Trãi",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Trãi", "Tuệ Tĩnh"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phạm Ngũ Lão",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Phạm Ngũ Lão", "Lê Thanh Nghị"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hải Tân",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tân Bình",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Ngọc Châu",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Bình Hàn",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Cẩm Thượng",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Thanh Bình",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tứ Minh",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Việt Hòa",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Nhị Châu",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Thạch Khôi",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tân Hưng",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Ái Quốc",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Nam Đồng",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Chí Linh",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Sao Đỏ",
+            "division_type": "phường",
+            "details": { "streets": ["Nguyễn Trãi"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Cộng Hòa",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu di tích Côn Sơn - Kiếp Bạc"]
+            }
+          },
+          {
+            "name": "Phường Phả Lại",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Văn An",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Chí Minh",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Kinh Môn",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường An Lưu",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hiệp An",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Phú Thứ",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bình Giang",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Kẻ Sặt",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cẩm Giàng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cẩm Giang",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Lai Cách",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Gia Lộc",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Gia Lộc",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Kim Thành",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phú Thái",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Nam Sách",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Nam Sách",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Ninh Giang",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Ninh Giang",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thanh Hà",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thanh Hà",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thanh Miện",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thanh Miện",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tứ Kỳ",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tứ Kỳ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

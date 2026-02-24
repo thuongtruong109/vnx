@@ -1,0 +1,176 @@
+[
+  {
+    "province_id": "92",
+    "districts": [
+      {
+        "name": "Quận Ninh Kiều",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Tân An",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Hai Bà Trưng", "Nguyễn Thái Học"],
+              "villages_hamlets": ["Bến Ninh Kiều", "Chợ cổ Cần Thơ"]
+            }
+          },
+          {
+            "name": "Phường Xuân Khánh",
+            "division_type": "phường",
+            "details": {
+              "streets": ["30 Tháng 4", "Mậu Thân"],
+              "villages_hamlets": ["Đại học Cần Thơ"]
+            }
+          },
+          {
+            "name": "Phường An Khánh",
+            "division_type": "phường",
+            "details": { "streets": ["Nguyễn Văn Cừ"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường An Hòa",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Việt Châu"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Cái Khế",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Văn Khéo"],
+              "villages_hamlets": ["Trung tâm thương mại Cái Khế"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quận Cái Răng",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Lê Bình",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Chợ nổi Cái Răng"]
+            }
+          },
+          {
+            "name": "Phường Ba Láng",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Quận Bình Thủy",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Bùi Hữu Nghĩa",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Nhà cổ Bình Thủy"]
+            }
+          },
+          {
+            "name": "Phường Trà Nóc",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Lê Hồng Phong"],
+              "villages_hamlets": ["Sân bay quốc tế Cần Thơ"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quận Ô Môn",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Châu Văn Liêm",
+            "division_type": "phường",
+            "details": { "streets": ["26 Tháng 3"], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Quận Thốt Nốt",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Thốt Nốt",
+            "division_type": "phường",
+            "details": { "streets": ["Quốc lộ 91"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Thuận An",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Vườn cò Bằng Lăng"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phong Điền",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phong Điền",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Chợ nổi Phong Điền"]
+            }
+          },
+          {
+            "name": "Xã Mỹ Khánh",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Làng du lịch Mỹ Khánh",
+                "Thiền viện Trúc Lâm Phương Nam"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thới Lai",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thới Lai",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cờ Đỏ",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cờ Đỏ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Vĩnh Thạnh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Vĩnh Thạnh",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

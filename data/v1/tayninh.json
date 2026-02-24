@@ -1,0 +1,158 @@
+[
+  {
+    "province_id": "72",
+    "districts": [
+      {
+        "name": "Thành phố Tây Ninh",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Cách Mạng Tháng 8"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường 2",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Hưng Đạo"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 3",
+            "division_type": "phường",
+            "details": { "streets": ["30 Tháng 4"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hiệp Ninh",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Ninh Sơn",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": ["Núi Bà Đen"] }
+          },
+          {
+            "name": "Phường Ninh Thạnh",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Tòa Thánh Tây Ninh"]
+            }
+          },
+          {
+            "name": "Xã Thạnh Tân",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Trảng Bàng",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Trảng Bàng",
+            "division_type": "phường",
+            "details": { "streets": ["Quốc lộ 22"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường An Hòa",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Hòa Thành",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Long Hoa",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": ["Chợ Long Hoa"] }
+          },
+          {
+            "name": "Phường Hiệp Tân",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Gò Dầu",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Gò Dầu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bến Cầu",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Bến Cầu",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Cửa khẩu quốc tế Mộc Bài"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Dương Minh Châu",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Dương Minh Châu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": ["Hồ Dầu Tiếng"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tân Châu",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Châu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tân Biên",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Biên",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Căn cứ Trung ương Cục miền Nam"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Thành",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Châu Thành",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

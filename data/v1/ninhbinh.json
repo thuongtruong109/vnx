@@ -1,0 +1,220 @@
+[
+  {
+    "province_id": "37",
+    "districts": [
+      {
+        "name": "Thành phố Ninh Bình",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Vân Giang",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Hưng Đạo", "Lê Hồng Phong"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thanh Bình",
+            "division_type": "phường",
+            "details": { "streets": ["Nguyễn Huệ"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Phúc Thành",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trương Hán Siêu"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Đông Thành",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tân Thành",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Nam Thành",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Ninh Khánh",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Nam Bình",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Ninh Sơn",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Ninh Phong",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Ninh Nhất",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Ninh Tiến",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Ninh Phúc",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Tam Điệp",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Bắc Sơn",
+            "division_type": "phường",
+            "details": { "streets": ["Quốc lộ 1A"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Trung Sơn",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Nam Sơn",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tây Sơn",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hoa Lư",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thiên Tôn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Trường Yên",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Cố đô Hoa Lư"] }
+          },
+          {
+            "name": "Xã Ninh Xuân",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Hang Múa"] }
+          },
+          {
+            "name": "Xã Ninh Hải",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Tam Cốc - Bích Động"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Gia Viễn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Me",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Gia Sinh",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Chùa Bái Đính"] }
+          },
+          {
+            "name": "Xã Gia Vân",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Đầm Vân Long"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Nho Quan",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Nho Quan",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Cúc Phương",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Vườn quốc gia Cúc Phương"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Kim Sơn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phát Diệm",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Nhà thờ đá Phát Diệm"]
+            }
+          },
+          {
+            "name": "Thị trấn Bình Minh",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Yên Khánh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Yên Ninh",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Yên Mô",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Yên Thịnh",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

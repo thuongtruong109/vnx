@@ -1,0 +1,199 @@
+[
+  {
+    "province_id": "66",
+    "districts": [
+      {
+        "name": "Thành phố Buôn Ma Thuột",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Thắng Lợi",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Phan Chu Trinh", "Lê Hồng Phong"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Tân Lợi",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Phan Bội Châu"],
+              "villages_hamlets": ["Làng cà phê Trung Nguyên"]
+            }
+          },
+          {
+            "name": "Phường Tân Lập",
+            "division_type": "phường",
+            "details": { "streets": ["Nguyễn Văn Cừ"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Thống Nhất",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tự An",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tân Thành",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tân Tiến",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Ea Tu",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Buôn Ko Tam"] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Buôn Hồ",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường An Lạc",
+            "division_type": "phường",
+            "details": { "streets": ["Hùng Vương"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Đạt Hiếu",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Buôn Đôn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Xã Krông Na",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Khu du lịch Bản Đôn",
+                "Vườn quốc gia Yok Đôn"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lắk",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Liên Sơn",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Hồ Lắk", "Buôn Jun"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Krông Pắc",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phước An",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cư M'gar",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Quảng Phú",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Ea Pốk",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Ea H'leo",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Ea Drăng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Krông Ana",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Buôn Trấp",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Krông Bông",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Krông Kmar",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Krông Năng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Krông Năng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Ea Súp",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Ea Súp",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện M'Drắk",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn M'Drắk",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

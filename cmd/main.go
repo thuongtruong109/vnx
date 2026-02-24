@@ -30,6 +30,7 @@ func main() {
 
 	// Province routes
 	mux.HandleFunc("/api/provinces", h.ListProvinces)
+	mux.HandleFunc("/api/provinces/detail/", h.GetProvinceDetail)
 	mux.HandleFunc("/api/provinces/", func(w http.ResponseWriter, r *http.Request) {
 		path := r.URL.Path
 
@@ -79,6 +80,7 @@ func main() {
 	log.Println("  GET /health")
 	log.Println("  GET /api/provinces")
 	log.Println("  GET /api/provinces/{province_id}")
+	log.Println("  GET /api/provinces/detail/{province_id}")
 	log.Println("  GET /api/provinces/{province_id}/districts")
 	log.Println("  GET /api/provinces/{province_id}/districts/{district_name}")
 	log.Println("  GET /api/provinces/{province_id}/districts/{district_name}/wards")
@@ -100,7 +102,7 @@ func dataDirectory() string {
 	// When using `go run`, use the source file location
 	_, filename, _, ok := runtime.Caller(0)
 	if ok {
-		return filepath.Join(filepath.Dir(filename), "..", "data")
+		return filepath.Join(filepath.Dir(filename), "..", "data", "v1")
 	}
-	return "data"
+	return "data/v1"
 }

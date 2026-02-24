@@ -1,0 +1,203 @@
+[
+  {
+    "province_id": "38",
+    "districts": [
+      {
+        "name": "Thành phố Thanh Hóa",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Ba Đình",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Lê Lợi", "Trần Phú", "Đào Duy Từ"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Lam Sơn",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Phan Chu Trinh", "Cao Thắng"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Ngọc Trạo",
+            "division_type": "phường",
+            "details": { "streets": ["Quang Trung"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Đông Thọ",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hàm Rồng",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": ["Cầu Hàm Rồng"] }
+          },
+          {
+            "name": "Phường Quảng Tâm",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Sầm Sơn",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Bắc Sơn",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Hồ Xuân Hương"],
+              "villages_hamlets": ["Bãi tắm A"]
+            }
+          },
+          {
+            "name": "Phường Trung Sơn",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Bãi tắm B", "Bãi tắm C"]
+            }
+          },
+          {
+            "name": "Phường Trường Sơn",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Đền Độc Cước", "Hòn Trống Mái"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Bỉm Sơn",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Ngọc Trạo",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Phú"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Ba Đình",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Nghi Sơn",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Hải Hòa",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": ["Biển Hải Hòa"] }
+          },
+          {
+            "name": "Phường Tĩnh Hải",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu kinh tế Nghi Sơn"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thọ Xuân",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thọ Xuân",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Lam Sơn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Xuân Lam",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu di tích Lam Kinh"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Vĩnh Lộc",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Vĩnh Lộc",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Vĩnh Tiến",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Thành Nhà Hồ"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hoằng Hóa",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Bút Sơn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Hoằng Tiến",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Biển Hải Tiến"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hà Trung",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Hà Trung",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hậu Lộc",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Hậu Lộc",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Nga Sơn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Nga Sơn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

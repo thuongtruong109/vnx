@@ -1,0 +1,199 @@
+[
+  {
+    "province_id": "77",
+    "districts": [
+      {
+        "name": "Thành phố Vũng Tàu",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Phú", "Quang Trung", "Lý Thường Kiệt"],
+              "villages_hamlets": ["Bãi Trước"]
+            }
+          },
+          {
+            "name": "Phường 2",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Thùy Vân", "Hoàng Hoa Thám"],
+              "villages_hamlets": ["Bãi Sau", "Tượng Chúa Kitô Vua"]
+            }
+          },
+          {
+            "name": "Phường 3",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nam Kỳ Khởi Nghĩa"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường 5",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Phú"],
+              "villages_hamlets": ["Thích Ca Phật Đài"]
+            }
+          },
+          {
+            "name": "Phường Thắng Tam",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": ["Bãi Sau"] }
+          },
+          {
+            "name": "Phường Thắng Nhì",
+            "division_type": "phường",
+            "details": { "streets": ["Lê Lợi"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Rạch Dừa",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Long Sơn",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Nhà Lớn Long Sơn"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Bà Rịa",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Phước Trung",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Cách Mạng Tháng 8"],
+              "villages_hamlets": ["Bến xe Bà Rịa"]
+            }
+          },
+          {
+            "name": "Phường Phước Hiệp",
+            "division_type": "phường",
+            "details": { "streets": ["27 Tháng 4"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Phước Nguyên",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Phú Mỹ",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Phú Mỹ",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Quốc lộ 51"],
+              "villages_hamlets": ["Cảng Cái Mép - Thị Vải"]
+            }
+          },
+          {
+            "name": "Xã Tân Hải",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Núi Dinh"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Long Điền",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Long Điền",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Long Hải",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": ["Võ Thị Sáu"],
+              "villages_hamlets": ["Biển Long Hải", "Dinh Cô"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đất Đỏ",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đất Đỏ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Phước Hải",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Xuyên Mộc",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phước Bửu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Bình Châu",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Suối nước nóng Bình Châu"]
+            }
+          },
+          {
+            "name": "Xã Phước Thuận",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Hồ Tràm"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Đức",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Ngãi Giao",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Côn Đảo",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Khu vực Côn Đảo",
+            "division_type": "khu vực",
+            "details": {
+              "streets": ["Tôn Đức Thắng"],
+              "villages_hamlets": [
+                "Nhà tù Côn Đảo",
+                "Nghĩa trang Hàng Dương",
+                "Sân bay Cỏ Ống"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

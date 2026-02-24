@@ -1,0 +1,198 @@
+[
+  {
+    "province_id": "68",
+    "districts": [
+      {
+        "name": "Thành phố Đà Lạt",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Văn Cừ", "Lê Đại Hành"],
+              "villages_hamlets": ["Chợ Đà Lạt", "Hồ Xuân Hương"]
+            }
+          },
+          {
+            "name": "Phường 2",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Phan Đình Phùng", "Bùi Thị Xuân"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường 3",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Ba Tháng Tư"],
+              "villages_hamlets": ["Bến xe Liên tỉnh"]
+            }
+          },
+          {
+            "name": "Phường 4",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Phú"],
+              "villages_hamlets": ["Dinh Bảo Đại"]
+            }
+          },
+          {
+            "name": "Phường 8",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Phù Đổng Thiên Vương"],
+              "villages_hamlets": ["Thung lũng Tình Yêu", "Đồi Mộng Mơ"]
+            }
+          },
+          {
+            "name": "Phường 10",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Hưng Đạo"],
+              "villages_hamlets": ["Ga Đà Lạt"]
+            }
+          },
+          {
+            "name": "Xã Xuân Thọ",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Trại Mát", "Chùa Linh Phước"]
+            }
+          },
+          {
+            "name": "Xã Tà Nung",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Đèo Tà Nung"] }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Bảo Lộc",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Phú"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 2",
+            "division_type": "phường",
+            "details": { "streets": ["Lý Tự Trọng"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Lộc Phát",
+            "division_type": "phường",
+            "details": { "streets": ["Nguyễn Văn Cừ"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Đạm B'ri",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Thác Đạm B'ri"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đức Trọng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Liên Nghĩa",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": ["Quốc lộ 20"],
+              "villages_hamlets": ["Sân bay Liên Khương"]
+            }
+          },
+          {
+            "name": "Xã Ninh Gia",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Thác Pongour"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lạc Dương",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Lạc Dương",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": ["Lang Biang"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đơn Dương",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thạnh Mỹ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn D'Ran",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": ["Đèo Ngoạn Mục"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Di Linh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Di Linh",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bảo Lâm",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Lộc Thắng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lâm Hà",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đinh Văn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Nam Ban",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": ["Thác Voi"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đạ Huoai",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Ma Đa Guôi",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Rừng gọi Mađagui"]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

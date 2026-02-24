@@ -1,0 +1,152 @@
+[
+  {
+    "province_id": "35",
+    "districts": [
+      {
+        "name": "Thành phố Phủ Lý",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Minh Khai",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Lê Công Thanh", "Lý Thường Kiệt"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hai Bà Trưng",
+            "division_type": "phường",
+            "details": { "streets": ["Biên Hòa"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Lương Khánh Thiện",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Văn Trỗi"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Trần Hưng Đạo",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Hưng Đạo"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Lê Hồng Phong",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Quang Trung",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Châu Sơn",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Lam Hạ",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Thanh Châu",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Thanh Tuyền",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Liêm Chính",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Duy Tiên",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Hòa Mạc",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Đồng Văn",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Bạch Thượng",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Kim Bảng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Quế",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Ba Sao",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu du lịch Tam Chúc"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thanh Liêm",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Thanh",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bình Lục",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Bình Mỹ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lý Nhân",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Vĩnh Trụ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Hòa Hậu",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Làng Vũ Đại"] }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -60,6 +60,43 @@ func (h *Handler) GetProvince(w http.ResponseWriter, r *http.Request) {
 }
 
 // -----------------------------------------------------------------
+// GET /api/provinces/detail/{province_id}
+// Returns full province info merged with all its districts & wards
+// -----------------------------------------------------------------
+func (h *Handler) GetProvinceDetail(w http.ResponseWriter, r *http.Request) {
+	id := pathParam(r.URL.Path, "/api/provinces/detail/")
+	if id == "" {
+		writeError(w, http.StatusBadRequest, "missing province id")
+		return
+	}
+
+	var found *models.Province
+	for i := range h.store.Provinces {
+		if h.store.Provinces[i].ID == id {
+			found = &h.store.Provinces[i]
+			break
+		}
+	}
+	if found == nil {
+		writeError(w, http.StatusNotFound, "province not found")
+		return
+	}
+
+	entry, ok := h.store.AddressByProvince[id]
+	var districts []models.District
+	if ok {
+		districts = entry.Districts
+	} else {
+		districts = []models.District{}
+	}
+
+	writeJSON(w, http.StatusOK, models.ProvinceDetail{
+		Province:  *found,
+		Districts: districts,
+	})
+}
+
+// -----------------------------------------------------------------
 // GET /api/provinces/{province_id}/districts
 // Returns all districts of a province
 // -----------------------------------------------------------------

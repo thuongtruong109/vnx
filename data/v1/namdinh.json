@@ -1,0 +1,222 @@
+[
+  {
+    "province_id": "36",
+    "districts": [
+      {
+        "name": "Thành phố Nam Định",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Vị Hoàng",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Du", "Trần Hưng Đạo"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Vị Xuyên",
+            "division_type": "phường",
+            "details": { "streets": ["Hà Huy Tập"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Quang Trung",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Hàng Tiện", "Hàng Đồng"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Cửa Bắc",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Lộc Vượng",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu di tích Đền Trần"]
+            }
+          },
+          {
+            "name": "Phường Thống Nhất",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Mỹ Xá",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Năng Tĩnh",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Văn Miếu",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Phan Đình Phùng",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Mỹ Lộc",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Mỹ Lộc",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Vụ Bản",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Gôi",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Kim Thái",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Phủ Dầy"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Ý Yên",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Lâm",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Nam Trực",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Nam Giang",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Trực Ninh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cổ Lễ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Cát Thành",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Ninh Cường",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Xuân Trường",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Xuân Trường",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Giao Thủy",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Ngô Đồng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Quất Lâm",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": ["Biển Quất Lâm"] }
+          },
+          {
+            "name": "Xã Giao Thiện",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Vườn quốc gia Xuân Thủy"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hải Hậu",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Yên Định",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Cồn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Thịnh Long",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Biển Thịnh Long"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Nghĩa Hưng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Liễu Đề",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Rạng Đông",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Quỹ Nhất",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

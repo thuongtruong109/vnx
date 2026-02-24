@@ -1,0 +1,219 @@
+[
+  {
+    "province_id": "25",
+    "districts": [
+      {
+        "name": "Thành phố Việt Trì",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Gia Cẩm",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Hùng Vương", "Nguyễn Tất Thành", "Trần Phú"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Tiên Cát",
+            "division_type": "phường",
+            "details": { "streets": ["Hùng Vương"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Thọ Sơn",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tân Dân",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Nông Trang",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Vân Cơ",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Bạch Hạc",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Dữu Lâu",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Hy Cương",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu di tích lịch sử Đền Hùng"]
+            }
+          },
+          {
+            "name": "Xã Chu Hóa",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Phú Thọ",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Âu Cơ",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Phong Châu",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thanh Ba",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thanh Ba",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hạ Hòa",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Hạ Hòa",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đoan Hùng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đoan Hùng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lâm Thao",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Lâm Thao",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Hùng Sơn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phù Ninh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phong Châu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tam Nông",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Hưng Hóa",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thanh Thủy",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thanh Thủy",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cẩm Khê",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cẩm Khê",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Yên Lập",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Yên Lập",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thanh Sơn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thanh Sơn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tân Sơn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Xã Xuân Đài",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Long Cốc",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Đồi chè Long Cốc"]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

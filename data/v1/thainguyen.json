@@ -1,0 +1,195 @@
+[
+  {
+    "province_id": "19",
+    "districts": [
+      {
+        "name": "Thành phố Thái Nguyên",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Phan Đình Phùng",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Lương Ngọc Quyến", "Phan Đình Phùng"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Trưng Vương",
+            "division_type": "phường",
+            "details": { "streets": ["Đội Cấn"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Quang Trung",
+            "division_type": "phường",
+            "details": { "streets": ["Quang Trung"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hoàng Văn Thụ",
+            "division_type": "phường",
+            "details": { "streets": ["Bắc Kạn"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tân Lập",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Gia Sàng",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Cách Mạng Tháng Tám"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Cam Giá",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Phú Xá",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hương Sơn",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Trung Thành",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tân Thành",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Sông Công",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Thắng Lợi",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Cách Mạng Tháng Tám"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Mỏ Chè",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Phổ Yên",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Ba Hàng",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Bãi Bông",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phú Bình",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Hương Sơn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đồng Hỷ",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Chùa Hang",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Sông Cầu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Trại Cau",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Võ Nhai",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đình Cả",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Định Hóa",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Chợ Chu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đại Từ",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Hùng Sơn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Quân Chu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phú Lương",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Giang Tiên",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

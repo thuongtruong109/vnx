@@ -1,0 +1,194 @@
+[
+  {
+    "province_id": "49",
+    "districts": [
+      {
+        "name": "Thành phố Tam Kỳ",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Tân Thạnh",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Phú", "Hùng Vương"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường An Mỹ",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Phan Chu Trinh", "Trần Cao Vân"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phước Hòa",
+            "division_type": "phường",
+            "details": { "streets": ["Nguyễn Huệ"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hòa Hương",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Tam Thanh",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Làng bích họa Tam Thanh"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Hội An",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Minh An",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Phú", "Nguyễn Thái Học", "Bạch Đằng"],
+              "villages_hamlets": ["Phố cổ Hội An"]
+            }
+          },
+          {
+            "name": "Phường Sơn Phong",
+            "division_type": "phường",
+            "details": { "streets": ["Lý Thường Kiệt"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Cẩm An",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Lạc Long Quân"],
+              "villages_hamlets": ["Biển Cửa Đại"]
+            }
+          },
+          {
+            "name": "Phường Cửa Đại",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Tân Hiệp",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Cù Lao Chàm"] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Điện Bàn",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Vĩnh Điện",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Nhân Tông"], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Duy Xuyên",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Nam Phước",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Duy Phú",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thánh địa Mỹ Sơn"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Núi Thành",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Núi Thành",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Sân bay Chu Lai"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đại Lộc",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Ái Nghĩa",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thăng Bình",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Hà Lam",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phú Ninh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phú Thịnh",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tiên Phước",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tiên Kỳ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phước Sơn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Khâm Đức",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Nam Giang",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thạnh Mỹ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

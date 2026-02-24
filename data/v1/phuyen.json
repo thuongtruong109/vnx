@@ -1,0 +1,173 @@
+[
+  {
+    "province_id": "54",
+    "districts": [
+      {
+        "name": "Thành phố Tuy Hòa",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Hưng Đạo", "Lê Lợi"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường 4",
+            "division_type": "phường",
+            "details": { "streets": ["Nguyễn Huệ"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 5",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Độc Lập", "Hùng Vương"],
+              "villages_hamlets": ["Bãi tắm Tuy Hòa"]
+            }
+          },
+          {
+            "name": "Phường 7",
+            "division_type": "phường",
+            "details": { "streets": ["Nguyễn Huệ"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Phú Đông",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Sân bay Tuy Hòa"]
+            }
+          },
+          {
+            "name": "Phường Phú Thạnh",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã An Phú",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Bãi Xép"] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Sông Cầu",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Xuân Phú",
+            "division_type": "phường",
+            "details": { "streets": ["Phạm Văn Đồng"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Xuân Thành",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Xuân Đài",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Vịnh Xuân Đài"] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Đông Hòa",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Hòa Hiệp Trung",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Hòa Tâm",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Mũi Điện", "Vịnh Vũng Rô"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tuy An",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Chí Thạnh",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã An Ninh Đông",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Gành Đá Đĩa"] }
+          },
+          {
+            "name": "Xã An Hải",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Đầm Ô Loan"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tây Hòa",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phú Thứ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phú Hòa",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phú Hòa",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Sông Hinh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Hai Riêng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Sơn Hòa",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Củng Sơn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đồng Xuân",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn La Hai",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

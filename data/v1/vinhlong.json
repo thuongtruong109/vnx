@@ -1,0 +1,136 @@
+[
+  {
+    "province_id": "86",
+    "districts": [
+      {
+        "name": "Thành phố Vĩnh Long",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Lê Thái Tổ", "30 Tháng 4"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường 2",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Phú"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 4",
+            "division_type": "phường",
+            "details": { "streets": ["Phạm Hùng"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 9",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tân Ngãi",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": ["Cầu Mỹ Thuận"] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Bình Minh",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Cái Vồn",
+            "division_type": "phường",
+            "details": { "streets": ["Phan Văn Quân"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Đông Thuận",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": ["Cầu Cần Thơ"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Long Hồ",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Long Hồ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã An Bình",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Cù lao An Bình"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Mang Thít",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cái Nhum",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Nhơn Phú",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Lò gạch Mang Thít"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Vũng Liêm",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Vũng Liêm",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tam Bình",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tam Bình",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Trà Ôn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Trà Ôn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bình Tân",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Quới",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

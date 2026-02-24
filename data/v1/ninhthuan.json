@@ -1,0 +1,144 @@
+[
+  {
+    "province_id": "58",
+    "districts": [
+      {
+        "name": "Thành phố Phan Rang - Tháp Chàm",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Mỹ Hương",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Thống Nhất", "Quang Trung"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Kinh Dinh",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Phú"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Thanh Sơn",
+            "division_type": "phường",
+            "details": { "streets": ["Ngô Gia Tự"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Phủ Hà",
+            "division_type": "phường",
+            "details": { "streets": ["21 Tháng 8"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Mỹ Hải",
+            "division_type": "phường",
+            "details": { "streets": ["Yên Ninh"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Mỹ Bình",
+            "division_type": "phường",
+            "details": {
+              "streets": ["16 Tháng 4"],
+              "villages_hamlets": ["Biển Ninh Chữ"]
+            }
+          },
+          {
+            "name": "Phường Đô Vinh",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Tháp Po Klong Garai"]
+            }
+          },
+          {
+            "name": "Phường Đông Hải",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Ninh Hải",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Khánh Hải",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Vĩnh Hy",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Vịnh Vĩnh Hy"] }
+          },
+          {
+            "name": "Xã Nhơn Hải",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Hang Rái"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Ninh Phước",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phước Dân",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Làng gốm Bàu Trúc", "Làng dệt Mỹ Nghiệp"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thuận Nam",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Xã Phước Dinh",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Mũi Dinh", "Đồi cát Nam Cương"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Ninh Sơn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Sơn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thuận Bắc",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Xã Lợi Hải",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bác Ái",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Xã Phước Đại",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

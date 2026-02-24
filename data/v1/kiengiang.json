@@ -1,0 +1,243 @@
+[
+  {
+    "province_id": "91",
+    "districts": [
+      {
+        "name": "Thành phố Rạch Giá",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Vĩnh Thanh Vân",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Trung Trực", "Trần Phú"],
+              "villages_hamlets": ["Cổng Tam Quan"]
+            }
+          },
+          {
+            "name": "Phường Vĩnh Lạc",
+            "division_type": "phường",
+            "details": { "streets": ["Lạc Hồng"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Vĩnh Bảo",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Vĩnh Quang",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường An Hòa",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": ["Phú Cường"] }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Phú Quốc",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Dương Đông",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Hưng Đạo", "30 Tháng 4"],
+              "villages_hamlets": ["Dinh Cậu", "Chợ đêm Phú Quốc"]
+            }
+          },
+          {
+            "name": "Phường An Thới",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Bãi Trường", "Cáp treo Hòn Thơm"]
+            }
+          },
+          {
+            "name": "Xã Gành Dầu",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["VinWonders", "Safari"]
+            }
+          },
+          {
+            "name": "Xã Hàm Ninh",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Làng chài Hàm Ninh"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Hà Tiên",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Bình San",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": ["Lăng Mạc Cửu"] }
+          },
+          {
+            "name": "Phường Pháo Đài",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": ["Thạch Động"] }
+          },
+          {
+            "name": "Xã Mỹ Đức",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Biển Mũi Nai"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Kiên Lương",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Kiên Lương",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Bình An",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Hòn Phụ Tử", "Chùa Hang"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Kiên Hải",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Xã Lại Sơn",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Đảo Hòn Sơn"] }
+          },
+          {
+            "name": "Xã An Sơn",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Quần đảo Nam Du"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hòn Đất",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Hòn Đất",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu di tích Chị Sứ"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tân Hiệp",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Hiệp",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Thành",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Minh Lương",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Giồng Riềng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Giồng Riềng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Gò Quao",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Gò Quao",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Vĩnh Thuận",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Vĩnh Thuận",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện An Biên",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thứ Ba",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện An Minh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thứ Mười Một",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện U Minh Thượng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Xã An Minh Bắc",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Vườn quốc gia U Minh Thượng"]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

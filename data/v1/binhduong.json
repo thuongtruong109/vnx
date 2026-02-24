@@ -1,0 +1,208 @@
+[
+  {
+    "province_id": "74",
+    "districts": [
+      {
+        "name": "Thành phố Thủ Dầu Một",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Phú Cường",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Yersin", "Cách Mạng Tháng 8"],
+              "villages_hamlets": ["Chợ Thủ Dầu Một"]
+            }
+          },
+          {
+            "name": "Phường Hiệp Thành",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Phạm Ngọc Thạch"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Chánh Nghĩa",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Bình Dương Đại Lộ"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Định Hòa",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thành phố mới Bình Dương"]
+            }
+          },
+          {
+            "name": "Phường Phú Thọ",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Phú Hòa",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Phú Lợi",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Phú Mỹ",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Thuận An",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Lái Thiêu",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Cách Mạng Tháng 8"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Vĩnh Phú",
+            "division_type": "phường",
+            "details": { "streets": ["Quốc lộ 13"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Thuận Giao",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Bình Hòa",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Bình Chuẩn",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường An Thạnh",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Dĩ An",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Dĩ An",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Lý Thường Kiệt"],
+              "villages_hamlets": ["Ga Dĩ An"]
+            }
+          },
+          {
+            "name": "Phường Đông Hòa",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Làng Đại học Quốc gia"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Tân Uyên",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Uyên Hưng",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hội Nghĩa",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Bến Cát",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Mỹ Phước",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Phú An",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Làng tre Phú An"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Dầu Tiếng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Dầu Tiếng",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Hồ Dầu Tiếng", "Núi Cậu"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phú Giáo",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phước Vĩnh",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bàu Bàng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Lai Uyên",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bắc Tân Uyên",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Thành",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

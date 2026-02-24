@@ -1,0 +1,165 @@
+[
+  {
+    "province_id": "83",
+    "districts": [
+      {
+        "name": "Thành phố Bến Tre",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường An Hội",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Đình Chiểu", "Hùng Vương"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường 4",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Quốc Tuấn"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 5",
+            "division_type": "phường",
+            "details": { "streets": ["Nguyễn Huệ"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 6",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 7",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 8",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Phú Khương",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Phú Tân",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Thành",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Châu Thành",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Tân Thạch",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Cầu Rạch Miễu", "Cồn Phụng"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Chợ Lách",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Chợ Lách",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Vĩnh Thành",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Cái Mơn"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Mỏ Cày Nam",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Mỏ Cày",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Mỏ Cày Bắc",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Xã Phước Mỹ Trung",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Giồng Trôm",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Giồng Trôm",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bình Đại",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Bình Đại",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Ba Tri",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Ba Tri",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã An Hiệp",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Di tích cụ Nguyễn Đình Chiểu"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thạnh Phú",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thạnh Phú",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

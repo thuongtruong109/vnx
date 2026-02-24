@@ -1,0 +1,199 @@
+[
+  {
+    "province_id": "89",
+    "districts": [
+      {
+        "name": "Thành phố Long Xuyên",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Mỹ Long",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Hưng Đạo", "Nguyễn Trãi"],
+              "villages_hamlets": ["Chợ Long Xuyên"]
+            }
+          },
+          {
+            "name": "Phường Mỹ Bình",
+            "division_type": "phường",
+            "details": { "streets": ["Lê Hồng Phong"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Mỹ Thới",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": ["Cảng Mỹ Thới"] }
+          },
+          {
+            "name": "Phường Mỹ Xuyên",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Mỹ Hòa Hưng",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu lưu niệm Chủ tịch Tôn Đức Thắng"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Châu Đốc",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Châu Phú A",
+            "division_type": "phường",
+            "details": { "streets": ["Lê Lợi"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Núi Sam",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Miếu Bà Chúa Xứ", "Lăng Thoại Ngọc Hầu"]
+            }
+          },
+          {
+            "name": "Phường Vĩnh Mỹ",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Tân Châu",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Long Thạnh",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Làng lụa Tân Châu"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Tịnh Biên",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Nhà Bàng",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": ["Chùa Lầu"] }
+          },
+          {
+            "name": "Phường An Phú",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Núi Cấm", "Chùa Phật Lớn"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thoại Sơn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Núi Sập",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu du lịch hồ Ông Thoại"]
+            }
+          },
+          {
+            "name": "Thị trấn Óc Eo",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": ["Di tích Óc Eo"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tri Tôn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tri Tôn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": ["Núi Cô Tô"] }
+          },
+          {
+            "name": "Xã An Hảo",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Rừng tràm Trà Sư"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Phú",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cái Dầu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Thành",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn An Châu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Chợ Mới",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Chợ Mới",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Mỹ Luông",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phú Tân",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phú Mỹ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện An Phú",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn An Phú",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

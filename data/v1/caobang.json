@@ -1,0 +1,209 @@
+[
+  {
+    "province_id": "04",
+    "districts": [
+      {
+        "name": "Thành phố Cao Bằng",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Hợp Giang",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Vườn Cam",
+                "Hoàng Đình Giong",
+                "Kim Đồng",
+                "Lý Tự Trọng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Sông Bằng",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Lê Lợi", "3 Tháng 10"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Sông Hiến",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Phai Khắt Nà Ngần"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Tân Giang",
+            "division_type": "phường",
+            "details": { "streets": ["Chi Lăng"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Duyệt Trung",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Đề Thám",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Ngọc Xuân",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hòa Chung",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Chu Trinh",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Thôn Bản Cảng"] }
+          },
+          {
+            "name": "X_ã Vĩnh Quang",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Trùng Khánh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Trùng Khánh",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Đàm Thủy",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Bản Giốc", "Khuổi Ky", "Co Muông"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Quảng Hòa",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Quảng Uyên",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Hòa Thuận",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Tà Lùng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bảo Lạc",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Bảo Lạc",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bảo Lâm",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Pác Miầu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hạ Lang",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thanh Nhật",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hà Quảng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Xuân Hòa",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Thông Nông",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Trường Hà",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Pác Bó"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hòa An",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Nước Hai",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Nguyên Bình",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Nguyên Bình",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Tĩnh Túc",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thạch An",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đông Khê",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

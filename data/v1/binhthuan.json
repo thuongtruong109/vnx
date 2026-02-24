@@ -1,0 +1,230 @@
+[
+  {
+    "province_id": "60",
+    "districts": [
+      {
+        "name": "Thành phố Phan Thiết",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Đức Nghĩa",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Hưng Đạo", "Nguyễn Huệ"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Lạc Đạo",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Phú Thủy",
+            "division_type": "phường",
+            "details": { "streets": ["Thủ Khoa Huân"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Bình Hưng",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Mũi Né",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Huỳnh Thúc Kháng"],
+              "villages_hamlets": ["Đồi Cát Bay"]
+            }
+          },
+          {
+            "name": "Phường Hàm Tiến",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Đình Chiểu"],
+              "villages_hamlets": ["Suối Tiên"]
+            }
+          },
+          {
+            "name": "Phường Phú Hài",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Tháp Chăm Poshanư"]
+            }
+          },
+          {
+            "name": "Xã Tiến Thành",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["NovaWorld Phan Thiết"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã La Gi",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Phước Hội",
+            "division_type": "phường",
+            "details": { "streets": ["Thống Nhất"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tân An",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Tân Tiến",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Dinh Thầy Thím"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tuy Phong",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Liên Hương",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Phan Rí Cửa",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Bình Thạnh",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Chùa Cổ Thạch", "Bãi đá Bảy Màu"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bắc Bình",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Chợ Lầu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Lương Sơn",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Hòa Thắng",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Bàu Trắng"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hàm Thuận Bắc",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Ma Lâm",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Phú Long",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hàm Thuận Nam",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thuận Nam",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Tân Thành",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Hải đăng Kê Gà"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tánh Linh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Lạc Tánh",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đức Linh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Võ Xu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Đức Tài",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hàm Tân",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Nghĩa",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Tân Minh",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phú Quý",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Xã Tam Thanh",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Cảng Phú Quý"] }
+          },
+          {
+            "name": "Xã Ngũ Phụng",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Long Hải",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

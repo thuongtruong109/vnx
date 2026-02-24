@@ -1,0 +1,180 @@
+[
+  {
+    "province_id": "94",
+    "districts": [
+      {
+        "name": "Thành phố Sóc Trăng",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Hai Bà Trưng", "Xô Viết Nghệ Tĩnh"],
+              "villages_hamlets": ["Chợ Sóc Trăng"]
+            }
+          },
+          {
+            "name": "Phường 3",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Lê Hồng Phong"],
+              "villages_hamlets": ["Chùa Dơi (Chùa Mã Tộc)"]
+            }
+          },
+          {
+            "name": "Phường 5",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Tôn Đức Thắng"],
+              "villages_hamlets": ["Chùa Đất Sét"]
+            }
+          },
+          {
+            "name": "Phường 6",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": ["Chùa Kh'leang"] }
+          },
+          {
+            "name": "Phường 9",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 10",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Vĩnh Châu",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Vĩnh Phước",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Ngã Năm",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Chợ nổi Ngã Năm"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Mỹ Xuyên",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Mỹ Xuyên",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Gia Hòa 1",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Trần Đề",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Trần Đề",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": ["Cảng Trần Đề"] }
+          },
+          {
+            "name": "Thị trấn Lịch Hội Thượng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Kế Sách",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Kế Sách",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Mỹ Tú",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Huỳnh Hữu Nghĩa",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cù Lao Dung",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Bến Bạ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Long Phú",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Long Phú",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thạnh Trị",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phú Lộc",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Thành",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Châu Thành",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

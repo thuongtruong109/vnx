@@ -1,0 +1,229 @@
+[
+  {
+    "province_id": "22",
+    "districts": [
+      {
+        "name": "Thành phố Hạ Long",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Hồng Gai",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Lê Thánh Tông", "25 Tháng 4"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Bãi Cháy",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Hạ Long", "Hoàng Quốc Việt"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Bạch Đằng",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Hưng Đạo"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hồng Hải",
+            "division_type": "phường",
+            "details": { "streets": ["Nguyễn Văn Cừ"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Cao Thắng",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Giếng Đáy",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hà Tu",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hà Khẩu",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tuần Châu",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": ["Đảo Tuần Châu"] }
+          },
+          {
+            "name": "Phường Việt Hưng",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Móng Cái",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Trần Phú",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Hùng Vương", "Trần Phú"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Ka Long",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Trà Cổ",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Cẩm Phả",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Cẩm Trung",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Phú"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Cẩm Tây",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Uông Bí",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Quang Trung",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Nhân Tông"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Thanh Sơn",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Đông Triều",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Đông Triều",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Quảng Yên",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Quảng Yên",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Vân Đồn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cái Rồng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Quan Lạn",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cô Tô",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cô Tô",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tiên Yên",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tiên Yên",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Ba Chẽ",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Ba Chẽ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bình Liêu",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Bình Liêu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đầm Hà",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đầm Hà",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hải Hà",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Quảng Hà",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

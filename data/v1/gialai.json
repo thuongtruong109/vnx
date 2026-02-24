@@ -1,0 +1,189 @@
+[
+  {
+    "province_id": "64",
+    "districts": [
+      {
+        "name": "Thành phố Pleiku",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Tây Sơn",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Lê Lợi", "Phạm Văn Đồng"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Diên Hồng",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Hùng Vương", "Trần Phú"],
+              "villages_hamlets": ["Chợ Pleiku"]
+            }
+          },
+          {
+            "name": "Phường Hoa Lư",
+            "division_type": "phường",
+            "details": { "streets": ["Phạm Văn Đồng"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Yên Đỗ",
+            "division_type": "phường",
+            "details": { "streets": ["Lý Thái Tổ"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Ia Kring",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Thắng Lợi",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Biển Hồ",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Hồ T'Nưng"] }
+          },
+          {
+            "name": "Xã Gào",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã An Khê",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Tây Sơn",
+            "division_type": "phường",
+            "details": { "streets": ["Quang Trung"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường An Bình",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Ayun Pa",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Cheo Reo",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hòa Bình",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Chư Sê",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Chư Sê",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Chư Prông",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Chư Prông",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đắk Đoa",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đắk Đoa",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Glar",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Đồi cỏ hồng"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Chư Păh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phú Hòa",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Chư Đăng Ya",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Núi lửa Chư Đăng Ya"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Ia Grai",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Ia Kha",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Krông Pa",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phú Túc",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Kbang",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Kbang",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Krong",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu bảo tồn Kon Chư Răng"]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

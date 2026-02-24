@@ -1,0 +1,164 @@
+[
+  {
+    "province_id": "96",
+    "districts": [
+      {
+        "name": "Thành phố Cà Mau",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": { "streets": ["Lý Văn Lâm"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 2",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Phan Ngọc Hiển", "Lý Thường Kiệt"],
+              "villages_hamlets": ["Chợ Cà Mau"]
+            }
+          },
+          {
+            "name": "Phường 5",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Hưng Đạo"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 9",
+            "division_type": "phường",
+            "details": { "streets": ["Nguyễn Trãi"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tân Xuyên",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Ngọc Hiển",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Rạch Gốc",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Đất Mũi",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Mũi Cà Mau",
+                "Cột mốc tọa độ quốc gia GPS 0001"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện U Minh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn U Minh",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Võ Phơi",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Vườn quốc gia U Minh Hạ"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Trần Văn Thời",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Trần Văn Thời",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Sông Đốc",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Cửa biển Sông Đốc"]
+            }
+          },
+          {
+            "name": "Xã Khánh Hải",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Hòn Đá Bạc"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Năm Căn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Năm Căn",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": ["Quốc lộ 1A"],
+              "villages_hamlets": ["Tượng đài Phan Ngọc Hiển"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cái Nước",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cái Nước",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đầm Dơi",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đầm Dơi",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phú Tân",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cái Đôi Vàm",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thới Bình",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thới Bình",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

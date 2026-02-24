@@ -1,0 +1,204 @@
+[
+  {
+    "province_id": "56",
+    "districts": [
+      {
+        "name": "Thành phố Nha Trang",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Lộc Thọ",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Phú", "Nguyễn Chánh", "Hùng Vương"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Tân Lập",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Thiện Thuật", "Ngô Gia Tự"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Xương Huân",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Phú"],
+              "villages_hamlets": ["Chợ Đầm"]
+            }
+          },
+          {
+            "name": "Phường Phước Tiến",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Vĩnh Nguyên",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Đảo Hòn Tre", "VinWonders"]
+            }
+          },
+          {
+            "name": "Phường Vĩnh Hải",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Vĩnh Phước",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Tháp Bà Ponagar"]
+            }
+          },
+          {
+            "name": "Phường Vĩnh Hòa",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Phạm Văn Đồng"],
+              "villages_hamlets": ["Bến du thuyền Ana Marina"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Cam Ranh",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Ba Ngòi",
+            "division_type": "phường",
+            "details": { "streets": ["Hùng Vương"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Cam Linh",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": ["Cảng Cam Ranh"] }
+          },
+          {
+            "name": "Xã Cam Bình",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Đảo Bình Ba", "Đảo Bình Hưng"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Ninh Hòa",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Ninh Hiệp",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Quý Cáp"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Ninh Hải",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Bãi biển Dốc Lết"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cam Lâm",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cam Đức",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Cam Nghĩa",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Sân bay quốc tế Cam Ranh"]
+            }
+          },
+          {
+            "name": "Xã Cam Hải Đông",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Bãi Dài"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Diên Khánh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Diên Khánh",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thành cổ Diên Khánh"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Vạn Ninh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Vạn Giã",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Vạn Thạnh",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Vịnh Vân Phong", "Mũi Đôi"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Khánh Vĩnh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Khánh Vĩnh",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Khánh Sơn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tô Hạp",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Trường Sa",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Trường Sa",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

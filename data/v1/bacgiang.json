@@ -1,0 +1,208 @@
+[
+  {
+    "province_id": "24",
+    "districts": [
+      {
+        "name": "Thành phố Bắc Giang",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Hoàng Văn Thụ",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Xương Giang", "Ngô Gia Tự", "Nguyễn Văn Cừ"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Ngô Quyền",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Gia Thiều"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Trần Phú",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Lê Lợi",
+            "division_type": "phường",
+            "details": { "streets": ["Lê Lợi"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Mỹ Độ",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Thọ Xương",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Trần Nguyên Hãn",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Đa Mai",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Xương Giang",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Dĩnh Kế",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Dĩnh Trì",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Việt Yên",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Bích Động",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Nếnh",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Quang Châu",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hiệp Hòa",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thắng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lạng Giang",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Vôi",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Kép",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lục Nam",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đồi Ngô",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lục Ngạn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Chũ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Sơn Động",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn An Châu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Tây Yên Tử",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tân Yên",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cao Thượng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Nhã Nam",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Yên Dũng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Nham Biền",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Tân An",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Yên Thế",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phồn Xương",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Bố Hạ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -37,11 +37,7 @@
             "name": "Phường Cô Giang",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Cô Giang",
-                "Hồ Hảo Hớn",
-                "Trần Hưng Đạo"
-              ],
+              "streets": ["Cô Giang", "Hồ Hảo Hớn", "Trần Hưng Đạo"],
               "villages_hamlets": []
             }
           },
@@ -49,10 +45,7 @@
             "name": "Phường Cầu Kho",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Nguyễn Văn Cừ",
-                "Trần Đình Xu"
-              ],
+              "streets": ["Nguyễn Văn Cừ", "Trần Đình Xu"],
               "villages_hamlets": []
             }
           },
@@ -60,11 +53,7 @@
             "name": "Phường Cầu Ông Lãnh",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Võ Văn Kiệt",
-                "Yersin",
-                "Nguyễn Thái Học"
-              ],
+              "streets": ["Võ Văn Kiệt", "Yersin", "Nguyễn Thái Học"],
               "villages_hamlets": []
             }
           },
@@ -84,11 +73,7 @@
             "name": "Phường Nguyễn Thái Bình",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Hàm Nghi",
-                "Nam Kỳ Khởi Nghĩa",
-                "Phó Đức Chính"
-              ],
+              "streets": ["Hàm Nghi", "Nam Kỳ Khởi Nghĩa", "Phó Đức Chính"],
               "villages_hamlets": []
             }
           },
@@ -96,11 +81,7 @@
             "name": "Phường Nguyễn Cư Trinh",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Cống Quỳnh",
-                "Trần Hưng Đạo",
-                "Nguyễn Trãi"
-              ],
+              "streets": ["Cống Quỳnh", "Trần Hưng Đạo", "Nguyễn Trãi"],
               "villages_hamlets": []
             }
           },
@@ -108,11 +89,7 @@
             "name": "Phường Phạm Ngũ Lão",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Phạm Ngũ Lão",
-                "Bùi Viện",
-                "Đề Thám"
-              ],
+              "streets": ["Phạm Ngũ Lão", "Bùi Viện", "Đề Thám"],
               "villages_hamlets": []
             }
           },
@@ -120,11 +97,7 @@
             "name": "Phường Tân Định",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Hai Bà Trưng",
-                "Võ Thị Sáu",
-                "Trần Quang Khải"
-              ],
+              "streets": ["Hai Bà Trưng", "Võ Thị Sáu", "Trần Quang Khải"],
               "villages_hamlets": []
             }
           }
@@ -138,11 +111,7 @@
             "name": "Phường Võ Thị Sáu",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Tú Xương",
-                "Võ Văn Tần",
-                "Cao Thắng"
-              ],
+              "streets": ["Tú Xương", "Võ Văn Tần", "Cao Thắng"],
               "villages_hamlets": []
             }
           },
@@ -150,10 +119,7 @@
             "name": "Phường 1",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Lý Thái Tổ",
-                "Nguyễn Đình Chiểu"
-              ],
+              "streets": ["Lý Thái Tổ", "Nguyễn Đình Chiểu"],
               "villages_hamlets": []
             }
           },
@@ -161,10 +127,7 @@
             "name": "Phường 2",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Nguyễn Thiện Thuật",
-                "Bàn Cờ"
-              ],
+              "streets": ["Nguyễn Thiện Thuật", "Bàn Cờ"],
               "villages_hamlets": []
             }
           },
@@ -172,10 +135,7 @@
             "name": "Phường 3",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Lê Văn Sỹ",
-                "Trần Quang Diệu"
-              ],
+              "streets": ["Lê Văn Sỹ", "Trần Quang Diệu"],
               "villages_hamlets": []
             }
           }
@@ -189,10 +149,7 @@
             "name": "Phường 1",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Trần Hưng Đạo",
-                "Võ Văn Kiệt"
-              ],
+              "streets": ["Trần Hưng Đạo", "Võ Văn Kiệt"],
               "villages_hamlets": []
             }
           },
@@ -200,10 +157,7 @@
             "name": "Phường 10",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Hải Thượng Lãn Ông",
-                "Lão Tử"
-              ],
+              "streets": ["Hải Thượng Lãn Ông", "Lão Tử"],
               "villages_hamlets": []
             }
           }
@@ -217,11 +171,7 @@
             "name": "Phường 12",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "3 Tháng 2",
-                "Sư Vạn Hạnh",
-                "Lê Hồng Phong"
-              ],
+              "streets": ["3 Tháng 2", "Sư Vạn Hạnh", "Lê Hồng Phong"],
               "villages_hamlets": []
             }
           }
@@ -235,10 +185,7 @@
             "name": "Phường Thạnh Mỹ Lợi",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Đồng Văn Cống",
-                "Trương Văn Bang"
-              ],
+              "streets": ["Đồng Văn Cống", "Trương Văn Bang"],
               "villages_hamlets": []
             }
           },
@@ -246,10 +193,7 @@
             "name": "Phường Thủ Thiêm",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Mai Chí Thọ",
-                "Trần Não"
-              ],
+              "streets": ["Mai Chí Thọ", "Trần Não"],
               "villages_hamlets": []
             }
           },
@@ -257,10 +201,7 @@
             "name": "Phường Linh Trung",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Xa Lộ Hà Nội",
-                "Lê Văn Chí"
-              ],
+              "streets": ["Xa Lộ Hà Nội", "Lê Văn Chí"],
               "villages_hamlets": []
             }
           },
@@ -268,10 +209,7 @@
             "name": "Phường Hiệp Bình Phước",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Quốc lộ 13",
-                "Hiệp Bình"
-              ],
+              "streets": ["Quốc lộ 13", "Hiệp Bình"],
               "villages_hamlets": []
             }
           }
@@ -285,10 +223,7 @@
             "name": "Phường 1",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Lê Quang Định",
-                "Phạm Văn Đồng"
-              ],
+              "streets": ["Lê Quang Định", "Phạm Văn Đồng"],
               "villages_hamlets": []
             }
           },
@@ -296,10 +231,7 @@
             "name": "Phường 10",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Quang Trung",
-                "Phan Văn Trị"
-              ],
+              "streets": ["Quang Trung", "Phan Văn Trị"],
               "villages_hamlets": []
             }
           }
@@ -313,11 +245,7 @@
             "name": "Phường 2",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Trường Sơn",
-                "Bạch Đằng",
-                "Phổ Quang"
-              ],
+              "streets": ["Trường Sơn", "Bạch Đằng", "Phổ Quang"],
               "villages_hamlets": []
             }
           }
@@ -331,10 +259,7 @@
             "name": "Phường 22",
             "division_type": "phường",
             "details": {
-              "streets": [
-                "Nguyễn Hữu Cảnh",
-                "Điện Biên Phủ"
-              ],
+              "streets": ["Nguyễn Hữu Cảnh", "Điện Biên Phủ"],
               "villages_hamlets": []
             }
           }
@@ -348,9 +273,7 @@
             "name": "Thị trấn Tân Túc",
             "division_type": "thị trấn",
             "details": {
-              "streets": [
-                "Quốc lộ 1A"
-              ],
+              "streets": ["Quốc lộ 1A"],
               "villages_hamlets": []
             }
           },
@@ -358,14 +281,8 @@
             "name": "Xã Phong Phú",
             "division_type": "xã",
             "details": {
-              "streets": [
-                "Quốc lộ 50"
-              ],
-              "villages_hamlets": [
-                "Ấp 1",
-                "Ấp 2",
-                "Ấp 3"
-              ]
+              "streets": ["Quốc lộ 50"],
+              "villages_hamlets": ["Ấp 1", "Ấp 2", "Ấp 3"]
             }
           }
         ]
@@ -378,10 +295,7 @@
             "name": "Thị trấn Hóc Môn",
             "division_type": "thị trấn",
             "details": {
-              "streets": [
-                "Lý Nam Đế",
-                "Quang Trung"
-              ],
+              "streets": ["Lý Nam Đế", "Quang Trung"],
               "villages_hamlets": []
             }
           }
@@ -395,9 +309,7 @@
             "name": "Thị trấn Củ Chi",
             "division_type": "thị trấn",
             "details": {
-              "streets": [
-                "Quốc lộ 22"
-              ],
+              "streets": ["Quốc lộ 22"],
               "villages_hamlets": []
             }
           }
@@ -411,9 +323,7 @@
             "name": "Thị trấn Nhà Bè",
             "division_type": "thị trấn",
             "details": {
-              "streets": [
-                "Huỳnh Tấn Phát"
-              ],
+              "streets": ["Huỳnh Tấn Phát"],
               "villages_hamlets": []
             }
           }
@@ -427,9 +337,7 @@
             "name": "Thị trấn Cần Thạnh",
             "division_type": "thị trấn",
             "details": {
-              "streets": [
-                "Duyên Hải"
-              ],
+              "streets": ["Duyên Hải"],
               "villages_hamlets": []
             }
           }

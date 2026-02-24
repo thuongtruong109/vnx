@@ -1,0 +1,171 @@
+[
+  {
+    "province_id": "34",
+    "districts": [
+      {
+        "name": "Thành phố Thái Bình",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Lê Hồng Phong",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Lê Lợi", "Hai Bà Trưng"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Đề Thám",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Lý Bôn", "Trưng Trắc"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Kỳ Bá",
+            "division_type": "phường",
+            "details": { "streets": ["Phan Bá Vành"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Quang Trung",
+            "division_type": "phường",
+            "details": { "streets": ["Quang Trung"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Trần Hưng Đạo",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Hưng Đạo"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Tiền Phong",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Bồ Xuyên",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Phú Khánh",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Trần Lãm",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hoàng Diệu",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đông Hưng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đông Hưng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hưng Hà",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Hưng Hà",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Hưng Nhân",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Hồng Minh",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Làng chiếu Hối"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Kiến Xương",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Kiến Xương",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Quỳnh Phụ",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Quỳnh Côi",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn An Bài",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thái Thụy",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Diêm Điền",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tiền Hải",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tiền Hải",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Đồng Châu",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Biển Đồng Châu"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Vũ Thư",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Vũ Thư",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Duy Nhất",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Chùa Keo"] }
+          }
+        ]
+      }
+    ]
+  }
+]

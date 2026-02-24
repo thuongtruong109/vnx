@@ -1,0 +1,138 @@
+[
+  {
+    "province_id": "82",
+    "districts": [
+      {
+        "name": "Thành phố Mỹ Tho",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Hùng Vương", "Trưng Trắc"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường 7",
+            "division_type": "phường",
+            "details": { "streets": ["Nguyễn Trãi"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Thới Sơn",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Cù lao Thới Sơn"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Gò Công",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": { "streets": ["Nguyễn Huệ"], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Cai Lậy",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": { "streets": ["Quốc lộ 1A"], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cái Bè",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cái Bè",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": ["Chợ nổi Cái Bè"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Thành",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Hiệp",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Chợ Gạo",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Chợ Gạo",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Gò Công Tây",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Vĩnh Bình",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Gò Công Đông",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Hòa",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Tân Thành",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Biển Tân Thành"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tân Phước",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Mỹ Phước",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tân Phú Đông",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Xã Tân Thới",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

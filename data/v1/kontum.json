@@ -1,0 +1,180 @@
+[
+  {
+    "province_id": "62",
+    "districts": [
+      {
+        "name": "Thành phố Kon Tum",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Quyết Thắng",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Hưng Đạo", "Lê Hồng Phong"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thắng Lợi",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Phan Đình Phùng"],
+              "villages_hamlets": ["Nhà thờ gỗ Kon Tum"]
+            }
+          },
+          {
+            "name": "Phường Quang Trung",
+            "division_type": "phường",
+            "details": { "streets": ["Nguyễn Huệ"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Thống Nhất",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Nhà rông Kon Klor"]
+            }
+          },
+          {
+            "name": "Phường Duy Tân",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Trần Hưng Đạo",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Ngô Mây",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Chư Hreng",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Kon Plông",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Măng Đen",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu du lịch sinh thái Măng Đen"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Ngọc Hồi",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Plei Kần",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Pờ Y",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ngã ba Đông Dương"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đắk Hà",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đắk Hà",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đắk Tô",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đắk Tô",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đắk Glei",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đắk Glei",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Sa Thầy",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Sa Thầy",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Ya Xiêr",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Vườn quốc gia Chư Mom Ray"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Kon Rẫy",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đắk Rve",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tu Mơ Rông",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Xã Đắk Hà",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Ia H'Drai",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Xã Ia Tơi",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

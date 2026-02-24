@@ -1,0 +1,229 @@
+[
+  {
+    "province_id": "31",
+    "districts": [
+      {
+        "name": "Quận Hồng Bàng",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Minh Khai",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Đinh Tiên Hoàng", "Điện Biên Phủ", "Minh Khai"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phan Bội Châu",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Phan Bội Châu", "Ký Con"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hoàng Văn Thụ",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Hoàng Văn Thụ", "Quang Trung"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thượng Lý",
+            "division_type": "phường",
+            "details": { "streets": ["Bạch Đằng"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hạ Lý",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Quận Ngô Quyền",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Cầu Đất",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Lương Khánh Thiện", "Cầu Đất"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Lạch Tray",
+            "division_type": "phường",
+            "details": { "streets": ["Lạch Tray"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Máy Tơ",
+            "division_type": "phường",
+            "details": { "streets": ["Lê Thánh Tông"], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Quận Lê Chân",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường An Biên",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Cát Dài", "Mê Linh"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Vĩnh Niệm",
+            "division_type": "phường",
+            "details": { "streets": ["Võ Nguyên Giáp"], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Quận Hải An",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Đông Hải 1",
+            "division_type": "phường",
+            "details": { "streets": ["Lê Hồng Phong"], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Quận Kiến An",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Trần Thành Ngọ",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Quận Đồ Sơn",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Vạn Hương",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu du lịch Đồ Sơn"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quận Dương Kinh",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Anh Dũng",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thủy Nguyên",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Núi Đèo",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Minh Đức",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện An Dương",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn An Dương",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện An Lão",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn An Lão",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Kiến Thụy",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Núi Đối",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tiên Lãng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tiên Lãng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Vĩnh Bảo",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Vĩnh Bảo",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cát Hải",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cát Bà",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Cát Hải",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bạch Long Vĩ",
+        "division_type": "huyện",
+        "wards": []
+      }
+    ]
+  }
+]

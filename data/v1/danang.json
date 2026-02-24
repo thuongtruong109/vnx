@@ -1,0 +1,202 @@
+[
+  {
+    "province_id": "48",
+    "districts": [
+      {
+        "name": "Quận Hải Châu",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Thạch Thang",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Quang Trung", "Lê Lợi", "Nguyễn Chí Thanh"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hải Châu I",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Phú", "Bạch Đằng", "Hùng Vương"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hải Châu II",
+            "division_type": "phường",
+            "details": { "streets": ["Chi Lăng"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Phước Ninh",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Văn Linh"],
+              "villages_hamlets": ["Cầu Rồng"]
+            }
+          },
+          {
+            "name": "Phường Hòa Thuận Đông",
+            "division_type": "phường",
+            "details": { "streets": ["Trưng Nữ Vương"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Nam Dương",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Bình Hiên",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Bình Thuận",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hòa Cường Bắc",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Hòa Cường Nam",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Quận Thanh Khê",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Vĩnh Trung",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Hùng Vương", "Ông Ích Khiêm"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thạc Gián",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Văn Linh"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Chính Gián",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Quận Sơn Trà",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường An Hải Tây",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Hưng Đạo"],
+              "villages_hamlets": ["Cầu Tình Yêu"]
+            }
+          },
+          {
+            "name": "Phường Phước Mỹ",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Võ Nguyên Giáp"],
+              "villages_hamlets": ["Biển Mỹ Khê"]
+            }
+          },
+          {
+            "name": "Phường Thọ Quang",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Bán đảo Sơn Trà", "Chùa Linh Ứng"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quận Ngũ Hành Sơn",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Hòa Hải",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Danh thắng Ngũ Hành Sơn"]
+            }
+          },
+          {
+            "name": "Phường Khuê Mỹ",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Quận Liên Chiểu",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Hòa Khánh Bắc",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Lương Bằng"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hòa Hiệp Bắc",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": ["Đèo Hải Vân"] }
+          }
+        ]
+      },
+      {
+        "name": "Quận Cẩm Lệ",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Khuê Trung",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Cách Mạng Tháng 8"],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hòa Vang",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Xã Hòa Ninh",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": ["Bà Nà Hills"] }
+          },
+          {
+            "name": "Xã Hòa Phú",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hoàng Sa",
+        "division_type": "huyện",
+        "wards": []
+      }
+    ]
+  }
+]

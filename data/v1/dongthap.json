@@ -1,0 +1,187 @@
+[
+  {
+    "province_id": "87",
+    "districts": [
+      {
+        "name": "Thành phố Cao Lãnh",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Huệ", "30 Tháng 4"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường 2",
+            "division_type": "phường",
+            "details": { "streets": ["Lý Thường Kiệt"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường Mỹ Phú",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Hưng Đạo"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Tân Thuận Tây",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Làng du lịch văn hóa"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Sa Đéc",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Trần Hưng Đạo"],
+              "villages_hamlets": ["Nhà cổ Huỳnh Thủy Lê"]
+            }
+          },
+          {
+            "name": "Phường Tân Quy Đông",
+            "division_type": "phường",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Làng hoa Sa Đéc"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Hồng Ngự",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường An Thạnh",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tháp Mười",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Mỹ An",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Trường Xuân",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu di tích Gò Tháp"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cao Lãnh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Mỹ Thọ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Gáo Giồng",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu du lịch sinh thái Gáo Giồng"]
+            }
+          },
+          {
+            "name": "Xã Mỹ Hiệp",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Chợ nổi Mỹ Hiệp"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tam Nông",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tràm Chim",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Vườn quốc gia Tràm Chim"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thanh Bình",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thanh Bình",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lấp Vò",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Lấp Vò",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lai Vung",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Lai Vung",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Làng nghề đóng xuồng ghe Bà Đài"]
+            }
+          },
+          {
+            "name": "Xã Long Hậu",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Quýt hồng Lai Vung"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Thành",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cái Tàu Hạ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]

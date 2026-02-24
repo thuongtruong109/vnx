@@ -1,0 +1,220 @@
+[
+  {
+    "province_id": "80",
+    "districts": [
+      {
+        "name": "Thành phố Tân An",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": {
+              "streets": ["Nguyễn Trung Trực", "Hùng Vương"],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường 2",
+            "division_type": "phường",
+            "details": { "streets": ["Trần Phong Sắc"], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 3",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 4",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 5",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 6",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Lợi Bình Nhơn",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Kiến Tường",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Phường 2",
+            "division_type": "phường",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đức Hòa",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Hậu Nghĩa",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Thị trấn Đức Hòa",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          },
+          {
+            "name": "Xã Mỹ Hạnh Nam",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bến Lức",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Bến Lức",
+            "division_type": "thị trấn",
+            "details": { "streets": ["Quốc lộ 1A"], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cần Giuộc",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cần Giuộc",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cần Đước",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cần Đước",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Thành",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tầm Vu",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thủ Thừa",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thủ Thừa",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tân Trụ",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Trụ",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thạnh Hóa",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thạnh Hóa",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tân Thạnh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Thạnh",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Mộc Hóa",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Xã Bình Phong Thạnh",
+            "division_type": "xã",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Vĩnh Hưng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Vĩnh Hưng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tân Hưng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Hưng",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đức Huệ",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đông Thành",
+            "division_type": "thị trấn",
+            "details": { "streets": [], "villages_hamlets": [] }
+          }
+        ]
+      }
+    ]
+  }
+]
