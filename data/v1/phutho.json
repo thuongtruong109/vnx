@@ -5,211 +5,362 @@
       {
         "name": "Thành phố Việt Trì",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 227,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Gia Cẩm",
             "division_type": "phường",
+            "code": 7900,
+            "status": "active",
             "details": {
-              "streets": ["Hùng Vương", "Nguyễn Tất Thành", "Trần Phú"],
+              "streets": [
+                "Hùng Vương",
+                "Nguyễn Tất Thành",
+                "Trần Phú"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường Tiên Cát",
             "division_type": "phường",
-            "details": { "streets": ["Hùng Vương"], "villages_hamlets": [] }
+            "code": 7903,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Hùng Vương"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Thọ Sơn",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 7906,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Tân Dân",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 7897,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Nông Trang",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 7894,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Vân Cơ",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Bạch Hạc",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 7912,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Dữu Lâu",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 7888,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Hy Cương",
             "division_type": "xã",
+            "code": 8503,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Khu di tích lịch sử Đền Hùng"]
+              "villages_hamlets": [
+                "Khu di tích lịch sử Đền Hùng"
+              ]
             }
           },
           {
             "name": "Xã Chu Hóa",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 8506,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Thị xã Phú Thọ",
         "division_type": "thị xã",
+        "code": 228,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Âu Cơ",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 7948,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Phong Châu",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 7945,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Thanh Ba",
         "division_type": "huyện",
+        "code": 232,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Thanh Ba",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 8152,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Hạ Hòa",
         "division_type": "huyện",
+        "code": 231,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Hạ Hòa",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 8053,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Đoan Hùng",
         "division_type": "huyện",
+        "code": 230,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Đoan Hùng",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 7969,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Lâm Thao",
         "division_type": "huyện",
+        "code": 237,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Lâm Thao",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 8494,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Thị trấn Hùng Sơn",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 8498,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Phù Ninh",
         "division_type": "huyện",
+        "code": 233,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Phong Châu",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 8230,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Tam Nông",
         "division_type": "huyện",
+        "code": 236,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Hưng Hóa",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 8434,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Thanh Thủy",
         "division_type": "huyện",
+        "code": 239,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Thanh Thủy",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 8674,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Cẩm Khê",
         "division_type": "huyện",
+        "code": 235,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Cẩm Khê",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 8341,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Yên Lập",
         "division_type": "huyện",
+        "code": 234,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Yên Lập",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 8290,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Thanh Sơn",
         "division_type": "huyện",
+        "code": 238,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Thanh Sơn",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 8542,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Tân Sơn",
         "division_type": "huyện",
+        "code": 240,
+        "status": "active",
         "wards": [
           {
             "name": "Xã Xuân Đài",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 8590,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Long Cốc",
             "division_type": "xã",
+            "code": 8608,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Đồi chè Long Cốc"]
+              "villages_hamlets": [
+                "Đồi chè Long Cốc"
+              ]
             }
           }
         ]

@@ -5,39 +5,76 @@
       {
         "name": "Quận Ninh Kiều",
         "division_type": "quận",
+        "code": 916,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Tân An",
             "division_type": "phường",
+            "code": 31135,
+            "status": "active",
             "details": {
-              "streets": ["Hai Bà Trưng", "Nguyễn Thái Học"],
-              "villages_hamlets": ["Bến Ninh Kiều", "Chợ cổ Cần Thơ"]
+              "streets": [
+                "Hai Bà Trưng",
+                "Nguyễn Thái Học"
+              ],
+              "villages_hamlets": [
+                "Bến Ninh Kiều",
+                "Chợ cổ Cần Thơ"
+              ]
             }
           },
           {
             "name": "Phường Xuân Khánh",
             "division_type": "phường",
+            "code": 31144,
+            "status": "active",
             "details": {
-              "streets": ["30 Tháng 4", "Mậu Thân"],
-              "villages_hamlets": ["Đại học Cần Thơ"]
+              "streets": [
+                "30 Tháng 4",
+                "Mậu Thân"
+              ],
+              "villages_hamlets": [
+                "Đại học Cần Thơ"
+              ]
             }
           },
           {
             "name": "Phường An Khánh",
             "division_type": "phường",
-            "details": { "streets": ["Nguyễn Văn Cừ"], "villages_hamlets": [] }
+            "code": 31149,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Nguyễn Văn Cừ"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường An Hòa",
             "division_type": "phường",
-            "details": { "streets": ["Trần Việt Châu"], "villages_hamlets": [] }
+            "code": 31120,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Trần Việt Châu"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Cái Khế",
             "division_type": "phường",
+            "code": 31117,
+            "status": "active",
             "details": {
-              "streets": ["Trần Văn Khéo"],
-              "villages_hamlets": ["Trung tâm thương mại Cái Khế"]
+              "streets": [
+                "Trần Văn Khéo"
+              ],
+              "villages_hamlets": [
+                "Trung tâm thương mại Cái Khế"
+              ]
             }
           }
         ]
@@ -45,40 +82,63 @@
       {
         "name": "Quận Cái Răng",
         "division_type": "quận",
+        "code": 919,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Lê Bình",
             "division_type": "phường",
+            "code": 31186,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Chợ nổi Cái Răng"]
+              "villages_hamlets": [
+                "Chợ nổi Cái Răng"
+              ]
             }
           },
           {
             "name": "Phường Ba Láng",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31195,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Quận Bình Thủy",
         "division_type": "quận",
+        "code": 918,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Bùi Hữu Nghĩa",
             "division_type": "phường",
+            "code": 31178,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Nhà cổ Bình Thủy"]
+              "villages_hamlets": [
+                "Nhà cổ Bình Thủy"
+              ]
             }
           },
           {
             "name": "Phường Trà Nóc",
             "division_type": "phường",
+            "code": 31171,
+            "status": "active",
             "details": {
-              "streets": ["Lê Hồng Phong"],
-              "villages_hamlets": ["Sân bay quốc tế Cần Thơ"]
+              "streets": [
+                "Lê Hồng Phong"
+              ],
+              "villages_hamlets": [
+                "Sân bay quốc tế Cần Thơ"
+              ]
             }
           }
         ]
@@ -86,29 +146,51 @@
       {
         "name": "Quận Ô Môn",
         "division_type": "quận",
+        "code": 917,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Châu Văn Liêm",
             "division_type": "phường",
-            "details": { "streets": ["26 Tháng 3"], "villages_hamlets": [] }
+            "code": 31153,
+            "status": "active",
+            "details": {
+              "streets": [
+                "26 Tháng 3"
+              ],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Quận Thốt Nốt",
         "division_type": "quận",
+        "code": 923,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Thốt Nốt",
             "division_type": "phường",
-            "details": { "streets": ["Quốc lộ 91"], "villages_hamlets": [] }
+            "code": 31207,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Quốc lộ 91"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Thuận An",
             "division_type": "phường",
+            "code": 31212,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Vườn cò Bằng Lăng"]
+              "villages_hamlets": [
+                "Vườn cò Bằng Lăng"
+              ]
             }
           }
         ]
@@ -116,18 +198,26 @@
       {
         "name": "Huyện Phong Điền",
         "division_type": "huyện",
+        "code": 926,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Phong Điền",
             "division_type": "thị trấn",
+            "code": 31299,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Chợ nổi Phong Điền"]
+              "villages_hamlets": [
+                "Chợ nổi Phong Điền"
+              ]
             }
           },
           {
             "name": "Xã Mỹ Khánh",
             "division_type": "xã",
+            "code": 31312,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -141,33 +231,54 @@
       {
         "name": "Huyện Thới Lai",
         "division_type": "huyện",
+        "code": 927,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Thới Lai",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31258,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Cờ Đỏ",
         "division_type": "huyện",
+        "code": 925,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Cờ Đỏ",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31261,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Vĩnh Thạnh",
         "division_type": "huyện",
+        "code": 924,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Vĩnh Thạnh",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31232,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       }

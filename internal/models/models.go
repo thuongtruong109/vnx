@@ -130,3 +130,10 @@ type AddressMap struct {
 	Provinces []ProvinceMapEntry `json:"provinces"`
 	Wards     []WardMapEntry     `json:"wards"`
 }
+
+// V1Province is a single pre-2025 province entry derived from map.json,
+// used to populate the /api/v1/provinces endpoint.
+type V1Province struct {
+	Code int    `json:"code"`
+	Name string `json:"name"`
+}

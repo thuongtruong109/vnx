@@ -1,6 +1,7 @@
 [
   {
     "id": "hanoi",
+    "code": 1,
     "name": "Hà Nội",
     "division_type": "thành phố trung ương",
     "phone_code": 24,
@@ -8,7 +9,6 @@
     "type": "Thành phố",
     "region": "Miền Bắc",
     "area_km2": 3359,
-    "population": 8500000,
     "boundaries": [
       "Vĩnh Phúc",
       "Thái Nguyên",
@@ -18,10 +18,12 @@
       "Hà Nam",
       "Hòa Bình",
       "Phú Thọ"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "hagiang",
+    "code": 2,
     "name": "Hà Giang",
     "division_type": "tỉnh",
     "phone_code": 219,
@@ -29,17 +31,19 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 7929,
-    "population": 870000,
     "boundaries": [
       "Cao Bằng",
       "Tuyên Quang",
       "Yên Bái",
       "Lào Cai",
       "Trung Quốc"
-    ]
+    ],
+    "status": "merged",
+    "merged_into": "8"
   },
   {
     "id": "caobang",
+    "code": 4,
     "name": "Cao Bằng",
     "division_type": "tỉnh",
     "phone_code": 206,
@@ -47,17 +51,18 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 6700,
-    "population": 530000,
     "boundaries": [
       "Hà Giang",
       "Tuyên Quang",
       "Bắc Kạn",
       "Lạng Sơn",
       "Trung Quốc"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "backan",
+    "code": 6,
     "name": "Bắc Kạn",
     "division_type": "tỉnh",
     "phone_code": 209,
@@ -65,11 +70,18 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 4859,
-    "population": 320000,
-    "boundaries": ["Cao Bằng", "Tuyên Quang", "Thái Nguyên", "Lạng Sơn"]
+    "boundaries": [
+      "Cao Bằng",
+      "Tuyên Quang",
+      "Thái Nguyên",
+      "Lạng Sơn"
+    ],
+    "status": "merged",
+    "merged_into": "19"
   },
   {
     "id": "tuyenquang",
+    "code": 8,
     "name": "Tuyên Quang",
     "division_type": "tỉnh",
     "phone_code": 207,
@@ -77,7 +89,6 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 5867,
-    "population": 760000,
     "boundaries": [
       "Hà Giang",
       "Cao Bằng",
@@ -86,10 +97,12 @@
       "Vĩnh Phúc",
       "Phú Thọ",
       "Yên Bái"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "laocai",
+    "code": 10,
     "name": "Lào Cai",
     "division_type": "tỉnh",
     "phone_code": 214,
@@ -97,11 +110,18 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 6383,
-    "population": 730000,
-    "boundaries": ["Hà Giang", "Yên Bái", "Lai Châu", "Trung Quốc"]
+    "boundaries": [
+      "Hà Giang",
+      "Yên Bái",
+      "Lai Châu",
+      "Trung Quốc"
+    ],
+    "status": "merged",
+    "merged_into": "15"
   },
   {
     "id": "dienbien",
+    "code": 11,
     "name": "Điện Biên",
     "division_type": "tỉnh",
     "phone_code": 215,
@@ -109,11 +129,17 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 9541,
-    "population": 530000,
-    "boundaries": ["Lai Châu", "Sơn La", "Lào", "Trung Quốc"]
+    "boundaries": [
+      "Lai Châu",
+      "Sơn La",
+      "Lào",
+      "Trung Quốc"
+    ],
+    "status": "active"
   },
   {
     "id": "laochau",
+    "code": 12,
     "name": "Lai Châu",
     "division_type": "tỉnh",
     "phone_code": 213,
@@ -121,11 +147,18 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 9068,
-    "population": 460000,
-    "boundaries": ["Lào Cai", "Yên Bái", "Sơn La", "Điện Biên", "Trung Quốc"]
+    "boundaries": [
+      "Lào Cai",
+      "Yên Bái",
+      "Sơn La",
+      "Điện Biên",
+      "Trung Quốc"
+    ],
+    "status": "active"
   },
   {
     "id": "sonla",
+    "code": 14,
     "name": "Sơn La",
     "division_type": "tỉnh",
     "phone_code": 212,
@@ -133,7 +166,6 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 14174,
-    "population": 1240000,
     "boundaries": [
       "Lai Châu",
       "Yên Bái",
@@ -142,10 +174,12 @@
       "Thanh Hóa",
       "Điện Biên",
       "Lào"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "yenbai",
+    "code": 15,
     "name": "Yên Bái",
     "division_type": "tỉnh",
     "phone_code": 216,
@@ -153,7 +187,6 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 6887,
-    "population": 820000,
     "boundaries": [
       "Lào Cai",
       "Hà Giang",
@@ -161,10 +194,12 @@
       "Phú Thọ",
       "Sơn La",
       "Lai Châu"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "hoabinh",
+    "code": 17,
     "name": "Hoà Bình",
     "division_type": "tỉnh",
     "phone_code": 218,
@@ -172,7 +207,6 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 4590,
-    "population": 870000,
     "boundaries": [
       "Sơn La",
       "Phú Thọ",
@@ -180,10 +214,13 @@
       "Hà Nam",
       "Ninh Bình",
       "Thanh Hóa"
-    ]
+    ],
+    "status": "merged",
+    "merged_into": "25"
   },
   {
     "id": "thainguyen",
+    "code": 19,
     "name": "Thái Nguyên",
     "division_type": "tỉnh",
     "phone_code": 208,
@@ -191,7 +228,6 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 3562,
-    "population": 1280000,
     "boundaries": [
       "Bắc Kạn",
       "Lạng Sơn",
@@ -199,10 +235,12 @@
       "Hà Nội",
       "Vĩnh Phúc",
       "Tuyên Quang"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "langson",
+    "code": 20,
     "name": "Lạng Sơn",
     "division_type": "tỉnh",
     "phone_code": 205,
@@ -210,7 +248,6 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 8320,
-    "population": 780000,
     "boundaries": [
       "Cao Bằng",
       "Bắc Kạn",
@@ -218,10 +255,12 @@
       "Bắc Giang",
       "Quảng Ninh",
       "Trung Quốc"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "quangninh",
+    "code": 22,
     "name": "Quảng Ninh",
     "division_type": "tỉnh",
     "phone_code": 203,
@@ -229,17 +268,18 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 6119,
-    "population": 1300000,
     "boundaries": [
       "Lạng Sơn",
       "Bắc Giang",
       "Hải Dương",
       "Hải Phòng",
       "Trung Quốc"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "bacgiang",
+    "code": 24,
     "name": "Bắc Giang",
     "division_type": "tỉnh",
     "phone_code": 204,
@@ -247,7 +287,6 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 3827,
-    "population": 1900000,
     "boundaries": [
       "Lạng Sơn",
       "Thái Nguyên",
@@ -255,10 +294,12 @@
       "Bắc Ninh",
       "Hải Dương",
       "Quảng Ninh"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "phutho",
+    "code": 25,
     "name": "Phú Thọ",
     "division_type": "tỉnh",
     "phone_code": 210,
@@ -266,7 +307,6 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 3528,
-    "population": 1460000,
     "boundaries": [
       "Yên Bái",
       "Tuyên Quang",
@@ -274,10 +314,12 @@
       "Hà Nội",
       "Hòa Bình",
       "Sơn La"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "vinhphuc",
+    "code": 26,
     "name": "Vĩnh Phúc",
     "division_type": "tỉnh",
     "phone_code": 211,
@@ -285,11 +327,18 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 1236,
-    "population": 1150000,
-    "boundaries": ["Tuyên Quang", "Thái Nguyên", "Hà Nội", "Phú Thọ"]
+    "boundaries": [
+      "Tuyên Quang",
+      "Thái Nguyên",
+      "Hà Nội",
+      "Phú Thọ"
+    ],
+    "status": "merged",
+    "merged_into": "25"
   },
   {
     "id": "bacninh",
+    "code": 27,
     "name": "Bắc Ninh",
     "division_type": "tỉnh",
     "phone_code": 222,
@@ -297,11 +346,17 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 822,
-    "population": 1600000,
-    "boundaries": ["Bắc Giang", "Hải Dương", "Hà Nội"]
+    "boundaries": [
+      "Bắc Giang",
+      "Hải Dương",
+      "Hà Nội"
+    ],
+    "status": "merged",
+    "merged_into": "24"
   },
   {
     "id": "haiduong",
+    "code": 30,
     "name": "Hải Dương",
     "division_type": "tỉnh",
     "phone_code": 220,
@@ -309,7 +364,6 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 1668,
-    "population": 1900000,
     "boundaries": [
       "Bắc Giang",
       "Quảng Ninh",
@@ -317,10 +371,13 @@
       "Thái Bình",
       "Hưng Yên",
       "Bắc Ninh"
-    ]
+    ],
+    "status": "merged",
+    "merged_into": "31"
   },
   {
     "id": "haiphong",
+    "code": 31,
     "name": "Hải Phòng",
     "division_type": "thành phố trung ương",
     "phone_code": 225,
@@ -328,11 +385,16 @@
     "type": "Thành phố",
     "region": "Miền Bắc",
     "area_km2": 1527,
-    "population": 2100000,
-    "boundaries": ["Quảng Ninh", "Hải Dương", "Thái Bình"]
+    "boundaries": [
+      "Quảng Ninh",
+      "Hải Dương",
+      "Thái Bình"
+    ],
+    "status": "active"
   },
   {
     "id": "hungyen",
+    "code": 33,
     "name": "Hưng Yên",
     "division_type": "tỉnh",
     "phone_code": 221,
@@ -340,11 +402,18 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 930,
-    "population": 1200000,
-    "boundaries": ["Bắc Ninh", "Hải Dương", "Thái Bình", "Hà Nam", "Hà Nội"]
+    "boundaries": [
+      "Bắc Ninh",
+      "Hải Dương",
+      "Thái Bình",
+      "Hà Nam",
+      "Hà Nội"
+    ],
+    "status": "active"
   },
   {
     "id": "thaibinh",
+    "code": 34,
     "name": "Thái Bình",
     "division_type": "tỉnh",
     "phone_code": 227,
@@ -352,11 +421,19 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 1586,
-    "population": 1800000,
-    "boundaries": ["Hải Phòng", "Hải Dương", "Hưng Yên", "Hà Nam", "Nam Định"]
+    "boundaries": [
+      "Hải Phòng",
+      "Hải Dương",
+      "Hưng Yên",
+      "Hà Nam",
+      "Nam Định"
+    ],
+    "status": "merged",
+    "merged_into": "33"
   },
   {
     "id": "hanam",
+    "code": 35,
     "name": "Hà Nam",
     "division_type": "tỉnh",
     "phone_code": 226,
@@ -364,7 +441,6 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 860,
-    "population": 900000,
     "boundaries": [
       "Hà Nội",
       "Hưng Yên",
@@ -372,10 +448,13 @@
       "Nam Định",
       "Ninh Bình",
       "Hòa Bình"
-    ]
+    ],
+    "status": "merged",
+    "merged_into": "37"
   },
   {
     "id": "namdinh",
+    "code": 36,
     "name": "Nam Định",
     "division_type": "tỉnh",
     "phone_code": 228,
@@ -383,11 +462,17 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 1652,
-    "population": 1800000,
-    "boundaries": ["Thái Bình", "Hà Nam", "Ninh Bình"]
+    "boundaries": [
+      "Thái Bình",
+      "Hà Nam",
+      "Ninh Bình"
+    ],
+    "status": "merged",
+    "merged_into": "37"
   },
   {
     "id": "ninhbinh",
+    "code": 37,
     "name": "Ninh Bình",
     "division_type": "tỉnh",
     "phone_code": 229,
@@ -395,11 +480,17 @@
     "type": "Tỉnh",
     "region": "Miền Bắc",
     "area_km2": 1387,
-    "population": 980000,
-    "boundaries": ["Hòa Bình", "Hà Nam", "Nam Định", "Thanh Hoá"]
+    "boundaries": [
+      "Hòa Bình",
+      "Hà Nam",
+      "Nam Định",
+      "Thanh Hoá"
+    ],
+    "status": "active"
   },
   {
     "id": "thanhhoa",
+    "code": 38,
     "name": "Thanh Hoá",
     "division_type": "tỉnh",
     "phone_code": 237,
@@ -407,11 +498,18 @@
     "type": "Tỉnh",
     "region": "Miền Trung",
     "area_km2": 11129,
-    "population": 3500000,
-    "boundaries": ["Sơn La", "Hòa Bình", "Ninh Bình", "Nghệ An", "Lào"]
+    "boundaries": [
+      "Sơn La",
+      "Hòa Bình",
+      "Ninh Bình",
+      "Nghệ An",
+      "Lào"
+    ],
+    "status": "active"
   },
   {
     "id": "nghean",
+    "code": 40,
     "name": "Nghệ An",
     "division_type": "tỉnh",
     "phone_code": 238,
@@ -419,11 +517,16 @@
     "type": "Tỉnh",
     "region": "Miền Trung",
     "area_km2": 16490,
-    "population": 3200000,
-    "boundaries": ["Thanh Hoá", "Hà Tĩnh", "Lào"]
+    "boundaries": [
+      "Thanh Hoá",
+      "Hà Tĩnh",
+      "Lào"
+    ],
+    "status": "active"
   },
   {
     "id": "hatinh",
+    "code": 42,
     "name": "Hà Tĩnh",
     "division_type": "tỉnh",
     "phone_code": 239,
@@ -431,11 +534,16 @@
     "type": "Tỉnh",
     "region": "Miền Trung",
     "area_km2": 5997,
-    "population": 1300000,
-    "boundaries": ["Nghệ An", "Quảng Bình", "Lào"]
+    "boundaries": [
+      "Nghệ An",
+      "Quảng Bình",
+      "Lào"
+    ],
+    "status": "active"
   },
   {
     "id": "quangbinh",
+    "code": 44,
     "name": "Quảng Bình",
     "division_type": "tỉnh",
     "phone_code": 232,
@@ -443,11 +551,16 @@
     "type": "Tỉnh",
     "region": "Miền Trung",
     "area_km2": 8065,
-    "population": 880000,
-    "boundaries": ["Hà Tĩnh", "Quảng Trị", "Lào"]
+    "boundaries": [
+      "Hà Tĩnh",
+      "Quảng Trị",
+      "Lào"
+    ],
+    "status": "active"
   },
   {
     "id": "quangtri",
+    "code": 45,
     "name": "Quảng Trị",
     "division_type": "tỉnh",
     "phone_code": 233,
@@ -455,11 +568,17 @@
     "type": "Tỉnh",
     "region": "Miền Trung",
     "area_km2": 4746,
-    "population": 640000,
-    "boundaries": ["Quảng Bình", "Thừa Thiên Huế", "Lào"]
+    "boundaries": [
+      "Quảng Bình",
+      "Thừa Thiên Huế",
+      "Lào"
+    ],
+    "status": "merged",
+    "merged_into": "44"
   },
   {
     "id": "thuthienhue",
+    "code": 46,
     "name": "Thừa Thiên Huế",
     "division_type": "tỉnh",
     "phone_code": 234,
@@ -467,11 +586,17 @@
     "type": "Tỉnh",
     "region": "Miền Trung",
     "area_km2": 5053,
-    "population": 1200000,
-    "boundaries": ["Quảng Trị", "Đà Nẵng", "Quảng Nam", "Lào"]
+    "boundaries": [
+      "Quảng Trị",
+      "Đà Nẵng",
+      "Quảng Nam",
+      "Lào"
+    ],
+    "status": "active"
   },
   {
     "id": "danang",
+    "code": 48,
     "name": "Đà Nẵng",
     "division_type": "thành phố trung ương",
     "phone_code": 236,
@@ -479,11 +604,15 @@
     "type": "Thành phố",
     "region": "Miền Trung",
     "area_km2": 1285,
-    "population": 1100000,
-    "boundaries": ["Thừa Thiên Huế", "Quảng Nam"]
+    "boundaries": [
+      "Thừa Thiên Huế",
+      "Quảng Nam"
+    ],
+    "status": "active"
   },
   {
     "id": "quangnam",
+    "code": 49,
     "name": "Quảng Nam",
     "division_type": "tỉnh",
     "phone_code": 235,
@@ -491,11 +620,19 @@
     "type": "Tỉnh",
     "region": "Miền Trung",
     "area_km2": 10438,
-    "population": 1500000,
-    "boundaries": ["Đà Nẵng", "Thừa Thiên Huế", "Kon Tum", "Quảng Ngãi", "Lào"]
+    "boundaries": [
+      "Đà Nẵng",
+      "Thừa Thiên Huế",
+      "Kon Tum",
+      "Quảng Ngãi",
+      "Lào"
+    ],
+    "status": "merged",
+    "merged_into": "48"
   },
   {
     "id": "quangngai",
+    "code": 51,
     "name": "Quảng Ngãi",
     "division_type": "tỉnh",
     "phone_code": 255,
@@ -503,11 +640,17 @@
     "type": "Tỉnh",
     "region": "Miền Trung",
     "area_km2": 5153,
-    "population": 1250000,
-    "boundaries": ["Quảng Nam", "Kon Tum", "Gia Lai", "Bình Định"]
+    "boundaries": [
+      "Quảng Nam",
+      "Kon Tum",
+      "Gia Lai",
+      "Bình Định"
+    ],
+    "status": "active"
   },
   {
     "id": "binhdinh",
+    "code": 52,
     "name": "Bình Định",
     "division_type": "tỉnh",
     "phone_code": 256,
@@ -515,11 +658,16 @@
     "type": "Tỉnh",
     "region": "Miền Trung",
     "area_km2": 6025,
-    "population": 1500000,
-    "boundaries": ["Quảng Ngãi", "Phú Yên", "Gia Lai"]
+    "boundaries": [
+      "Quảng Ngãi",
+      "Phú Yên",
+      "Gia Lai"
+    ],
+    "status": "active"
   },
   {
     "id": "phuyen",
+    "code": 54,
     "name": "Phú Yên",
     "division_type": "tỉnh",
     "phone_code": 257,
@@ -527,11 +675,18 @@
     "type": "Tỉnh",
     "region": "Miền Trung",
     "area_km2": 5023,
-    "population": 870000,
-    "boundaries": ["Bình Định", "Khánh Hòa", "Gia Lai", "Đắk Lắk"]
+    "boundaries": [
+      "Bình Định",
+      "Khánh Hòa",
+      "Gia Lai",
+      "Đắk Lắk"
+    ],
+    "status": "merged",
+    "merged_into": "66"
   },
   {
     "id": "khanhhoa",
+    "code": 56,
     "name": "Khánh Hoà",
     "division_type": "tỉnh",
     "phone_code": 258,
@@ -539,11 +694,17 @@
     "type": "Tỉnh",
     "region": "Miền Trung",
     "area_km2": 5137,
-    "population": 1250000,
-    "boundaries": ["Phú Yên", "Ninh Thuận", "Đắk Lắk", "Lâm Đồng"]
+    "boundaries": [
+      "Phú Yên",
+      "Ninh Thuận",
+      "Đắk Lắk",
+      "Lâm Đồng"
+    ],
+    "status": "active"
   },
   {
     "id": "ninhthuan",
+    "code": 58,
     "name": "Ninh Thuận",
     "division_type": "tỉnh",
     "phone_code": 259,
@@ -551,11 +712,17 @@
     "type": "Tỉnh",
     "region": "Miền Trung",
     "area_km2": 3360,
-    "population": 590000,
-    "boundaries": ["Khánh Hòa", "Bình Thuận", "Lâm Đồng"]
+    "boundaries": [
+      "Khánh Hòa",
+      "Bình Thuận",
+      "Lâm Đồng"
+    ],
+    "status": "merged",
+    "merged_into": "56"
   },
   {
     "id": "binhthuan",
+    "code": 60,
     "name": "Bình Thuận",
     "division_type": "tỉnh",
     "phone_code": 252,
@@ -563,11 +730,18 @@
     "type": "Tỉnh",
     "region": "Miền Trung",
     "area_km2": 7828,
-    "population": 1250000,
-    "boundaries": ["Ninh Thuận", "Lâm Đồng", "Đồng Nai", "Bà Rịa - Vũng Tàu"]
+    "boundaries": [
+      "Ninh Thuận",
+      "Lâm Đồng",
+      "Đồng Nai",
+      "Bà Rịa - Vũng Tàu"
+    ],
+    "status": "merged",
+    "merged_into": "68"
   },
   {
     "id": "kontum",
+    "code": 62,
     "name": "Kon Tum",
     "division_type": "tỉnh",
     "phone_code": 260,
@@ -575,11 +749,18 @@
     "type": "Tỉnh",
     "region": "Tây Nguyên",
     "area_km2": 9690,
-    "population": 540000,
-    "boundaries": ["Quảng Nam", "Gia Lai", "Lào", "Campuchia"]
+    "boundaries": [
+      "Quảng Nam",
+      "Gia Lai",
+      "Lào",
+      "Campuchia"
+    ],
+    "status": "merged",
+    "merged_into": "51"
   },
   {
     "id": "gia lai",
+    "code": 64,
     "name": "Gia Lai",
     "division_type": "tỉnh",
     "phone_code": 269,
@@ -587,7 +768,6 @@
     "type": "Tỉnh",
     "region": "Tây Nguyên",
     "area_km2": 15495,
-    "population": 1500000,
     "boundaries": [
       "Kon Tum",
       "Quảng Ngãi",
@@ -595,10 +775,13 @@
       "Phú Yên",
       "Đắk Lắk",
       "Campuchia"
-    ]
+    ],
+    "status": "merged",
+    "merged_into": "52"
   },
   {
     "id": "daklak",
+    "code": 66,
     "name": "Đắk Lắk",
     "division_type": "tỉnh",
     "phone_code": 262,
@@ -606,7 +789,6 @@
     "type": "Tỉnh",
     "region": "Tây Nguyên",
     "area_km2": 13125,
-    "population": 1900000,
     "boundaries": [
       "Gia Lai",
       "Phú Yên",
@@ -614,10 +796,12 @@
       "Lâm Đồng",
       "Đắk Nông",
       "Campuchia"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "daknong",
+    "code": 67,
     "name": "Đắk Nông",
     "division_type": "tỉnh",
     "phone_code": 261,
@@ -625,11 +809,18 @@
     "type": "Tỉnh",
     "region": "Tây Nguyên",
     "area_km2": 6515,
-    "population": 650000,
-    "boundaries": ["Đắk Lắk", "Lâm Đồng", "Bình Phước", "Campuchia"]
+    "boundaries": [
+      "Đắk Lắk",
+      "Lâm Đồng",
+      "Bình Phước",
+      "Campuchia"
+    ],
+    "status": "merged",
+    "merged_into": "68"
   },
   {
     "id": "lamdong",
+    "code": 68,
     "name": "Lâm Đồng",
     "division_type": "tỉnh",
     "phone_code": 263,
@@ -637,7 +828,6 @@
     "type": "Tỉnh",
     "region": "Tây Nguyên",
     "area_km2": 9783,
-    "population": 1300000,
     "boundaries": [
       "Đắk Lắk",
       "Đắk Nông",
@@ -646,10 +836,12 @@
       "Bình Thuận",
       "Ninh Thuận",
       "Khánh Hòa"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "binhphuoc",
+    "code": 70,
     "name": "Bình Phước",
     "division_type": "tỉnh",
     "phone_code": 271,
@@ -657,7 +849,6 @@
     "type": "Tỉnh",
     "region": "Miền Nam",
     "area_km2": 6871,
-    "population": 1000000,
     "boundaries": [
       "Lâm Đồng",
       "Đồng Nai",
@@ -665,10 +856,13 @@
       "Tây Ninh",
       "Đắk Nông",
       "Campuchia"
-    ]
+    ],
+    "status": "merged",
+    "merged_into": "75"
   },
   {
     "id": "tayninh",
+    "code": 72,
     "name": "Tây Ninh",
     "division_type": "tỉnh",
     "phone_code": 276,
@@ -676,11 +870,19 @@
     "type": "Tỉnh",
     "region": "Miền Nam",
     "area_km2": 4030,
-    "population": 1200000,
-    "boundaries": ["Bình Phước", "Bình Dương", "TP.HCM", "Long An", "Campuchia"]
+    "boundaries": [
+      "Bình Phước",
+      "Bình Dương",
+      "TP.HCM",
+      "Long An",
+      "Campuchia"
+    ],
+    "status": "merged",
+    "merged_into": "80"
   },
   {
     "id": "binhduong",
+    "code": 74,
     "name": "Bình Dương",
     "division_type": "tỉnh",
     "phone_code": 274,
@@ -688,11 +890,18 @@
     "type": "Tỉnh",
     "region": "Miền Nam",
     "area_km2": 2694,
-    "population": 2500000,
-    "boundaries": ["Bình Phước", "Đồng Nai", "TP.HCM", "Tây Ninh"]
+    "boundaries": [
+      "Bình Phước",
+      "Đồng Nai",
+      "TP.HCM",
+      "Tây Ninh"
+    ],
+    "status": "merged",
+    "merged_into": "79"
   },
   {
     "id": "dongnai",
+    "code": 75,
     "name": "Đồng Nai",
     "division_type": "tỉnh",
     "phone_code": 251,
@@ -700,7 +909,6 @@
     "type": "Tỉnh",
     "region": "Miền Nam",
     "area_km2": 5905,
-    "population": 3100000,
     "boundaries": [
       "Lâm Đồng",
       "Bình Thuận",
@@ -708,10 +916,12 @@
       "TP.HCM",
       "Bình Dương",
       "Bình Phước"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "baria-vungtau",
+    "code": 77,
     "name": "Bà Rịa - Vũng Tàu",
     "division_type": "tỉnh",
     "phone_code": 254,
@@ -719,11 +929,17 @@
     "type": "Tỉnh",
     "region": "Miền Nam",
     "area_km2": 1980,
-    "population": 1200000,
-    "boundaries": ["Đồng Nai", "TP.HCM", "Bình Thuận"]
+    "boundaries": [
+      "Đồng Nai",
+      "TP.HCM",
+      "Bình Thuận"
+    ],
+    "status": "merged",
+    "merged_into": "79"
   },
   {
     "id": "tphcm",
+    "code": 79,
     "name": "TP. Hồ Chí Minh",
     "division_type": "thành phố trung ương",
     "phone_code": 28,
@@ -731,17 +947,18 @@
     "type": "Thành phố",
     "region": "Miền Nam",
     "area_km2": 2095,
-    "population": 9500000,
     "boundaries": [
       "Bình Dương",
       "Tây Ninh",
       "Long An",
       "Đồng Nai",
       "Bà Rịa - Vũng Tàu"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "longan",
+    "code": 80,
     "name": "Long An",
     "division_type": "tỉnh",
     "phone_code": 272,
@@ -749,11 +966,18 @@
     "type": "Tỉnh",
     "region": "Miền Nam",
     "area_km2": 4491,
-    "population": 1700000,
-    "boundaries": ["Tây Ninh", "TP.HCM", "Tiền Giang", "Đồng Tháp", "Campuchia"]
+    "boundaries": [
+      "Tây Ninh",
+      "TP.HCM",
+      "Tiền Giang",
+      "Đồng Tháp",
+      "Campuchia"
+    ],
+    "status": "active"
   },
   {
     "id": "tiengiang",
+    "code": 82,
     "name": "Tiền Giang",
     "division_type": "tỉnh",
     "phone_code": 273,
@@ -761,7 +985,6 @@
     "type": "Tỉnh",
     "region": "Miền Nam",
     "area_km2": 2369,
-    "population": 1700000,
     "boundaries": [
       "Long An",
       "TP.HCM",
@@ -769,10 +992,12 @@
       "Bến Tre",
       "Vĩnh Long",
       "Đồng Tháp"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "bentre",
+    "code": 83,
     "name": "Bến Tre",
     "division_type": "tỉnh",
     "phone_code": 275,
@@ -780,11 +1005,17 @@
     "type": "Tỉnh",
     "region": "Miền Nam",
     "area_km2": 2376,
-    "population": 1300000,
-    "boundaries": ["Tiền Giang", "Trà Vinh", "Vĩnh Long"]
+    "boundaries": [
+      "Tiền Giang",
+      "Trà Vinh",
+      "Vĩnh Long"
+    ],
+    "status": "merged",
+    "merged_into": "86"
   },
   {
     "id": "travinh",
+    "code": 84,
     "name": "Trà Vinh",
     "division_type": "tỉnh",
     "phone_code": 294,
@@ -792,11 +1023,17 @@
     "type": "Tỉnh",
     "region": "Miền Nam",
     "area_km2": 2984,
-    "population": 1100000,
-    "boundaries": ["Bến Tre", "Sóc Trăng", "Vĩnh Long"]
+    "boundaries": [
+      "Bến Tre",
+      "Sóc Trăng",
+      "Vĩnh Long"
+    ],
+    "status": "merged",
+    "merged_into": "86"
   },
   {
     "id": "vinhlong",
+    "code": 86,
     "name": "Vĩnh Long",
     "division_type": "tỉnh",
     "phone_code": 270,
@@ -804,7 +1041,6 @@
     "type": "Tỉnh",
     "region": "Miền Nam",
     "area_km2": 1509,
-    "population": 900000,
     "boundaries": [
       "Tiền Giang",
       "Bến Tre",
@@ -812,10 +1048,12 @@
       "Sóc Trăng",
       "Cần Thơ",
       "Đồng Tháp"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "dongthap",
+    "code": 87,
     "name": "Đồng Tháp",
     "division_type": "tỉnh",
     "phone_code": 277,
@@ -823,7 +1061,6 @@
     "type": "Tỉnh",
     "region": "Miền Nam",
     "area_km2": 3358,
-    "population": 1600000,
     "boundaries": [
       "An Giang",
       "Cần Thơ",
@@ -831,10 +1068,13 @@
       "Tiền Giang",
       "Long An",
       "Campuchia"
-    ]
+    ],
+    "status": "merged",
+    "merged_into": "82"
   },
   {
     "id": "angiang",
+    "code": 89,
     "name": "An Giang",
     "division_type": "tỉnh",
     "phone_code": 296,
@@ -842,11 +1082,18 @@
     "type": "Tỉnh",
     "region": "Miền Nam",
     "area_km2": 3537,
-    "population": 1900000,
-    "boundaries": ["Đồng Tháp", "Cần Thơ", "Kiên Giang", "Campuchia"]
+    "boundaries": [
+      "Đồng Tháp",
+      "Cần Thơ",
+      "Kiên Giang",
+      "Campuchia"
+    ],
+    "status": "merged",
+    "merged_into": "91"
   },
   {
     "id": "kiengiang",
+    "code": 91,
     "name": "Kiên Giang",
     "division_type": "tỉnh",
     "phone_code": 297,
@@ -854,7 +1101,6 @@
     "type": "Tỉnh",
     "region": "Miền Nam",
     "area_km2": 6345,
-    "population": 1700000,
     "boundaries": [
       "An Giang",
       "Cần Thơ",
@@ -862,10 +1108,12 @@
       "Bạc Liêu",
       "Cà Mau",
       "Campuchia"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "cantho",
+    "code": 92,
     "name": "Cần Thơ",
     "division_type": "thành phố trung ương",
     "phone_code": 292,
@@ -873,17 +1121,18 @@
     "type": "Thành phố",
     "region": "Miền Nam",
     "area_km2": 1437,
-    "population": 1200000,
     "boundaries": [
       "An Giang",
       "Đồng Tháp",
       "Vĩnh Long",
       "Hậu Giang",
       "Kiên Giang"
-    ]
+    ],
+    "status": "active"
   },
   {
     "id": "haugiang",
+    "code": 93,
     "name": "Hậu Giang",
     "division_type": "tỉnh",
     "phone_code": 293,
@@ -891,17 +1140,19 @@
     "type": "Tỉnh",
     "region": "Miền Nam",
     "area_km2": 1327,
-    "population": 800000,
     "boundaries": [
       "Cần Thơ",
       "Vĩnh Long",
       "Sóc Trăng",
       "Bạc Liêu",
       "Kiên Giang"
-    ]
+    ],
+    "status": "merged",
+    "merged_into": "92"
   },
   {
     "id": "soctrang",
+    "code": 94,
     "name": "Sóc Trăng",
     "division_type": "tỉnh",
     "phone_code": 299,
@@ -909,11 +1160,18 @@
     "type": "Tỉnh",
     "region": "Miền Nam",
     "area_km2": 3315,
-    "population": 1200000,
-    "boundaries": ["Hậu Giang", "Bạc Liêu", "Trà Vinh", "Vĩnh Long"]
+    "boundaries": [
+      "Hậu Giang",
+      "Bạc Liêu",
+      "Trà Vinh",
+      "Vĩnh Long"
+    ],
+    "status": "merged",
+    "merged_into": "92"
   },
   {
     "id": "baclieu",
+    "code": 95,
     "name": "Bạc Liêu",
     "division_type": "tỉnh",
     "phone_code": 291,
@@ -921,11 +1179,18 @@
     "type": "Tỉnh",
     "region": "Miền Nam",
     "area_km2": 2658,
-    "population": 700000,
-    "boundaries": ["Hậu Giang", "Sóc Trăng", "Cà Mau", "Kiên Giang"]
+    "boundaries": [
+      "Hậu Giang",
+      "Sóc Trăng",
+      "Cà Mau",
+      "Kiên Giang"
+    ],
+    "status": "merged",
+    "merged_into": "96"
   },
   {
     "id": "camau",
+    "code": 96,
     "name": "Cà Mau",
     "division_type": "tỉnh",
     "phone_code": 290,
@@ -933,7 +1198,10 @@
     "type": "Tỉnh",
     "region": "Miền Nam",
     "area_km2": 5221,
-    "population": 1500000,
-    "boundaries": ["Kiên Giang", "Bạc Liêu"]
+    "boundaries": [
+      "Kiên Giang",
+      "Bạc Liêu"
+    ],
+    "status": "active"
   }
 ]

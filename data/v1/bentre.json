@@ -5,67 +5,123 @@
       {
         "name": "Thành phố Bến Tre",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 829,
+        "status": "active",
         "wards": [
           {
             "name": "Phường An Hội",
             "division_type": "phường",
+            "code": 28777,
+            "status": "active",
             "details": {
-              "streets": ["Nguyễn Đình Chiểu", "Hùng Vương"],
+              "streets": [
+                "Nguyễn Đình Chiểu",
+                "Hùng Vương"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường 4",
             "division_type": "phường",
-            "details": { "streets": ["Trần Quốc Tuấn"], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [
+                "Trần Quốc Tuấn"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường 5",
             "division_type": "phường",
-            "details": { "streets": ["Nguyễn Huệ"], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [
+                "Nguyễn Huệ"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường 6",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 28762,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường 7",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 28780,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường 8",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 28759,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Phú Khương",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 28756,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Phú Tân",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 28757,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Châu Thành",
         "division_type": "huyện",
+        "code": 831,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Châu Thành",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 28810,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Tân Thạch",
             "division_type": "xã",
+            "code": 28804,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Cầu Rạch Miễu", "Cồn Phụng"]
+              "villages_hamlets": [
+                "Cầu Rạch Miễu",
+                "Cồn Phụng"
+              ]
             }
           }
         ]
@@ -73,78 +129,130 @@
       {
         "name": "Huyện Chợ Lách",
         "division_type": "huyện",
+        "code": 832,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Chợ Lách",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 28870,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Vĩnh Thành",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": ["Cái Mơn"] }
+            "code": 28894,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Cái Mơn"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Huyện Mỏ Cày Nam",
         "division_type": "huyện",
+        "code": 833,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Mỏ Cày",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 28903,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Mỏ Cày Bắc",
         "division_type": "huyện",
+        "code": 838,
+        "status": "active",
         "wards": [
           {
             "name": "Xã Phước Mỹ Trung",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Giồng Trôm",
         "division_type": "huyện",
+        "code": 834,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Giồng Trôm",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 28984,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Bình Đại",
         "division_type": "huyện",
+        "code": 835,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Bình Đại",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 29050,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Ba Tri",
         "division_type": "huyện",
+        "code": 836,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Ba Tri",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 29110,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã An Hiệp",
             "division_type": "xã",
+            "code": 29161,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Di tích cụ Nguyễn Đình Chiểu"]
+              "villages_hamlets": [
+                "Di tích cụ Nguyễn Đình Chiểu"
+              ]
             }
           }
         ]
@@ -152,11 +260,18 @@
       {
         "name": "Huyện Thạnh Phú",
         "division_type": "huyện",
+        "code": 837,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Thạnh Phú",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 29182,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       }

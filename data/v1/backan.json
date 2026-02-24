@@ -5,161 +5,279 @@
       {
         "name": "Thành phố Bắc Kạn",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 58,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Nguyễn Thị Minh Khai",
             "division_type": "phường",
+            "code": 1834,
+            "status": "active",
             "details": {
-              "streets": ["Nguyễn Thị Minh Khai", "Thanh Niên"],
+              "streets": [
+                "Nguyễn Thị Minh Khai",
+                "Thanh Niên"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường Phùng Chí Kiên",
             "division_type": "phường",
+            "code": 1843,
+            "status": "active",
             "details": {
-              "streets": ["Phùng Chí Kiên", "Trường Chinh"],
+              "streets": [
+                "Phùng Chí Kiên",
+                "Trường Chinh"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường Sông Cầu",
             "division_type": "phường",
+            "code": 1837,
+            "status": "active",
             "details": {
-              "streets": ["Thành Công", "Kon Tum"],
+              "streets": [
+                "Thành Công",
+                "Kon Tum"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường Đức Xuân",
             "division_type": "phường",
-            "details": { "streets": ["Hùng Vương"], "villages_hamlets": [] }
+            "code": 1840,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Hùng Vương"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Huyền Tụng",
             "division_type": "phường",
+            "code": 1846,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Bản Pung", "Chợ Viện"]
+              "villages_hamlets": [
+                "Bản Pung",
+                "Chợ Viện"
+              ]
             }
           },
           {
             "name": "Phường Xuất Hóa",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": ["Bản Đồn"] }
+            "code": 1855,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Bản Đồn"
+              ]
+            }
           },
           {
             "name": "Xã Dương Quang",
             "division_type": "xã",
+            "code": 1849,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Bản Phia Phao", "Bản Bung"]
+              "villages_hamlets": [
+                "Bản Phia Phao",
+                "Bản Bung"
+              ]
             }
           },
           {
             "name": "Xã Nông Thượng",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": ["Bản Khuổi Cò"] }
+            "code": 1852,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Bản Khuổi Cò"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Huyện Ba Bể",
         "division_type": "huyện",
+        "code": 61,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Chợ Rã",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 1888,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Nam Mẫu",
             "division_type": "xã",
+            "code": 1909,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Bản Pác Ngòi", "Bản Cám", "Bản Bó Lù"]
+              "villages_hamlets": [
+                "Bản Pác Ngòi",
+                "Bản Cám",
+                "Bản Bó Lù"
+              ]
             }
           },
           {
             "name": "Xã Khang Ninh",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 1906,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Chợ Đồn",
         "division_type": "huyện",
+        "code": 64,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Bằng Lũng",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 2020,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Bản Thi",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 2035,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Chợ Mới",
         "division_type": "huyện",
+        "code": 65,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Đồng Tâm",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 2086,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Na Rì",
         "division_type": "huyện",
+        "code": 66,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Yến Lạc",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 2155,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Ngân Sơn",
         "division_type": "huyện",
+        "code": 62,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Vân Tùng",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 1954,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Thị trấn Nà Phặc",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 1936,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Pác Nặm",
         "division_type": "huyện",
+        "code": 60,
+        "status": "active",
         "wards": [
           {
             "name": "Xã Bộc Bố",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 1864,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Bạch Thông",
         "division_type": "huyện",
+        "code": 63,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Phủ Thông",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 1969,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       }

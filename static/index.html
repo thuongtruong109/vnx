@@ -1,0 +1,1170 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VNX – Chuyển đổi địa chỉ hành chính</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      :root {
+        --bg: #0f1117;
+        --surface: #1a1d2e;
+        --surface2: #22263a;
+        --border: #2d3150;
+        --accent: #4f7fff;
+        --accent2: #6ee7b7;
+        --red: #f87171;
+        --text: #e2e8f0;
+        --muted: #94a3b8;
+        --radius: 12px;
+        --shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+      }
+
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: "Segoe UI", system-ui, sans-serif;
+        min-height: 100vh;
+        padding: 24px 16px 48px;
+      }
+
+      .container {
+        max-width: 860px;
+        margin: 0 auto;
+      }
+
+      /* ── Header ── */
+      header {
+        text-align: center;
+        padding: 36px 0 32px;
+      }
+      header .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: var(--surface2);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        padding: 4px 14px;
+        font-size: 12px;
+        color: var(--accent2);
+        letter-spacing: 0.5px;
+        margin-bottom: 16px;
+      }
+      header h1 {
+        font-size: clamp(22px, 5vw, 36px);
+        font-weight: 700;
+      }
+      header h1 span {
+        color: var(--accent);
+      }
+      header p {
+        color: var(--muted);
+        margin-top: 8px;
+        font-size: 15px;
+      }
+
+      /* ── Tab switcher ── */
+      .tabs {
+        display: flex;
+        gap: 8px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 6px;
+        margin-bottom: 24px;
+      }
+      .tab-btn {
+        flex: 1;
+        padding: 10px 0;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s;
+        background: transparent;
+        color: var(--muted);
+      }
+      .tab-btn.active {
+        background: var(--accent);
+        color: #fff;
+        box-shadow: 0 2px 12px rgba(79, 127, 255, 0.35);
+      }
+
+      /* ── Card ── */
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 28px;
+        box-shadow: var(--shadow);
+      }
+
+      .form-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+        margin-bottom: 20px;
+      }
+
+      .field label {
+        display: block;
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--muted);
+        margin-bottom: 6px;
+        letter-spacing: 0.3px;
+      }
+      .field input {
+        width: 100%;
+        background: var(--surface2);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 10px 14px;
+        color: var(--text);
+        font-size: 14px;
+        outline: none;
+        transition: border-color 0.2s;
+      }
+      .field input:focus {
+        border-color: var(--accent);
+      }
+      .field .hint {
+        font-size: 11px;
+        color: var(--muted);
+        margin-top: 4px;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 11px 26px;
+        border-radius: 8px;
+        border: none;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+      .btn-primary {
+        background: var(--accent);
+        color: #fff;
+        box-shadow: 0 2px 12px rgba(79, 127, 255, 0.3);
+      }
+      .btn-primary:hover {
+        filter: brightness(1.12);
+      }
+      .btn-primary:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        filter: none;
+      }
+
+      /* ── Result ── */
+      .result-section {
+        margin-top: 24px;
+      }
+      .result-section h3 {
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        margin-bottom: 12px;
+      }
+
+      .result-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+
+      .result-card {
+        background: var(--surface2);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 18px;
+      }
+      .result-card .rc-label {
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.7px;
+        margin-bottom: 10px;
+      }
+      .result-card.v1 .rc-label {
+        color: var(--red);
+      }
+      .result-card.v2 .rc-label {
+        color: var(--accent2);
+      }
+
+      .result-card .not-found {
+        color: var(--muted);
+        font-style: italic;
+        font-size: 13px;
+      }
+
+      .province-result,
+      .ward-result {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 12px;
+        margin-bottom: 10px;
+      }
+      .province-result:last-child,
+      .ward-result:last-child {
+        margin-bottom: 0;
+      }
+
+      .tag {
+        display: inline-flex;
+        align-items: center;
+        background: rgba(79, 127, 255, 0.15);
+        color: var(--accent);
+        border-radius: 6px;
+        padding: 2px 8px;
+        font-size: 12px;
+        font-weight: 600;
+      }
+      .tag.green {
+        background: rgba(110, 231, 183, 0.12);
+        color: var(--accent2);
+      }
+      .tag.red {
+        background: rgba(248, 113, 113, 0.12);
+        color: var(--red);
+      }
+
+      .row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 6px;
+        flex-wrap: wrap;
+      }
+      .row:last-child {
+        margin-bottom: 0;
+      }
+
+      .pill-name {
+        font-weight: 600;
+        font-size: 14px;
+      }
+      .pill-code {
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .pill-meta {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      /* ward list */
+      .ward-list {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+
+      /* error */
+      .error-box {
+        background: rgba(248, 113, 113, 0.1);
+        border: 1px solid rgba(248, 113, 113, 0.3);
+        border-radius: 8px;
+        padding: 12px 16px;
+        color: var(--red);
+        font-size: 13px;
+        margin-top: 16px;
+      }
+
+      /* loader */
+      .spinner {
+        width: 18px;
+        height: 18px;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        border-top-color: #fff;
+        border-radius: 50%;
+        animation: spin 0.6s linear infinite;
+        display: none;
+      }
+      .loading .spinner {
+        display: block;
+      }
+      .loading .btn-text {
+        display: none;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      /* info box */
+      .info-box {
+        background: rgba(79, 127, 255, 0.07);
+        border: 1px solid rgba(79, 127, 255, 0.2);
+        border-radius: 8px;
+        padding: 12px 16px;
+        color: var(--muted);
+        font-size: 13px;
+        margin-bottom: 24px;
+        line-height: 1.6;
+      }
+      .info-box strong {
+        color: var(--text);
+      }
+
+      /* ── Combobox ── */
+      .combo-wrap {
+        position: relative;
+      }
+      .combo-wrap input {
+        width: 100%;
+        background: var(--surface2);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 10px 36px 10px 14px;
+        color: var(--text);
+        font-size: 14px;
+        outline: none;
+        transition: border-color 0.2s;
+      }
+      .combo-wrap input:focus {
+        border-color: var(--accent);
+      }
+      .combo-wrap input:disabled {
+        opacity: 0.45;
+        cursor: not-allowed;
+      }
+      .combo-arrow {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        pointer-events: none;
+        color: var(--muted);
+        font-size: 11px;
+        transition: transform 0.2s;
+      }
+      .combo-wrap.open .combo-arrow {
+        transform: translateY(-50%) rotate(180deg);
+      }
+      .combo-list {
+        display: none;
+        position: absolute;
+        z-index: 100;
+        left: 0;
+        right: 0;
+        top: calc(100% + 4px);
+        background: var(--surface2);
+        border: 1px solid var(--accent);
+        border-radius: 8px;
+        max-height: 220px;
+        overflow-y: auto;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+      }
+      .combo-wrap.open .combo-list {
+        display: block;
+      }
+      .combo-list::-webkit-scrollbar {
+        width: 5px;
+      }
+      .combo-list::-webkit-scrollbar-thumb {
+        background: var(--border);
+        border-radius: 3px;
+      }
+      .combo-item {
+        padding: 9px 14px;
+        font-size: 13px;
+        cursor: pointer;
+        transition: background 0.12s;
+        border-bottom: 1px solid var(--border);
+      }
+      .combo-item:last-child {
+        border-bottom: none;
+      }
+      .combo-item:hover,
+      .combo-item.active {
+        background: rgba(79, 127, 255, 0.15);
+        color: var(--accent);
+      }
+      .combo-item .item-code {
+        color: var(--muted);
+        font-size: 11px;
+        margin-left: 6px;
+      }
+      .combo-empty {
+        padding: 10px 14px;
+        font-size: 13px;
+        color: var(--muted);
+        font-style: italic;
+      }
+      .combo-loading {
+        padding: 10px 14px;
+        font-size: 13px;
+        color: var(--muted);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .combo-loading .mini-spin {
+        width: 12px;
+        height: 12px;
+        border: 2px solid rgba(255, 255, 255, 0.15);
+        border-top-color: var(--accent);
+        border-radius: 50%;
+        animation: spin 0.6s linear infinite;
+      }
+
+      /* responsive */
+      @media (max-width: 560px) {
+        .result-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <div class="badge">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5z"
+            />
+          </svg>
+          VNX Address Converter
+        </div>
+        <h1>Chuyển đổi <span>địa chỉ hành chính</span></h1>
+        <p>
+          Tra cứu &amp; chuyển đổi giữa địa chỉ cũ (trước 2025) và địa chỉ mới
+          (sau 2025)
+        </p>
+      </header>
+
+      <div class="info-box">
+        Từ <strong>01/01/2025</strong>, Việt Nam thực hiện sắp xếp lại đơn vị
+        hành chính cấp tỉnh &amp; huyện. Nhiều tỉnh thành được
+        <strong>sáp nhập, đổi tên</strong>; cấp huyện được giải thể. Công cụ này
+        giúp tra cứu địa chỉ <strong>v1 (cũ)</strong> →
+        <strong>v2 (mới)</strong> và ngược lại.
+      </div>
+
+      <!-- Tabs -->
+      <div class="tabs">
+        <button
+          class="tab-btn active"
+          data-tab="old-to-new"
+          onclick="switchTab('old-to-new')"
+        >
+          🗺️ Cũ → Mới
+        </button>
+        <button
+          class="tab-btn"
+          data-tab="new-to-old"
+          onclick="switchTab('new-to-old')"
+        >
+          🔄 Mới → Cũ
+        </button>
+      </div>
+
+      <!-- ── Panel: Old → New ── -->
+      <div id="panel-old-to-new">
+        <div class="card">
+          <div class="form-grid">
+            <div class="field">
+              <label>Tỉnh/Thành phố cũ</label>
+              <div class="combo-wrap" id="wrap-o2n-province">
+                <input
+                  id="o2n-province"
+                  type="text"
+                  placeholder="Chọn tỉnh/thành phố cũ…"
+                  autocomplete="off"
+                />
+                <span class="combo-arrow">▼</span>
+                <div class="combo-list" id="list-o2n-province"></div>
+              </div>
+              <div class="hint">Tỉnh/thành phố trước 2025 (v1)</div>
+            </div>
+            <div class="field">
+              <label>Quận/Huyện cũ (tuỳ chọn)</label>
+              <div class="combo-wrap" id="wrap-o2n-district">
+                <input
+                  id="o2n-district"
+                  type="text"
+                  placeholder="Chọn quận/huyện…"
+                  autocomplete="off"
+                  disabled
+                />
+                <span class="combo-arrow">▼</span>
+                <div class="combo-list" id="list-o2n-district"></div>
+              </div>
+              <div class="hint">Chọn tỉnh trước để lọc huyện</div>
+            </div>
+            <div class="field">
+              <label>Phường/Xã cũ (tuỳ chọn)</label>
+              <div class="combo-wrap" id="wrap-o2n-ward">
+                <input
+                  id="o2n-ward"
+                  type="text"
+                  placeholder="Chọn phường/xã…"
+                  autocomplete="off"
+                  disabled
+                />
+                <span class="combo-arrow">▼</span>
+                <div class="combo-list" id="list-o2n-ward"></div>
+              </div>
+              <div class="hint">Chọn huyện trước để lọc phường/xã</div>
+            </div>
+          </div>
+          <button
+            class="btn btn-primary"
+            id="btn-o2n"
+            onclick="resolveOldToNew()"
+          >
+            <div class="spinner"></div>
+            <span class="btn-text">Tra cứu →</span>
+          </button>
+
+          <div id="result-old-to-new"></div>
+        </div>
+      </div>
+
+      <!-- ── Panel: New → Old ── -->
+      <div id="panel-new-to-old" style="display: none">
+        <div class="card">
+          <div class="form-grid">
+            <div class="field">
+              <label>Tỉnh/Thành phố mới</label>
+              <div class="combo-wrap" id="wrap-n2o-province">
+                <input
+                  id="n2o-province"
+                  type="text"
+                  placeholder="Chọn tỉnh/thành phố mới…"
+                  autocomplete="off"
+                />
+                <span class="combo-arrow">▼</span>
+                <div class="combo-list" id="list-n2o-province"></div>
+              </div>
+              <div class="hint">Tỉnh/thành phố sau 2025 (v2)</div>
+            </div>
+            <div class="field">
+              <label>Phường/Xã mới (tuỳ chọn)</label>
+              <div class="combo-wrap" id="wrap-n2o-ward">
+                <input
+                  id="n2o-ward"
+                  type="text"
+                  placeholder="Chọn phường/xã…"
+                  autocomplete="off"
+                  disabled
+                />
+                <span class="combo-arrow">▼</span>
+                <div class="combo-list" id="list-n2o-ward"></div>
+              </div>
+              <div class="hint">Chọn tỉnh trước để lọc phường/xã</div>
+            </div>
+          </div>
+          <button
+            class="btn btn-primary"
+            id="btn-n2o"
+            onclick="resolveNewToOld()"
+          >
+            <div class="spinner"></div>
+            <span class="btn-text">Tra cứu →</span>
+          </button>
+
+          <div id="result-new-to-old"></div>
+        </div>
+      </div>
+    </div>
+    <!-- /container -->
+
+    <script>
+      /* ════════════════════════════════════════════════
+         STATE
+         ════════════════════════════════════════════════ */
+      // Cached province lists
+      const cache = {
+        v1Provinces: null, // [{name, code, id}] – include_inactive=true
+        v2Provinces: null, // [{name, code, id}] – active only
+        // detail cache keyed by province id
+        detail: {},
+      };
+
+      // Selected values (the actual value sent to the API)
+      const sel = {
+        o2nProvince: "",
+        o2nDistrict: "",
+        o2nWard: "",
+        n2oProvince: "",
+        n2oWard: "",
+      };
+
+      /* ════════════════════════════════════════════════
+         COMBOBOX ENGINE
+         ════════════════════════════════════════════════ */
+      /**
+       * initCombo – wires up a searchable dropdown
+       * @param {string} inputId  – id of the <input>
+       * @param {string} listId   – id of the .combo-list
+       * @param {string} wrapId   – id of the .combo-wrap
+       * @param {Function} getItems  – () => [{label, sub?, value}]
+       * @param {Function} onSelect  – (item) => void
+       */
+      function initCombo(inputId, listId, wrapId, getItems, onSelect) {
+        const inp = document.getElementById(inputId);
+        const list = document.getElementById(listId);
+        const wrap = document.getElementById(wrapId);
+
+        let highlighted = -1;
+        let isOpen = false;
+
+        function open() {
+          const items = getItems();
+          isOpen = true;
+          wrap.classList.add("open");
+          if (!items) {
+            list.innerHTML = `<div class="combo-loading"><div class="mini-spin"></div> Đang tải…</div>`;
+            return;
+          }
+          renderList(inp.value);
+        }
+        function close() {
+          isOpen = false;
+          wrap.classList.remove("open");
+        }
+
+        function renderList(filter) {
+          const items = getItems();
+          if (!items) return;
+
+          const q = filter.toLowerCase().trim();
+          const matched = q
+            ? items.filter(
+                (i) =>
+                  i.label.toLowerCase().includes(q) ||
+                  (i.sub && String(i.sub).includes(q)),
+              )
+            : items;
+
+          highlighted = -1;
+
+          if (!matched.length) {
+            list.innerHTML = `<div class="combo-empty">Không tìm thấy kết quả</div>`;
+            return;
+          }
+
+          list.innerHTML = matched
+            .map(
+              (item, idx) => `
+            <div class="combo-item" data-idx="${idx}" data-value="${escHtml(item.value)}" data-label="${escHtml(item.label)}">
+              ${escHtml(item.label)}
+              ${item.sub !== undefined ? `<span class="item-code">#${escHtml(String(item.sub))}</span>` : ""}
+            </div>
+          `,
+            )
+            .join("");
+
+          list.querySelectorAll(".combo-item").forEach((el) => {
+            el.addEventListener("mousedown", (e) => {
+              e.preventDefault();
+              const label = el.dataset.label;
+              const value = el.dataset.value;
+              inp.value = label;
+              close();
+              onSelect({ label, value });
+            });
+          });
+        }
+
+        // Called externally once data is ready so an already-focused/open input shows items
+        function notifyReady() {
+          if (isOpen) {
+            renderList(inp.value);
+          } else if (document.activeElement === inp) {
+            open();
+          }
+        }
+
+        inp.addEventListener("focus", open);
+        inp.addEventListener("click", open);
+        inp.addEventListener("input", () => {
+          open();
+        });
+
+        inp.addEventListener("keydown", (e) => {
+          const items = list.querySelectorAll(".combo-item");
+          if (e.key === "ArrowDown") {
+            e.preventDefault();
+            highlighted = Math.min(highlighted + 1, items.length - 1);
+            items.forEach((el, i) =>
+              el.classList.toggle("active", i === highlighted),
+            );
+            items[highlighted]?.scrollIntoView({ block: "nearest" });
+          } else if (e.key === "ArrowUp") {
+            e.preventDefault();
+            highlighted = Math.max(highlighted - 1, 0);
+            items.forEach((el, i) =>
+              el.classList.toggle("active", i === highlighted),
+            );
+            items[highlighted]?.scrollIntoView({ block: "nearest" });
+          } else if (e.key === "Enter") {
+            e.stopPropagation();
+            if (highlighted >= 0 && items[highlighted]) {
+              const el = items[highlighted];
+              inp.value = el.dataset.label;
+              close();
+              onSelect({ label: el.dataset.label, value: el.dataset.value });
+            } else {
+              close();
+            }
+          } else if (e.key === "Escape") {
+            close();
+          }
+        });
+
+        document.addEventListener("mousedown", (e) => {
+          if (!wrap.contains(e.target)) close();
+        });
+
+        return { notifyReady };
+      }
+
+      function setComboLoading(listId) {
+        document.getElementById(listId).innerHTML =
+          `<div class="combo-loading"><div class="mini-spin"></div> Đang tải…</div>`;
+      }
+
+      function enableCombo(inputId, on, placeholder) {
+        const el = document.getElementById(inputId);
+        el.disabled = !on;
+        if (placeholder) el.placeholder = placeholder;
+        if (!on) el.value = "";
+      }
+
+      /* ════════════════════════════════════════════════
+         DATA FETCHING
+         ════════════════════════════════════════════════ */
+      async function loadV1Provinces() {
+        if (cache.v1Provinces) return cache.v1Provinces;
+        const r = await fetch("/api/v1/provinces");
+        const data = await r.json();
+        cache.v1Provinces = data.map((p) => ({
+          label: p.name,
+          sub: p.code,
+          value: p.name,
+          id: null, // v1 provinces have no detail endpoint; district/ward cascade is unavailable
+          code: p.code,
+        }));
+        return cache.v1Provinces;
+      }
+
+      async function loadV2Provinces() {
+        if (cache.v2Provinces) return cache.v2Provinces;
+        const r = await fetch("/api/provinces");
+        const data = await r.json();
+        cache.v2Provinces = data.map((p) => ({
+          label: p.name,
+          sub: p.code,
+          value: p.name,
+          id: p.id,
+          code: p.code,
+        }));
+        return cache.v2Provinces;
+      }
+
+      async function loadProvinceDetail(provinceId) {
+        if (cache.detail[provinceId]) return cache.detail[provinceId];
+        const r = await fetch(`/api/provinces/detail/${provinceId}`);
+        const data = await r.json();
+        cache.detail[provinceId] = data;
+        return data;
+      }
+
+      /* ════════════════════════════════════════════════
+         COMBO SETUP – Old→New
+         ════════════════════════════════════════════════ */
+      let o2nProvinceItems = null; // null = still loading
+      let o2nDistrictItems = [];
+      let o2nWardItems = [];
+
+      const comboO2nProvince = initCombo(
+        "o2n-province",
+        "list-o2n-province",
+        "wrap-o2n-province",
+        () => o2nProvinceItems,
+        async (item) => {
+          sel.o2nProvince = item.value;
+          sel.o2nDistrict = "";
+          sel.o2nWard = "";
+          enableCombo(
+            "o2n-district",
+            false,
+            "Không có dữ liệu huyện cho địa chỉ cũ",
+          );
+          enableCombo("o2n-ward", false, "Không có dữ liệu xã cho địa chỉ cũ");
+          document.getElementById("o2n-district").value = "";
+          document.getElementById("o2n-ward").value = "";
+          o2nDistrictItems = [];
+          o2nWardItems = [];
+        },
+      );
+
+      initCombo(
+        "o2n-district",
+        "list-o2n-district",
+        "wrap-o2n-district",
+        () => o2nDistrictItems,
+        (item) => {
+          sel.o2nDistrict = item.value;
+          sel.o2nWard = "";
+          document.getElementById("o2n-ward").value = "";
+          o2nWardItems = [];
+          const dist = o2nDistrictItems.find((d) => d.value === item.value);
+          if (dist) {
+            o2nWardItems = (dist.wards || []).map((w) => ({
+              label: w.name,
+              sub: w.code,
+              value: w.name,
+            }));
+            enableCombo("o2n-ward", true, "Chọn phường/xã…");
+          }
+        },
+      );
+
+      initCombo(
+        "o2n-ward",
+        "list-o2n-ward",
+        "wrap-o2n-ward",
+        () => o2nWardItems,
+        (item) => {
+          sel.o2nWard = item.value;
+        },
+      );
+
+      /* ════════════════════════════════════════════════
+         COMBO SETUP – New→Old
+         ════════════════════════════════════════════════ */
+      let n2oProvinceItems = null; // null = still loading
+      let n2oWardItems = [];
+
+      const comboN2oProvince = initCombo(
+        "n2o-province",
+        "list-n2o-province",
+        "wrap-n2o-province",
+        () => n2oProvinceItems,
+        async (item) => {
+          sel.n2oProvince = item.value;
+          sel.n2oWard = "";
+          document.getElementById("n2o-ward").value = "";
+          n2oWardItems = [];
+          enableCombo("n2o-ward", false, "Đang tải phường/xã…");
+
+          const prov = n2oProvinceItems.find((p) => p.value === item.value);
+          if (prov && prov.id) {
+            const detail = await loadProvinceDetail(prov.id);
+            const wards = [];
+            (detail.districts || []).forEach((d) => {
+              (d.wards || []).forEach((w) =>
+                wards.push({ label: w.name, sub: w.code, value: w.name }),
+              );
+            });
+            n2oWardItems = wards;
+            enableCombo("n2o-ward", true, "Chọn phường/xã…");
+          }
+        },
+      );
+
+      initCombo(
+        "n2o-ward",
+        "list-n2o-ward",
+        "wrap-n2o-ward",
+        () => n2oWardItems,
+        (item) => {
+          sel.n2oWard = item.value;
+        },
+      );
+
+      /* ════════════════════════════════════════════════
+         INIT – load province lists on page load
+         ════════════════════════════════════════════════ */
+
+      // Set loading placeholder (inputs stay enabled so user can click them)
+      document.getElementById("o2n-province").placeholder =
+        "Đang tải danh sách tỉnh…";
+      document.getElementById("n2o-province").placeholder =
+        "Đang tải danh sách tỉnh…";
+
+      (async () => {
+        try {
+          const [v1, v2] = await Promise.all([
+            loadV1Provinces(),
+            loadV2Provinces(),
+          ]);
+          o2nProvinceItems = v1;
+          n2oProvinceItems = v2;
+          document.getElementById("o2n-province").placeholder =
+            "Chọn tỉnh/thành phố cũ…";
+          document.getElementById("n2o-province").placeholder =
+            "Chọn tỉnh/thành phố mới…";
+          // If either input is already focused/open, re-trigger open to show items
+          comboO2nProvince.notifyReady();
+          comboN2oProvince.notifyReady();
+        } catch (err) {
+          console.error("Failed to load province lists:", err);
+          document.getElementById("o2n-province").placeholder =
+            "Lỗi tải dữ liệu – thử tải lại trang";
+          document.getElementById("n2o-province").placeholder =
+            "Lỗi tải dữ liệu – thử tải lại trang";
+        }
+      })();
+
+      /* ════════════════════════════════════════════════
+         TAB SWITCHER
+         ════════════════════════════════════════════════ */
+      function switchTab(tab) {
+        document
+          .querySelectorAll(".tab-btn")
+          .forEach((b) => b.classList.toggle("active", b.dataset.tab === tab));
+        document.getElementById("panel-old-to-new").style.display =
+          tab === "old-to-new" ? "" : "none";
+        document.getElementById("panel-new-to-old").style.display =
+          tab === "new-to-old" ? "" : "none";
+      }
+
+      /* ════════════════════════════════════════════════
+         UTILITY
+         ════════════════════════════════════════════════ */
+      function setLoading(btnId, on) {
+        const btn = document.getElementById(btnId);
+        btn.disabled = on;
+        btn.classList.toggle("loading", on);
+      }
+
+      function showError(containerId, msg) {
+        document.getElementById(containerId).innerHTML =
+          `<div class="error-box">⚠️ ${msg}</div>`;
+      }
+
+      /* ════════════════════════════════════════════════
+         OLD → NEW
+         ════════════════════════════════════════════════ */
+      async function resolveOldToNew() {
+        const province =
+          sel.o2nProvince ||
+          document.getElementById("o2n-province").value.trim();
+        const district =
+          sel.o2nDistrict ||
+          document.getElementById("o2n-district").value.trim();
+        const ward =
+          sel.o2nWard || document.getElementById("o2n-ward").value.trim();
+
+        if (!province && !ward) {
+          showError(
+            "result-old-to-new",
+            "Vui lòng chọn ít nhất Tỉnh/Thành phố hoặc Phường/Xã.",
+          );
+          return;
+        }
+
+        setLoading("btn-o2n", true);
+        try {
+          const params = new URLSearchParams();
+          if (province) params.set("province", province);
+          if (district) params.set("district", district);
+          if (ward) params.set("ward", ward);
+
+          const res = await fetch(`/api/resolve/old-to-new?${params}`);
+          const data = await res.json();
+          if (!res.ok) {
+            showError("result-old-to-new", data.error || "Lỗi không xác định.");
+            return;
+          }
+          document.getElementById("result-old-to-new").innerHTML =
+            renderOldToNew(data);
+        } catch (e) {
+          showError("result-old-to-new", "Không thể kết nối đến server.");
+        } finally {
+          setLoading("btn-o2n", false);
+        }
+      }
+
+      function renderOldToNew(data) {
+        const q = data.query || {};
+        let html = `<div class="result-section"><h3>Kết quả tra cứu</h3><div class="result-grid">`;
+
+        /* Province block */
+        html += `<div class="result-card v1"><div class="rc-label">🏛️ Tỉnh / Thành phố</div>`;
+        if (q.province) {
+          const p = data.province;
+          if (p && p.found) {
+            html += `
+          <div class="province-result">
+            <div class="row"><span class="tag red">Cũ (v1)</span><span class="pill-name">${escHtml(q.province)}</span></div>
+            <div style="padding:4px 0;text-align:center;color:var(--muted);font-size:18px;">↓</div>
+            <div class="row"><span class="tag green">Mới (v2)</span><span class="pill-name">${escHtml(p.v2_province.name)}</span><span class="pill-code">#${p.v2_province.code}</span></div>
+            ${p.v2_id ? `<div class="row"><span class="pill-meta">ID: <code>${escHtml(p.v2_id)}</code></span></div>` : ""}
+          </div>`;
+          } else if (p) {
+            html += `<p class="not-found">Không tìm thấy tỉnh "<strong>${escHtml(q.province)}</strong>" trong dữ liệu v1.</p>`;
+          }
+        } else {
+          html += `<p class="not-found">Không có truy vấn tỉnh.</p>`;
+        }
+        html += `</div>`;
+
+        /* Ward block */
+        html += `<div class="result-card v2"><div class="rc-label">📍 Phường / Xã</div>`;
+        if (q.ward) {
+          const w = data.ward;
+          if (w && w.found) {
+            const v1list = (w.v1_wards || []).filter(
+              (x) =>
+                !q.ward ||
+                x.name.toLowerCase().includes(q.ward.toLowerCase()) ||
+                String(x.code) === q.ward,
+            );
+            const display = v1list.length
+              ? v1list
+              : (w.v1_wards || []).slice(0, 1);
+            html += `<div class="ward-list">`;
+            display.forEach((old) => {
+              html += `
+            <div class="ward-result">
+              <div class="row"><span class="tag red">Cũ (v1)</span><span class="pill-name">${escHtml(old.name)}</span><span class="pill-code">#${old.code}</span></div>
+              ${old.district_name ? `<div class="row"><span class="pill-meta">Huyện: ${escHtml(old.district_name)} #${old.district_code}</span></div>` : ""}
+              ${old.province_name ? `<div class="row"><span class="pill-meta">Tỉnh: ${escHtml(old.province_name)} #${old.province_code}</span></div>` : ""}
+              <div style="padding:2px 0;text-align:center;color:var(--muted);font-size:16px;">↓</div>
+              <div class="row"><span class="tag green">Mới (v2)</span><span class="pill-name">${escHtml(w.v2_ward.name)}</span><span class="pill-code">#${w.v2_ward.code}</span></div>
+            </div>`;
+            });
+            html += `</div>`;
+          } else if (w) {
+            html += `<p class="not-found">Không tìm thấy phường/xã "<strong>${escHtml(q.ward)}</strong>" trong dữ liệu v1.</p>`;
+          }
+        } else {
+          html += `<p class="not-found">Không có truy vấn phường/xã.</p>`;
+        }
+        html += `</div></div></div>`;
+        return html;
+      }
+
+      /* ════════════════════════════════════════════════
+         NEW → OLD
+         ════════════════════════════════════════════════ */
+      async function resolveNewToOld() {
+        const province =
+          sel.n2oProvince ||
+          document.getElementById("n2o-province").value.trim();
+        const ward =
+          sel.n2oWard || document.getElementById("n2o-ward").value.trim();
+
+        if (!province && !ward) {
+          showError(
+            "result-new-to-old",
+            "Vui lòng chọn ít nhất Tỉnh/Thành phố hoặc Phường/Xã.",
+          );
+          return;
+        }
+
+        setLoading("btn-n2o", true);
+        try {
+          const params = new URLSearchParams();
+          if (province) params.set("province", province);
+          if (ward) params.set("ward", ward);
+
+          const res = await fetch(`/api/resolve/new-to-old?${params}`);
+          const data = await res.json();
+          if (!res.ok) {
+            showError("result-new-to-old", data.error || "Lỗi không xác định.");
+            return;
+          }
+          document.getElementById("result-new-to-old").innerHTML =
+            renderNewToOld(data);
+        } catch (e) {
+          showError("result-new-to-old", "Không thể kết nối đến server.");
+        } finally {
+          setLoading("btn-n2o", false);
+        }
+      }
+
+      function renderNewToOld(data) {
+        const q = data.query || {};
+        let html = `<div class="result-section"><h3>Kết quả tra cứu</h3><div class="result-grid">`;
+
+        /* Province */
+        html += `<div class="result-card v2"><div class="rc-label">🏛️ Tỉnh / Thành phố</div>`;
+        if (q.province) {
+          const p = data.province;
+          if (p && p.found) {
+            html += `<div class="province-result">`;
+            html += `<div class="row"><span class="tag green">Mới (v2)</span><span class="pill-name">${escHtml(p.v2_province.name)}</span><span class="pill-code">#${p.v2_province.code}</span></div>`;
+            html += `<div style="padding:4px 0;color:var(--muted);font-size:13px;margin:4px 0;">Được sáp nhập từ ${p.v1_provinces.length} tỉnh/thành cũ:</div>`;
+            html += `<div class="ward-list">`;
+            (p.v1_provinces || []).forEach((old) => {
+              html += `<div class="row"><span class="tag red">v1</span><span class="pill-name">${escHtml(old.name)}</span><span class="pill-code">#${old.code}</span></div>`;
+            });
+            html += `</div></div>`;
+          } else if (p) {
+            html += `<p class="not-found">Không tìm thấy tỉnh "<strong>${escHtml(q.province)}</strong>" trong dữ liệu v2.</p>`;
+          }
+        } else {
+          html += `<p class="not-found">Không có truy vấn tỉnh.</p>`;
+        }
+        html += `</div>`;
+
+        /* Ward */
+        html += `<div class="result-card v1"><div class="rc-label">📍 Phường / Xã</div>`;
+        if (q.ward) {
+          const w = data.ward;
+          if (w && w.found) {
+            html += `<div class="ward-result">`;
+            html += `<div class="row"><span class="tag green">Mới (v2)</span><span class="pill-name">${escHtml(w.v2_ward.name)}</span><span class="pill-code">#${w.v2_ward.code}</span></div>`;
+            html += `<div style="padding:2px 0;text-align:center;color:var(--muted);font-size:16px;">↓</div>`;
+            html += `<div style="color:var(--muted);font-size:12px;margin-bottom:8px;">Được hợp nhất từ ${w.v1_wards.length} phường/xã cũ:</div>`;
+            html += `<div class="ward-list">`;
+            (w.v1_wards || []).forEach((old) => {
+              html += `
+            <div class="ward-result">
+              <div class="row"><span class="tag red">v1</span><span class="pill-name">${escHtml(old.name)}</span><span class="pill-code">#${old.code}</span></div>
+              ${old.district_name ? `<div class="row"><span class="pill-meta">Huyện: ${escHtml(old.district_name)} #${old.district_code}</span></div>` : ""}
+              ${old.province_name ? `<div class="row"><span class="pill-meta">Tỉnh: ${escHtml(old.province_name)} #${old.province_code}</span></div>` : ""}
+            </div>`;
+            });
+            html += `</div></div>`;
+          } else if (w) {
+            html += `<p class="not-found">Không tìm thấy phường/xã "<strong>${escHtml(q.ward)}</strong>" trong dữ liệu v2.</p>`;
+          }
+        } else {
+          html += `<p class="not-found">Không có truy vấn phường/xã.</p>`;
+        }
+        html += `</div></div></div>`;
+        return html;
+      }
+
+      /* ════════════════════════════════════════════════
+         XSS HELPER
+         ════════════════════════════════════════════════ */
+      function escHtml(s) {
+        return String(s ?? "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+    </script>
+  </body>
+</html>

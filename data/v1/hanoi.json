@@ -5,10 +5,14 @@
       {
         "name": "Quận Ba Đình",
         "division_type": "quận",
+        "code": 1,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Cống Vị",
             "division_type": "phường",
+            "code": 7,
+            "status": "active",
             "details": {
               "streets": [
                 "Đội Cấn",
@@ -23,6 +27,8 @@
           {
             "name": "Phường Điện Biên",
             "division_type": "phường",
+            "code": 19,
+            "status": "active",
             "details": {
               "streets": [
                 "Điện Biên Phủ",
@@ -36,6 +42,8 @@
           {
             "name": "Phường Giảng Võ",
             "division_type": "phường",
+            "code": 31,
+            "status": "active",
             "details": {
               "streets": [
                 "Giảng Võ",
@@ -49,6 +57,8 @@
           {
             "name": "Phường Kim Mã",
             "division_type": "phường",
+            "code": 28,
+            "status": "active",
             "details": {
               "streets": [
                 "Kim Mã",
@@ -61,6 +71,8 @@
           {
             "name": "Phường Liễu Giai",
             "division_type": "phường",
+            "code": 8,
+            "status": "active",
             "details": {
               "streets": [
                 "Văn Cao",
@@ -73,6 +85,8 @@
           {
             "name": "Phường Ngọc Hà",
             "division_type": "phường",
+            "code": 16,
+            "status": "active",
             "details": {
               "streets": [
                 "Ngọc Hà",
@@ -85,6 +99,7 @@
           {
             "name": "Phường Nguyễn Trung Trực",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Hàng Than",
@@ -97,6 +112,8 @@
           {
             "name": "Phường Phúc Xá",
             "division_type": "phường",
+            "code": 1,
+            "status": "active",
             "details": {
               "streets": [
                 "Phúc Xá",
@@ -109,6 +126,8 @@
           {
             "name": "Phường Quán Thánh",
             "division_type": "phường",
+            "code": 13,
+            "status": "active",
             "details": {
               "streets": [
                 "Quán Thánh",
@@ -121,6 +140,8 @@
           {
             "name": "Phường Thành Công",
             "division_type": "phường",
+            "code": 34,
+            "status": "active",
             "details": {
               "streets": [
                 "Láng Hạ",
@@ -133,6 +154,8 @@
           {
             "name": "Phường Trúc Bạch",
             "division_type": "phường",
+            "code": 4,
+            "status": "active",
             "details": {
               "streets": [
                 "Trúc Bạch",
@@ -145,6 +168,8 @@
           {
             "name": "Phường Vĩnh Phúc",
             "division_type": "phường",
+            "code": 6,
+            "status": "active",
             "details": {
               "streets": [
                 "Đội Nhân",
@@ -159,10 +184,14 @@
       {
         "name": "Quận Hoàn Kiếm",
         "division_type": "quận",
+        "code": 2,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Chương Dương",
             "division_type": "phường",
+            "code": 67,
+            "status": "active",
             "details": {
               "streets": [
                 "Bạch Đằng",
@@ -174,6 +203,8 @@
           {
             "name": "Phường Cửa Đông",
             "division_type": "phường",
+            "code": 55,
+            "status": "active",
             "details": {
               "streets": [
                 "Đường Thành",
@@ -185,6 +216,8 @@
           {
             "name": "Phường Cửa Nam",
             "division_type": "phường",
+            "code": 73,
+            "status": "active",
             "details": {
               "streets": [
                 "Lê Duẩn",
@@ -196,6 +229,8 @@
           {
             "name": "Phường Đồng Xuân",
             "division_type": "phường",
+            "code": 40,
+            "status": "active",
             "details": {
               "streets": [
                 "Hàng Khoai",
@@ -207,6 +242,8 @@
           {
             "name": "Phường Hàng Bạc",
             "division_type": "phường",
+            "code": 61,
+            "status": "active",
             "details": {
               "streets": [
                 "Hàng Bạc",
@@ -219,6 +256,8 @@
           {
             "name": "Phường Hàng Bài",
             "division_type": "phường",
+            "code": 88,
+            "status": "active",
             "details": {
               "streets": [
                 "Hàng Bài",
@@ -230,6 +269,8 @@
           {
             "name": "Phường Hàng Bồ",
             "division_type": "phường",
+            "code": 52,
+            "status": "active",
             "details": {
               "streets": [
                 "Hàng Bồ",
@@ -241,6 +282,8 @@
           {
             "name": "Phường Hàng Bông",
             "division_type": "phường",
+            "code": 76,
+            "status": "active",
             "details": {
               "streets": [
                 "Hàng Bông",
@@ -252,6 +295,8 @@
           {
             "name": "Phường Hàng Buồm",
             "division_type": "phường",
+            "code": 46,
+            "status": "active",
             "details": {
               "streets": [
                 "Hàng Buồm",
@@ -263,6 +308,8 @@
           {
             "name": "Phường Hàng Đào",
             "division_type": "phường",
+            "code": 49,
+            "status": "active",
             "details": {
               "streets": [
                 "Hàng Đào",
@@ -274,6 +321,8 @@
           {
             "name": "Phường Hàng Gai",
             "division_type": "phường",
+            "code": 64,
+            "status": "active",
             "details": {
               "streets": [
                 "Hàng Gai",
@@ -285,6 +334,8 @@
           {
             "name": "Phường Hàng Mã",
             "division_type": "phường",
+            "code": 43,
+            "status": "active",
             "details": {
               "streets": [
                 "Hàng Mã",
@@ -296,6 +347,8 @@
           {
             "name": "Phường Hàng Trống",
             "division_type": "phường",
+            "code": 70,
+            "status": "active",
             "details": {
               "streets": [
                 "Nhà Thờ",
@@ -307,6 +360,8 @@
           {
             "name": "Phường Lý Thái Tổ",
             "division_type": "phường",
+            "code": 58,
+            "status": "active",
             "details": {
               "streets": [
                 "Trần Quang Khải",
@@ -318,6 +373,8 @@
           {
             "name": "Phường Phan Chu Trinh",
             "division_type": "phường",
+            "code": 85,
+            "status": "active",
             "details": {
               "streets": [
                 "Phan Chu Trinh",
@@ -329,6 +386,8 @@
           {
             "name": "Phường Phúc Tân",
             "division_type": "phường",
+            "code": 37,
+            "status": "active",
             "details": {
               "streets": [
                 "Phúc Tân",
@@ -340,6 +399,8 @@
           {
             "name": "Phường Tràng Tiền",
             "division_type": "phường",
+            "code": 79,
+            "status": "active",
             "details": {
               "streets": [
                 "Tràng Tiền",
@@ -351,6 +412,8 @@
           {
             "name": "Phường Trần Hưng Đạo",
             "division_type": "phường",
+            "code": 82,
+            "status": "active",
             "details": {
               "streets": [
                 "Trần Hưng Đạo",
@@ -364,10 +427,14 @@
       {
         "name": "Quận Tây Hồ",
         "division_type": "quận",
+        "code": 3,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Bưởi",
             "division_type": "phường",
+            "code": 109,
+            "status": "active",
             "details": {
               "streets": [
                 "Lạc Long Quân",
@@ -380,6 +447,8 @@
           {
             "name": "Phường Nhật Tân",
             "division_type": "phường",
+            "code": 94,
+            "status": "active",
             "details": {
               "streets": [
                 "Âu Cơ",
@@ -391,6 +460,8 @@
           {
             "name": "Phường Phú Thượng",
             "division_type": "phường",
+            "code": 91,
+            "status": "active",
             "details": {
               "streets": [
                 "An Dương Vương",
@@ -402,6 +473,8 @@
           {
             "name": "Phường Quảng An",
             "division_type": "phường",
+            "code": 100,
+            "status": "active",
             "details": {
               "streets": [
                 "Xuân Diệu",
@@ -413,6 +486,8 @@
           {
             "name": "Phường Thụy Khuê",
             "division_type": "phường",
+            "code": 112,
+            "status": "active",
             "details": {
               "streets": [
                 "Thụy Khuê",
@@ -424,6 +499,8 @@
           {
             "name": "Phường Tứ Liên",
             "division_type": "phường",
+            "code": 97,
+            "status": "active",
             "details": {
               "streets": [
                 "Tứ Liên",
@@ -435,6 +512,8 @@
           {
             "name": "Phường Xuân La",
             "division_type": "phường",
+            "code": 103,
+            "status": "active",
             "details": {
               "streets": [
                 "Xuân La",
@@ -446,6 +525,8 @@
           {
             "name": "Phường Yên Phụ",
             "division_type": "phường",
+            "code": 106,
+            "status": "active",
             "details": {
               "streets": [
                 "Yên Phụ",
@@ -459,10 +540,14 @@
       {
         "name": "Quận Cầu Giấy",
         "division_type": "quận",
+        "code": 5,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Dịch Vọng",
             "division_type": "phường",
+            "code": 166,
+            "status": "active",
             "details": {
               "streets": [
                 "Cầu Giấy",
@@ -474,6 +559,8 @@
           {
             "name": "Phường Dịch Vọng Hậu",
             "division_type": "phường",
+            "code": 167,
+            "status": "active",
             "details": {
               "streets": [
                 "Trần Thái Tông",
@@ -485,6 +572,8 @@
           {
             "name": "Phường Mai Dịch",
             "division_type": "phường",
+            "code": 163,
+            "status": "active",
             "details": {
               "streets": [
                 "Hồ Tùng Mậu",
@@ -496,6 +585,8 @@
           {
             "name": "Phường Nghĩa Đô",
             "division_type": "phường",
+            "code": 157,
+            "status": "active",
             "details": {
               "streets": [
                 "Hoàng Quốc Việt",
@@ -507,6 +598,8 @@
           {
             "name": "Phường Nghĩa Tân",
             "division_type": "phường",
+            "code": 160,
+            "status": "active",
             "details": {
               "streets": [
                 "Tô Hiệu",
@@ -518,6 +611,8 @@
           {
             "name": "Phường Quan Hoa",
             "division_type": "phường",
+            "code": 169,
+            "status": "active",
             "details": {
               "streets": [
                 "Quan Hoa",
@@ -529,6 +624,8 @@
           {
             "name": "Phường Trung Hòa",
             "division_type": "phường",
+            "code": 175,
+            "status": "active",
             "details": {
               "streets": [
                 "Trần Duy Hưng",
@@ -540,6 +637,8 @@
           {
             "name": "Phường Yên Hòa",
             "division_type": "phường",
+            "code": 172,
+            "status": "active",
             "details": {
               "streets": [
                 "Dương Đình Nghệ",
@@ -553,10 +652,14 @@
       {
         "name": "Quận Đống Đa",
         "division_type": "quận",
+        "code": 6,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Cát Linh",
             "division_type": "phường",
+            "code": 178,
+            "status": "active",
             "details": {
               "streets": [
                 "Cát Linh",
@@ -568,6 +671,8 @@
           {
             "name": "Phường Hàng Bột",
             "division_type": "phường",
+            "code": 196,
+            "status": "active",
             "details": {
               "streets": [
                 "Tôn Đức Thắng"
@@ -578,6 +683,8 @@
           {
             "name": "Phường Khâm Thiên",
             "division_type": "phường",
+            "code": 202,
+            "status": "active",
             "details": {
               "streets": [
                 "Khâm Thiên"
@@ -588,6 +695,8 @@
           {
             "name": "Phường Khương Thượng",
             "division_type": "phường",
+            "code": 238,
+            "status": "active",
             "details": {
               "streets": [
                 "Tôn Thất Tùng"
@@ -598,6 +707,8 @@
           {
             "name": "Phường Kim Liên",
             "division_type": "phường",
+            "code": 229,
+            "status": "active",
             "details": {
               "streets": [
                 "Phạm Ngọc Thạch",
@@ -609,6 +720,8 @@
           {
             "name": "Phường Láng Hạ",
             "division_type": "phường",
+            "code": 199,
+            "status": "active",
             "details": {
               "streets": [
                 "Láng Hạ",
@@ -620,6 +733,8 @@
           {
             "name": "Phường Láng Thượng",
             "division_type": "phường",
+            "code": 187,
+            "status": "active",
             "details": {
               "streets": [
                 "Chùa Láng",
@@ -631,6 +746,8 @@
           {
             "name": "Phường Nam Đồng",
             "division_type": "phường",
+            "code": 208,
+            "status": "active",
             "details": {
               "streets": [
                 "Xã Đàn",
@@ -642,6 +759,7 @@
           {
             "name": "Phường Ngã Tư Sở",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Tây Sơn",
@@ -653,6 +771,8 @@
           {
             "name": "Phường Ô Chợ Dừa",
             "division_type": "phường",
+            "code": 190,
+            "status": "active",
             "details": {
               "streets": [
                 "Xã Đàn",
@@ -664,6 +784,7 @@
           {
             "name": "Phường Phương Liên",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Đào Duy Anh"
@@ -674,6 +795,8 @@
           {
             "name": "Phường Phương Mai",
             "division_type": "phường",
+            "code": 232,
+            "status": "active",
             "details": {
               "streets": [
                 "Giải Phóng",
@@ -685,6 +808,8 @@
           {
             "name": "Phường Quang Trung",
             "division_type": "phường",
+            "code": 214,
+            "status": "active",
             "details": {
               "streets": [
                 "Đặng Tiến Đông"
@@ -695,6 +820,7 @@
           {
             "name": "Phường Quốc Tử Giám",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Quốc Tử Giám",
@@ -706,6 +832,8 @@
           {
             "name": "Phường Thịnh Quang",
             "division_type": "phường",
+            "code": 235,
+            "status": "active",
             "details": {
               "streets": [
                 "Thịnh Quang",
@@ -717,6 +845,8 @@
           {
             "name": "Phường Thổ Quan",
             "division_type": "phường",
+            "code": 205,
+            "status": "active",
             "details": {
               "streets": [
                 "Khâm Thiên",
@@ -728,6 +858,7 @@
           {
             "name": "Phường Thượng Đình",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Nguyễn Trãi"
@@ -738,6 +869,8 @@
           {
             "name": "Phường Trung Liệt",
             "division_type": "phường",
+            "code": 217,
+            "status": "active",
             "details": {
               "streets": [
                 "Thái Hà",
@@ -749,6 +882,7 @@
           {
             "name": "Phường Trung Phụng",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Trung Phụng"
@@ -759,6 +893,7 @@
           {
             "name": "Phường Trung Tự",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Phạm Ngọc Thạch"
@@ -769,6 +904,8 @@
           {
             "name": "Phường Văn Chương",
             "division_type": "phường",
+            "code": 193,
+            "status": "active",
             "details": {
               "streets": [
                 "Văn Chương"
@@ -779,6 +916,7 @@
           {
             "name": "Phường Văn Miếu",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Văn Miếu",
@@ -792,10 +930,14 @@
       {
         "name": "Quận Hai Bà Trưng",
         "division_type": "quận",
+        "code": 7,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Bạch Đằng",
             "division_type": "phường",
+            "code": 244,
+            "status": "active",
             "details": {
               "streets": [
                 "Nguyễn Khoái",
@@ -807,6 +949,8 @@
           {
             "name": "Phường Bách Khoa",
             "division_type": "phường",
+            "code": 277,
+            "status": "active",
             "details": {
               "streets": [
                 "Tạ Quang Bửu",
@@ -818,6 +962,8 @@
           {
             "name": "Phường Bạch Mai",
             "division_type": "phường",
+            "code": 292,
+            "status": "active",
             "details": {
               "streets": [
                 "Bạch Mai",
@@ -829,6 +975,7 @@
           {
             "name": "Phường Cầu Dền",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Bạch Mai",
@@ -840,6 +987,8 @@
           {
             "name": "Phường Đồng Nhân",
             "division_type": "phường",
+            "code": 259,
+            "status": "active",
             "details": {
               "streets": [
                 "Lò Đúc",
@@ -851,6 +1000,8 @@
           {
             "name": "Phường Đồng Tâm",
             "division_type": "phường",
+            "code": 280,
+            "status": "active",
             "details": {
               "streets": [
                 "Giải Phóng",
@@ -862,6 +1013,7 @@
           {
             "name": "Phường Đống Mác",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Lò Đúc",
@@ -873,6 +1025,8 @@
           {
             "name": "Phường Lê Đại Hành",
             "division_type": "phường",
+            "code": 256,
+            "status": "active",
             "details": {
               "streets": [
                 "Bà Triệu",
@@ -884,6 +1038,8 @@
           {
             "name": "Phường Minh Khai",
             "division_type": "phường",
+            "code": 295,
+            "status": "active",
             "details": {
               "streets": [
                 "Minh Khai",
@@ -895,6 +1051,8 @@
           {
             "name": "Phường Nguyễn Du",
             "division_type": "phường",
+            "code": 241,
+            "status": "active",
             "details": {
               "streets": [
                 "Phố Huế",
@@ -906,6 +1064,8 @@
           {
             "name": "Phường Phạm Đình Hổ",
             "division_type": "phường",
+            "code": 247,
+            "status": "active",
             "details": {
               "streets": [
                 "Lò Đúc",
@@ -917,6 +1077,8 @@
           {
             "name": "Phường Phố Huế",
             "division_type": "phường",
+            "code": 262,
+            "status": "active",
             "details": {
               "streets": [
                 "Phố Huế",
@@ -928,6 +1090,7 @@
           {
             "name": "Phường Quỳnh Lôi",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Thanh Nhàn",
@@ -939,6 +1102,8 @@
           {
             "name": "Phường Quỳnh Mai",
             "division_type": "phường",
+            "code": 289,
+            "status": "active",
             "details": {
               "streets": [
                 "Quỳnh Mai"
@@ -949,6 +1114,8 @@
           {
             "name": "Phường Thanh Lương",
             "division_type": "phường",
+            "code": 268,
+            "status": "active",
             "details": {
               "streets": [
                 "Kim Ngưu",
@@ -960,6 +1127,8 @@
           {
             "name": "Phường Thanh Nhàn",
             "division_type": "phường",
+            "code": 271,
+            "status": "active",
             "details": {
               "streets": [
                 "Thanh Nhàn",
@@ -971,6 +1140,8 @@
           {
             "name": "Phường Trương Định",
             "division_type": "phường",
+            "code": 298,
+            "status": "active",
             "details": {
               "streets": [
                 "Trương Định",
@@ -982,6 +1153,8 @@
           {
             "name": "Phường Vĩnh Tuy",
             "division_type": "phường",
+            "code": 283,
+            "status": "active",
             "details": {
               "streets": [
                 "Dương Văn Bé",
@@ -995,10 +1168,14 @@
       {
         "name": "Quận Hoàng Mai",
         "division_type": "quận",
+        "code": 8,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Đại Kim",
             "division_type": "phường",
+            "code": 316,
+            "status": "active",
             "details": {
               "streets": [
                 "Nguyễn Xiển",
@@ -1010,6 +1187,8 @@
           {
             "name": "Phường Định Công",
             "division_type": "phường",
+            "code": 307,
+            "status": "active",
             "details": {
               "streets": [
                 "Định Công",
@@ -1021,6 +1200,8 @@
           {
             "name": "Phường Giáp Bát",
             "division_type": "phường",
+            "code": 325,
+            "status": "active",
             "details": {
               "streets": [
                 "Giải Phóng",
@@ -1032,6 +1213,8 @@
           {
             "name": "Phường Hoàng Liệt",
             "division_type": "phường",
+            "code": 337,
+            "status": "active",
             "details": {
               "streets": [
                 "Ngọc Hồi",
@@ -1043,6 +1226,8 @@
           {
             "name": "Phường Hoàng Văn Thụ",
             "division_type": "phường",
+            "code": 322,
+            "status": "active",
             "details": {
               "streets": [
                 "Tam Trinh",
@@ -1054,6 +1239,8 @@
           {
             "name": "Phường Lĩnh Nam",
             "division_type": "phường",
+            "code": 328,
+            "status": "active",
             "details": {
               "streets": [
                 "Lĩnh Nam",
@@ -1065,6 +1252,8 @@
           {
             "name": "Phường Mai Động",
             "division_type": "phường",
+            "code": 310,
+            "status": "active",
             "details": {
               "streets": [
                 "Mai Động",
@@ -1076,6 +1265,8 @@
           {
             "name": "Phường Tân Mai",
             "division_type": "phường",
+            "code": 319,
+            "status": "active",
             "details": {
               "streets": [
                 "Tân Mai",
@@ -1087,6 +1278,8 @@
           {
             "name": "Phường Thanh Trì",
             "division_type": "phường",
+            "code": 301,
+            "status": "active",
             "details": {
               "streets": [
                 "Nguyễn Khoái"
@@ -1097,6 +1290,8 @@
           {
             "name": "Phường Thịnh Liệt",
             "division_type": "phường",
+            "code": 331,
+            "status": "active",
             "details": {
               "streets": [
                 "Trương Định",
@@ -1108,6 +1303,8 @@
           {
             "name": "Phường Trần Phú",
             "division_type": "phường",
+            "code": 334,
+            "status": "active",
             "details": {
               "streets": [
                 "Khuyến Lương"
@@ -1118,6 +1315,8 @@
           {
             "name": "Phường Tương Mai",
             "division_type": "phường",
+            "code": 313,
+            "status": "active",
             "details": {
               "streets": [
                 "Trương Định",
@@ -1129,6 +1328,8 @@
           {
             "name": "Phường Vĩnh Hưng",
             "division_type": "phường",
+            "code": 304,
+            "status": "active",
             "details": {
               "streets": [
                 "Vĩnh Hưng",
@@ -1140,6 +1341,8 @@
           {
             "name": "Phường Yên Sở",
             "division_type": "phường",
+            "code": 340,
+            "status": "active",
             "details": {
               "streets": [
                 "Tam Trinh",
@@ -1153,10 +1356,14 @@
       {
         "name": "Quận Long Biên",
         "division_type": "quận",
+        "code": 4,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Bồ Đề",
             "division_type": "phường",
+            "code": 139,
+            "status": "active",
             "details": {
               "streets": [
                 "Nguyễn Văn Cừ",
@@ -1168,6 +1375,8 @@
           {
             "name": "Phường Cự Khối",
             "division_type": "phường",
+            "code": 154,
+            "status": "active",
             "details": {
               "streets": [
                 "Bát Khối"
@@ -1178,6 +1387,8 @@
           {
             "name": "Phường Đức Giang",
             "division_type": "phường",
+            "code": 124,
+            "status": "active",
             "details": {
               "streets": [
                 "Ngô Gia Tự",
@@ -1189,6 +1400,8 @@
           {
             "name": "Phường Gia Thụy",
             "division_type": "phường",
+            "code": 130,
+            "status": "active",
             "details": {
               "streets": [
                 "Nguyễn Văn Cừ"
@@ -1199,6 +1412,8 @@
           {
             "name": "Phường Giang Biên",
             "division_type": "phường",
+            "code": 121,
+            "status": "active",
             "details": {
               "streets": [
                 "Giang Biên"
@@ -1209,6 +1424,8 @@
           {
             "name": "Phường Long Biên",
             "division_type": "phường",
+            "code": 145,
+            "status": "active",
             "details": {
               "streets": [
                 "Cổ Linh"
@@ -1219,6 +1436,8 @@
           {
             "name": "Phường Ngọc Lâm",
             "division_type": "phường",
+            "code": 133,
+            "status": "active",
             "details": {
               "streets": [
                 "Ngọc Lâm",
@@ -1230,6 +1449,8 @@
           {
             "name": "Phường Ngọc Thụy",
             "division_type": "phường",
+            "code": 118,
+            "status": "active",
             "details": {
               "streets": [
                 "Ngọc Thụy"
@@ -1240,6 +1461,8 @@
           {
             "name": "Phường Phúc Đồng",
             "division_type": "phường",
+            "code": 151,
+            "status": "active",
             "details": {
               "streets": [
                 "Chu Huy Mân"
@@ -1250,6 +1473,8 @@
           {
             "name": "Phường Phúc Lợi",
             "division_type": "phường",
+            "code": 136,
+            "status": "active",
             "details": {
               "streets": [
                 "Phúc Lợi"
@@ -1260,6 +1485,7 @@
           {
             "name": "Phường Sài Đồng",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Sài Đồng"
@@ -1270,6 +1496,8 @@
           {
             "name": "Phường Thạch Bàn",
             "division_type": "phường",
+            "code": 148,
+            "status": "active",
             "details": {
               "streets": [
                 "Thạch Bàn"
@@ -1280,6 +1508,8 @@
           {
             "name": "Phường Thượng Thanh",
             "division_type": "phường",
+            "code": 115,
+            "status": "active",
             "details": {
               "streets": [
                 "Thượng Thanh"
@@ -1290,6 +1520,8 @@
           {
             "name": "Phường Việt Hưng",
             "division_type": "phường",
+            "code": 127,
+            "status": "active",
             "details": {
               "streets": [
                 "Việt Hưng"
@@ -1302,10 +1534,14 @@
       {
         "name": "Quận Nam Từ Liêm",
         "division_type": "quận",
+        "code": 19,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Cầu Diễn",
             "division_type": "phường",
+            "code": 592,
+            "status": "active",
             "details": {
               "streets": [
                 "Hàm Nghi",
@@ -1317,6 +1553,8 @@
           {
             "name": "Phường Đại Mỗ",
             "division_type": "phường",
+            "code": 634,
+            "status": "active",
             "details": {
               "streets": [
                 "Đại Mỗ"
@@ -1327,6 +1565,8 @@
           {
             "name": "Phường Mễ Trì",
             "division_type": "phường",
+            "code": 631,
+            "status": "active",
             "details": {
               "streets": [
                 "Mễ Trì",
@@ -1338,6 +1578,8 @@
           {
             "name": "Phường Mỹ Đình 1",
             "division_type": "phường",
+            "code": 625,
+            "status": "active",
             "details": {
               "streets": [
                 "Lê Đức Thọ",
@@ -1349,6 +1591,8 @@
           {
             "name": "Phường Mỹ Đình 2",
             "division_type": "phường",
+            "code": 626,
+            "status": "active",
             "details": {
               "streets": [
                 "Lê Đức Thọ",
@@ -1360,6 +1604,8 @@
           {
             "name": "Phường Phú Đô",
             "division_type": "phường",
+            "code": 632,
+            "status": "active",
             "details": {
               "streets": [
                 "Lê Quang Đạo"
@@ -1370,6 +1616,8 @@
           {
             "name": "Phường Phương Canh",
             "division_type": "phường",
+            "code": 623,
+            "status": "active",
             "details": {
               "streets": [
                 "Phương Canh"
@@ -1380,6 +1628,8 @@
           {
             "name": "Phường Tây Mỗ",
             "division_type": "phường",
+            "code": 628,
+            "status": "active",
             "details": {
               "streets": [
                 "Tây Mỗ"
@@ -1390,6 +1640,8 @@
           {
             "name": "Phường Trung Văn",
             "division_type": "phường",
+            "code": 637,
+            "status": "active",
             "details": {
               "streets": [
                 "Tố Hữu",
@@ -1401,6 +1653,8 @@
           {
             "name": "Phường Xuân Phương",
             "division_type": "phường",
+            "code": 622,
+            "status": "active",
             "details": {
               "streets": [
                 "Xuân Phương"
@@ -1413,10 +1667,14 @@
       {
         "name": "Quận Bắc Từ Liêm",
         "division_type": "quận",
+        "code": 21,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Cổ Nhuế 1",
             "division_type": "phường",
+            "code": 616,
+            "status": "active",
             "details": {
               "streets": [
                 "Trần Cung",
@@ -1428,6 +1686,8 @@
           {
             "name": "Phường Cổ Nhuế 2",
             "division_type": "phường",
+            "code": 617,
+            "status": "active",
             "details": {
               "streets": [
                 "Cổ Nhuế",
@@ -1439,6 +1699,8 @@
           {
             "name": "Phường Đông Ngạc",
             "division_type": "phường",
+            "code": 601,
+            "status": "active",
             "details": {
               "streets": [
                 "Đông Ngạc"
@@ -1449,6 +1711,8 @@
           {
             "name": "Phường Đức Thắng",
             "division_type": "phường",
+            "code": 602,
+            "status": "active",
             "details": {
               "streets": [
                 "Đức Thắng"
@@ -1459,6 +1723,8 @@
           {
             "name": "Phường Liên Mạc",
             "division_type": "phường",
+            "code": 598,
+            "status": "active",
             "details": {
               "streets": [
                 "Liên Mạc"
@@ -1469,6 +1735,8 @@
           {
             "name": "Phường Minh Khai",
             "division_type": "phường",
+            "code": 613,
+            "status": "active",
             "details": {
               "streets": [
                 "Văn Tiến Dũng"
@@ -1479,6 +1747,8 @@
           {
             "name": "Phường Phú Diễn",
             "division_type": "phường",
+            "code": 619,
+            "status": "active",
             "details": {
               "streets": [
                 "Phú Diễn"
@@ -1489,6 +1759,8 @@
           {
             "name": "Phường Phúc Diễn",
             "division_type": "phường",
+            "code": 620,
+            "status": "active",
             "details": {
               "streets": [
                 "Phúc Diễn"
@@ -1499,6 +1771,8 @@
           {
             "name": "Phường Tây Tựu",
             "division_type": "phường",
+            "code": 607,
+            "status": "active",
             "details": {
               "streets": [
                 "Tây Tựu"
@@ -1509,6 +1783,8 @@
           {
             "name": "Phường Thượng Cát",
             "division_type": "phường",
+            "code": 595,
+            "status": "active",
             "details": {
               "streets": [
                 "Thượng Cát"
@@ -1519,6 +1795,8 @@
           {
             "name": "Phường Thụy Phương",
             "division_type": "phường",
+            "code": 604,
+            "status": "active",
             "details": {
               "streets": [
                 "Thụy Phương"
@@ -1529,6 +1807,8 @@
           {
             "name": "Phường Xuân Đỉnh",
             "division_type": "phường",
+            "code": 610,
+            "status": "active",
             "details": {
               "streets": [
                 "Xuân Đỉnh"
@@ -1539,6 +1819,8 @@
           {
             "name": "Phường Xuân Tảo",
             "division_type": "phường",
+            "code": 611,
+            "status": "active",
             "details": {
               "streets": [
                 "Xuân Tảo"
@@ -1551,10 +1833,14 @@
       {
         "name": "Quận Hà Đông",
         "division_type": "quận",
+        "code": 268,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Biên Giang",
             "division_type": "phường",
+            "code": 10123,
+            "status": "active",
             "details": {
               "streets": [
                 "Quốc lộ 6"
@@ -1565,6 +1851,8 @@
           {
             "name": "Phường Đồng Mai",
             "division_type": "phường",
+            "code": 10117,
+            "status": "active",
             "details": {
               "streets": [
                 "Đồng Mai"
@@ -1575,6 +1863,8 @@
           {
             "name": "Phường Dương Nội",
             "division_type": "phường",
+            "code": 9886,
+            "status": "active",
             "details": {
               "streets": [
                 "Lê Trọng Tấn"
@@ -1585,6 +1875,8 @@
           {
             "name": "Phường Hà Cầu",
             "division_type": "phường",
+            "code": 9556,
+            "status": "active",
             "details": {
               "streets": [
                 "Hà Trì"
@@ -1595,6 +1887,8 @@
           {
             "name": "Phường Kiến Hưng",
             "division_type": "phường",
+            "code": 9565,
+            "status": "active",
             "details": {
               "streets": [
                 "Mậu Lương"
@@ -1605,6 +1899,8 @@
           {
             "name": "Phường La Khê",
             "division_type": "phường",
+            "code": 9551,
+            "status": "active",
             "details": {
               "streets": [
                 "Lê Trọng Tấn"
@@ -1615,6 +1911,8 @@
           {
             "name": "Phường Mộ Lao",
             "division_type": "phường",
+            "code": 9541,
+            "status": "active",
             "details": {
               "streets": [
                 "Nguyễn Văn Lộc"
@@ -1625,6 +1923,7 @@
           {
             "name": "Phường Nguyễn Trãi",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Nguyễn Trãi"
@@ -1635,6 +1934,8 @@
           {
             "name": "Phường Phú La",
             "division_type": "phường",
+            "code": 9552,
+            "status": "active",
             "details": {
               "streets": [
                 "Quang Trung"
@@ -1645,6 +1946,8 @@
           {
             "name": "Phường Phú Lãm",
             "division_type": "phường",
+            "code": 9568,
+            "status": "active",
             "details": {
               "streets": [
                 "Quốc lộ 21B"
@@ -1655,6 +1958,8 @@
           {
             "name": "Phường Phú Lương",
             "division_type": "phường",
+            "code": 9571,
+            "status": "active",
             "details": {
               "streets": [
                 "Phú Lương"
@@ -1665,6 +1970,8 @@
           {
             "name": "Phường Phúc La",
             "division_type": "phường",
+            "code": 9553,
+            "status": "active",
             "details": {
               "streets": [
                 "Phùng Hưng"
@@ -1675,6 +1982,8 @@
           {
             "name": "Phường Quang Trung",
             "division_type": "phường",
+            "code": 9538,
+            "status": "active",
             "details": {
               "streets": [
                 "Quang Trung"
@@ -1685,6 +1994,8 @@
           {
             "name": "Phường Vạn Phúc",
             "division_type": "phường",
+            "code": 9544,
+            "status": "active",
             "details": {
               "streets": [
                 "Vạn Phúc"
@@ -1695,6 +2006,8 @@
           {
             "name": "Phường Văn Quán",
             "division_type": "phường",
+            "code": 9542,
+            "status": "active",
             "details": {
               "streets": [
                 "Văn Quán"
@@ -1705,6 +2018,8 @@
           {
             "name": "Phường Yên Nghĩa",
             "division_type": "phường",
+            "code": 9562,
+            "status": "active",
             "details": {
               "streets": [
                 "Quốc lộ 6"
@@ -1715,6 +2030,7 @@
           {
             "name": "Phường Yết Kiêu",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Yết Kiêu"
@@ -1727,10 +2043,14 @@
       {
         "name": "Quận Thanh Xuân",
         "division_type": "quận",
+        "code": 9,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Hạ Đình",
             "division_type": "phường",
+            "code": 373,
+            "status": "active",
             "details": {
               "streets": [
                 "Khương Đình"
@@ -1741,6 +2061,8 @@
           {
             "name": "Phường Khương Đình",
             "division_type": "phường",
+            "code": 364,
+            "status": "active",
             "details": {
               "streets": [
                 "Khương Đình"
@@ -1751,6 +2073,8 @@
           {
             "name": "Phường Khương Mai",
             "division_type": "phường",
+            "code": 352,
+            "status": "active",
             "details": {
               "streets": [
                 "Lê Trọng Tấn"
@@ -1761,6 +2085,8 @@
           {
             "name": "Phường Khương Trung",
             "division_type": "phường",
+            "code": 349,
+            "status": "active",
             "details": {
               "streets": [
                 "Khương Trung"
@@ -1771,6 +2097,7 @@
           {
             "name": "Phường Kim Giang",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Kim Giang"
@@ -1781,6 +2108,8 @@
           {
             "name": "Phường Nhân Chính",
             "division_type": "phường",
+            "code": 343,
+            "status": "active",
             "details": {
               "streets": [
                 "Lê Văn Lương"
@@ -1791,6 +2120,8 @@
           {
             "name": "Phường Phương Liệt",
             "division_type": "phường",
+            "code": 358,
+            "status": "active",
             "details": {
               "streets": [
                 "Giải Phóng"
@@ -1801,6 +2132,8 @@
           {
             "name": "Phường Thanh Xuân Bắc",
             "division_type": "phường",
+            "code": 367,
+            "status": "active",
             "details": {
               "streets": [
                 "Khuất Duy Tiến"
@@ -1811,6 +2144,7 @@
           {
             "name": "Phường Thanh Xuân Nam",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Nguyễn Trãi"
@@ -1821,6 +2155,8 @@
           {
             "name": "Phường Thanh Xuân Trung",
             "division_type": "phường",
+            "code": 355,
+            "status": "active",
             "details": {
               "streets": [
                 "Nguyễn Huy Tưởng"
@@ -1831,6 +2167,8 @@
           {
             "name": "Phường Thượng Đình",
             "division_type": "phường",
+            "code": 346,
+            "status": "active",
             "details": {
               "streets": [
                 "Nguyễn Trãi"
@@ -1843,10 +2181,13 @@
       {
         "name": "Thị xã Sơn Tây",
         "division_type": "thị xã",
+        "code": 269,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Lê Lợi",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Lê Lợi"
@@ -1857,6 +2198,8 @@
           {
             "name": "Phường Ngô Quyền",
             "division_type": "phường",
+            "code": 9574,
+            "status": "active",
             "details": {
               "streets": [
                 "Ngô Quyền"
@@ -1867,6 +2210,8 @@
           {
             "name": "Phường Phú Thịnh",
             "division_type": "phường",
+            "code": 9577,
+            "status": "active",
             "details": {
               "streets": [
                 "Phú Thịnh"
@@ -1877,6 +2222,7 @@
           {
             "name": "Phường Quang Trung",
             "division_type": "phường",
+            "status": "active",
             "details": {
               "streets": [
                 "Quang Trung"
@@ -1887,6 +2233,8 @@
           {
             "name": "Phường Sơn Lộc",
             "division_type": "phường",
+            "code": 9586,
+            "status": "active",
             "details": {
               "streets": [
                 "Sơn Lộc"
@@ -1897,6 +2245,8 @@
           {
             "name": "Phường Trung Hưng",
             "division_type": "phường",
+            "code": 9601,
+            "status": "active",
             "details": {
               "streets": [
                 "Trung Hưng"
@@ -1907,6 +2257,8 @@
           {
             "name": "Phường Trung Sơn Trầm",
             "division_type": "phường",
+            "code": 9607,
+            "status": "active",
             "details": {
               "streets": [
                 "Trung Sơn Trầm"
@@ -1917,6 +2269,8 @@
           {
             "name": "Phường Viên Sơn",
             "division_type": "phường",
+            "code": 9595,
+            "status": "active",
             "details": {
               "streets": [
                 "Viên Sơn"
@@ -1927,6 +2281,8 @@
           {
             "name": "Phường Xuân Khanh",
             "division_type": "phường",
+            "code": 9589,
+            "status": "active",
             "details": {
               "streets": [
                 "Xuân Khanh"
@@ -1939,10 +2295,14 @@
       {
         "name": "Huyện Ba Vì",
         "division_type": "huyện",
+        "code": 271,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Tây Đằng",
             "division_type": "thị trấn",
+            "code": 9619,
+            "status": "active",
             "details": {
               "streets": [
                 "Quốc lộ 32"
@@ -1956,6 +2316,8 @@
           {
             "name": "Xã Ba Trại",
             "division_type": "xã",
+            "code": 9697,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -1967,6 +2329,8 @@
           {
             "name": "Xã Cẩm Lĩnh",
             "division_type": "xã",
+            "code": 9673,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -1979,10 +2343,14 @@
       {
         "name": "Huyện Chương Mỹ",
         "division_type": "huyện",
+        "code": 277,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Chúc Sơn",
             "division_type": "thị trấn",
+            "code": 10015,
+            "status": "active",
             "details": {
               "streets": [
                 "Quốc lộ 6"
@@ -1995,6 +2363,8 @@
           {
             "name": "Thị trấn Xuân Mai",
             "division_type": "thị trấn",
+            "code": 10018,
+            "status": "active",
             "details": {
               "streets": [
                 "Quốc lộ 6",
@@ -2008,10 +2378,14 @@
       {
         "name": "Huyện Đan Phượng",
         "division_type": "huyện",
+        "code": 273,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Phùng",
             "division_type": "thị trấn",
+            "code": 9784,
+            "status": "active",
             "details": {
               "streets": [
                 "Phan Đình Phùng"
@@ -2024,10 +2398,14 @@
       {
         "name": "Huyện Đông Anh",
         "division_type": "huyện",
+        "code": 17,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Đông Anh",
             "division_type": "thị trấn",
+            "code": 454,
+            "status": "active",
             "details": {
               "streets": [
                 "Cao Lỗ"
@@ -2041,6 +2419,8 @@
           {
             "name": "Xã Kim Chung",
             "division_type": "xã",
+            "code": 493,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -2054,10 +2434,14 @@
       {
         "name": "Huyện Gia Lâm",
         "division_type": "huyện",
+        "code": 18,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Trâu Quỳ",
             "division_type": "thị trấn",
+            "code": 565,
+            "status": "active",
             "details": {
               "streets": [
                 "Ngô Xuân Quảng"
@@ -2068,6 +2452,8 @@
           {
             "name": "Thị trấn Yên Viên",
             "division_type": "thị trấn",
+            "code": 526,
+            "status": "active",
             "details": {
               "streets": [
                 "Hà Huy Tập"
@@ -2078,6 +2464,8 @@
           {
             "name": "Xã Bát Tràng",
             "division_type": "xã",
+            "code": 583,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -2091,10 +2479,14 @@
       {
         "name": "Huyện Hoài Đức",
         "division_type": "huyện",
+        "code": 274,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Trạm Trôi",
             "division_type": "thị trấn",
+            "code": 9832,
+            "status": "active",
             "details": {
               "streets": [
                 "Quốc lộ 32"
@@ -2107,10 +2499,14 @@
       {
         "name": "Huyện Mê Linh",
         "division_type": "huyện",
+        "code": 250,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Chi Đông",
             "division_type": "thị trấn",
+            "code": 8973,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -2119,6 +2515,8 @@
           {
             "name": "Thị trấn Quang Minh",
             "division_type": "thị trấn",
+            "code": 8989,
+            "status": "active",
             "details": {
               "streets": [
                 "Võ Văn Kiệt"
@@ -2131,10 +2529,14 @@
       {
         "name": "Huyện Mỹ Đức",
         "division_type": "huyện",
+        "code": 282,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Đại Nghĩa",
             "division_type": "thị trấn",
+            "code": 10441,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -2145,10 +2547,14 @@
       {
         "name": "Huyện Phú Xuyên",
         "division_type": "huyện",
+        "code": 280,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Phú Minh",
             "division_type": "thị trấn",
+            "code": 10270,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -2157,6 +2563,8 @@
           {
             "name": "Thị trấn Phú Xuyên",
             "division_type": "thị trấn",
+            "code": 10273,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -2167,10 +2575,14 @@
       {
         "name": "Huyện Phúc Thọ",
         "division_type": "huyện",
+        "code": 272,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Phúc Thọ",
             "division_type": "thị trấn",
+            "code": 9715,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -2181,10 +2593,14 @@
       {
         "name": "Huyện Quốc Oai",
         "division_type": "huyện",
+        "code": 275,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Quốc Oai",
             "division_type": "thị trấn",
+            "code": 9895,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -2195,10 +2611,14 @@
       {
         "name": "Huyện Sóc Sơn",
         "division_type": "huyện",
+        "code": 16,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Sóc Sơn",
             "division_type": "thị trấn",
+            "code": 376,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -2209,10 +2629,14 @@
       {
         "name": "Huyện Thạch Thất",
         "division_type": "huyện",
+        "code": 276,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Liên Quan",
             "division_type": "thị trấn",
+            "code": 9955,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -2223,10 +2647,14 @@
       {
         "name": "Huyện Thanh Oai",
         "division_type": "huyện",
+        "code": 278,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Kim Bài",
             "division_type": "thị trấn",
+            "code": 10114,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -2237,10 +2665,14 @@
       {
         "name": "Huyện Thanh Trì",
         "division_type": "huyện",
+        "code": 20,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Văn Điển",
             "division_type": "thị trấn",
+            "code": 640,
+            "status": "active",
             "details": {
               "streets": [
                 "Ngọc Hồi",
@@ -2254,10 +2686,14 @@
       {
         "name": "Huyện Thường Tín",
         "division_type": "huyện",
+        "code": 279,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Thường Tín",
             "division_type": "thị trấn",
+            "code": 10183,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -2268,10 +2704,14 @@
       {
         "name": "Huyện Ứng Hòa",
         "division_type": "huyện",
+        "code": 281,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Vân Đình",
             "division_type": "thị trấn",
+            "code": 10354,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []

@@ -5,31 +5,53 @@
       {
         "name": "Thành phố Vị Thanh",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 930,
+        "status": "active",
         "wards": [
           {
             "name": "Phường 1",
             "division_type": "phường",
+            "status": "active",
             "details": {
-              "streets": ["Trần Hưng Đạo", "Nguyễn Công Trứ"],
+              "streets": [
+                "Trần Hưng Đạo",
+                "Nguyễn Công Trứ"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường 3",
             "division_type": "phường",
-            "details": { "streets": ["Lê Hồng Phong"], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [
+                "Lê Hồng Phong"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường 5",
             "division_type": "phường",
-            "details": { "streets": ["Võ Nguyên Giáp"], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [
+                "Võ Nguyên Giáp"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Vị Tân",
             "division_type": "xã",
+            "code": 31333,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Kênh Xáng Xà No"]
+              "villages_hamlets": [
+                "Kênh Xáng Xà No"
+              ]
             }
           }
         ]
@@ -37,85 +59,145 @@
       {
         "name": "Thành phố Ngã Bảy",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 931,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Ngã Bảy",
             "division_type": "phường",
+            "code": 31340,
+            "status": "active",
             "details": {
-              "streets": ["Hùng Vương"],
-              "villages_hamlets": ["Chợ nổi Ngã Bảy"]
+              "streets": [
+                "Hùng Vương"
+              ],
+              "villages_hamlets": [
+                "Chợ nổi Ngã Bảy"
+              ]
             }
           },
           {
             "name": "Phường Hiệp Thành",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31343,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Thị xã Long Mỹ",
         "division_type": "thị xã",
+        "code": 937,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Thuận An",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31471,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Bình Thạnh",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31473,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Châu Thành",
         "division_type": "huyện",
+        "code": 933,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Ngã Sáu",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31366,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Phú Hữu",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31378,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Châu Thành A",
         "division_type": "huyện",
+        "code": 932,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Một Ngàn",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31342,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Thị trấn Bảy Ngàn",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31346,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Phụng Hiệp",
         "division_type": "huyện",
+        "code": 934,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Cây Dương",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31396,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Phương Bình",
             "division_type": "xã",
+            "code": 31426,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Khu bảo tồn thiên nhiên Lung Ngọc Hoàng"]
+              "villages_hamlets": [
+                "Khu bảo tồn thiên nhiên Lung Ngọc Hoàng"
+              ]
             }
           }
         ]
@@ -123,22 +205,36 @@
       {
         "name": "Huyện Vị Thủy",
         "division_type": "huyện",
+        "code": 935,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Nàng Mau",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31441,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Long Mỹ",
         "division_type": "huyện",
+        "code": 936,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Vĩnh Viễn",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31489,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       }

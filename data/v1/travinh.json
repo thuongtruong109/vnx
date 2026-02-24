@@ -5,130 +5,226 @@
       {
         "name": "Thành phố Trà Vinh",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 842,
+        "status": "active",
         "wards": [
           {
             "name": "Phường 1",
             "division_type": "phường",
+            "code": 29239,
+            "status": "active",
             "details": {
-              "streets": ["Phạm Ngũ Lão", "Nam Kỳ Khởi Nghĩa"],
+              "streets": [
+                "Phạm Ngũ Lão",
+                "Nam Kỳ Khởi Nghĩa"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường 2",
             "division_type": "phường",
-            "details": { "streets": ["Điện Biên Phủ"], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [
+                "Điện Biên Phủ"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường 8",
             "division_type": "phường",
+            "code": 29257,
+            "status": "active",
             "details": {
-              "streets": ["Nguyễn Đáng"],
-              "villages_hamlets": ["Ao Bà Om", "Chùa Ang"]
+              "streets": [
+                "Nguyễn Đáng"
+              ],
+              "villages_hamlets": [
+                "Ao Bà Om",
+                "Chùa Ang"
+              ]
             }
           },
           {
             "name": "Xã Long Đức",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": ["Đền thờ Bác Hồ"] }
+            "code": 29263,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Đền thờ Bác Hồ"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Thị xã Duyên Hải",
         "division_type": "thị xã",
+        "code": 851,
+        "status": "active",
         "wards": [
           {
             "name": "Phường 1",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 29512,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Hiệp Thạnh",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": ["Biển Ba Động"] }
+            "code": 29539,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Biển Ba Động"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Huyện Cầu Kè",
         "division_type": "huyện",
+        "code": 845,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Cầu Kè",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 29308,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Tiểu Cần",
         "division_type": "huyện",
+        "code": 846,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Tiểu Cần",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 29341,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Châu Thành",
         "division_type": "huyện",
+        "code": 847,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Châu Thành",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 29374,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Càng Long",
         "division_type": "huyện",
+        "code": 844,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Càng Long",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 29266,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Trà Cú",
         "division_type": "huyện",
+        "code": 849,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Trà Cú",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 29461,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Hàm Giang",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": ["Chùa Vàm Ray"] }
+            "code": 29488,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Chùa Vàm Ray"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Huyện Cầu Ngang",
         "division_type": "huyện",
+        "code": 848,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Cầu Ngang",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 29416,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Duyên Hải",
         "division_type": "huyện",
+        "code": 850,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Cái Đôi Vàm",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       }

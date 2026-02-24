@@ -5,39 +5,66 @@
       {
         "name": "Thành phố Tam Kỳ",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 502,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Tân Thạnh",
             "division_type": "phường",
+            "code": 20335,
+            "status": "active",
             "details": {
-              "streets": ["Trần Phú", "Hùng Vương"],
+              "streets": [
+                "Trần Phú",
+                "Hùng Vương"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường An Mỹ",
             "division_type": "phường",
+            "code": 20341,
+            "status": "active",
             "details": {
-              "streets": ["Phan Chu Trinh", "Trần Cao Vân"],
+              "streets": [
+                "Phan Chu Trinh",
+                "Trần Cao Vân"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường Phước Hòa",
             "division_type": "phường",
-            "details": { "streets": ["Nguyễn Huệ"], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [
+                "Nguyễn Huệ"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Hòa Hương",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 20344,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Tam Thanh",
             "division_type": "xã",
+            "code": 20359,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Làng bích họa Tam Thanh"]
+              "villages_hamlets": [
+                "Làng bích họa Tam Thanh"
+              ]
             }
           }
         ]
@@ -45,66 +72,121 @@
       {
         "name": "Thành phố Hội An",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 503,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Minh An",
             "division_type": "phường",
+            "code": 20398,
+            "status": "active",
             "details": {
-              "streets": ["Trần Phú", "Nguyễn Thái Học", "Bạch Đằng"],
-              "villages_hamlets": ["Phố cổ Hội An"]
+              "streets": [
+                "Trần Phú",
+                "Nguyễn Thái Học",
+                "Bạch Đằng"
+              ],
+              "villages_hamlets": [
+                "Phố cổ Hội An"
+              ]
             }
           },
           {
             "name": "Phường Sơn Phong",
             "division_type": "phường",
-            "details": { "streets": ["Lý Thường Kiệt"], "villages_hamlets": [] }
+            "code": 20410,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Lý Thường Kiệt"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Cẩm An",
             "division_type": "phường",
+            "code": 20419,
+            "status": "active",
             "details": {
-              "streets": ["Lạc Long Quân"],
-              "villages_hamlets": ["Biển Cửa Đại"]
+              "streets": [
+                "Lạc Long Quân"
+              ],
+              "villages_hamlets": [
+                "Biển Cửa Đại"
+              ]
             }
           },
           {
             "name": "Phường Cửa Đại",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 20416,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Tân Hiệp",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": ["Cù Lao Chàm"] }
+            "code": 20434,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Cù Lao Chàm"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Thị xã Điện Bàn",
         "division_type": "thị xã",
+        "code": 507,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Vĩnh Điện",
             "division_type": "phường",
-            "details": { "streets": ["Trần Nhân Tông"], "villages_hamlets": [] }
+            "code": 20551,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Trần Nhân Tông"
+              ],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Duy Xuyên",
         "division_type": "huyện",
+        "code": 508,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Nam Phước",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 20599,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Duy Phú",
             "division_type": "xã",
+            "code": 20605,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Thánh địa Mỹ Sơn"]
+              "villages_hamlets": [
+                "Thánh địa Mỹ Sơn"
+              ]
             }
           }
         ]
@@ -112,13 +194,19 @@
       {
         "name": "Huyện Núi Thành",
         "division_type": "huyện",
+        "code": 517,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Núi Thành",
             "division_type": "thị trấn",
+            "code": 20965,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Sân bay Chu Lai"]
+              "villages_hamlets": [
+                "Sân bay Chu Lai"
+              ]
             }
           }
         ]
@@ -126,66 +214,108 @@
       {
         "name": "Huyện Đại Lộc",
         "division_type": "huyện",
+        "code": 506,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Ái Nghĩa",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 20500,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Thăng Bình",
         "division_type": "huyện",
+        "code": 513,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Hà Lam",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 20791,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Phú Ninh",
         "division_type": "huyện",
+        "code": 518,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Phú Thịnh",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 20364,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Tiên Phước",
         "division_type": "huyện",
+        "code": 514,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Tiên Kỳ",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 20854,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Phước Sơn",
         "division_type": "huyện",
+        "code": 511,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Khâm Đức",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 20722,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Nam Giang",
         "division_type": "huyện",
+        "code": 510,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Thạnh Mỹ",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 20695,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       }

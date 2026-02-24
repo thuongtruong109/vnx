@@ -5,190 +5,343 @@
       {
         "name": "Thành phố Đà Lạt",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 672,
+        "status": "active",
         "wards": [
           {
             "name": "Phường 1",
             "division_type": "phường",
+            "code": 24784,
+            "status": "active",
             "details": {
-              "streets": ["Nguyễn Văn Cừ", "Lê Đại Hành"],
-              "villages_hamlets": ["Chợ Đà Lạt", "Hồ Xuân Hương"]
+              "streets": [
+                "Nguyễn Văn Cừ",
+                "Lê Đại Hành"
+              ],
+              "villages_hamlets": [
+                "Chợ Đà Lạt",
+                "Hồ Xuân Hương"
+              ]
             }
           },
           {
             "name": "Phường 2",
             "division_type": "phường",
+            "code": 24781,
+            "status": "active",
             "details": {
-              "streets": ["Phan Đình Phùng", "Bùi Thị Xuân"],
+              "streets": [
+                "Phan Đình Phùng",
+                "Bùi Thị Xuân"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường 3",
             "division_type": "phường",
+            "code": 24802,
+            "status": "active",
             "details": {
-              "streets": ["Ba Tháng Tư"],
-              "villages_hamlets": ["Bến xe Liên tỉnh"]
+              "streets": [
+                "Ba Tháng Tư"
+              ],
+              "villages_hamlets": [
+                "Bến xe Liên tỉnh"
+              ]
             }
           },
           {
             "name": "Phường 4",
             "division_type": "phường",
+            "code": 24793,
+            "status": "active",
             "details": {
-              "streets": ["Trần Phú"],
-              "villages_hamlets": ["Dinh Bảo Đại"]
+              "streets": [
+                "Trần Phú"
+              ],
+              "villages_hamlets": [
+                "Dinh Bảo Đại"
+              ]
             }
           },
           {
             "name": "Phường 8",
             "division_type": "phường",
+            "code": 24772,
+            "status": "active",
             "details": {
-              "streets": ["Phù Đổng Thiên Vương"],
-              "villages_hamlets": ["Thung lũng Tình Yêu", "Đồi Mộng Mơ"]
+              "streets": [
+                "Phù Đổng Thiên Vương"
+              ],
+              "villages_hamlets": [
+                "Thung lũng Tình Yêu",
+                "Đồi Mộng Mơ"
+              ]
             }
           },
           {
             "name": "Phường 10",
             "division_type": "phường",
+            "code": 24796,
+            "status": "active",
             "details": {
-              "streets": ["Trần Hưng Đạo"],
-              "villages_hamlets": ["Ga Đà Lạt"]
+              "streets": [
+                "Trần Hưng Đạo"
+              ],
+              "villages_hamlets": [
+                "Ga Đà Lạt"
+              ]
             }
           },
           {
             "name": "Xã Xuân Thọ",
             "division_type": "xã",
+            "code": 24805,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Trại Mát", "Chùa Linh Phước"]
+              "villages_hamlets": [
+                "Trại Mát",
+                "Chùa Linh Phước"
+              ]
             }
           },
           {
             "name": "Xã Tà Nung",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": ["Đèo Tà Nung"] }
+            "code": 24808,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Đèo Tà Nung"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Thành phố Bảo Lộc",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 673,
+        "status": "active",
         "wards": [
           {
             "name": "Phường 1",
             "division_type": "phường",
-            "details": { "streets": ["Trần Phú"], "villages_hamlets": [] }
+            "code": 24823,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Trần Phú"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường 2",
             "division_type": "phường",
-            "details": { "streets": ["Lý Tự Trọng"], "villages_hamlets": [] }
+            "code": 24820,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Lý Tự Trọng"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Lộc Phát",
             "division_type": "phường",
-            "details": { "streets": ["Nguyễn Văn Cừ"], "villages_hamlets": [] }
+            "code": 24814,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Nguyễn Văn Cừ"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Đạm B'ri",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": ["Thác Đạm B'ri"] }
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Thác Đạm B'ri"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Huyện Đức Trọng",
         "division_type": "huyện",
+        "code": 678,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Liên Nghĩa",
             "division_type": "thị trấn",
+            "code": 24958,
+            "status": "active",
             "details": {
-              "streets": ["Quốc lộ 20"],
-              "villages_hamlets": ["Sân bay Liên Khương"]
+              "streets": [
+                "Quốc lộ 20"
+              ],
+              "villages_hamlets": [
+                "Sân bay Liên Khương"
+              ]
             }
           },
           {
             "name": "Xã Ninh Gia",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": ["Thác Pongour"] }
+            "code": 24985,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Thác Pongour"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Huyện Lạc Dương",
         "division_type": "huyện",
+        "code": 675,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Lạc Dương",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": ["Lang Biang"] }
+            "code": 24846,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Lang Biang"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Huyện Đơn Dương",
         "division_type": "huyện",
+        "code": 677,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Thạnh Mỹ",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 24931,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Thị trấn D'Ran",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": ["Đèo Ngoạn Mục"] }
+            "code": 24928,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Đèo Ngoạn Mục"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Huyện Di Linh",
         "division_type": "huyện",
+        "code": 679,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Di Linh",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 25000,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Bảo Lâm",
         "division_type": "huyện",
+        "code": 680,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Lộc Thắng",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 25054,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Lâm Hà",
         "division_type": "huyện",
+        "code": 676,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Đinh Văn",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 24871,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Thị trấn Nam Ban",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": ["Thác Voi"] }
+            "code": 24868,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Thác Voi"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Huyện Đạ Huoai",
         "division_type": "huyện",
+        "code": 682,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Ma Đa Guôi",
             "division_type": "thị trấn",
+            "code": 25099,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Rừng gọi Mađagui"]
+              "villages_hamlets": [
+                "Rừng gọi Mađagui"
+              ]
             }
           }
         ]

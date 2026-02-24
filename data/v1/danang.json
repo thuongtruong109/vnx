@@ -5,121 +5,208 @@
       {
         "name": "Quận Hải Châu",
         "division_type": "quận",
+        "code": 492,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Thạch Thang",
             "division_type": "phường",
+            "code": 20233,
+            "status": "active",
             "details": {
-              "streets": ["Quang Trung", "Lê Lợi", "Nguyễn Chí Thanh"],
+              "streets": [
+                "Quang Trung",
+                "Lê Lợi",
+                "Nguyễn Chí Thanh"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường Hải Châu I",
             "division_type": "phường",
+            "status": "active",
             "details": {
-              "streets": ["Trần Phú", "Bạch Đằng", "Hùng Vương"],
+              "streets": [
+                "Trần Phú",
+                "Bạch Đằng",
+                "Hùng Vương"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường Hải Châu II",
             "division_type": "phường",
-            "details": { "streets": ["Chi Lăng"], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [
+                "Chi Lăng"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Phước Ninh",
             "division_type": "phường",
+            "code": 20242,
+            "status": "active",
             "details": {
-              "streets": ["Nguyễn Văn Linh"],
-              "villages_hamlets": ["Cầu Rồng"]
+              "streets": [
+                "Nguyễn Văn Linh"
+              ],
+              "villages_hamlets": [
+                "Cầu Rồng"
+              ]
             }
           },
           {
             "name": "Phường Hòa Thuận Đông",
             "division_type": "phường",
-            "details": { "streets": ["Trưng Nữ Vương"], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [
+                "Trưng Nữ Vương"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Nam Dương",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Bình Hiên",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Bình Thuận",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 20254,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Hòa Cường Bắc",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 20257,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Hòa Cường Nam",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 20258,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Quận Thanh Khê",
         "division_type": "quận",
+        "code": 491,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Vĩnh Trung",
             "division_type": "phường",
+            "status": "active",
             "details": {
-              "streets": ["Hùng Vương", "Ông Ích Khiêm"],
+              "streets": [
+                "Hùng Vương",
+                "Ông Ích Khiêm"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường Thạc Gián",
             "division_type": "phường",
+            "code": 20218,
+            "status": "active",
             "details": {
-              "streets": ["Nguyễn Văn Linh"],
+              "streets": [
+                "Nguyễn Văn Linh"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường Chính Gián",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 20215,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Quận Sơn Trà",
         "division_type": "quận",
+        "code": 493,
+        "status": "active",
         "wards": [
           {
             "name": "Phường An Hải Tây",
             "division_type": "phường",
+            "status": "active",
             "details": {
-              "streets": ["Trần Hưng Đạo"],
-              "villages_hamlets": ["Cầu Tình Yêu"]
+              "streets": [
+                "Trần Hưng Đạo"
+              ],
+              "villages_hamlets": [
+                "Cầu Tình Yêu"
+              ]
             }
           },
           {
             "name": "Phường Phước Mỹ",
             "division_type": "phường",
+            "code": 20275,
+            "status": "active",
             "details": {
-              "streets": ["Võ Nguyên Giáp"],
-              "villages_hamlets": ["Biển Mỹ Khê"]
+              "streets": [
+                "Võ Nguyên Giáp"
+              ],
+              "villages_hamlets": [
+                "Biển Mỹ Khê"
+              ]
             }
           },
           {
             "name": "Phường Thọ Quang",
             "division_type": "phường",
+            "code": 20263,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Bán đảo Sơn Trà", "Chùa Linh Ứng"]
+              "villages_hamlets": [
+                "Bán đảo Sơn Trà",
+                "Chùa Linh Ứng"
+              ]
             }
           }
         ]
@@ -127,50 +214,80 @@
       {
         "name": "Quận Ngũ Hành Sơn",
         "division_type": "quận",
+        "code": 494,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Hòa Hải",
             "division_type": "phường",
+            "code": 20290,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Danh thắng Ngũ Hành Sơn"]
+              "villages_hamlets": [
+                "Danh thắng Ngũ Hành Sơn"
+              ]
             }
           },
           {
             "name": "Phường Khuê Mỹ",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 20285,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Quận Liên Chiểu",
         "division_type": "quận",
+        "code": 490,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Hòa Khánh Bắc",
             "division_type": "phường",
+            "code": 20197,
+            "status": "active",
             "details": {
-              "streets": ["Nguyễn Lương Bằng"],
+              "streets": [
+                "Nguyễn Lương Bằng"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường Hòa Hiệp Bắc",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": ["Đèo Hải Vân"] }
+            "code": 20194,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Đèo Hải Vân"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Quận Cẩm Lệ",
         "division_type": "quận",
+        "code": 495,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Khuê Trung",
             "division_type": "phường",
+            "code": 20260,
+            "status": "active",
             "details": {
-              "streets": ["Cách Mạng Tháng 8"],
+              "streets": [
+                "Cách Mạng Tháng 8"
+              ],
               "villages_hamlets": []
             }
           }
@@ -179,22 +296,37 @@
       {
         "name": "Huyện Hòa Vang",
         "division_type": "huyện",
+        "code": 497,
+        "status": "active",
         "wards": [
           {
             "name": "Xã Hòa Ninh",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": ["Bà Nà Hills"] }
+            "code": 20299,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Bà Nà Hills"
+              ]
+            }
           },
           {
             "name": "Xã Hòa Phú",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 20317,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Hoàng Sa",
         "division_type": "huyện",
+        "status": "active",
         "wards": []
       }
     ]

@@ -5,49 +5,93 @@
       {
         "name": "Thành phố Cà Mau",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 964,
+        "status": "active",
         "wards": [
           {
             "name": "Phường 1",
             "division_type": "phường",
-            "details": { "streets": ["Lý Văn Lâm"], "villages_hamlets": [] }
+            "code": 32005,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Lý Văn Lâm"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường 2",
             "division_type": "phường",
+            "code": 32002,
+            "status": "active",
             "details": {
-              "streets": ["Phan Ngọc Hiển", "Lý Thường Kiệt"],
-              "villages_hamlets": ["Chợ Cà Mau"]
+              "streets": [
+                "Phan Ngọc Hiển",
+                "Lý Thường Kiệt"
+              ],
+              "villages_hamlets": [
+                "Chợ Cà Mau"
+              ]
             }
           },
           {
             "name": "Phường 5",
             "division_type": "phường",
-            "details": { "streets": ["Trần Hưng Đạo"], "villages_hamlets": [] }
+            "code": 32008,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Trần Hưng Đạo"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường 9",
             "division_type": "phường",
-            "details": { "streets": ["Nguyễn Trãi"], "villages_hamlets": [] }
+            "code": 31999,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Nguyễn Trãi"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Tân Xuyên",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 32022,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Ngọc Hiển",
         "division_type": "huyện",
+        "code": 973,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Rạch Gốc",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 32244,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Đất Mũi",
             "division_type": "xã",
+            "code": 32248,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -61,18 +105,28 @@
       {
         "name": "Huyện U Minh",
         "division_type": "huyện",
+        "code": 966,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn U Minh",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 32044,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Võ Phơi",
             "division_type": "xã",
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Vườn quốc gia U Minh Hạ"]
+              "villages_hamlets": [
+                "Vườn quốc gia U Minh Hạ"
+              ]
             }
           }
         ]
@@ -80,37 +134,63 @@
       {
         "name": "Huyện Trần Văn Thời",
         "division_type": "huyện",
+        "code": 968,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Trần Văn Thời",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 32095,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Thị trấn Sông Đốc",
             "division_type": "thị trấn",
+            "code": 32098,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Cửa biển Sông Đốc"]
+              "villages_hamlets": [
+                "Cửa biển Sông Đốc"
+              ]
             }
           },
           {
             "name": "Xã Khánh Hải",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": ["Hòn Đá Bạc"] }
+            "code": 32119,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Hòn Đá Bạc"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Huyện Năm Căn",
         "division_type": "huyện",
+        "code": 971,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Năm Căn",
             "division_type": "thị trấn",
+            "code": 32191,
+            "status": "active",
             "details": {
-              "streets": ["Quốc lộ 1A"],
-              "villages_hamlets": ["Tượng đài Phan Ngọc Hiển"]
+              "streets": [
+                "Quốc lộ 1A"
+              ],
+              "villages_hamlets": [
+                "Tượng đài Phan Ngọc Hiển"
+              ]
             }
           }
         ]
@@ -118,44 +198,72 @@
       {
         "name": "Huyện Cái Nước",
         "division_type": "huyện",
+        "code": 969,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Cái Nước",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 32128,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Đầm Dơi",
         "division_type": "huyện",
+        "code": 970,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Đầm Dơi",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 32152,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Phú Tân",
         "division_type": "huyện",
+        "code": 972,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Cái Đôi Vàm",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 32212,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Thới Bình",
         "division_type": "huyện",
+        "code": 967,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Thới Bình",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 32065,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       }

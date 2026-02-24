@@ -5,103 +5,185 @@
       {
         "name": "Thành phố Tây Ninh",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 703,
+        "status": "active",
         "wards": [
           {
             "name": "Phường 1",
             "division_type": "phường",
+            "code": 25456,
+            "status": "active",
             "details": {
-              "streets": ["Cách Mạng Tháng 8"],
+              "streets": [
+                "Cách Mạng Tháng 8"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường 2",
             "division_type": "phường",
-            "details": { "streets": ["Trần Hưng Đạo"], "villages_hamlets": [] }
+            "code": 25468,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Trần Hưng Đạo"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường 3",
             "division_type": "phường",
-            "details": { "streets": ["30 Tháng 4"], "villages_hamlets": [] }
+            "code": 25459,
+            "status": "active",
+            "details": {
+              "streets": [
+                "30 Tháng 4"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Hiệp Ninh",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 25465,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Ninh Sơn",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": ["Núi Bà Đen"] }
+            "code": 25480,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Núi Bà Đen"
+              ]
+            }
           },
           {
             "name": "Phường Ninh Thạnh",
             "division_type": "phường",
+            "code": 25483,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Tòa Thánh Tây Ninh"]
+              "villages_hamlets": [
+                "Tòa Thánh Tây Ninh"
+              ]
             }
           },
           {
             "name": "Xã Thạnh Tân",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 25471,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Thị xã Trảng Bàng",
         "division_type": "thị xã",
+        "code": 712,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Trảng Bàng",
             "division_type": "phường",
-            "details": { "streets": ["Quốc lộ 22"], "villages_hamlets": [] }
+            "code": 25708,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Quốc lộ 22"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường An Hòa",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 25735,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Thị xã Hòa Thành",
         "division_type": "thị xã",
+        "code": 709,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Long Hoa",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": ["Chợ Long Hoa"] }
+            "code": 25630,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Chợ Long Hoa"
+              ]
+            }
           },
           {
             "name": "Phường Hiệp Tân",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 25633,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Gò Dầu",
         "division_type": "huyện",
+        "code": 710,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Gò Dầu",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 25654,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Bến Cầu",
         "division_type": "huyện",
+        "code": 711,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Bến Cầu",
             "division_type": "thị trấn",
+            "code": 25681,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Cửa khẩu quốc tế Mộc Bài"]
+              "villages_hamlets": [
+                "Cửa khẩu quốc tế Mộc Bài"
+              ]
             }
           }
         ]
@@ -109,35 +191,57 @@
       {
         "name": "Huyện Dương Minh Châu",
         "division_type": "huyện",
+        "code": 707,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Dương Minh Châu",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": ["Hồ Dầu Tiếng"] }
+            "code": 25552,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Hồ Dầu Tiếng"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Huyện Tân Châu",
         "division_type": "huyện",
+        "code": 706,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Tân Châu",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 25516,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Tân Biên",
         "division_type": "huyện",
+        "code": 705,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Tân Biên",
             "division_type": "thị trấn",
+            "code": 25486,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Căn cứ Trung ương Cục miền Nam"]
+              "villages_hamlets": [
+                "Căn cứ Trung ương Cục miền Nam"
+              ]
             }
           }
         ]
@@ -145,11 +249,18 @@
       {
         "name": "Huyện Châu Thành",
         "division_type": "huyện",
+        "code": 708,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Châu Thành",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 25585,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       }

@@ -5,10 +5,14 @@
       {
         "name": "Thành phố Điện Biên Phủ",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 94,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Mường Thanh",
             "division_type": "phường",
+            "code": 3136,
+            "status": "active",
             "details": {
               "streets": [
                 "Võ Nguyên Giáp",
@@ -21,169 +25,305 @@
           {
             "name": "Phường Him Lam",
             "division_type": "phường",
-            "details": { "streets": ["Quốc lộ 279"], "villages_hamlets": [] }
+            "code": 3127,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Quốc lộ 279"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Thanh Bình",
             "division_type": "phường",
-            "details": { "streets": ["Trần Can"], "villages_hamlets": [] }
+            "code": 3130,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Trần Can"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Tân Thanh",
             "division_type": "phường",
-            "details": { "streets": ["Trường Chinh"], "villages_hamlets": [] }
+            "code": 3133,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Trường Chinh"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Noong Bua",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 3124,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Nam Thanh",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 3139,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Thanh Trường",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 3142,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Mường Phăng",
             "division_type": "xã",
+            "code": 3325,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Bản Phăng", "Bản Lo"]
+              "villages_hamlets": [
+                "Bản Phăng",
+                "Bản Lo"
+              ]
             }
           },
           {
             "name": "Xã Pá Khoang",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 3326,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Thanh Minh",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 3145,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Thị xã Mường Lay",
         "division_type": "thị xã",
+        "code": 95,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Na Lay",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 3151,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Sông Đà",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 3148,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Lay Nưa",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 3184,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Điện Biên",
         "division_type": "huyện",
+        "code": 100,
+        "status": "active",
         "wards": [
           {
             "name": "Xã Thanh Xương",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 3334,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Thanh Luông",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 3328,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Điện Biên Đông",
         "division_type": "huyện",
+        "code": 101,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Điện Biên Đông",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 3203,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Mường Nhé",
         "division_type": "huyện",
+        "code": 96,
+        "status": "active",
         "wards": [
           {
             "name": "Xã Mường Nhé",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 3160,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Sín Thầu",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": ["A Pa Chải"] }
+            "code": 3154,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "A Pa Chải"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Huyện Mường Chà",
         "division_type": "huyện",
+        "code": 97,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Mường Chà",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 3172,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Mường Ảng",
         "division_type": "huyện",
+        "code": 102,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Mường Ảng",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 3256,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Nậm Pồ",
         "division_type": "huyện",
+        "code": 103,
+        "status": "active",
         "wards": [
           {
             "name": "Xã Nậm Tin",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 3156,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Tủa Chùa",
         "division_type": "huyện",
+        "code": 98,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Tủa Chùa",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 3217,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Tuần Giáo",
         "division_type": "huyện",
+        "code": 99,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Tuần Giáo",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 3253,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       }

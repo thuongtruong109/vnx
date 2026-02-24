@@ -5,63 +5,104 @@
       {
         "name": "Thành phố Nha Trang",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 568,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Lộc Thọ",
             "division_type": "phường",
+            "code": 22363,
+            "status": "active",
             "details": {
-              "streets": ["Trần Phú", "Nguyễn Chánh", "Hùng Vương"],
+              "streets": [
+                "Trần Phú",
+                "Nguyễn Chánh",
+                "Hùng Vương"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường Tân Lập",
             "division_type": "phường",
+            "status": "active",
             "details": {
-              "streets": ["Nguyễn Thiện Thuật", "Ngô Gia Tự"],
+              "streets": [
+                "Nguyễn Thiện Thuật",
+                "Ngô Gia Tự"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường Xương Huân",
             "division_type": "phường",
+            "status": "active",
             "details": {
-              "streets": ["Trần Phú"],
-              "villages_hamlets": ["Chợ Đầm"]
+              "streets": [
+                "Trần Phú"
+              ],
+              "villages_hamlets": [
+                "Chợ Đầm"
+              ]
             }
           },
           {
             "name": "Phường Phước Tiến",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Vĩnh Nguyên",
             "division_type": "phường",
+            "code": 22375,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Đảo Hòn Tre", "VinWonders"]
+              "villages_hamlets": [
+                "Đảo Hòn Tre",
+                "VinWonders"
+              ]
             }
           },
           {
             "name": "Phường Vĩnh Hải",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 22330,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Vĩnh Phước",
             "division_type": "phường",
+            "code": 22333,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Tháp Bà Ponagar"]
+              "villages_hamlets": [
+                "Tháp Bà Ponagar"
+              ]
             }
           },
           {
             "name": "Phường Vĩnh Hòa",
             "division_type": "phường",
+            "code": 22327,
+            "status": "active",
             "details": {
-              "streets": ["Phạm Văn Đồng"],
-              "villages_hamlets": ["Bến du thuyền Ana Marina"]
+              "streets": [
+                "Phạm Văn Đồng"
+              ],
+              "villages_hamlets": [
+                "Bến du thuyền Ana Marina"
+              ]
             }
           }
         ]
@@ -69,23 +110,44 @@
       {
         "name": "Thành phố Cam Ranh",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 569,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Ba Ngòi",
             "division_type": "phường",
-            "details": { "streets": ["Hùng Vương"], "villages_hamlets": [] }
+            "code": 22423,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Hùng Vương"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Cam Linh",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": ["Cảng Cam Ranh"] }
+            "code": 22432,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Cảng Cam Ranh"
+              ]
+            }
           },
           {
             "name": "Xã Cam Bình",
             "division_type": "xã",
+            "code": 22486,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Đảo Bình Ba", "Đảo Bình Hưng"]
+              "villages_hamlets": [
+                "Đảo Bình Ba",
+                "Đảo Bình Hưng"
+              ]
             }
           }
         ]
@@ -93,18 +155,30 @@
       {
         "name": "Thị xã Ninh Hòa",
         "division_type": "thị xã",
+        "code": 572,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Ninh Hiệp",
             "division_type": "phường",
-            "details": { "streets": ["Trần Quý Cáp"], "villages_hamlets": [] }
+            "code": 22528,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Trần Quý Cáp"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Ninh Hải",
             "division_type": "xã",
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Bãi biển Dốc Lết"]
+              "villages_hamlets": [
+                "Bãi biển Dốc Lết"
+              ]
             }
           }
         ]
@@ -112,37 +186,60 @@
       {
         "name": "Huyện Cam Lâm",
         "division_type": "huyện",
+        "code": 570,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Cam Đức",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 22453,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Cam Nghĩa",
             "division_type": "xã",
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Sân bay quốc tế Cam Ranh"]
+              "villages_hamlets": [
+                "Sân bay quốc tế Cam Ranh"
+              ]
             }
           },
           {
             "name": "Xã Cam Hải Đông",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": ["Bãi Dài"] }
+            "code": 22441,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Bãi Dài"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Huyện Diên Khánh",
         "division_type": "huyện",
+        "code": 574,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Diên Khánh",
             "division_type": "thị trấn",
+            "code": 22651,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Thành cổ Diên Khánh"]
+              "villages_hamlets": [
+                "Thành cổ Diên Khánh"
+              ]
             }
           }
         ]
@@ -150,18 +247,30 @@
       {
         "name": "Huyện Vạn Ninh",
         "division_type": "huyện",
+        "code": 571,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Vạn Giã",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 22489,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Vạn Thạnh",
             "division_type": "xã",
+            "code": 22519,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Vịnh Vân Phong", "Mũi Đôi"]
+              "villages_hamlets": [
+                "Vịnh Vân Phong",
+                "Mũi Đôi"
+              ]
             }
           }
         ]
@@ -169,33 +278,54 @@
       {
         "name": "Huyện Khánh Vĩnh",
         "division_type": "huyện",
+        "code": 573,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Khánh Vĩnh",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 22609,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Khánh Sơn",
         "division_type": "huyện",
+        "code": 575,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Tô Hạp",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 22714,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Trường Sa",
         "division_type": "huyện",
+        "code": 576,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Trường Sa",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 22736,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       }

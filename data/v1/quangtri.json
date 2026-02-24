@@ -5,112 +5,197 @@
       {
         "name": "Thành phố Đông Hà",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 461,
+        "status": "active",
         "wards": [
           {
             "name": "Phường 1",
             "division_type": "phường",
+            "code": 19333,
+            "status": "active",
             "details": {
-              "streets": ["Lê Duẩn", "Trần Hưng Đạo", "Hùng Vương"],
+              "streets": [
+                "Lê Duẩn",
+                "Trần Hưng Đạo",
+                "Hùng Vương"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường 5",
             "division_type": "phường",
+            "code": 19348,
+            "status": "active",
             "details": {
-              "streets": ["Nguyễn Huệ", "Lý Thường Kiệt"],
+              "streets": [
+                "Nguyễn Huệ",
+                "Lý Thường Kiệt"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường 2",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 19342,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường 3",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 19354,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường 4",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 19345,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Đông Giang",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 19330,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Đông Lễ",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 19336,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Đông Lương",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 19351,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Đông Thanh",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 19339,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Thị xã Quảng Trị",
         "division_type": "thị xã",
+        "code": 462,
+        "status": "active",
         "wards": [
           {
             "name": "Phường 1",
             "division_type": "phường",
+            "code": 19357,
+            "status": "active",
             "details": {
-              "streets": ["Lê Duẩn"],
-              "villages_hamlets": ["Thành cổ Quảng Trị"]
+              "streets": [
+                "Lê Duẩn"
+              ],
+              "villages_hamlets": [
+                "Thành cổ Quảng Trị"
+              ]
             }
           },
           {
             "name": "Phường 2",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 19360,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường 3",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 19361,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường An Đôn",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 19358,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Vĩnh Linh",
         "division_type": "huyện",
+        "code": 464,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Hồ Xá",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 19363,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Thị trấn Cửa Tùng",
             "division_type": "thị trấn",
+            "code": 19414,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Bãi biển Cửa Tùng"]
+              "villages_hamlets": [
+                "Bãi biển Cửa Tùng"
+              ]
             }
           },
           {
             "name": "Xã Vĩnh Mốc",
             "division_type": "xã",
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Địa đạo Vĩnh Mốc"]
+              "villages_hamlets": [
+                "Địa đạo Vĩnh Mốc"
+              ]
             }
           }
         ]
@@ -118,45 +203,75 @@
       {
         "name": "Huyện Gio Linh",
         "division_type": "huyện",
+        "code": 466,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Gio Linh",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 19495,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Thị trấn Cửa Việt",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": ["Cảng Cửa Việt"] }
+            "code": 19496,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Cảng Cửa Việt"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Huyện Đakrông",
         "division_type": "huyện",
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Krông Klang",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Hướng Hóa",
         "division_type": "huyện",
+        "code": 465,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Khe Sanh",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 19429,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Thị trấn Lao Bảo",
             "division_type": "thị trấn",
+            "code": 19432,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Cửa khẩu quốc tế Lao Bảo"]
+              "villages_hamlets": [
+                "Cửa khẩu quốc tế Lao Bảo"
+              ]
             }
           }
         ]
@@ -164,40 +279,65 @@
       {
         "name": "Huyện Cam Lộ",
         "division_type": "huyện",
+        "code": 468,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Cam Lộ",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 19597,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Triệu Phong",
         "division_type": "huyện",
+        "code": 469,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Ái Tử",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 19624,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Hải Lăng",
         "division_type": "huyện",
+        "code": 470,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Diên Sanh",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 19681,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Hải Phú",
             "division_type": "xã",
+            "code": 19702,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Thánh địa La Vang"]
+              "villages_hamlets": [
+                "Thánh địa La Vang"
+              ]
             }
           }
         ]
@@ -205,6 +345,7 @@
       {
         "name": "Huyện Đảo Cồn Cỏ",
         "division_type": "huyện",
+        "status": "active",
         "wards": []
       }
     ]

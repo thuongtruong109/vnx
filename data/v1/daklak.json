@@ -5,78 +5,141 @@
       {
         "name": "Thành phố Buôn Ma Thuột",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 643,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Thắng Lợi",
             "division_type": "phường",
+            "status": "active",
             "details": {
-              "streets": ["Phan Chu Trinh", "Lê Hồng Phong"],
+              "streets": [
+                "Phan Chu Trinh",
+                "Lê Hồng Phong"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường Tân Lợi",
             "division_type": "phường",
+            "code": 24136,
+            "status": "active",
             "details": {
-              "streets": ["Phan Bội Châu"],
-              "villages_hamlets": ["Làng cà phê Trung Nguyên"]
+              "streets": [
+                "Phan Bội Châu"
+              ],
+              "villages_hamlets": [
+                "Làng cà phê Trung Nguyên"
+              ]
             }
           },
           {
             "name": "Phường Tân Lập",
             "division_type": "phường",
-            "details": { "streets": ["Nguyễn Văn Cừ"], "villages_hamlets": [] }
+            "code": 24118,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Nguyễn Văn Cừ"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Thống Nhất",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Tự An",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 24148,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Tân Thành",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 24142,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Tân Tiến",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 24145,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Ea Tu",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": ["Buôn Ko Tam"] }
+            "code": 24163,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Buôn Ko Tam"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Thị xã Buôn Hồ",
         "division_type": "thị xã",
+        "code": 644,
+        "status": "active",
         "wards": [
           {
             "name": "Phường An Lạc",
             "division_type": "phường",
-            "details": { "streets": ["Hùng Vương"], "villages_hamlets": [] }
+            "code": 24305,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Hùng Vương"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Đạt Hiếu",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 24318,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Buôn Đôn",
         "division_type": "huyện",
+        "code": 647,
+        "status": "active",
         "wards": [
           {
             "name": "Xã Krông Na",
             "division_type": "xã",
+            "code": 24235,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -90,13 +153,20 @@
       {
         "name": "Huyện Lắk",
         "division_type": "huyện",
+        "code": 656,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Liên Sơn",
             "division_type": "thị trấn",
+            "code": 24580,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Hồ Lắk", "Buôn Jun"]
+              "villages_hamlets": [
+                "Hồ Lắk",
+                "Buôn Jun"
+              ]
             }
           }
         ]
@@ -104,93 +174,150 @@
       {
         "name": "Huyện Krông Pắc",
         "division_type": "huyện",
+        "code": 654,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Phước An",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 24490,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Cư M'gar",
         "division_type": "huyện",
+        "code": 648,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Quảng Phú",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 24259,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Thị trấn Ea Pốk",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 24256,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Ea H'leo",
         "division_type": "huyện",
+        "code": 645,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Ea Drăng",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 24181,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Krông Ana",
         "division_type": "huyện",
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Buôn Trấp",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Krông Bông",
         "division_type": "huyện",
+        "code": 653,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Krông Kmar",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 24448,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Krông Năng",
         "division_type": "huyện",
+        "code": 650,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Krông Năng",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 24343,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Ea Súp",
         "division_type": "huyện",
+        "code": 646,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Ea Súp",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 24211,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện M'Drắk",
         "division_type": "huyện",
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn M'Drắk",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       }

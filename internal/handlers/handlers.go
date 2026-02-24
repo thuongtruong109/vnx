@@ -365,6 +365,14 @@ func (h *Handler) ListRegions(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusOK, grouped)
 }
 
+// -----------------------------------------------------------------
+// GET /api/v1/provinces
+// Returns the full list of pre-2025 (v1) provinces extracted from map.json.
+// -----------------------------------------------------------------
+func (h *Handler) ListV1Provinces(w http.ResponseWriter, r *http.Request) {
+	writeJSON(w, http.StatusOK, h.store.V1Provinces)
+}
+
 // pathParam extracts the URL segment after prefix
 func pathParam(path, prefix string) string {
 	return strings.TrimPrefix(path, prefix)

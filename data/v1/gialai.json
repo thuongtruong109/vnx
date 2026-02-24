@@ -5,140 +5,255 @@
       {
         "name": "Thành phố Pleiku",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 622,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Tây Sơn",
             "division_type": "phường",
+            "code": 23575,
+            "status": "active",
             "details": {
-              "streets": ["Lê Lợi", "Phạm Văn Đồng"],
+              "streets": [
+                "Lê Lợi",
+                "Phạm Văn Đồng"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường Diên Hồng",
             "division_type": "phường",
+            "code": 23560,
+            "status": "active",
             "details": {
-              "streets": ["Hùng Vương", "Trần Phú"],
-              "villages_hamlets": ["Chợ Pleiku"]
+              "streets": [
+                "Hùng Vương",
+                "Trần Phú"
+              ],
+              "villages_hamlets": [
+                "Chợ Pleiku"
+              ]
             }
           },
           {
             "name": "Phường Hoa Lư",
             "division_type": "phường",
-            "details": { "streets": ["Phạm Văn Đồng"], "villages_hamlets": [] }
+            "code": 23572,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Phạm Văn Đồng"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Yên Đỗ",
             "division_type": "phường",
-            "details": { "streets": ["Lý Thái Tổ"], "villages_hamlets": [] }
+            "code": 23557,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Lý Thái Tổ"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Ia Kring",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 23563,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Thắng Lợi",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 23582,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Biển Hồ",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": ["Hồ T'Nưng"] }
+            "code": 23590,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Hồ T'Nưng"
+              ]
+            }
           },
           {
             "name": "Xã Gào",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 23611,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Thị xã An Khê",
         "division_type": "thị xã",
+        "code": 623,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Tây Sơn",
             "division_type": "phường",
-            "details": { "streets": ["Quang Trung"], "villages_hamlets": [] }
+            "code": 23617,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Quang Trung"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường An Bình",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 23614,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Thị xã Ayun Pa",
         "division_type": "thị xã",
+        "code": 624,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Cheo Reo",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 24041,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Hòa Bình",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 24042,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Chư Sê",
         "division_type": "huyện",
+        "code": 633,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Chư Sê",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 23941,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Chư Prông",
         "division_type": "huyện",
+        "code": 632,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Chư Prông",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 23887,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Đắk Đoa",
         "division_type": "huyện",
+        "code": 626,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Đắk Đoa",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 23677,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Glar",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": ["Đồi cỏ hồng"] }
+            "code": 23707,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Đồi cỏ hồng"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Huyện Chư Păh",
         "division_type": "huyện",
+        "code": 627,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Phú Hòa",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 23722,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Chư Đăng Ya",
             "division_type": "xã",
+            "code": 23746,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Núi lửa Chư Đăng Ya"]
+              "villages_hamlets": [
+                "Núi lửa Chư Đăng Ya"
+              ]
             }
           }
         ]
@@ -146,40 +261,65 @@
       {
         "name": "Huyện Ia Grai",
         "division_type": "huyện",
+        "code": 628,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Ia Kha",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 23764,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Krông Pa",
         "division_type": "huyện",
+        "code": 637,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Phú Túc",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 24076,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Kbang",
         "division_type": "huyện",
+        "code": 625,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Kbang",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 23638,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Krong",
             "division_type": "xã",
+            "code": 23650,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Khu bảo tồn Kon Chư Răng"]
+              "villages_hamlets": [
+                "Khu bảo tồn Kon Chư Răng"
+              ]
             }
           }
         ]

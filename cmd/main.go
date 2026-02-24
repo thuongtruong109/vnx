@@ -11,13 +11,14 @@ import (
 
 	"vnx-api/internal/handlers"
 	"vnx-api/internal/loader"
+
+	"github.com/jedib0t/go-pretty/v6/table"
 )
 
 func main() {
 	// Resolve data directory relative to the executable
 	dataDir := dataDirectory()
 
-	log.Printf("Loading data from: %s", dataDir)
 	store, err := loader.Load(dataDir)
 	if err != nil {
 		log.Fatalf("Failed to load data: %v", err)
@@ -63,9 +64,20 @@ func main() {
 	// Regions
 	mux.HandleFunc("/api/regions", h.ListRegions)
 
+	// Legacy (v1) province list – sourced from map.json
+	mux.HandleFunc("/api/v1/provinces", h.ListV1Provinces)
+
 	// Address resolution (v1 ↔ v2)
 	mux.HandleFunc("/api/resolve/old-to-new", h.ResolveOldToNew)
 	mux.HandleFunc("/api/resolve/new-to-old", h.ResolveNewToOld)
+
+	// Demo page – serve static/index.html
+	staticDir := staticDirectory()
+	mux.HandleFunc("/demo", func(w http.ResponseWriter, r *http.Request) {
+		http.ServeFile(w, r, filepath.Join(staticDir, "index.html"))
+	})
+	// Serve other static assets (css, js, etc.) under /static/
+	mux.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir(staticDir))))
 
 	// Health check
 	mux.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
@@ -80,19 +92,7 @@ func main() {
 
 	addr := ":" + port
 	log.Printf("VNX API server listening on http://localhost%s", addr)
-	log.Println("Available endpoints:")
-	log.Println("  GET /health")
-	log.Println("  GET /api/provinces")
-	log.Println("  GET /api/provinces/{province_id}")
-	log.Println("  GET /api/provinces/detail/{province_id}")
-	log.Println("  GET /api/provinces/{province_id}/districts")
-	log.Println("  GET /api/provinces/{province_id}/districts/{district_name}")
-	log.Println("  GET /api/provinces/{province_id}/districts/{district_name}/wards")
-	log.Println("  GET /api/provinces/{province_id}/districts/{district_name}/wards/{ward_name}")
-	log.Println("  GET /api/regions")
-	log.Println("  GET /api/search?q=<keyword>&type=province|district|ward")
-	log.Println("  GET /api/resolve/old-to-new?province=<name|code>&district=<name>&ward=<name|code>")
-	log.Println("  GET /api/resolve/new-to-old?province=<name|code>&ward=<name|code>")
+	printEndpointsTable()
 
 	if err := http.ListenAndServe(addr, mux); err != nil {
 		log.Fatalf("Server error: %v", err)
@@ -116,4 +116,43 @@ func dataDirectory() string {
 		return filepath.Join(filepath.Dir(filename), "..", "data", version)
 	}
 	return "data/" + version
+}
+
+// staticDirectory returns the path to the static assets directory.
+// Priority: STATIC_DIR env var → source tree (for `go run`).
+func staticDirectory() string {
+	if dir := os.Getenv("STATIC_DIR"); dir != "" {
+		return dir
+	}
+	_, filename, _, ok := runtime.Caller(0)
+	if ok {
+		return filepath.Join(filepath.Dir(filename), "..", "static")
+	}
+	return "static"
+}
+
+// printEndpointsTable prints a colored table of available endpoints.
+func printEndpointsTable() {
+	t := table.NewWriter()
+	t.SetOutputMirror(os.Stdout)
+	t.AppendHeader(table.Row{"METHOD", "PATH", "DESCRIPTION"})
+	t.AppendRows([]table.Row{
+		{"GET", "/health", "Health check"},
+		{"GET", "/api/provinces", "List provinces"},
+		{"GET", "/api/provinces/{province_id}", "Get province"},
+		{"GET", "/api/provinces/detail/{province_id}", "Province detail (with districts/wards)"},
+		{"GET", "/api/provinces/{province_id}/districts", "List districts"},
+		{"GET", "/api/provinces/{province_id}/districts/{district_name}", "Get district"},
+		{"GET", "/api/provinces/{province_id}/districts/{district_name}/wards", "List wards"},
+		{"GET", "/api/provinces/{province_id}/districts/{district_name}/wards/{ward_name}", "Get ward"},
+		{"GET", "/api/regions", "Provinces grouped by region"},
+		{"GET", "/api/v1/provinces", "List all pre-2025 (v1) provinces"},
+		{"GET", "/api/search?q=<keyword>&type=province|district|ward", "Search by name"},
+		{"GET", "/api/resolve/old-to-new?province=...&ward=...", "Resolve v1 → v2"},
+		{"GET", "/api/resolve/new-to-old?province=...&ward=...", "Resolve v2 → v1"},
+		{"GET", "/demo", "Demo page – address converter UI"},
+	})
+	t.SetStyle(table.StyleLight)
+	t.Style().Options.SeparateRows = true
+	t.Render()
 }

@@ -16,6 +16,11 @@ type Store struct {
 	Provinces []models.Province
 	Addresses []models.AddressEntry
 
+	// V1Provinces is the flat list of all pre-2025 (v1) provinces derived from
+	// map.json. Each entry in map.json may carry multiple v1_codes/v1_names
+	// (e.g. Hà Nội stayed as-is, but Huế absorbed Quảng Trị + TT-Huế).
+	V1Provinces []models.V1Province
+
 	// Index maps: province string id -> AddressEntry
 	AddressByProvince map[string]*models.AddressEntry
 
@@ -101,6 +106,7 @@ func Load(dataDir string) (*Store, error) {
 		}
 
 		// Index provinces
+		seenV1Codes := make(map[int]bool)
 		for i := range am.Provinces {
 			pe := &am.Provinces[i]
 			store.ProvinceByV2Code[pe.V2Code] = pe
@@ -109,6 +115,13 @@ func Load(dataDir string) (*Store, error) {
 				store.ProvinceByV1Code[vc] = pe
 				if j < len(pe.V1Names) {
 					store.ProvinceByV1Name[normName(pe.V1Names[j])] = pe
+					if !seenV1Codes[vc] {
+						seenV1Codes[vc] = true
+						store.V1Provinces = append(store.V1Provinces, models.V1Province{
+							Code: vc,
+							Name: pe.V1Names[j],
+						})
+					}
 				}
 			}
 		}

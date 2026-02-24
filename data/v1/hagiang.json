@@ -5,10 +5,14 @@
       {
         "name": "Thành phố Hà Giang",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 24,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Quang Trung",
             "division_type": "phường",
+            "code": 688,
+            "status": "active",
             "details": {
               "streets": [
                 "Nguyễn Trãi",
@@ -20,6 +24,8 @@
           {
             "name": "Phường Trần Phú",
             "division_type": "phường",
+            "code": 691,
+            "status": "active",
             "details": {
               "streets": [
                 "Trần Phú",
@@ -31,6 +37,8 @@
           {
             "name": "Phường Ngọc Hà",
             "division_type": "phường",
+            "code": 692,
+            "status": "active",
             "details": {
               "streets": [
                 "Lê Quý Đôn"
@@ -41,6 +49,8 @@
           {
             "name": "Phường Nguyễn Trãi",
             "division_type": "phường",
+            "code": 694,
+            "status": "active",
             "details": {
               "streets": [
                 "26 Tháng 3"
@@ -51,6 +61,8 @@
           {
             "name": "Phường Minh Khai",
             "division_type": "phường",
+            "code": 697,
+            "status": "active",
             "details": {
               "streets": [
                 "Nguyễn Văn Linh"
@@ -61,6 +73,8 @@
           {
             "name": "Xã Phương Độ",
             "division_type": "xã",
+            "code": 946,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -73,6 +87,8 @@
           {
             "name": "Xã Phương Thiện",
             "division_type": "xã",
+            "code": 949,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -86,10 +102,14 @@
       {
         "name": "Huyện Đồng Văn",
         "division_type": "huyện",
+        "code": 26,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Đồng Văn",
             "division_type": "thị trấn",
+            "code": 721,
+            "status": "active",
             "details": {
               "streets": [
                 "Phố Cổ Đồng Văn"
@@ -103,6 +123,8 @@
           {
             "name": "Xã Lũng Cú",
             "division_type": "xã",
+            "code": 715,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -115,6 +137,7 @@
           {
             "name": "Xã Sà Phìn",
             "division_type": "xã",
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -126,6 +149,8 @@
           {
             "name": "Xã Phố Cáo",
             "division_type": "xã",
+            "code": 745,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -137,6 +162,8 @@
           {
             "name": "Xã Lũng Thầu",
             "division_type": "xã",
+            "code": 754,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -145,6 +172,8 @@
           {
             "name": "Xã Sủng Là",
             "division_type": "xã",
+            "code": 733,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -157,10 +186,14 @@
       {
         "name": "Huyện Mèo Vạc",
         "division_type": "huyện",
+        "code": 27,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Mèo Vạc",
             "division_type": "thị trấn",
+            "code": 769,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -172,6 +205,8 @@
           {
             "name": "Xã Pả Vi",
             "division_type": "xã",
+            "code": 781,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -183,6 +218,7 @@
           {
             "name": "Xã Mã Pì Lèng",
             "division_type": "xã",
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -193,10 +229,14 @@
       {
         "name": "Huyện Yên Minh",
         "division_type": "huyện",
+        "code": 28,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Yên Minh",
             "division_type": "thị trấn",
+            "code": 820,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -205,6 +245,8 @@
           {
             "name": "Xã Du Già",
             "division_type": "xã",
+            "code": 871,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -218,10 +260,14 @@
       {
         "name": "Huyện Quản Bạ",
         "division_type": "huyện",
+        "code": 29,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Tam Sơn",
             "division_type": "thị trấn",
+            "code": 874,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -230,6 +276,8 @@
           {
             "name": "Xã Lùng Tám",
             "division_type": "xã",
+            "code": 901,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -240,10 +288,14 @@
       {
         "name": "Huyện Vị Xuyên",
         "division_type": "huyện",
+        "code": 30,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Vị Xuyên",
             "division_type": "thị trấn",
+            "code": 913,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -252,6 +304,8 @@
           {
             "name": "Thị trấn Nông trường Việt Lâm",
             "division_type": "thị trấn",
+            "code": 916,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -262,10 +316,14 @@
       {
         "name": "Huyện Bắc Mê",
         "division_type": "huyện",
+        "code": 31,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Yên Phú",
             "division_type": "thị trấn",
+            "code": 991,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -276,10 +334,14 @@
       {
         "name": "Huyện Hoàng Su Phì",
         "division_type": "huyện",
+        "code": 32,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Vinh Quang",
             "division_type": "thị trấn",
+            "code": 1021,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -288,6 +350,8 @@
           {
             "name": "Xã Bản Phùng",
             "division_type": "xã",
+            "code": 1036,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -298,10 +362,14 @@
       {
         "name": "Huyện Xín Mần",
         "division_type": "huyện",
+        "code": 33,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Cốc Pài",
             "division_type": "thị trấn",
+            "code": 1096,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -312,10 +380,14 @@
       {
         "name": "Huyện Bắc Quang",
         "division_type": "huyện",
+        "code": 34,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Việt Quang",
             "division_type": "thị trấn",
+            "code": 1153,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -324,6 +396,8 @@
           {
             "name": "Thị trấn Vĩnh Tuy",
             "division_type": "thị trấn",
+            "code": 1156,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -334,10 +408,14 @@
       {
         "name": "Huyện Quang Bình",
         "division_type": "huyện",
+        "code": 35,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Yên Bình",
             "division_type": "thị trấn",
+            "code": 1237,
+            "status": "active",
             "details": {
               "streets": [],
               "villages_hamlets": []

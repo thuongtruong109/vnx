@@ -5,84 +5,157 @@
       {
         "name": "Thành phố Vĩnh Long",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 855,
+        "status": "active",
         "wards": [
           {
             "name": "Phường 1",
             "division_type": "phường",
+            "code": 29551,
+            "status": "active",
             "details": {
-              "streets": ["Lê Thái Tổ", "30 Tháng 4"],
+              "streets": [
+                "Lê Thái Tổ",
+                "30 Tháng 4"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường 2",
             "division_type": "phường",
-            "details": { "streets": ["Trần Phú"], "villages_hamlets": [] }
+            "status": "active",
+            "details": {
+              "streets": [
+                "Trần Phú"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường 4",
             "division_type": "phường",
-            "details": { "streets": ["Phạm Hùng"], "villages_hamlets": [] }
+            "code": 29554,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Phạm Hùng"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường 9",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 29542,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Tân Ngãi",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": ["Cầu Mỹ Thuận"] }
+            "code": 29563,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Cầu Mỹ Thuận"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Thị xã Bình Minh",
         "division_type": "thị xã",
+        "code": 861,
+        "status": "active",
         "wards": [
           {
             "name": "Phường Cái Vồn",
             "division_type": "phường",
-            "details": { "streets": ["Phan Văn Quân"], "villages_hamlets": [] }
+            "code": 29770,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Phan Văn Quân"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Đông Thuận",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": ["Cầu Cần Thơ"] }
+            "code": 29813,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Cầu Cần Thơ"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Huyện Long Hồ",
         "division_type": "huyện",
+        "code": 857,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Long Hồ",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 29602,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã An Bình",
             "division_type": "xã",
-            "details": { "streets": [], "villages_hamlets": ["Cù lao An Bình"] }
+            "code": 29587,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Cù lao An Bình"
+              ]
+            }
           }
         ]
       },
       {
         "name": "Huyện Mang Thít",
         "division_type": "huyện",
+        "code": 858,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Cái Nhum",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 29641,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Nhơn Phú",
             "division_type": "xã",
+            "code": 29632,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Lò gạch Mang Thít"]
+              "villages_hamlets": [
+                "Lò gạch Mang Thít"
+              ]
             }
           }
         ]
@@ -90,44 +163,72 @@
       {
         "name": "Huyện Vũng Liêm",
         "division_type": "huyện",
+        "code": 859,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Vũng Liêm",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 29659,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Tam Bình",
         "division_type": "huyện",
+        "code": 860,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Tam Bình",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 29719,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Trà Ôn",
         "division_type": "huyện",
+        "code": 862,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Trà Ôn",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 29821,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Bình Tân",
         "division_type": "huyện",
+        "code": 863,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Tân Quới",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 29800,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       }

@@ -11,14 +11,14 @@
     "area_km2": 3359,
     "population": 8500000,
     "boundaries": [
-      "Vĩnh Phúc",
-      "Thái Nguyên",
-      "Bắc Giang",
+      "Tỉnh Thái Nguyên",
       "Bắc Ninh",
-      "Hưng Yên",
+      "Tỉnh Hưng Yên",
       "Hà Nam",
       "Hòa Bình",
-      "Phú Thọ"
+      "Tỉnh Phú Thọ",
+      "Hà Giang",
+      "Tỉnh Cao Bằng"
     ],
     "status": "active",
     "merged_from": [
@@ -38,10 +38,10 @@
     "population": 530000,
     "boundaries": [
       "Hà Giang",
-      "Tuyên Quang",
-      "Bắc Kạn",
-      "Lạng Sơn",
-      "Trung Quốc"
+      "Tỉnh Lạng Sơn",
+      "Trung Quốc",
+      "Tỉnh Cao Bằng",
+      "Tỉnh Thái Nguyên"
     ],
     "status": "active",
     "merged_from": [
@@ -57,16 +57,14 @@
     "license_plate": "22",
     "type": "Tỉnh",
     "region": "Miền Bắc",
-    "area_km2": 5867,
-    "population": 760000,
+    "area_km2": 13796,
+    "population": 1630000,
     "boundaries": [
-      "Hà Giang",
-      "Cao Bằng",
-      "Bắc Kạn",
-      "Thái Nguyên",
-      "Vĩnh Phúc",
-      "Phú Thọ",
-      "Yên Bái"
+      "Tỉnh Cao Bằng",
+      "Tỉnh Lào Cai",
+      "Trung Quốc",
+      "Tỉnh Thái Nguyên",
+      "Tỉnh Phú Thọ"
     ],
     "status": "active",
     "merged_from": [
@@ -85,8 +83,7 @@
     "area_km2": 9541,
     "population": 530000,
     "boundaries": [
-      "Lai Châu",
-      "Sơn La",
+      "Tỉnh Lai Châu",
       "Lào",
       "Trung Quốc"
     ],
@@ -104,9 +101,14 @@
     "license_plate": "",
     "type": "Tỉnh",
     "region": "",
-    "area_km2": 0.0,
-    "population": 0,
-    "boundaries": [],
+    "area_km2": 9068,
+    "population": 460000,
+    "boundaries": [
+      "Tỉnh Lào Cai",
+      "Tỉnh Sơn La",
+      "Tỉnh Điện Biên",
+      "Trung Quốc"
+    ],
     "status": "active"
   },
   {
@@ -121,13 +123,14 @@
     "area_km2": 14174,
     "population": 1240000,
     "boundaries": [
-      "Lai Châu",
-      "Yên Bái",
-      "Phú Thọ",
+      "Tỉnh Lai Châu",
+      "Tỉnh Phú Thọ",
       "Hòa Bình",
       "Thanh Hóa",
-      "Điện Biên",
-      "Lào"
+      "Tỉnh Điện Biên",
+      "Lào",
+      "Lào Cai",
+      "Hà Giang"
     ],
     "status": "active",
     "merged_from": [
@@ -143,13 +146,14 @@
     "license_plate": "24",
     "type": "Tỉnh",
     "region": "Miền Bắc",
-    "area_km2": 6383,
-    "population": 730000,
+    "area_km2": 13270,
+    "population": 1550000,
     "boundaries": [
-      "Hà Giang",
-      "Yên Bái",
-      "Lai Châu",
-      "Trung Quốc"
+      "Tỉnh Tuyên Quang",
+      "Tỉnh Lai Châu",
+      "Trung Quốc",
+      "Tỉnh Phú Thọ",
+      "Tỉnh Sơn La"
     ],
     "status": "active",
     "merged_from": [
@@ -166,15 +170,15 @@
     "license_plate": "20",
     "type": "Tỉnh",
     "region": "Miền Bắc",
-    "area_km2": 3562,
-    "population": 1280000,
+    "area_km2": 8421,
+    "population": 1600000,
     "boundaries": [
-      "Bắc Kạn",
-      "Lạng Sơn",
-      "Bắc Giang",
-      "Hà Nội",
-      "Vĩnh Phúc",
-      "Tuyên Quang"
+      "Tỉnh Cao Bằng",
+      "Tỉnh Tuyên Quang",
+      "Tỉnh Lạng Sơn",
+      "Tỉnh Bắc Ninh",
+      "Thành phố Hà Nội",
+      "Tỉnh Phú Thọ"
     ],
     "status": "active"
   },
@@ -211,11 +215,14 @@
     "area_km2": 6119,
     "population": 1300000,
     "boundaries": [
-      "Lạng Sơn",
-      "Bắc Giang",
+      "Tỉnh Lạng Sơn",
       "Hải Dương",
-      "Hải Phòng",
-      "Trung Quốc"
+      "Thành phố Hải Phòng",
+      "Trung Quốc",
+      "Tỉnh Phú Thọ",
+      "Thành phố Hà Nội",
+      "Hà Nam",
+      "Thanh Hóa"
     ],
     "status": "active",
     "merged_from": [
@@ -231,12 +238,14 @@
     "license_plate": "99",
     "type": "Tỉnh",
     "region": "Miền Bắc",
-    "area_km2": 822,
-    "population": 1600000,
+    "area_km2": 4649,
+    "population": 3500000,
     "boundaries": [
-      "Bắc Giang",
-      "Hải Dương",
-      "Hà Nội"
+      "Tỉnh Lạng Sơn",
+      "Tỉnh Thái Nguyên",
+      "Thành phố Hà Nội",
+      "Thành phố Hải Phòng",
+      "Tỉnh Quảng Ninh"
     ],
     "status": "active",
     "merged_from": [
@@ -253,15 +262,16 @@
     "license_plate": "19",
     "type": "Tỉnh",
     "region": "Miền Bắc",
-    "area_km2": 3528,
-    "population": 1460000,
+    "area_km2": 9354,
+    "population": 3480000,
     "boundaries": [
-      "Yên Bái",
-      "Tuyên Quang",
-      "Vĩnh Phúc",
-      "Hà Nội",
-      "Hòa Bình",
-      "Sơn La"
+      "Tỉnh Sơn La",
+      "Thành phố Hà Nội",
+      "Tỉnh Ninh Bình",
+      "Tỉnh Thanh Hóa",
+      "Tỉnh Lào Cai",
+      "Tỉnh Tuyên Quang",
+      "Tỉnh Thái Nguyên"
     ],
     "status": "active"
   },
@@ -274,12 +284,12 @@
     "license_plate": "15, 16",
     "type": "Thành phố",
     "region": "Miền Bắc",
-    "area_km2": 1527,
-    "population": 2100000,
+    "area_km2": 3195,
+    "population": 4000000,
     "boundaries": [
-      "Quảng Ninh",
-      "Hải Dương",
-      "Thái Bình"
+      "Tỉnh Bắc Ninh",
+      "Tỉnh Quảng Ninh",
+      "Tỉnh Hưng Yên"
     ],
     "status": "active"
   },
@@ -292,14 +302,13 @@
     "license_plate": "89",
     "type": "Tỉnh",
     "region": "Miền Bắc",
-    "area_km2": 930,
-    "population": 1200000,
+    "area_km2": 2516,
+    "population": 3000000,
     "boundaries": [
-      "Bắc Ninh",
-      "Hải Dương",
-      "Thái Bình",
-      "Hà Nam",
-      "Hà Nội"
+      "Tỉnh Bắc Ninh",
+      "Thành phố Hải Phòng",
+      "Tỉnh Ninh Bình",
+      "Thành phố Hà Nội"
     ],
     "status": "active"
   },
@@ -312,13 +321,13 @@
     "license_plate": "35",
     "type": "Tỉnh",
     "region": "Miền Bắc",
-    "area_km2": 1387,
-    "population": 980000,
+    "area_km2": 3899,
+    "population": 3680000,
     "boundaries": [
-      "Hòa Bình",
-      "Hà Nam",
-      "Nam Định",
-      "Thanh Hoá"
+      "Thành phố Hà Nội",
+      "Tỉnh Hưng Yên",
+      "Tỉnh Phú Thọ",
+      "Tỉnh Thanh Hóa"
     ],
     "status": "active"
   },
@@ -354,9 +363,10 @@
     "area_km2": 16490,
     "population": 3200000,
     "boundaries": [
-      "Thanh Hoá",
-      "Hà Tĩnh",
-      "Lào"
+      "Lào",
+      "Hòa Bình",
+      "Hà Nam",
+      "Nam Định"
     ],
     "status": "active",
     "merged_from": [
@@ -391,12 +401,12 @@
     "license_plate": "74",
     "type": "Tỉnh",
     "region": "Miền Trung",
-    "area_km2": 4746,
-    "population": 640000,
+    "area_km2": 12811,
+    "population": 1520000,
     "boundaries": [
-      "Quảng Bình",
-      "Thừa Thiên Huế",
-      "Lào"
+      "Tỉnh Hà Tĩnh",
+      "Lào",
+      "Thành phố Huế"
     ],
     "status": "active",
     "merged_from": [
@@ -413,9 +423,13 @@
     "license_plate": "",
     "type": "Tỉnh",
     "region": "",
-    "area_km2": 0.0,
-    "population": 0,
-    "boundaries": [],
+    "area_km2": 5053,
+    "population": 1200000,
+    "boundaries": [
+      "Tỉnh Quảng Trị",
+      "Thành phố Đà Nẵng",
+      "Lào"
+    ],
     "status": "active"
   },
   {
@@ -427,11 +441,12 @@
     "license_plate": "43",
     "type": "Thành phố",
     "region": "Miền Trung",
-    "area_km2": 1285,
-    "population": 1100000,
+    "area_km2": 11723,
+    "population": 2600000,
     "boundaries": [
-      "Thừa Thiên Huế",
-      "Quảng Nam"
+      "Thành phố Huế",
+      "Tỉnh Quảng Ngãi",
+      "Lào"
     ],
     "status": "active"
   },
@@ -444,13 +459,13 @@
     "license_plate": "76",
     "type": "Tỉnh",
     "region": "Miền Trung",
-    "area_km2": 5153,
-    "population": 1250000,
+    "area_km2": 14843,
+    "population": 1790000,
     "boundaries": [
-      "Quảng Nam",
-      "Kon Tum",
-      "Gia Lai",
-      "Bình Định"
+      "Thành phố Đà Nẵng",
+      "Tỉnh Gia Lai",
+      "Lào",
+      "Campuchia"
     ],
     "status": "active"
   },
@@ -463,9 +478,13 @@
     "license_plate": "",
     "type": "Tỉnh",
     "region": "",
-    "area_km2": 0.0,
-    "population": 0,
-    "boundaries": [],
+    "area_km2": 21520,
+    "population": 3000000,
+    "boundaries": [
+      "Tỉnh Quảng Ngãi",
+      "Tỉnh Đắk Lắk",
+      "Campuchia"
+    ],
     "status": "active"
   },
   {
@@ -477,13 +496,11 @@
     "license_plate": "79",
     "type": "Tỉnh",
     "region": "Miền Trung",
-    "area_km2": 5137,
-    "population": 1250000,
+    "area_km2": 8497,
+    "population": 1840000,
     "boundaries": [
-      "Phú Yên",
-      "Ninh Thuận",
-      "Đắk Lắk",
-      "Lâm Đồng"
+      "Tỉnh Đắk Lắk",
+      "Tỉnh Lâm Đồng"
     ],
     "status": "active",
     "merged_from": [
@@ -499,14 +516,12 @@
     "license_plate": "47",
     "type": "Tỉnh",
     "region": "Tây Nguyên",
-    "area_km2": 13125,
-    "population": 1900000,
+    "area_km2": 18148,
+    "population": 2770000,
     "boundaries": [
-      "Gia Lai",
-      "Phú Yên",
-      "Khánh Hòa",
-      "Lâm Đồng",
-      "Đắk Nông",
+      "Tỉnh Gia Lai",
+      "Tỉnh Khánh Hòa",
+      "Tỉnh Lâm Đồng",
       "Campuchia"
     ],
     "status": "active"
@@ -520,16 +535,14 @@
     "license_plate": "49",
     "type": "Tỉnh",
     "region": "Tây Nguyên",
-    "area_km2": 9783,
-    "population": 1300000,
+    "area_km2": 24126,
+    "population": 3200000,
     "boundaries": [
-      "Đắk Lắk",
-      "Đắk Nông",
-      "Bình Phước",
-      "Đồng Nai",
-      "Bình Thuận",
-      "Ninh Thuận",
-      "Khánh Hòa"
+      "Tỉnh Khánh Hòa",
+      "Tỉnh Đồng Nai",
+      "Thành phố Hồ Chí Minh",
+      "Tỉnh Đắk Lắk",
+      "Campuchia"
     ],
     "status": "active"
   },
@@ -542,15 +555,13 @@
     "license_plate": "39, 60",
     "type": "Tỉnh",
     "region": "Miền Nam",
-    "area_km2": 5905,
-    "population": 3100000,
+    "area_km2": 12776,
+    "population": 4100000,
     "boundaries": [
-      "Lâm Đồng",
-      "Bình Thuận",
-      "Bà Rịa - Vũng Tàu",
-      "TP.HCM",
-      "Bình Dương",
-      "Bình Phước"
+      "Tỉnh Lâm Đồng",
+      "Thành phố Hồ Chí Minh",
+      "Tỉnh Tây Ninh",
+      "Campuchia"
     ],
     "status": "active"
   },
@@ -563,9 +574,13 @@
     "license_plate": "",
     "type": "Tỉnh",
     "region": "",
-    "area_km2": 0.0,
-    "population": 0,
-    "boundaries": [],
+    "area_km2": 6769,
+    "population": 13200000,
+    "boundaries": [
+      "Tỉnh Đồng Nai",
+      "Tỉnh Tây Ninh",
+      "Tỉnh Lâm Đồng"
+    ],
     "status": "active",
     "merged_from": [
       "77",
@@ -581,14 +596,14 @@
     "license_plate": "70",
     "type": "Tỉnh",
     "region": "Miền Nam",
-    "area_km2": 4030,
-    "population": 1200000,
+    "area_km2": 10890,
+    "population": 4600000,
     "boundaries": [
-      "Bình Phước",
-      "Bình Dương",
-      "TP.HCM",
-      "Long An",
-      "Campuchia"
+      "Tỉnh Đồng Nai",
+      "Thành phố Hồ Chí Minh",
+      "Campuchia",
+      "Tỉnh Đồng Tháp",
+      "Tỉnh Vĩnh Long"
     ],
     "status": "active",
     "merged_from": [
@@ -604,14 +619,14 @@
     "license_plate": "66",
     "type": "Tỉnh",
     "region": "Miền Nam",
-    "area_km2": 3358,
-    "population": 1600000,
+    "area_km2": 5727,
+    "population": 3300000,
     "boundaries": [
-      "An Giang",
-      "Cần Thơ",
-      "Vĩnh Long",
-      "Tiền Giang",
-      "Long An",
+      "Tỉnh Tây Ninh",
+      "Thành phố Hồ Chí Minh",
+      "Tỉnh Vĩnh Long",
+      "Tỉnh An Giang",
+      "Thành phố Cần Thơ",
       "Campuchia"
     ],
     "status": "active"
@@ -625,15 +640,11 @@
     "license_plate": "64",
     "type": "Tỉnh",
     "region": "Miền Nam",
-    "area_km2": 1509,
-    "population": 900000,
+    "area_km2": 6869,
+    "population": 3300000,
     "boundaries": [
-      "Tiền Giang",
-      "Bến Tre",
-      "Trà Vinh",
-      "Sóc Trăng",
-      "Cần Thơ",
-      "Đồng Tháp"
+      "Tỉnh Đồng Tháp",
+      "Thành phố Cần Thơ"
     ],
     "status": "active",
     "merged_from": [
@@ -649,13 +660,13 @@
     "license_plate": "67",
     "type": "Tỉnh",
     "region": "Miền Nam",
-    "area_km2": 3537,
-    "population": 1900000,
+    "area_km2": 9882,
+    "population": 3600000,
     "boundaries": [
-      "Đồng Tháp",
-      "Cần Thơ",
-      "Kiên Giang",
-      "Campuchia"
+      "Tỉnh Đồng Tháp",
+      "Thành phố Cần Thơ",
+      "Campuchia",
+      "Tỉnh Cà Mau"
     ],
     "status": "active"
   },
@@ -668,14 +679,13 @@
     "license_plate": "65",
     "type": "Thành phố",
     "region": "Miền Nam",
-    "area_km2": 1437,
-    "population": 1200000,
+    "area_km2": 6079,
+    "population": 3200000,
     "boundaries": [
-      "An Giang",
-      "Đồng Tháp",
-      "Vĩnh Long",
-      "Hậu Giang",
-      "Kiên Giang"
+      "Tỉnh An Giang",
+      "Tỉnh Đồng Tháp",
+      "Tỉnh Vĩnh Long",
+      "Tỉnh Cà Mau"
     ],
     "status": "active",
     "merged_from": [
@@ -691,11 +701,11 @@
     "license_plate": "69",
     "type": "Tỉnh",
     "region": "Miền Nam",
-    "area_km2": 5221,
-    "population": 1500000,
+    "area_km2": 7879,
+    "population": 2200000,
     "boundaries": [
-      "Kiên Giang",
-      "Bạc Liêu"
+      "Thành phố Cần Thơ",
+      "Tỉnh An Giang"
     ],
     "status": "active"
   }

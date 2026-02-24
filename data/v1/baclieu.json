@@ -5,50 +5,83 @@
       {
         "name": "Thành phố Bạc Liêu",
         "division_type": "thành phố thuộc tỉnh",
+        "code": 954,
+        "status": "active",
         "wards": [
           {
             "name": "Phường 1",
             "division_type": "phường",
+            "code": 31825,
+            "status": "active",
             "details": {
-              "streets": ["Trần Phú", "Hai Bà Trưng"],
+              "streets": [
+                "Trần Phú",
+                "Hai Bà Trưng"
+              ],
               "villages_hamlets": []
             }
           },
           {
             "name": "Phường 2",
             "division_type": "phường",
+            "code": 31813,
+            "status": "active",
             "details": {
-              "streets": ["Cao Văn Lầu"],
-              "villages_hamlets": ["Nhà Công tử Bạc Liêu"]
+              "streets": [
+                "Cao Văn Lầu"
+              ],
+              "villages_hamlets": [
+                "Nhà Công tử Bạc Liêu"
+              ]
             }
           },
           {
             "name": "Phường 3",
             "division_type": "phường",
-            "details": { "streets": ["Hòa Bình"], "villages_hamlets": [] }
+            "code": 31816,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Hòa Bình"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường 5",
             "division_type": "phường",
+            "code": 31819,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Khu lưu niệm Cao Văn Lầu"]
+              "villages_hamlets": [
+                "Khu lưu niệm Cao Văn Lầu"
+              ]
             }
           },
           {
             "name": "Xã Hiệp Thành",
             "division_type": "xã",
+            "code": 31840,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Vườn nhãn cổ", "Chùa Xiêm Cán"]
+              "villages_hamlets": [
+                "Vườn nhãn cổ",
+                "Chùa Xiêm Cán"
+              ]
             }
           },
           {
             "name": "Xã Vĩnh Trạch Đông",
             "division_type": "xã",
+            "code": 31837,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Điện gió Bạc Liêu"]
+              "villages_hamlets": [
+                "Điện gió Bạc Liêu"
+              ]
             }
           }
         ]
@@ -56,23 +89,41 @@
       {
         "name": "Thị xã Giá Rai",
         "division_type": "thị xã",
+        "code": 959,
+        "status": "active",
         "wards": [
           {
             "name": "Phường 1",
             "division_type": "phường",
-            "details": { "streets": ["Quốc lộ 1A"], "villages_hamlets": [] }
+            "code": 31942,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Quốc lộ 1A"
+              ],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Phường Hộ Phòng",
             "division_type": "phường",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31945,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Tân Phong",
             "division_type": "xã",
+            "code": 31957,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Nhà thờ Tắc Sậy (Cha Diệp)"]
+              "villages_hamlets": [
+                "Nhà thờ Tắc Sậy (Cha Diệp)"
+              ]
             }
           }
         ]
@@ -80,29 +131,47 @@
       {
         "name": "Huyện Hòa Bình",
         "division_type": "huyện",
+        "code": 961,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Hòa Bình",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31891,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Vĩnh Lợi",
         "division_type": "huyện",
+        "code": 958,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Châu Hưng",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31900,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           },
           {
             "name": "Xã Vĩnh Hưng",
             "division_type": "xã",
+            "code": 31894,
+            "status": "active",
             "details": {
               "streets": [],
-              "villages_hamlets": ["Tháp cổ Vĩnh Hưng"]
+              "villages_hamlets": [
+                "Tháp cổ Vĩnh Hưng"
+              ]
             }
           }
         ]
@@ -110,33 +179,54 @@
       {
         "name": "Huyện Phước Long",
         "division_type": "huyện",
+        "code": 957,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Phước Long",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31867,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Hồng Dân",
         "division_type": "huyện",
+        "code": 956,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Ngan Dừa",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31843,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       },
       {
         "name": "Huyện Đông Hải",
         "division_type": "huyện",
+        "code": 960,
+        "status": "active",
         "wards": [
           {
             "name": "Thị trấn Gành Hào",
             "division_type": "thị trấn",
-            "details": { "streets": [], "villages_hamlets": [] }
+            "code": 31972,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
           }
         ]
       }
