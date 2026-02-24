@@ -63,6 +63,10 @@ func main() {
 	// Regions
 	mux.HandleFunc("/api/regions", h.ListRegions)
 
+	// Address resolution (v1 ↔ v2)
+	mux.HandleFunc("/api/resolve/old-to-new", h.ResolveOldToNew)
+	mux.HandleFunc("/api/resolve/new-to-old", h.ResolveNewToOld)
+
 	// Health check
 	mux.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusOK)
@@ -87,22 +91,29 @@ func main() {
 	log.Println("  GET /api/provinces/{province_id}/districts/{district_name}/wards/{ward_name}")
 	log.Println("  GET /api/regions")
 	log.Println("  GET /api/search?q=<keyword>&type=province|district|ward")
+	log.Println("  GET /api/resolve/old-to-new?province=<name|code>&district=<name>&ward=<name|code>")
+	log.Println("  GET /api/resolve/new-to-old?province=<name|code>&ward=<name|code>")
 
 	if err := http.ListenAndServe(addr, mux); err != nil {
 		log.Fatalf("Server error: %v", err)
 	}
 }
 
-// dataDirectory returns the path to the data directory
-// It looks next to the executable first, then falls back to the source tree (for `go run`)
+// dataDirectory returns the path to the data directory.
+// Priority: DATA_DIR env var → source tree (for `go run`).
+// Set DATA_VERSION=v1 to use legacy data; default is v2 (post-2025).
 func dataDirectory() string {
 	if dir := os.Getenv("DATA_DIR"); dir != "" {
 		return dir
 	}
+	version := os.Getenv("DATA_VERSION")
+	if version == "" {
+		version = "v2"
+	}
 	// When using `go run`, use the source file location
 	_, filename, _, ok := runtime.Caller(0)
 	if ok {
-		return filepath.Join(filepath.Dir(filename), "..", "data", "v1")
+		return filepath.Join(filepath.Dir(filename), "..", "data", version)
 	}
-	return "data/v1"
+	return "data/" + version
 }

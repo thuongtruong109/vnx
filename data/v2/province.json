@@ -1,0 +1,702 @@
+[
+  {
+    "id": "ha_noi",
+    "code": 1,
+    "name": "Thành phố Hà Nội",
+    "division_type": "thành phố trung ương",
+    "phone_code": 24,
+    "license_plate": "29-33, 40",
+    "type": "Thành phố",
+    "region": "Miền Bắc",
+    "area_km2": 3359,
+    "population": 8500000,
+    "boundaries": [
+      "Vĩnh Phúc",
+      "Thái Nguyên",
+      "Bắc Giang",
+      "Bắc Ninh",
+      "Hưng Yên",
+      "Hà Nam",
+      "Hòa Bình",
+      "Phú Thọ"
+    ],
+    "status": "active",
+    "merged_from": [
+      "8"
+    ]
+  },
+  {
+    "id": "cao_bang",
+    "code": 4,
+    "name": "Tỉnh Cao Bằng",
+    "division_type": "tỉnh",
+    "phone_code": 206,
+    "license_plate": "11",
+    "type": "Tỉnh",
+    "region": "Miền Bắc",
+    "area_km2": 6700,
+    "population": 530000,
+    "boundaries": [
+      "Hà Giang",
+      "Tuyên Quang",
+      "Bắc Kạn",
+      "Lạng Sơn",
+      "Trung Quốc"
+    ],
+    "status": "active",
+    "merged_from": [
+      "6"
+    ]
+  },
+  {
+    "id": "tuyen_quang",
+    "code": 8,
+    "name": "Tỉnh Tuyên Quang",
+    "division_type": "tỉnh",
+    "phone_code": 207,
+    "license_plate": "22",
+    "type": "Tỉnh",
+    "region": "Miền Bắc",
+    "area_km2": 5867,
+    "population": 760000,
+    "boundaries": [
+      "Hà Giang",
+      "Cao Bằng",
+      "Bắc Kạn",
+      "Thái Nguyên",
+      "Vĩnh Phúc",
+      "Phú Thọ",
+      "Yên Bái"
+    ],
+    "status": "active",
+    "merged_from": [
+      "14"
+    ]
+  },
+  {
+    "id": "dien_bien",
+    "code": 11,
+    "name": "Tỉnh Điện Biên",
+    "division_type": "tỉnh",
+    "phone_code": 215,
+    "license_plate": "27",
+    "type": "Tỉnh",
+    "region": "Miền Bắc",
+    "area_km2": 9541,
+    "population": 530000,
+    "boundaries": [
+      "Lai Châu",
+      "Sơn La",
+      "Lào",
+      "Trung Quốc"
+    ],
+    "status": "active",
+    "merged_from": [
+      "13"
+    ]
+  },
+  {
+    "id": "lai_chau",
+    "code": 12,
+    "name": "Tỉnh Lai Châu",
+    "division_type": "tỉnh",
+    "phone_code": 213,
+    "license_plate": "",
+    "type": "Tỉnh",
+    "region": "",
+    "area_km2": 0.0,
+    "population": 0,
+    "boundaries": [],
+    "status": "active"
+  },
+  {
+    "id": "son_la",
+    "code": 14,
+    "name": "Tỉnh Sơn La",
+    "division_type": "tỉnh",
+    "phone_code": 212,
+    "license_plate": "26",
+    "type": "Tỉnh",
+    "region": "Miền Bắc",
+    "area_km2": 14174,
+    "population": 1240000,
+    "boundaries": [
+      "Lai Châu",
+      "Yên Bái",
+      "Phú Thọ",
+      "Hòa Bình",
+      "Thanh Hóa",
+      "Điện Biên",
+      "Lào"
+    ],
+    "status": "active",
+    "merged_from": [
+      "15"
+    ]
+  },
+  {
+    "id": "lao_cai",
+    "code": 15,
+    "name": "Tỉnh Lào Cai",
+    "division_type": "tỉnh",
+    "phone_code": 214,
+    "license_plate": "24",
+    "type": "Tỉnh",
+    "region": "Miền Bắc",
+    "area_km2": 6383,
+    "population": 730000,
+    "boundaries": [
+      "Hà Giang",
+      "Yên Bái",
+      "Lai Châu",
+      "Trung Quốc"
+    ],
+    "status": "active",
+    "merged_from": [
+      "16",
+      "24"
+    ]
+  },
+  {
+    "id": "thai_nguyen",
+    "code": 19,
+    "name": "Tỉnh Thái Nguyên",
+    "division_type": "tỉnh",
+    "phone_code": 208,
+    "license_plate": "20",
+    "type": "Tỉnh",
+    "region": "Miền Bắc",
+    "area_km2": 3562,
+    "population": 1280000,
+    "boundaries": [
+      "Bắc Kạn",
+      "Lạng Sơn",
+      "Bắc Giang",
+      "Hà Nội",
+      "Vĩnh Phúc",
+      "Tuyên Quang"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "lang_son",
+    "code": 20,
+    "name": "Tỉnh Lạng Sơn",
+    "division_type": "tỉnh",
+    "phone_code": 205,
+    "license_plate": "12",
+    "type": "Tỉnh",
+    "region": "Miền Bắc",
+    "area_km2": 8320,
+    "population": 780000,
+    "boundaries": [
+      "Cao Bằng",
+      "Bắc Kạn",
+      "Thái Nguyên",
+      "Bắc Giang",
+      "Quảng Ninh",
+      "Trung Quốc"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "quang_ninh",
+    "code": 22,
+    "name": "Tỉnh Quảng Ninh",
+    "division_type": "tỉnh",
+    "phone_code": 203,
+    "license_plate": "14",
+    "type": "Tỉnh",
+    "region": "Miền Bắc",
+    "area_km2": 6119,
+    "population": 1300000,
+    "boundaries": [
+      "Lạng Sơn",
+      "Bắc Giang",
+      "Hải Dương",
+      "Hải Phòng",
+      "Trung Quốc"
+    ],
+    "status": "active",
+    "merged_from": [
+      "17"
+    ]
+  },
+  {
+    "id": "bac_ninh",
+    "code": 24,
+    "name": "Tỉnh Bắc Ninh",
+    "division_type": "tỉnh",
+    "phone_code": 222,
+    "license_plate": "99",
+    "type": "Tỉnh",
+    "region": "Miền Bắc",
+    "area_km2": 822,
+    "population": 1600000,
+    "boundaries": [
+      "Bắc Giang",
+      "Hải Dương",
+      "Hà Nội"
+    ],
+    "status": "active",
+    "merged_from": [
+      "18",
+      "26"
+    ]
+  },
+  {
+    "id": "phu_tho",
+    "code": 25,
+    "name": "Tỉnh Phú Thọ",
+    "division_type": "tỉnh",
+    "phone_code": 210,
+    "license_plate": "19",
+    "type": "Tỉnh",
+    "region": "Miền Bắc",
+    "area_km2": 3528,
+    "population": 1460000,
+    "boundaries": [
+      "Yên Bái",
+      "Tuyên Quang",
+      "Vĩnh Phúc",
+      "Hà Nội",
+      "Hòa Bình",
+      "Sơn La"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "hai_phong",
+    "code": 31,
+    "name": "Thành phố Hải Phòng",
+    "division_type": "thành phố trung ương",
+    "phone_code": 225,
+    "license_plate": "15, 16",
+    "type": "Thành phố",
+    "region": "Miền Bắc",
+    "area_km2": 1527,
+    "population": 2100000,
+    "boundaries": [
+      "Quảng Ninh",
+      "Hải Dương",
+      "Thái Bình"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "hung_yen",
+    "code": 33,
+    "name": "Tỉnh Hưng Yên",
+    "division_type": "tỉnh",
+    "phone_code": 221,
+    "license_plate": "89",
+    "type": "Tỉnh",
+    "region": "Miền Bắc",
+    "area_km2": 930,
+    "population": 1200000,
+    "boundaries": [
+      "Bắc Ninh",
+      "Hải Dương",
+      "Thái Bình",
+      "Hà Nam",
+      "Hà Nội"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ninh_binh",
+    "code": 37,
+    "name": "Tỉnh Ninh Bình",
+    "division_type": "tỉnh",
+    "phone_code": 229,
+    "license_plate": "35",
+    "type": "Tỉnh",
+    "region": "Miền Bắc",
+    "area_km2": 1387,
+    "population": 980000,
+    "boundaries": [
+      "Hòa Bình",
+      "Hà Nam",
+      "Nam Định",
+      "Thanh Hoá"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "thanh_hoa",
+    "code": 38,
+    "name": "Tỉnh Thanh Hóa",
+    "division_type": "tỉnh",
+    "phone_code": 237,
+    "license_plate": "36",
+    "type": "Tỉnh",
+    "region": "Miền Trung",
+    "area_km2": 11129,
+    "population": 3500000,
+    "boundaries": [
+      "Sơn La",
+      "Hòa Bình",
+      "Ninh Bình",
+      "Nghệ An",
+      "Lào"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "nghe_an",
+    "code": 40,
+    "name": "Tỉnh Nghệ An",
+    "division_type": "tỉnh",
+    "phone_code": 238,
+    "license_plate": "37",
+    "type": "Tỉnh",
+    "region": "Miền Trung",
+    "area_km2": 16490,
+    "population": 3200000,
+    "boundaries": [
+      "Thanh Hoá",
+      "Hà Tĩnh",
+      "Lào"
+    ],
+    "status": "active",
+    "merged_from": [
+      "37",
+      "38"
+    ]
+  },
+  {
+    "id": "ha_tinh",
+    "code": 42,
+    "name": "Tỉnh Hà Tĩnh",
+    "division_type": "tỉnh",
+    "phone_code": 239,
+    "license_plate": "38",
+    "type": "Tỉnh",
+    "region": "Miền Trung",
+    "area_km2": 5997,
+    "population": 1300000,
+    "boundaries": [
+      "Nghệ An",
+      "Quảng Bình",
+      "Lào"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "quang_tri",
+    "code": 44,
+    "name": "Tỉnh Quảng Trị",
+    "division_type": "tỉnh",
+    "phone_code": 233,
+    "license_plate": "74",
+    "type": "Tỉnh",
+    "region": "Miền Trung",
+    "area_km2": 4746,
+    "population": 640000,
+    "boundaries": [
+      "Quảng Bình",
+      "Thừa Thiên Huế",
+      "Lào"
+    ],
+    "status": "active",
+    "merged_from": [
+      "40",
+      "42"
+    ]
+  },
+  {
+    "id": "hue",
+    "code": 46,
+    "name": "Thành phố Huế",
+    "division_type": "thành phố trung ương",
+    "phone_code": 234,
+    "license_plate": "",
+    "type": "Tỉnh",
+    "region": "",
+    "area_km2": 0.0,
+    "population": 0,
+    "boundaries": [],
+    "status": "active"
+  },
+  {
+    "id": "da_nang",
+    "code": 48,
+    "name": "Thành phố Đà Nẵng",
+    "division_type": "thành phố trung ương",
+    "phone_code": 236,
+    "license_plate": "43",
+    "type": "Thành phố",
+    "region": "Miền Trung",
+    "area_km2": 1285,
+    "population": 1100000,
+    "boundaries": [
+      "Thừa Thiên Huế",
+      "Quảng Nam"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "quang_ngai",
+    "code": 51,
+    "name": "Tỉnh Quảng Ngãi",
+    "division_type": "tỉnh",
+    "phone_code": 255,
+    "license_plate": "76",
+    "type": "Tỉnh",
+    "region": "Miền Trung",
+    "area_km2": 5153,
+    "population": 1250000,
+    "boundaries": [
+      "Quảng Nam",
+      "Kon Tum",
+      "Gia Lai",
+      "Bình Định"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "gia_lai",
+    "code": 52,
+    "name": "Tỉnh Gia Lai",
+    "division_type": "tỉnh",
+    "phone_code": 269,
+    "license_plate": "",
+    "type": "Tỉnh",
+    "region": "",
+    "area_km2": 0.0,
+    "population": 0,
+    "boundaries": [],
+    "status": "active"
+  },
+  {
+    "id": "khanh_hoa",
+    "code": 56,
+    "name": "Tỉnh Khánh Hòa",
+    "division_type": "tỉnh",
+    "phone_code": 258,
+    "license_plate": "79",
+    "type": "Tỉnh",
+    "region": "Miền Trung",
+    "area_km2": 5137,
+    "population": 1250000,
+    "boundaries": [
+      "Phú Yên",
+      "Ninh Thuận",
+      "Đắk Lắk",
+      "Lâm Đồng"
+    ],
+    "status": "active",
+    "merged_from": [
+      "58"
+    ]
+  },
+  {
+    "id": "dak_lak",
+    "code": 66,
+    "name": "Tỉnh Đắk Lắk",
+    "division_type": "tỉnh",
+    "phone_code": 262,
+    "license_plate": "47",
+    "type": "Tỉnh",
+    "region": "Tây Nguyên",
+    "area_km2": 13125,
+    "population": 1900000,
+    "boundaries": [
+      "Gia Lai",
+      "Phú Yên",
+      "Khánh Hòa",
+      "Lâm Đồng",
+      "Đắk Nông",
+      "Campuchia"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "lam_dong",
+    "code": 68,
+    "name": "Tỉnh Lâm Đồng",
+    "division_type": "tỉnh",
+    "phone_code": 263,
+    "license_plate": "49",
+    "type": "Tỉnh",
+    "region": "Tây Nguyên",
+    "area_km2": 9783,
+    "population": 1300000,
+    "boundaries": [
+      "Đắk Lắk",
+      "Đắk Nông",
+      "Bình Phước",
+      "Đồng Nai",
+      "Bình Thuận",
+      "Ninh Thuận",
+      "Khánh Hòa"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "dong_nai",
+    "code": 75,
+    "name": "Tỉnh Đồng Nai",
+    "division_type": "tỉnh",
+    "phone_code": 251,
+    "license_plate": "39, 60",
+    "type": "Tỉnh",
+    "region": "Miền Nam",
+    "area_km2": 5905,
+    "population": 3100000,
+    "boundaries": [
+      "Lâm Đồng",
+      "Bình Thuận",
+      "Bà Rịa - Vũng Tàu",
+      "TP.HCM",
+      "Bình Dương",
+      "Bình Phước"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "ho_chi_minh",
+    "code": 79,
+    "name": "Thành phố Hồ Chí Minh",
+    "division_type": "thành phố trung ương",
+    "phone_code": 28,
+    "license_plate": "",
+    "type": "Tỉnh",
+    "region": "",
+    "area_km2": 0.0,
+    "population": 0,
+    "boundaries": [],
+    "status": "active",
+    "merged_from": [
+      "77",
+      "74"
+    ]
+  },
+  {
+    "id": "tay_ninh",
+    "code": 80,
+    "name": "Tỉnh Tây Ninh",
+    "division_type": "tỉnh",
+    "phone_code": 276,
+    "license_plate": "70",
+    "type": "Tỉnh",
+    "region": "Miền Nam",
+    "area_km2": 4030,
+    "population": 1200000,
+    "boundaries": [
+      "Bình Phước",
+      "Bình Dương",
+      "TP.HCM",
+      "Long An",
+      "Campuchia"
+    ],
+    "status": "active",
+    "merged_from": [
+      "82"
+    ]
+  },
+  {
+    "id": "dong_thap",
+    "code": 82,
+    "name": "Tỉnh Đồng Tháp",
+    "division_type": "tỉnh",
+    "phone_code": 277,
+    "license_plate": "66",
+    "type": "Tỉnh",
+    "region": "Miền Nam",
+    "area_km2": 3358,
+    "population": 1600000,
+    "boundaries": [
+      "An Giang",
+      "Cần Thơ",
+      "Vĩnh Long",
+      "Tiền Giang",
+      "Long An",
+      "Campuchia"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "vinh_long",
+    "code": 86,
+    "name": "Tỉnh Vĩnh Long",
+    "division_type": "tỉnh",
+    "phone_code": 270,
+    "license_plate": "64",
+    "type": "Tỉnh",
+    "region": "Miền Nam",
+    "area_km2": 1509,
+    "population": 900000,
+    "boundaries": [
+      "Tiền Giang",
+      "Bến Tre",
+      "Trà Vinh",
+      "Sóc Trăng",
+      "Cần Thơ",
+      "Đồng Tháp"
+    ],
+    "status": "active",
+    "merged_from": [
+      "87"
+    ]
+  },
+  {
+    "id": "an_giang",
+    "code": 91,
+    "name": "Tỉnh An Giang",
+    "division_type": "tỉnh",
+    "phone_code": 296,
+    "license_plate": "67",
+    "type": "Tỉnh",
+    "region": "Miền Nam",
+    "area_km2": 3537,
+    "population": 1900000,
+    "boundaries": [
+      "Đồng Tháp",
+      "Cần Thơ",
+      "Kiên Giang",
+      "Campuchia"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "can_tho",
+    "code": 92,
+    "name": "Thành phố Cần Thơ",
+    "division_type": "thành phố trung ương",
+    "phone_code": 292,
+    "license_plate": "65",
+    "type": "Thành phố",
+    "region": "Miền Nam",
+    "area_km2": 1437,
+    "population": 1200000,
+    "boundaries": [
+      "An Giang",
+      "Đồng Tháp",
+      "Vĩnh Long",
+      "Hậu Giang",
+      "Kiên Giang"
+    ],
+    "status": "active",
+    "merged_from": [
+      "93"
+    ]
+  },
+  {
+    "id": "ca_mau",
+    "code": 96,
+    "name": "Tỉnh Cà Mau",
+    "division_type": "tỉnh",
+    "phone_code": 290,
+    "license_plate": "69",
+    "type": "Tỉnh",
+    "region": "Miền Nam",
+    "area_km2": 5221,
+    "population": 1500000,
+    "boundaries": [
+      "Kiên Giang",
+      "Bạc Liêu"
+    ],
+    "status": "active"
+  }
+]

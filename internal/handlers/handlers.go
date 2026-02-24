@@ -32,11 +32,23 @@ func writeError(w http.ResponseWriter, status int, msg string) {
 }
 
 // -----------------------------------------------------------------
-// GET /api/provinces
-// Returns list of all provinces
+// GET /api/provinces?include_inactive=true
+// Returns list of provinces. Active-only by default; pass
+// include_inactive=true to include merged/split/renamed units.
 // -----------------------------------------------------------------
 func (h *Handler) ListProvinces(w http.ResponseWriter, r *http.Request) {
-	writeJSON(w, http.StatusOK, h.store.Provinces)
+	includeInactive := r.URL.Query().Get("include_inactive") == "true"
+	if includeInactive {
+		writeJSON(w, http.StatusOK, h.store.Provinces)
+		return
+	}
+	active := make([]models.Province, 0, len(h.store.Provinces))
+	for _, p := range h.store.Provinces {
+		if models.IsActive(p.Status) {
+			active = append(active, p)
+		}
+	}
+	writeJSON(w, http.StatusOK, active)
 }
 
 // -----------------------------------------------------------------
@@ -97,8 +109,8 @@ func (h *Handler) GetProvinceDetail(w http.ResponseWriter, r *http.Request) {
 }
 
 // -----------------------------------------------------------------
-// GET /api/provinces/{province_id}/districts
-// Returns all districts of a province
+// GET /api/provinces/{province_id}/districts?include_inactive=true
+// Returns all districts of a province. Active-only by default.
 // -----------------------------------------------------------------
 func (h *Handler) ListDistricts(w http.ResponseWriter, r *http.Request) {
 	id := pathParam(r.URL.Path, "/api/provinces/")
@@ -110,17 +122,32 @@ func (h *Handler) ListDistricts(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	includeInactive := r.URL.Query().Get("include_inactive") == "true"
+
 	type districtSummary struct {
-		Name         string `json:"name"`
-		DivisionType string `json:"division_type"`
-		WardCount    int    `json:"ward_count"`
+		Name         string            `json:"name"`
+		DivisionType string            `json:"division_type"`
+		WardCount    int               `json:"ward_count"`
+		Status       models.AdminStatus `json:"status,omitempty"`
+		MergedInto   string            `json:"merged_into,omitempty"`
+		MergedFrom   []string          `json:"merged_from,omitempty"`
+		EffectiveDate string           `json:"effective_date,omitempty"`
+		EndDate      string            `json:"end_date,omitempty"`
 	}
 	result := make([]districtSummary, 0, len(entry.Districts))
 	for _, d := range entry.Districts {
+		if !includeInactive && !models.IsActive(d.Status) {
+			continue
+		}
 		result = append(result, districtSummary{
-			Name:         d.Name,
-			DivisionType: d.DivisionType,
-			WardCount:    len(d.Wards),
+			Name:          d.Name,
+			DivisionType:  d.DivisionType,
+			WardCount:     len(d.Wards),
+			Status:        d.Status,
+			MergedInto:    d.MergedInto,
+			MergedFrom:    d.MergedFrom,
+			EffectiveDate: d.EffectiveDate,
+			EndDate:       d.EndDate,
 		})
 	}
 	writeJSON(w, http.StatusOK, result)
@@ -157,8 +184,8 @@ func (h *Handler) GetDistrict(w http.ResponseWriter, r *http.Request) {
 }
 
 // -----------------------------------------------------------------
-// GET /api/provinces/{province_id}/districts/{district_name}/wards
-// Returns all wards of a district
+// GET /api/provinces/{province_id}/districts/{district_name}/wards?include_inactive=true
+// Returns all wards of a district. Active-only by default.
 // -----------------------------------------------------------------
 func (h *Handler) ListWards(w http.ResponseWriter, r *http.Request) {
 	rest := pathParam(r.URL.Path, "/api/provinces/")
@@ -178,9 +205,21 @@ func (h *Handler) ListWards(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	includeInactive := r.URL.Query().Get("include_inactive") == "true"
+
 	for _, d := range entry.Districts {
 		if d.Name == districtName {
-			writeJSON(w, http.StatusOK, d.Wards)
+			if includeInactive {
+				writeJSON(w, http.StatusOK, d.Wards)
+				return
+			}
+			active := make([]models.Ward, 0, len(d.Wards))
+			for _, w := range d.Wards {
+				if models.IsActive(w.Status) {
+					active = append(active, w)
+				}
+			}
+			writeJSON(w, http.StatusOK, active)
 			return
 		}
 	}
@@ -229,33 +268,41 @@ func (h *Handler) GetWard(w http.ResponseWriter, r *http.Request) {
 }
 
 // -----------------------------------------------------------------
-// GET /api/search?q=...&type=province|district|ward
-// Search by name across all entities
+// GET /api/search?q=...&type=province|district|ward&include_inactive=true
+// Search by name across all entities. Active-only by default.
 // -----------------------------------------------------------------
 func (h *Handler) Search(w http.ResponseWriter, r *http.Request) {
 	q := strings.ToLower(r.URL.Query().Get("q"))
 	typ := r.URL.Query().Get("type")
+	includeInactive := r.URL.Query().Get("include_inactive") == "true"
 	if q == "" {
 		writeError(w, http.StatusBadRequest, "query parameter 'q' is required")
 		return
 	}
 
 	type result struct {
-		Type         string `json:"type"`
-		ProvinceID   string `json:"province_id,omitempty"`
-		Name         string `json:"name"`
-		DivisionType string `json:"division_type"`
+		Type         string            `json:"type"`
+		ProvinceID   string            `json:"province_id,omitempty"`
+		Name         string            `json:"name"`
+		DivisionType string            `json:"division_type"`
+		Status       models.AdminStatus `json:"status,omitempty"`
+		MergedInto   string            `json:"merged_into,omitempty"`
 	}
 
 	var results []result
 
 	if typ == "" || typ == "province" {
 		for _, p := range h.store.Provinces {
+			if !includeInactive && !models.IsActive(p.Status) {
+				continue
+			}
 			if strings.Contains(strings.ToLower(p.Name), q) {
 				results = append(results, result{
 					Type:         "province",
 					Name:         p.Name,
 					DivisionType: p.DivisionType,
+					Status:       p.Status,
+					MergedInto:   p.MergedInto,
 				})
 			}
 		}
@@ -265,22 +312,30 @@ func (h *Handler) Search(w http.ResponseWriter, r *http.Request) {
 		for _, entry := range h.store.Addresses {
 			for _, d := range entry.Districts {
 				if (typ == "" || typ == "district") && strings.Contains(strings.ToLower(d.Name), q) {
-					results = append(results, result{
-						Type:         "district",
-						ProvinceID:   entry.ProvinceID,
-						Name:         d.Name,
-						DivisionType: d.DivisionType,
-					})
+					if includeInactive || models.IsActive(d.Status) {
+						results = append(results, result{
+							Type:         "district",
+							ProvinceID:   entry.ProvinceID,
+							Name:         d.Name,
+							DivisionType: d.DivisionType,
+							Status:       d.Status,
+							MergedInto:   d.MergedInto,
+						})
+					}
 				}
 				if typ == "" || typ == "ward" {
 					for _, ward := range d.Wards {
 						if strings.Contains(strings.ToLower(ward.Name), q) {
-							results = append(results, result{
-								Type:         "ward",
-								ProvinceID:   entry.ProvinceID,
-								Name:         ward.Name,
-								DivisionType: ward.DivisionType,
-							})
+							if includeInactive || models.IsActive(ward.Status) {
+								results = append(results, result{
+									Type:         "ward",
+									ProvinceID:   entry.ProvinceID,
+									Name:         ward.Name,
+									DivisionType: ward.DivisionType,
+									Status:       ward.Status,
+									MergedInto:   ward.MergedInto,
+								})
+							}
 						}
 					}
 				}
