@@ -1,0 +1,2284 @@
+[
+  {
+    "province_id": "01",
+    "districts": [
+      {
+        "name": "Quận Ba Đình",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Cống Vị",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Đội Cấn",
+                "Liễu Giai",
+                "Đào Tấn",
+                "Phan Kế Bính",
+                "Bưởi"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Điện Biên",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Điện Biên Phủ",
+                "Lê Hồng Phong",
+                "Chu Văn An",
+                "Hùng Vương"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Giảng Võ",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Giảng Võ",
+                "Trần Huy Liệu",
+                "Kim Mã",
+                "Nam Cao"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Kim Mã",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Kim Mã",
+                "Nguyễn Thái Học",
+                "Sơn Tây"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Liễu Giai",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Văn Cao",
+                "Quần Ngựa",
+                "Hoàng Hoa Thám"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Ngọc Hà",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Ngọc Hà",
+                "Đội Cấn",
+                "Hoàng Hoa Thám"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Nguyễn Trung Trực",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Hàng Than",
+                "Hòe Nhai",
+                "Yên Ninh"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phúc Xá",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Phúc Xá",
+                "Hồng Hà",
+                "Yên Phụ"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Quán Thánh",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Quán Thánh",
+                "Phan Đình Phùng",
+                "Thanh Niên"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thành Công",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Láng Hạ",
+                "Huỳnh Thúc Kháng",
+                "Nguyên Hồng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Trúc Bạch",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Trúc Bạch",
+                "Thanh Niên",
+                "Phó Đức Chính"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Vĩnh Phúc",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Đội Nhân",
+                "Vĩnh Phúc",
+                "Đường Bưởi"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quận Hoàn Kiếm",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Chương Dương",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Bạch Đằng",
+                "Chương Dương Độ"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Cửa Đông",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Đường Thành",
+                "Lý Nam Đế"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Cửa Nam",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Lê Duẩn",
+                "Hai Bà Trưng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Đồng Xuân",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Hàng Khoai",
+                "Hàng Mã"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hàng Bạc",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Hàng Bạc",
+                "Tạ Hiện",
+                "Gia Ngư"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hàng Bài",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Hàng Bài",
+                "Trần Hưng Đạo"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hàng Bồ",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Hàng Bồ",
+                "Hàng Đường"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hàng Bông",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Hàng Bông",
+                "Phùng Hưng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hàng Buồm",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Hàng Buồm",
+                "Lương Ngọc Quyến"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hàng Đào",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Hàng Đào",
+                "Hàng Ngang"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hàng Gai",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Hàng Gai",
+                "Lương Văn Can"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hàng Mã",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Hàng Mã",
+                "Phùng Hưng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hàng Trống",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Nhà Thờ",
+                "Lý Quốc Sư"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Lý Thái Tổ",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Trần Quang Khải",
+                "Tràng Tiền"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phan Chu Trinh",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Phan Chu Trinh",
+                "Lý Thường Kiệt"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phúc Tân",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Phúc Tân",
+                "Trần Nhật Duật"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Tràng Tiền",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Tràng Tiền",
+                "Phạm Ngũ Lão"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Trần Hưng Đạo",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Trần Hưng Đạo",
+                "Dã Tượng"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quận Tây Hồ",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Bưởi",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Lạc Long Quân",
+                "Thụy Khuê",
+                "Trích Sài"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Nhật Tân",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Âu Cơ",
+                "Nhật Chiêu"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phú Thượng",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "An Dương Vương",
+                "Phú Gia"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Quảng An",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Xuân Diệu",
+                "Đặng Thai Mai"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thụy Khuê",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Thụy Khuê",
+                "Hoàng Hoa Thám"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Tứ Liên",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Tứ Liên",
+                "Nghi Tàm"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Xuân La",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Xuân La",
+                "Võ Chí Công"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Yên Phụ",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Yên Phụ",
+                "Thanh Niên"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quận Cầu Giấy",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Dịch Vọng",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Cầu Giấy",
+                "Trần Đăng Ninh"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Dịch Vọng Hậu",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Trần Thái Tông",
+                "Xuân Thủy"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Mai Dịch",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Hồ Tùng Mậu",
+                "Phạm Hùng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Nghĩa Đô",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Hoàng Quốc Việt",
+                "Phùng Chí Kiên"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Nghĩa Tân",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Tô Hiệu",
+                "Nguyễn Văn Huyên"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Quan Hoa",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Quan Hoa",
+                "Nguyễn Khánh Toàn"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Trung Hòa",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Trần Duy Hưng",
+                "Trung Kính"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Yên Hòa",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Dương Đình Nghệ",
+                "Yên Hòa"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quận Đống Đa",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Cát Linh",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Cát Linh",
+                "Giảng Võ"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hàng Bột",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Tôn Đức Thắng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Khâm Thiên",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Khâm Thiên"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Khương Thượng",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Tôn Thất Tùng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Kim Liên",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Phạm Ngọc Thạch",
+                "Lương Định Của"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Láng Hạ",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Láng Hạ",
+                "Thái Hà"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Láng Thượng",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Chùa Láng",
+                "Đường Láng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Nam Đồng",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Xã Đàn",
+                "Hồ Đắc Di"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Ngã Tư Sở",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Tây Sơn",
+                "Láng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Ô Chợ Dừa",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Xã Đàn",
+                "Đê La Thành"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phương Liên",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Đào Duy Anh"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phương Mai",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Giải Phóng",
+                "Phương Mai"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Quang Trung",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Đặng Tiến Đông"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Quốc Tử Giám",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Quốc Tử Giám",
+                "Văn Miếu"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thịnh Quang",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Thịnh Quang",
+                "Vĩnh Hồ"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thổ Quan",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Khâm Thiên",
+                "Trung Phụng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thượng Đình",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Nguyễn Trãi"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Trung Liệt",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Thái Hà",
+                "Đặng Tiến Đông"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Trung Phụng",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Trung Phụng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Trung Tự",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Phạm Ngọc Thạch"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Văn Chương",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Văn Chương"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Văn Miếu",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Văn Miếu",
+                "Nguyễn Khuyến"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quận Hai Bà Trưng",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Bạch Đằng",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Nguyễn Khoái",
+                "Lê Quý Đôn"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Bách Khoa",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Tạ Quang Bửu",
+                "Lê Thanh Nghị"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Bạch Mai",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Bạch Mai",
+                "Hồng Mai"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Cầu Dền",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Bạch Mai",
+                "Đại Cồ Việt"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Đồng Nhân",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Lò Đúc",
+                "Hương Viên"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Đồng Tâm",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Giải Phóng",
+                "Trần Đại Nghĩa"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Đống Mác",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Lò Đúc",
+                "Trần Khát Chân"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Lê Đại Hành",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Bà Triệu",
+                "Đại Cồ Việt"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Minh Khai",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Minh Khai",
+                "Kim Ngưu"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Nguyễn Du",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Phố Huế",
+                "Quang Trung"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phạm Đình Hổ",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Lò Đúc",
+                "Hàn Thuyên"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phố Huế",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Phố Huế",
+                "Trần Xuân Soạn"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Quỳnh Lôi",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Thanh Nhàn",
+                "Quỳnh Lôi"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Quỳnh Mai",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Quỳnh Mai"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thanh Lương",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Kim Ngưu",
+                "Đê Trần Khát Chân"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thanh Nhàn",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Thanh Nhàn",
+                "Lạc Trung"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Trương Định",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Trương Định",
+                "Đại La"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Vĩnh Tuy",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Dương Văn Bé",
+                "Vĩnh Tuy"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quận Hoàng Mai",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Đại Kim",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Nguyễn Xiển",
+                "Đại Kim"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Định Công",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Định Công",
+                "Trần Điền"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Giáp Bát",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Giải Phóng",
+                "Giáp Bát"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hoàng Liệt",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Ngọc Hồi",
+                "Linh Đường"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hoàng Văn Thụ",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Tam Trinh",
+                "Đền Lừ"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Lĩnh Nam",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Lĩnh Nam",
+                "Nam Dư"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Mai Động",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Mai Động",
+                "Lĩnh Nam"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Tân Mai",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Tân Mai",
+                "Trương Định"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thanh Trì",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Nguyễn Khoái"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thịnh Liệt",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Trương Định",
+                "Thịnh Liệt"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Trần Phú",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Khuyến Lương"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Tương Mai",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Trương Định",
+                "Nguyễn An Ninh"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Vĩnh Hưng",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Vĩnh Hưng",
+                "Lĩnh Nam"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Yên Sở",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Tam Trinh",
+                "Vành đai 3"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quận Long Biên",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Bồ Đề",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Nguyễn Văn Cừ",
+                "Bồ Đề"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Cự Khối",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Bát Khối"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Đức Giang",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Ngô Gia Tự",
+                "Đức Giang"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Gia Thụy",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Nguyễn Văn Cừ"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Giang Biên",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Giang Biên"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Long Biên",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Cổ Linh"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Ngọc Lâm",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Ngọc Lâm",
+                "Nguyễn Văn Cừ"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Ngọc Thụy",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Ngọc Thụy"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phúc Đồng",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Chu Huy Mân"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phúc Lợi",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Phúc Lợi"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Sài Đồng",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Sài Đồng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thạch Bàn",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Thạch Bàn"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thượng Thanh",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Thượng Thanh"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Việt Hưng",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Việt Hưng"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quận Nam Từ Liêm",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Cầu Diễn",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Hàm Nghi",
+                "Nguyễn Cơ Thạch"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Đại Mỗ",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Đại Mỗ"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Mễ Trì",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Mễ Trì",
+                "Đỗ Đức Dục"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Mỹ Đình 1",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Lê Đức Thọ",
+                "Trần Hữu Dực"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Mỹ Đình 2",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Lê Đức Thọ",
+                "Nguyễn Hoàng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phú Đô",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Lê Quang Đạo"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phương Canh",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Phương Canh"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Tây Mỗ",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Tây Mỗ"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Trung Văn",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Tố Hữu",
+                "Trung Văn"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Xuân Phương",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Xuân Phương"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quận Bắc Từ Liêm",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Cổ Nhuế 1",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Trần Cung",
+                "Phạm Văn Đồng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Cổ Nhuế 2",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Cổ Nhuế",
+                "Phạm Văn Đồng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Đông Ngạc",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Đông Ngạc"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Đức Thắng",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Đức Thắng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Liên Mạc",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Liên Mạc"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Minh Khai",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Văn Tiến Dũng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phú Diễn",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Phú Diễn"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phúc Diễn",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Phúc Diễn"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Tây Tựu",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Tây Tựu"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thượng Cát",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Thượng Cát"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thụy Phương",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Thụy Phương"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Xuân Đỉnh",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Xuân Đỉnh"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Xuân Tảo",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Xuân Tảo"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quận Hà Đông",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Biên Giang",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Quốc lộ 6"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Đồng Mai",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Đồng Mai"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Dương Nội",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Lê Trọng Tấn"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Hà Cầu",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Hà Trì"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Kiến Hưng",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Mậu Lương"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường La Khê",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Lê Trọng Tấn"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Mộ Lao",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Nguyễn Văn Lộc"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Nguyễn Trãi",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Nguyễn Trãi"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phú La",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Quang Trung"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phú Lãm",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Quốc lộ 21B"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phú Lương",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Phú Lương"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phúc La",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Phùng Hưng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Quang Trung",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Quang Trung"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Vạn Phúc",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Vạn Phúc"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Văn Quán",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Văn Quán"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Yên Nghĩa",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Quốc lộ 6"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Yết Kiêu",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Yết Kiêu"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quận Thanh Xuân",
+        "division_type": "quận",
+        "wards": [
+          {
+            "name": "Phường Hạ Đình",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Khương Đình"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Khương Đình",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Khương Đình"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Khương Mai",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Lê Trọng Tấn"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Khương Trung",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Khương Trung"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Kim Giang",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Kim Giang"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Nhân Chính",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Lê Văn Lương"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phương Liệt",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Giải Phóng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thanh Xuân Bắc",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Khuất Duy Tiến"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thanh Xuân Nam",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Nguyễn Trãi"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thanh Xuân Trung",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Nguyễn Huy Tưởng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Thượng Đình",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Nguyễn Trãi"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Sơn Tây",
+        "division_type": "thị xã",
+        "wards": [
+          {
+            "name": "Phường Lê Lợi",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Lê Lợi"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Ngô Quyền",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Ngô Quyền"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Phú Thịnh",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Phú Thịnh"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Quang Trung",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Quang Trung"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Sơn Lộc",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Sơn Lộc"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Trung Hưng",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Trung Hưng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Trung Sơn Trầm",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Trung Sơn Trầm"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Viên Sơn",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Viên Sơn"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Xuân Khanh",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Xuân Khanh"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Ba Vì",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tây Đằng",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [
+                "Quốc lộ 32"
+              ],
+              "villages_hamlets": [
+                "Tổ 1",
+                "Tổ 2"
+              ]
+            }
+          },
+          {
+            "name": "Xã Ba Trại",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Thôn 1",
+                "Thôn 2"
+              ]
+            }
+          },
+          {
+            "name": "Xã Cẩm Lĩnh",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Thôn Cẩm"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Chương Mỹ",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Chúc Sơn",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [
+                "Quốc lộ 6"
+              ],
+              "villages_hamlets": [
+                "Tổ dân phố Ninh Sơn"
+              ]
+            }
+          },
+          {
+            "name": "Thị trấn Xuân Mai",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [
+                "Quốc lộ 6",
+                "Đường Hồ Chí Minh"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đan Phượng",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phùng",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [
+                "Phan Đình Phùng"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đông Anh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đông Anh",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [
+                "Cao Lỗ"
+              ],
+              "villages_hamlets": [
+                "Khối 1",
+                "Khối 2"
+              ]
+            }
+          },
+          {
+            "name": "Xã Kim Chung",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Thôn Bầu",
+                "Thôn Hậu"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Gia Lâm",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Trâu Quỳ",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [
+                "Ngô Xuân Quảng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Thị trấn Yên Viên",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [
+                "Hà Huy Tập"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Bát Tràng",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Thôn Bát Tràng",
+                "Thôn Giang Cao"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hoài Đức",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Trạm Trôi",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [
+                "Quốc lộ 32"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Mê Linh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Chi Đông",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Thị trấn Quang Minh",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [
+                "Võ Văn Kiệt"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Mỹ Đức",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đại Nghĩa",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phú Xuyên",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phú Minh",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Thị trấn Phú Xuyên",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phúc Thọ",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Phúc Thọ",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Quốc Oai",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Quốc Oai",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Sóc Sơn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Sóc Sơn",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thạch Thất",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Liên Quan",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thanh Oai",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Kim Bài",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thanh Trì",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Văn Điển",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [
+                "Ngọc Hồi",
+                "Giải Phóng"
+              ],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thường Tín",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Thường Tín",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Ứng Hòa",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Vân Đình",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

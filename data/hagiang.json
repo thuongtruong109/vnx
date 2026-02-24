@@ -1,0 +1,350 @@
+[
+  {
+    "province_id": "02",
+    "districts": [
+      {
+        "name": "Thành phố Hà Giang",
+        "division_type": "thành phố thuộc tỉnh",
+        "wards": [
+          {
+            "name": "Phường Quang Trung",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Nguyễn Trãi",
+                "Lý Tự Trọng"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Trần Phú",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Trần Phú",
+                "Minh Khai"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Ngọc Hà",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Lê Quý Đôn"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Nguyễn Trãi",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "26 Tháng 3"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Minh Khai",
+            "division_type": "phường",
+            "details": {
+              "streets": [
+                "Nguyễn Văn Linh"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Phương Độ",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Thôn Tha",
+                "Thôn Hạ Thành",
+                "Thôn Lùng Vài"
+              ]
+            }
+          },
+          {
+            "name": "Xã Phương Thiện",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Thôn Gia Vài",
+                "Thôn Mè"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đồng Văn",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Đồng Văn",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [
+                "Phố Cổ Đồng Văn"
+              ],
+              "villages_hamlets": [
+                "Quyết Tiến",
+                "Đoàn Kết"
+              ]
+            }
+          },
+          {
+            "name": "Xã Lũng Cú",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Lô Lô Chải",
+                "Séo Lủng",
+                "Thèn Pả"
+              ]
+            }
+          },
+          {
+            "name": "Xã Sà Phìn",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Sà Phìn A",
+                "Sà Phìn B"
+              ]
+            }
+          },
+          {
+            "name": "Xã Phố Cáo",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Lũng Cẩm Trên",
+                "Lũng Cẩm Dưới"
+              ]
+            }
+          },
+          {
+            "name": "Xã Lũng Thầu",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Sủng Là",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Lũng Cẩm"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Mèo Vạc",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Mèo Vạc",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Tổ 1",
+                "Tổ 2"
+              ]
+            }
+          },
+          {
+            "name": "Xã Pả Vi",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Pả Vi Hạ",
+                "Pả Vi Thượng"
+              ]
+            }
+          },
+          {
+            "name": "Xã Mã Pì Lèng",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Yên Minh",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Yên Minh",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Du Già",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Bản Cáp 1",
+                "Bản Cáp 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Quản Bạ",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Tam Sơn",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Lùng Tám",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Vị Xuyên",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Vị Xuyên",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Thị trấn Nông trường Việt Lâm",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bắc Mê",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Yên Phú",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hoàng Su Phì",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Vinh Quang",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Bản Phùng",
+            "division_type": "xã",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Xín Mần",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Cốc Pài",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bắc Quang",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Việt Quang",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Thị trấn Vĩnh Tuy",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Quang Bình",
+        "division_type": "huyện",
+        "wards": [
+          {
+            "name": "Thị trấn Yên Bình",
+            "division_type": "thị trấn",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
