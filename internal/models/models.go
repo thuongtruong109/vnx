@@ -87,6 +87,41 @@ type ProvinceDetail struct {
 	Districts []District `json:"districts"`
 }
 
+// DistrictNoWards is a district summary without the wards list (deep=2).
+type DistrictNoWards struct {
+	Name          string      `json:"name"`
+	DivisionType  string      `json:"division_type"`
+	Status        AdminStatus `json:"status,omitempty"`
+	EffectiveDate string      `json:"effective_date,omitempty"`
+	EndDate       string      `json:"end_date,omitempty"`
+	MergedFrom    []string    `json:"merged_from,omitempty"`
+	MergedInto    string      `json:"merged_into,omitempty"`
+}
+
+// WardNoDetails is a ward without street/village details (deep=3).
+type WardNoDetails struct {
+	Name          string      `json:"name"`
+	DivisionType  string      `json:"division_type"`
+	Code          int         `json:"code,omitempty"`
+	Status        AdminStatus `json:"status,omitempty"`
+	EffectiveDate string      `json:"effective_date,omitempty"`
+	EndDate       string      `json:"end_date,omitempty"`
+	MergedFrom    []string    `json:"merged_from,omitempty"`
+	MergedInto    string      `json:"merged_into,omitempty"`
+}
+
+// DistrictWithWardsNoDetails is a district with wards but without ward details (deep=3).
+type DistrictWithWardsNoDetails struct {
+	Name          string         `json:"name"`
+	DivisionType  string         `json:"division_type"`
+	Wards         []WardNoDetails `json:"wards"`
+	Status        AdminStatus    `json:"status,omitempty"`
+	EffectiveDate string         `json:"effective_date,omitempty"`
+	EndDate       string         `json:"end_date,omitempty"`
+	MergedFrom    []string       `json:"merged_from,omitempty"`
+	MergedInto    string         `json:"merged_into,omitempty"`
+}
+
 // IsActive returns true when an entity should be shown in normal queries.
 // Entities with no Status set are treated as active (backward-compatible).
 func IsActive(s AdminStatus) bool {

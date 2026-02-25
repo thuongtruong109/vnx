@@ -140,9 +140,9 @@ func printEndpointsTable() {
 	t.AppendHeader(table.Row{"METHOD", "PATH", "DESCRIPTION"})
 	t.AppendRows([]table.Row{
 		{"GET", "/health", "Health check"},
-		{"GET", "/api/provinces", "List provinces"},
-		{"GET", "/api/provinces/{province_id}", "Get province"},
-		{"GET", "/api/provinces/detail/{province_id}", "Province detail (with districts/wards)"},
+		{"GET", "/api/provinces?deep=1", "List provinces (deep=1..4, default 1)"},
+		{"GET", "/api/provinces/{province_id}?deep=1", "Get province (deep=1..4, default 1)"},
+		{"GET", "/api/provinces/detail/{province_id}?deep=4", "Province detail (deep=1..4, default 4)"},
 		{"GET", "/api/provinces/{province_id}/districts", "List districts"},
 		{"GET", "/api/provinces/{province_id}/districts/{district_name}", "Get district"},
 		{"GET", "/api/provinces/{province_id}/districts/{district_name}/wards", "List wards"},

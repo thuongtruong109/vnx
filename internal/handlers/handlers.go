@@ -32,29 +32,165 @@ func writeError(w http.ResponseWriter, status int, msg string) {
 	writeJSON(w, status, map[string]string{"error": msg})
 }
 
-// -----------------------------------------------------------------
-// GET /api/provinces?include_inactive=true
-// Returns list of provinces. Active-only by default; pass
-// include_inactive=true to include merged/split/renamed units.
-// -----------------------------------------------------------------
-func (h *Handler) ListProvinces(w http.ResponseWriter, r *http.Request) {
-	includeInactive := r.URL.Query().Get("include_inactive") == "true"
-	if includeInactive {
-		writeJSON(w, http.StatusOK, h.store.Provinces)
-		return
+// parseDeep reads the "deep" query parameter (1–4) and returns the integer value.
+// Defaults to 1 when the parameter is absent or invalid.
+//
+//   deep=1  – province only
+//   deep=2  – province + districts (no wards)
+//   deep=3  – province + districts + wards (no street/village details)
+//   deep=4  – province + districts + wards + street/village details
+func parseDeep(r *http.Request) int {
+	d, err := strconv.Atoi(r.URL.Query().Get("deep"))
+	if err != nil || d < 1 || d > 4 {
+		return 1
 	}
-	active := make([]models.Province, 0, len(h.store.Provinces))
-	for _, p := range h.store.Provinces {
-		if models.IsActive(p.Status) {
-			active = append(active, p)
+	return d
+}
+
+// provinceAtDepth builds a response object for the given province at the
+// requested depth level. includeInactive controls whether non-active
+// districts/wards are included at deeper levels.
+func (h *Handler) provinceAtDepth(p models.Province, depth int, includeInactive bool) any {
+	if depth == 1 {
+		return p
+	}
+
+	entry := h.store.AddressByProvince[p.ID]
+
+	if depth == 2 {
+		type resp struct {
+			models.Province
+			Districts []models.DistrictNoWards `json:"districts"`
+		}
+		r := resp{Province: p, Districts: []models.DistrictNoWards{}}
+		if entry != nil {
+			for _, d := range entry.Districts {
+				if !includeInactive && !models.IsActive(d.Status) {
+					continue
+				}
+				r.Districts = append(r.Districts, models.DistrictNoWards{
+					Name:          d.Name,
+					DivisionType:  d.DivisionType,
+					Status:        d.Status,
+					EffectiveDate: d.EffectiveDate,
+					EndDate:       d.EndDate,
+					MergedFrom:    d.MergedFrom,
+					MergedInto:    d.MergedInto,
+				})
+			}
+		}
+		return r
+	}
+
+	if depth == 3 {
+		type resp struct {
+			models.Province
+			Districts []models.DistrictWithWardsNoDetails `json:"districts"`
+		}
+		r := resp{Province: p, Districts: []models.DistrictWithWardsNoDetails{}}
+		if entry != nil {
+			for _, d := range entry.Districts {
+				if !includeInactive && !models.IsActive(d.Status) {
+					continue
+				}
+				wd := models.DistrictWithWardsNoDetails{
+					Name:          d.Name,
+					DivisionType:  d.DivisionType,
+					Status:        d.Status,
+					EffectiveDate: d.EffectiveDate,
+					EndDate:       d.EndDate,
+					MergedFrom:    d.MergedFrom,
+					MergedInto:    d.MergedInto,
+					Wards:         []models.WardNoDetails{},
+				}
+				for _, w := range d.Wards {
+					if !includeInactive && !models.IsActive(w.Status) {
+						continue
+					}
+					wd.Wards = append(wd.Wards, models.WardNoDetails{
+						Name:          w.Name,
+						DivisionType:  w.DivisionType,
+						Code:          w.Code,
+						Status:        w.Status,
+						EffectiveDate: w.EffectiveDate,
+						EndDate:       w.EndDate,
+						MergedFrom:    w.MergedFrom,
+						MergedInto:    w.MergedInto,
+					})
+				}
+				r.Districts = append(r.Districts, wd)
+			}
+		}
+		return r
+	}
+
+	// depth == 4: full detail (province + districts + wards + street/village details)
+	type resp struct {
+		models.Province
+		Districts []models.District `json:"districts"`
+	}
+	r := resp{Province: p, Districts: []models.District{}}
+	if entry != nil {
+		for _, d := range entry.Districts {
+			if !includeInactive && !models.IsActive(d.Status) {
+				continue
+			}
+			if includeInactive {
+				r.Districts = append(r.Districts, d)
+			} else {
+				filtered := models.District{
+					Name:          d.Name,
+					DivisionType:  d.DivisionType,
+					Status:        d.Status,
+					EffectiveDate: d.EffectiveDate,
+					EndDate:       d.EndDate,
+					MergedFrom:    d.MergedFrom,
+					MergedInto:    d.MergedInto,
+					Wards:         []models.Ward{},
+				}
+				for _, w := range d.Wards {
+					if models.IsActive(w.Status) {
+						filtered.Wards = append(filtered.Wards, w)
+					}
+				}
+				r.Districts = append(r.Districts, filtered)
+			}
 		}
 	}
-	writeJSON(w, http.StatusOK, active)
+	return r
 }
 
 // -----------------------------------------------------------------
-// GET /api/provinces/{province_id}
-// Returns a single province by id
+// GET /api/provinces?include_inactive=true&deep=1
+// Returns list of provinces.
+//   deep=1 (default) – province fields only
+//   deep=2           – province + districts (no wards)
+//   deep=3           – province + districts + wards (no details)
+//   deep=4           – province + districts + wards + street/village details
+// Active-only by default; pass include_inactive=true to include
+// merged/split/renamed units.
+// -----------------------------------------------------------------
+func (h *Handler) ListProvinces(w http.ResponseWriter, r *http.Request) {
+	includeInactive := r.URL.Query().Get("include_inactive") == "true"
+	deep := parseDeep(r)
+
+	results := make([]any, 0, len(h.store.Provinces))
+	for _, p := range h.store.Provinces {
+		if !includeInactive && !models.IsActive(p.Status) {
+			continue
+		}
+		results = append(results, h.provinceAtDepth(p, deep, includeInactive))
+	}
+	writeJSON(w, http.StatusOK, results)
+}
+
+// -----------------------------------------------------------------
+// GET /api/provinces/{province_id}?deep=1
+// Returns a single province by id.
+//   deep=1 (default) – province fields only
+//   deep=2           – province + districts (no wards)
+//   deep=3           – province + districts + wards (no details)
+//   deep=4           – province + districts + wards + street/village details
 // -----------------------------------------------------------------
 func (h *Handler) GetProvince(w http.ResponseWriter, r *http.Request) {
 	id := pathParam(r.URL.Path, "/api/provinces/")
@@ -63,9 +199,12 @@ func (h *Handler) GetProvince(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	deep := parseDeep(r)
+	includeInactive := r.URL.Query().Get("include_inactive") == "true"
+
 	for _, p := range h.store.Provinces {
 		if p.ID == id {
-			writeJSON(w, http.StatusOK, p)
+			writeJSON(w, http.StatusOK, h.provinceAtDepth(p, deep, includeInactive))
 			return
 		}
 	}
@@ -73,8 +212,10 @@ func (h *Handler) GetProvince(w http.ResponseWriter, r *http.Request) {
 }
 
 // -----------------------------------------------------------------
-// GET /api/provinces/detail/{province_id}
-// Returns full province info merged with all its districts & wards
+// GET /api/provinces/detail/{province_id}?deep=4
+// Returns full province info merged with all its districts & wards.
+// Supports the same deep=1..4 levels as /api/provinces/{id}.
+// Defaults to deep=4 (full detail) if not specified.
 // -----------------------------------------------------------------
 func (h *Handler) GetProvinceDetail(w http.ResponseWriter, r *http.Request) {
 	id := pathParam(r.URL.Path, "/api/provinces/detail/")
@@ -95,18 +236,16 @@ func (h *Handler) GetProvinceDetail(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	entry, ok := h.store.AddressByProvince[id]
-	var districts []models.District
-	if ok {
-		districts = entry.Districts
-	} else {
-		districts = []models.District{}
+	// Default to deep=4 for backward-compatibility with this endpoint
+	deep := 4
+	if raw := r.URL.Query().Get("deep"); raw != "" {
+		if d, err := strconv.Atoi(raw); err == nil && d >= 1 && d <= 4 {
+			deep = d
+		}
 	}
+	includeInactive := r.URL.Query().Get("include_inactive") == "true"
 
-	writeJSON(w, http.StatusOK, models.ProvinceDetail{
-		Province:  *found,
-		Districts: districts,
-	})
+	writeJSON(w, http.StatusOK, h.provinceAtDepth(*found, deep, includeInactive))
 }
 
 // -----------------------------------------------------------------
