@@ -3,6 +3,7 @@ package handlers
 import (
 	"encoding/json"
 	"net/http"
+	"strconv"
 	"strings"
 
 	"vnx-api/internal/loader"
@@ -371,6 +372,40 @@ func (h *Handler) ListRegions(w http.ResponseWriter, r *http.Request) {
 // -----------------------------------------------------------------
 func (h *Handler) ListV1Provinces(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusOK, h.store.V1Provinces)
+}
+
+// -----------------------------------------------------------------
+// GET /api/v1/provinces/{code_or_slug}
+// Returns districts and wards for a single pre-2025 (v1) province.
+// Accepts either the numeric code (e.g. 70) or slug id (e.g. binhphuoc).
+// -----------------------------------------------------------------
+func (h *Handler) GetV1ProvinceDetail(w http.ResponseWriter, r *http.Request) {
+	param := pathParam(r.URL.Path, "/api/v1/provinces/")
+	if param == "" {
+		writeError(w, http.StatusBadRequest, "missing province code or slug")
+		return
+	}
+
+	// Resolve param to slug: try numeric code first, then treat as slug directly
+	slug := param
+	if code, err := strconv.Atoi(param); err == nil {
+		if s, ok := h.store.V1CodeToSlug[code]; ok {
+			slug = s
+		}
+	}
+
+	entry, ok := h.store.V1AddressBySlug[slug]
+	if !ok {
+		writeError(w, http.StatusNotFound, "v1 province not found: "+param)
+		return
+	}
+	info := h.store.V1ProvincesBySlug[slug]
+
+	writeJSON(w, http.StatusOK, map[string]any{
+		"id":        slug,
+		"province":  info,
+		"districts": entry.Districts,
+	})
 }
 
 // pathParam extracts the URL segment after prefix

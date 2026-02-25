@@ -94,9 +94,9 @@
         color: var(--muted);
       }
       .tab-btn.active {
-        background: var(--accent);
-        color: #fff;
-        box-shadow: 0 2px 12px rgba(79, 127, 255, 0.35);
+        background: rgba(79, 127, 255, 0.15);
+        color: var(--accent);
+        box-shadow: none;
       }
 
       /* ── Card ── */
@@ -144,9 +144,11 @@
       }
 
       .btn {
-        display: inline-flex;
+        display: flex;
         align-items: center;
+        justify-content: center;
         gap: 8px;
+        width: 100%;
         padding: 11px 26px;
         border-radius: 8px;
         border: none;
@@ -182,49 +184,56 @@
         margin-bottom: 12px;
       }
 
-      .result-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 16px;
-      }
-
-      .result-card {
+      /* Single unified result card */
+      .result-single {
         background: var(--surface2);
         border: 1px solid var(--border);
         border-radius: 10px;
-        padding: 18px;
       }
-      .result-card .rc-label {
-        font-size: 11px;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.7px;
-        margin-bottom: 10px;
+      .addr-list {
+        padding: 10px 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
       }
-      .result-card.v1 .rc-label {
-        color: var(--red);
-      }
-      .result-card.v2 .rc-label {
-        color: var(--accent2);
-      }
-
-      .result-card .not-found {
-        color: var(--muted);
-        font-style: italic;
-        font-size: 13px;
-      }
-
-      .province-result,
-      .ward-result {
+      .addr-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
         background: var(--surface);
         border: 1px solid var(--border);
         border-radius: 8px;
-        padding: 12px;
-        margin-bottom: 10px;
+        padding: 10px 14px;
+        flex-wrap: wrap;
       }
-      .province-result:last-child,
-      .ward-result:last-child {
-        margin-bottom: 0;
+      .addr-part {
+        font-weight: 600;
+        font-size: 14px;
+      }
+      .addr-part.old {
+        color: var(--red);
+      }
+      .addr-part.new {
+        color: var(--accent2);
+      }
+      .addr-arrow {
+        color: var(--muted);
+        font-size: 16px;
+        flex-shrink: 0;
+      }
+      .addr-code {
+        color: var(--muted);
+        font-size: 12px;
+        margin-left: auto;
+      }
+      .addr-notfound {
+        padding: 10px 14px;
+        color: var(--muted);
+        font-size: 13px;
+        font-style: italic;
+      }
+      .addr-notfound strong {
+        color: var(--text);
       }
 
       .tag {
@@ -246,38 +255,6 @@
         color: var(--red);
       }
 
-      .row {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        margin-bottom: 6px;
-        flex-wrap: wrap;
-      }
-      .row:last-child {
-        margin-bottom: 0;
-      }
-
-      .pill-name {
-        font-weight: 600;
-        font-size: 14px;
-      }
-      .pill-code {
-        color: var(--muted);
-        font-size: 13px;
-      }
-      .pill-meta {
-        color: var(--muted);
-        font-size: 12px;
-      }
-
-      /* ward list */
-      .ward-list {
-        display: flex;
-        flex-direction: column;
-        gap: 6px;
-      }
-
-      /* error */
       .error-box {
         background: rgba(248, 113, 113, 0.1);
         border: 1px solid rgba(248, 113, 113, 0.3);
@@ -371,7 +348,7 @@
         background: var(--surface2);
         border: 1px solid var(--accent);
         border-radius: 8px;
-        max-height: 220px;
+        max-height: 280px;
         overflow-y: auto;
         box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
       }
@@ -411,6 +388,16 @@
         color: var(--muted);
         font-style: italic;
       }
+      .combo-hint {
+        padding: 6px 14px;
+        font-size: 11px;
+        color: var(--muted);
+        background: rgba(79, 127, 255, 0.06);
+        border-bottom: 1px solid var(--border);
+        position: sticky;
+        top: 0;
+        z-index: 1;
+      }
       .combo-loading {
         padding: 10px 14px;
         font-size: 13px;
@@ -426,13 +413,6 @@
         border-top-color: var(--accent);
         border-radius: 50%;
         animation: spin 0.6s linear infinite;
-      }
-
-      /* responsive */
-      @media (max-width: 560px) {
-        .result-grid {
-          grid-template-columns: 1fr;
-        }
       }
     </style>
   </head>
@@ -651,11 +631,22 @@
           const items = getItems();
           if (!items) return;
 
-          const q = filter.toLowerCase().trim();
+          // Normalize + strip diacritics for fuzzy Vietnamese search
+          // e.g. "binh phuoc" matches "Tỉnh Bình Phước"
+          function normSearch(s) {
+            return s
+              .toLowerCase()
+              .normalize("NFD")
+              .replace(/[\u0300-\u036f]/g, "") // strip combining marks
+              .replace(/đ/g, "d")
+              .replace(/Đ/g, "d");
+          }
+
+          const q = normSearch(filter.trim());
           const matched = q
             ? items.filter(
                 (i) =>
-                  i.label.toLowerCase().includes(q) ||
+                  normSearch(i.label).includes(q) ||
                   (i.sub && String(i.sub).includes(q)),
               )
             : items;
@@ -667,16 +658,24 @@
             return;
           }
 
-          list.innerHTML = matched
-            .map(
-              (item, idx) => `
+          // Show count hint when showing all (no filter typed yet)
+          const countHint =
+            !q && items.length > 10
+              ? `<div class="combo-hint">Gõ để tìm kiếm • ${items.length} mục</div>`
+              : "";
+
+          list.innerHTML =
+            countHint +
+            matched
+              .map(
+                (item, idx) => `
             <div class="combo-item" data-idx="${idx}" data-value="${escHtml(item.value)}" data-label="${escHtml(item.label)}">
               ${escHtml(item.label)}
               ${item.sub !== undefined ? `<span class="item-code">#${escHtml(String(item.sub))}</span>` : ""}
             </div>
           `,
-            )
-            .join("");
+              )
+              .join("");
 
           list.querySelectorAll(".combo-item").forEach((el) => {
             el.addEventListener("mousedown", (e) => {
@@ -762,13 +761,16 @@
         if (cache.v1Provinces) return cache.v1Provinces;
         const r = await fetch("/api/v1/provinces");
         const data = await r.json();
-        cache.v1Provinces = data.map((p) => ({
-          label: p.name,
-          sub: p.code,
-          value: p.name,
-          id: null, // v1 provinces have no detail endpoint; district/ward cascade is unavailable
-          code: p.code,
-        }));
+        cache.v1Provinces = data
+          .slice()
+          .sort((a, b) => a.code - b.code)
+          .map((p) => ({
+            label: p.name,
+            sub: p.code,
+            value: String(p.code), // send numeric code to API for accurate lookup
+            id: null,
+            code: p.code,
+          }));
         return cache.v1Provinces;
       }
 
@@ -776,13 +778,16 @@
         if (cache.v2Provinces) return cache.v2Provinces;
         const r = await fetch("/api/provinces");
         const data = await r.json();
-        cache.v2Provinces = data.map((p) => ({
-          label: p.name,
-          sub: p.code,
-          value: p.name,
-          id: p.id,
-          code: p.code,
-        }));
+        cache.v2Provinces = data
+          .slice()
+          .sort((a, b) => a.code - b.code)
+          .map((p) => ({
+            label: p.name,
+            sub: p.code,
+            value: String(p.code), // send numeric code to API for accurate lookup
+            id: p.id,
+            code: p.code,
+          }));
         return cache.v2Provinces;
       }
 
@@ -794,10 +799,23 @@
         return data;
       }
 
+      // v1 district+ward detail cache, keyed by province code (string)
+      const cacheV1Detail = {};
+
+      async function loadV1ProvinceDetail(provinceCode) {
+        if (cacheV1Detail[provinceCode]) return cacheV1Detail[provinceCode];
+        const r = await fetch(`/api/v1/provinces/${provinceCode}`);
+        if (!r.ok) return null;
+        const data = await r.json();
+        cacheV1Detail[provinceCode] = data;
+        return data;
+      }
+
       /* ════════════════════════════════════════════════
          COMBO SETUP – Old→New
          ════════════════════════════════════════════════ */
       let o2nProvinceItems = null; // null = still loading
+      // Each district item: { label, sub (code), value (name for resolve), wards[] }
       let o2nDistrictItems = [];
       let o2nWardItems = [];
 
@@ -807,19 +825,29 @@
         "wrap-o2n-province",
         () => o2nProvinceItems,
         async (item) => {
-          sel.o2nProvince = item.value;
+          sel.o2nProvince = item.value; // numeric code string
           sel.o2nDistrict = "";
           sel.o2nWard = "";
-          enableCombo(
-            "o2n-district",
-            false,
-            "Không có dữ liệu huyện cho địa chỉ cũ",
-          );
-          enableCombo("o2n-ward", false, "Không có dữ liệu xã cho địa chỉ cũ");
           document.getElementById("o2n-district").value = "";
           document.getElementById("o2n-ward").value = "";
           o2nDistrictItems = [];
           o2nWardItems = [];
+          enableCombo("o2n-district", false, "Đang tải huyện/quận…");
+          enableCombo("o2n-ward", false, "Chọn huyện/quận trước…");
+
+          // Fetch districts for this v1 province using its numeric code
+          const detail = await loadV1ProvinceDetail(item.value);
+          if (detail && detail.districts && detail.districts.length > 0) {
+            o2nDistrictItems = detail.districts.map((d) => ({
+              label: d.name,
+              sub: d.code || undefined,
+              value: d.name, // district name sent to resolve API
+              wards: d.wards || [],
+            }));
+            enableCombo("o2n-district", true, "Chọn huyện/quận…");
+          } else {
+            enableCombo("o2n-district", false, "Không có dữ liệu huyện");
+          }
         },
       );
 
@@ -834,13 +862,15 @@
           document.getElementById("o2n-ward").value = "";
           o2nWardItems = [];
           const dist = o2nDistrictItems.find((d) => d.value === item.value);
-          if (dist) {
-            o2nWardItems = (dist.wards || []).map((w) => ({
+          if (dist && dist.wards.length > 0) {
+            o2nWardItems = dist.wards.map((w) => ({
               label: w.name,
-              sub: w.code,
-              value: w.name,
+              sub: w.code || undefined,
+              value: String(w.code || w.name), // prefer code for resolve API
             }));
             enableCombo("o2n-ward", true, "Chọn phường/xã…");
+          } else {
+            enableCombo("o2n-ward", false, "Không có dữ liệu xã");
           }
         },
       );
@@ -867,7 +897,7 @@
         "wrap-n2o-province",
         () => n2oProvinceItems,
         async (item) => {
-          sel.n2oProvince = item.value;
+          sel.n2oProvince = item.value; // numeric code string
           sel.n2oWard = "";
           document.getElementById("n2o-ward").value = "";
           n2oWardItems = [];
@@ -879,7 +909,11 @@
             const wards = [];
             (detail.districts || []).forEach((d) => {
               (d.wards || []).forEach((w) =>
-                wards.push({ label: w.name, sub: w.code, value: w.name }),
+                wards.push({
+                  label: w.name,
+                  sub: w.code,
+                  value: String(w.code),
+                }),
               );
             });
             n2oWardItems = wards;
@@ -983,9 +1017,9 @@
         setLoading("btn-o2n", true);
         try {
           const params = new URLSearchParams();
-          if (province) params.set("province", province);
+          if (province) params.set("province", province); // code or name
           if (district) params.set("district", district);
-          if (ward) params.set("ward", ward);
+          if (ward) params.set("ward", ward); // code or name
 
           const res = await fetch(`/api/resolve/old-to-new?${params}`);
           const data = await res.json();
@@ -1004,62 +1038,44 @@
 
       function renderOldToNew(data) {
         const q = data.query || {};
-        let html = `<div class="result-section"><h3>Kết quả tra cứu</h3><div class="result-grid">`;
+        const p = data.province;
+        const w = data.ward;
 
-        /* Province block */
-        html += `<div class="result-card v1"><div class="rc-label">🏛️ Tỉnh / Thành phố</div>`;
-        if (q.province) {
-          const p = data.province;
-          if (p && p.found) {
-            html += `
-          <div class="province-result">
-            <div class="row"><span class="tag red">Cũ (v1)</span><span class="pill-name">${escHtml(q.province)}</span></div>
-            <div style="padding:4px 0;text-align:center;color:var(--muted);font-size:18px;">↓</div>
-            <div class="row"><span class="tag green">Mới (v2)</span><span class="pill-name">${escHtml(p.v2_province.name)}</span><span class="pill-code">#${p.v2_province.code}</span></div>
-            ${p.v2_id ? `<div class="row"><span class="pill-meta">ID: <code>${escHtml(p.v2_id)}</code></span></div>` : ""}
+        // Build old address parts (what user queried)
+        const oldParts = [];
+        if (q.ward) oldParts.push(q.ward);
+        if (q.district) oldParts.push(q.district);
+        if (q.province) oldParts.push(q.province);
+
+        // Build new address parts from resolved data
+        const newParts = [];
+        if (w && w.found) newParts.push(w.v2_ward.name);
+        if (p && p.found) newParts.push(p.v2_province.name);
+
+        const notFound = [];
+        if (q.province && p && !p.found)
+          notFound.push(`tỉnh "<strong>${escHtml(q.province)}</strong>"`);
+        if (q.ward && w && !w.found)
+          notFound.push(`phường/xã "<strong>${escHtml(q.ward)}</strong>"`);
+
+        if (notFound.length) {
+          return `<div class="result-section"><div class="error-box">Không tìm thấy ${notFound.join(" và ")}.</div></div>`;
+        }
+        if (!newParts.length) {
+          return `<div class="result-section"><div class="error-box">Không có kết quả.</div></div>`;
+        }
+
+        return `
+          <div class="result-section">
+            <h3>Kết quả tra cứu</h3>
+            <div class="result-single">
+              <div class="addr-list">
+                <div class="addr-row">
+                  <span class="addr-part new">${escHtml(newParts.join(", "))}</span>
+                </div>
+              </div>
+            </div>
           </div>`;
-          } else if (p) {
-            html += `<p class="not-found">Không tìm thấy tỉnh "<strong>${escHtml(q.province)}</strong>" trong dữ liệu v1.</p>`;
-          }
-        } else {
-          html += `<p class="not-found">Không có truy vấn tỉnh.</p>`;
-        }
-        html += `</div>`;
-
-        /* Ward block */
-        html += `<div class="result-card v2"><div class="rc-label">📍 Phường / Xã</div>`;
-        if (q.ward) {
-          const w = data.ward;
-          if (w && w.found) {
-            const v1list = (w.v1_wards || []).filter(
-              (x) =>
-                !q.ward ||
-                x.name.toLowerCase().includes(q.ward.toLowerCase()) ||
-                String(x.code) === q.ward,
-            );
-            const display = v1list.length
-              ? v1list
-              : (w.v1_wards || []).slice(0, 1);
-            html += `<div class="ward-list">`;
-            display.forEach((old) => {
-              html += `
-            <div class="ward-result">
-              <div class="row"><span class="tag red">Cũ (v1)</span><span class="pill-name">${escHtml(old.name)}</span><span class="pill-code">#${old.code}</span></div>
-              ${old.district_name ? `<div class="row"><span class="pill-meta">Huyện: ${escHtml(old.district_name)} #${old.district_code}</span></div>` : ""}
-              ${old.province_name ? `<div class="row"><span class="pill-meta">Tỉnh: ${escHtml(old.province_name)} #${old.province_code}</span></div>` : ""}
-              <div style="padding:2px 0;text-align:center;color:var(--muted);font-size:16px;">↓</div>
-              <div class="row"><span class="tag green">Mới (v2)</span><span class="pill-name">${escHtml(w.v2_ward.name)}</span><span class="pill-code">#${w.v2_ward.code}</span></div>
-            </div>`;
-            });
-            html += `</div>`;
-          } else if (w) {
-            html += `<p class="not-found">Không tìm thấy phường/xã "<strong>${escHtml(q.ward)}</strong>" trong dữ liệu v1.</p>`;
-          }
-        } else {
-          html += `<p class="not-found">Không có truy vấn phường/xã.</p>`;
-        }
-        html += `</div></div></div>`;
-        return html;
       }
 
       /* ════════════════════════════════════════════════
@@ -1083,8 +1099,8 @@
         setLoading("btn-n2o", true);
         try {
           const params = new URLSearchParams();
-          if (province) params.set("province", province);
-          if (ward) params.set("ward", ward);
+          if (province) params.set("province", province); // code or name
+          if (ward) params.set("ward", ward); // code or name
 
           const res = await fetch(`/api/resolve/new-to-old?${params}`);
           const data = await res.json();
@@ -1103,56 +1119,66 @@
 
       function renderNewToOld(data) {
         const q = data.query || {};
-        let html = `<div class="result-section"><h3>Kết quả tra cứu</h3><div class="result-grid">`;
+        const p = data.province;
+        const w = data.ward;
 
-        /* Province */
-        html += `<div class="result-card v2"><div class="rc-label">🏛️ Tỉnh / Thành phố</div>`;
-        if (q.province) {
-          const p = data.province;
-          if (p && p.found) {
-            html += `<div class="province-result">`;
-            html += `<div class="row"><span class="tag green">Mới (v2)</span><span class="pill-name">${escHtml(p.v2_province.name)}</span><span class="pill-code">#${p.v2_province.code}</span></div>`;
-            html += `<div style="padding:4px 0;color:var(--muted);font-size:13px;margin:4px 0;">Được sáp nhập từ ${p.v1_provinces.length} tỉnh/thành cũ:</div>`;
-            html += `<div class="ward-list">`;
-            (p.v1_provinces || []).forEach((old) => {
-              html += `<div class="row"><span class="tag red">v1</span><span class="pill-name">${escHtml(old.name)}</span><span class="pill-code">#${old.code}</span></div>`;
-            });
-            html += `</div></div>`;
-          } else if (p) {
-            html += `<p class="not-found">Không tìm thấy tỉnh "<strong>${escHtml(q.province)}</strong>" trong dữ liệu v2.</p>`;
-          }
-        } else {
-          html += `<p class="not-found">Không có truy vấn tỉnh.</p>`;
-        }
-        html += `</div>`;
+        // 1 v2 address → possibly multiple v1 rows (vì 1 tỉnh mới = nhiều tỉnh cũ)
+        // Combine province + ward into one row per old-province combination
+        const notFound = [];
+        if (q.province && p && !p.found)
+          notFound.push(`tỉnh "<strong>${escHtml(q.province)}</strong>"`);
+        if (q.ward && w && !w.found)
+          notFound.push(`phường/xã "<strong>${escHtml(q.ward)}</strong>"`);
 
-        /* Ward */
-        html += `<div class="result-card v1"><div class="rc-label">📍 Phường / Xã</div>`;
-        if (q.ward) {
-          const w = data.ward;
-          if (w && w.found) {
-            html += `<div class="ward-result">`;
-            html += `<div class="row"><span class="tag green">Mới (v2)</span><span class="pill-name">${escHtml(w.v2_ward.name)}</span><span class="pill-code">#${w.v2_ward.code}</span></div>`;
-            html += `<div style="padding:2px 0;text-align:center;color:var(--muted);font-size:16px;">↓</div>`;
-            html += `<div style="color:var(--muted);font-size:12px;margin-bottom:8px;">Được hợp nhất từ ${w.v1_wards.length} phường/xã cũ:</div>`;
-            html += `<div class="ward-list">`;
-            (w.v1_wards || []).forEach((old) => {
-              html += `
-            <div class="ward-result">
-              <div class="row"><span class="tag red">v1</span><span class="pill-name">${escHtml(old.name)}</span><span class="pill-code">#${old.code}</span></div>
-              ${old.district_name ? `<div class="row"><span class="pill-meta">Huyện: ${escHtml(old.district_name)} #${old.district_code}</span></div>` : ""}
-              ${old.province_name ? `<div class="row"><span class="pill-meta">Tỉnh: ${escHtml(old.province_name)} #${old.province_code}</span></div>` : ""}
-            </div>`;
-            });
-            html += `</div></div>`;
-          } else if (w) {
-            html += `<p class="not-found">Không tìm thấy phường/xã "<strong>${escHtml(q.ward)}</strong>" trong dữ liệu v2.</p>`;
-          }
-        } else {
-          html += `<p class="not-found">Không có truy vấn phường/xã.</p>`;
+        if (notFound.length) {
+          return `<div class="result-section"><div class="error-box">Không tìm thấy ${notFound.join(" và ")}.</div></div>`;
         }
-        html += `</div></div></div>`;
-        return html;
+
+        // Build new side (what user selected)
+        const newParts = [];
+        if (q.ward && w && w.found) newParts.push(w.v2_ward.name);
+        if (q.province && p && p.found) newParts.push(p.v2_province.name);
+
+        if (!newParts.length) {
+          return `<div class="result-section"><div class="error-box">Không có kết quả.</div></div>`;
+        }
+
+        // Build old side rows
+        // If ward queried → show each v1 ward (with its province)
+        // If only province queried → show each v1 province
+        let rows = [];
+        if (q.ward && w && w.found) {
+          (w.v1_wards || []).forEach((old) => {
+            const oldParts = [
+              old.name,
+              old.district_name,
+              old.province_name,
+            ].filter(Boolean);
+            rows.push(`
+              <div class="addr-row">
+                <span class="addr-part new">${escHtml(newParts.join(", "))}</span>
+                <span class="addr-arrow">→</span>
+                <span class="addr-part old">${escHtml(oldParts.join(", "))}</span>
+              </div>`);
+          });
+        } else if (q.province && p && p.found) {
+          (p.v1_provinces || []).forEach((old) => {
+            rows.push(`
+              <div class="addr-row">
+                <span class="addr-part new">${escHtml(newParts.join(", "))}</span>
+                <span class="addr-arrow">→</span>
+                <span class="addr-part old">${escHtml(old.name)}</span>
+              </div>`);
+          });
+        }
+
+        return `
+          <div class="result-section">
+            <h3>Kết quả tra cứu</h3>
+            <div class="result-single">
+              <div class="addr-list">${rows.join("")}</div>
+            </div>
+          </div>`;
       }
 
       /* ════════════════════════════════════════════════

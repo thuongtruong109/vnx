@@ -21,6 +21,16 @@ type Store struct {
 	// (e.g. Hà Nội stayed as-is, but Huế absorbed Quảng Trị + TT-Huế).
 	V1Provinces []models.V1Province
 
+	// V1ProvincesBySlug holds all pre-2025 province metadata (from data/v1/province.json)
+	// keyed by their slug id (e.g. "hanoi", "binhphuoc").
+	V1ProvincesBySlug map[string]*models.V1ProvinceInfo
+
+	// V1CodeToSlug maps a v1 numeric code -> slug id (e.g. 70 -> "binhphuoc")
+	V1CodeToSlug map[int]string
+
+	// V1AddressBySlug holds districts+wards for each v1 province, keyed by slug.
+	V1AddressBySlug map[string]*models.AddressEntry
+
 	// Index maps: province string id -> AddressEntry
 	AddressByProvince map[string]*models.AddressEntry
 
@@ -51,6 +61,9 @@ type Store struct {
 func Load(dataDir string) (*Store, error) {
 	store := &Store{
 		AddressByProvince: make(map[string]*models.AddressEntry),
+		V1ProvincesBySlug: make(map[string]*models.V1ProvinceInfo),
+		V1CodeToSlug:      make(map[int]string),
+		V1AddressBySlug:   make(map[string]*models.AddressEntry),
 		WardByV2Code:      make(map[int]*models.WardMapEntry),
 		WardByV1Code:      make(map[int]*models.WardMapEntry),
 		ProvinceByV2Code:  make(map[int]*models.ProvinceMapEntry),
@@ -97,7 +110,32 @@ func Load(dataDir string) (*Store, error) {
 		}
 	}
 
-	// 3. Load data/map.json (located one level above versioned dataDir)
+	// 3. Load data/v1/ province list and per-province address files
+	v1Dir := resolveV1Dir(dataDir)
+	v1ProvinceFile := fmt.Sprintf("%s/province.json", v1Dir)
+	if v1PData, err := os.ReadFile(v1ProvinceFile); err == nil {
+		var v1Provs []models.V1ProvinceInfo
+		if err := json.Unmarshal(v1PData, &v1Provs); err == nil {
+			for i := range v1Provs {
+				p := &v1Provs[i]
+				store.V1ProvincesBySlug[p.ID] = p
+				store.V1CodeToSlug[p.Code] = p.ID
+
+				// Load per-province address file (districts + wards)
+				addrFile := fmt.Sprintf("%s/%s.json", v1Dir, p.ID)
+				if raw, err := os.ReadFile(addrFile); err == nil {
+					var entries []models.AddressEntry
+					if err := json.Unmarshal(raw, &entries); err == nil && len(entries) > 0 {
+						entry := entries[0]
+						entry.ProvinceID = p.ID
+						store.V1AddressBySlug[p.ID] = &entry
+					}
+				}
+			}
+		}
+	}
+
+	// 4. Load data/map.json (located one level above versioned dataDir)
 	mapFile := resolveMapFile(dataDir)
 	if raw, err := os.ReadFile(mapFile); err == nil {
 		var am models.AddressMap
@@ -139,6 +177,20 @@ func Load(dataDir string) (*Store, error) {
 	}
 
 	return store, nil
+}
+
+// resolveV1Dir returns the path to data/v1/ directory.
+// It lives at <repo-root>/data/v1/, one directory above the versioned dataDir (data/v2).
+func resolveV1Dir(dataDir string) string {
+	_, filename, _, ok := runtime.Caller(0)
+	if ok {
+		candidate := filepath.Join(filepath.Dir(filename), "..", "..", "data", "v1")
+		if _, err := os.Stat(candidate); err == nil {
+			return candidate
+		}
+	}
+	parent := filepath.Dir(dataDir)
+	return filepath.Join(parent, "v1")
 }
 
 // resolveMapFile returns the path to data/map.json.

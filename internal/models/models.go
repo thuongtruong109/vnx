@@ -137,3 +137,13 @@ type V1Province struct {
 	Code int    `json:"code"`
 	Name string `json:"name"`
 }
+
+// V1ProvinceInfo is a pre-2025 province with full metadata, loaded from data/v1/province.json.
+type V1ProvinceInfo struct {
+	ID           string      `json:"id"`
+	Code         int         `json:"code"`
+	Name         string      `json:"name"`
+	DivisionType string      `json:"division_type"`
+	Status       AdminStatus `json:"status,omitempty"`
+	MergedInto   string      `json:"merged_into,omitempty"`
+}

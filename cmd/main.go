@@ -66,6 +66,8 @@ func main() {
 
 	// Legacy (v1) province list – sourced from map.json
 	mux.HandleFunc("/api/v1/provinces", h.ListV1Provinces)
+	// V1 province detail (districts + wards) – accepts code or slug
+	mux.HandleFunc("/api/v1/provinces/", h.GetV1ProvinceDetail)
 
 	// Address resolution (v1 ↔ v2)
 	mux.HandleFunc("/api/resolve/old-to-new", h.ResolveOldToNew)
