@@ -14,21 +14,23 @@
       }
 
       :root {
-        --bg: #f0f4ff;
+        --bg: #eef1fb;
         --surface: #ffffff;
-        --surface2: #e8edf8;
-        --border: #d0d8ee;
-        --accent: #3b6de8;
-        --accent2: #0d9a6a;
+        --surface2: #f4f6fd;
+        --border: #e2e6f3;
+        --accent: #6366f1;
+        --accent2: #059669;
         --red: #dc2626;
-        --text: #1e2540;
-        --muted: #64748b;
+        --text: #1a1f36;
+        --muted: #6b7280;
         --radius: 12px;
-        --shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
-        --color-surface: #f0f4ff;
-        --color-surface-light: #dde5fb;
-        --color-lilac: #a78bfa;
-        --color-mint: #34d399;
+        --shadow:
+          0 1px 4px rgba(99, 102, 241, 0.06),
+          0 4px 24px rgba(99, 102, 241, 0.08);
+        --color-surface: #eef1fb;
+        --color-surface-light: #e4e8f8;
+        --color-lilac: #a5b4fc;
+        --color-mint: #6ee7b7;
       }
 
       html.dark {
@@ -48,11 +50,42 @@
         --color-mint: #6ee7b7;
       }
 
+      /* ── Custom Scrollbar ── */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: var(--bg);
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: linear-gradient(
+          135deg,
+          rgba(99, 102, 241, 0.6) 0%,
+          rgba(156, 165, 255, 0.6) 100%
+        );
+        border-radius: 4px;
+        border: 1px solid var(--border);
+        transition: background 0.2s ease;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(
+          135deg,
+          rgba(129, 140, 248, 0.8) 0%,
+          rgba(99, 102, 241, 0.8) 100%
+        );
+        box-shadow: 0 0 8px rgba(99, 102, 241, 0.2);
+      }
+      ::-webkit-scrollbar-corner {
+        background: var(--bg);
+      }
+
       body {
         color: var(--text);
         font-family: "Segoe UI", system-ui, sans-serif;
         min-height: 100vh;
-        padding: 24px 16px 48px;
+        padding: 80px 16px 48px;
       }
 
       .container {
@@ -99,7 +132,8 @@
         border: 1px solid var(--border);
         border-radius: var(--radius);
         padding: 6px;
-        margin-bottom: 24px;
+        margin-bottom: 16px;
+        box-shadow: 0 1px 3px rgba(99, 102, 241, 0.05);
       }
       .tab-btn {
         flex: 1;
@@ -114,7 +148,7 @@
         color: var(--muted);
       }
       .tab-btn.active {
-        background: rgba(79, 127, 255, 0.15);
+        background: rgba(99, 102, 241, 0.1);
         color: var(--accent);
         box-shadow: none;
       }
@@ -126,6 +160,11 @@
         border-radius: var(--radius);
         padding: 28px;
         box-shadow: var(--shadow);
+      }
+      html:not(.dark) .card {
+        box-shadow:
+          0 1px 3px rgba(99, 102, 241, 0.06),
+          0 8px 32px rgba(99, 102, 241, 0.08);
       }
 
       .form-grid {
@@ -178,8 +217,13 @@
         transition: all 0.2s;
       }
       .btn-primary {
-        background: var(--accent);
+        background: linear-gradient(135deg, var(--accent) 0%, #818cf8 100%);
         color: #fff;
+        box-shadow: 0 2px 12px rgba(99, 102, 241, 0.28);
+        letter-spacing: 0.2px;
+      }
+      html.dark .btn-primary {
+        background: var(--accent);
         box-shadow: 0 2px 12px rgba(79, 127, 255, 0.3);
       }
       .btn-primary:hover {
@@ -447,6 +491,20 @@
         inset: 0;
         overflow: hidden;
       }
+      /* Wave SVG pattern overlay */
+      .abstract-bg .wave-pattern {
+        position: absolute;
+        inset: 0;
+        background-image: url("https://dotwee.com/assets/images/wave.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.2;
+        pointer-events: none;
+      }
+      html.dark .abstract-bg .wave-pattern {
+        opacity: 0.07;
+      }
       .abstract-bg::before,
       .abstract-bg::after {
         content: "";
@@ -554,15 +612,87 @@
     </style>
   </head>
   <body>
-    <div class="abstract-bg"><div class="blob-3"></div></div>
-    <button
-      class="theme-toggle"
-      id="theme-toggle"
-      title="Chuyển theme"
-      onclick="toggleTheme()"
+    <div class="abstract-bg">
+      <div class="wave-pattern"></div>
+      <div class="blob-3"></div>
+    </div>
+
+    <!-- Top Header Bar -->
+    <div
+      style="
+        position: fixed;
+        top: 24px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        max-width: 860px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+        pointer-events: none;
+        padding: 0 16px;
+      "
     >
-      ☀️
-    </button>
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          pointer-events: auto;
+        "
+      >
+        <div
+          style="
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--accent) 0%, #818cf8 100%);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            box-shadow: 0 2px 12px rgba(99, 102, 241, 0.2);
+            cursor: pointer;
+            transition: transform 0.2s;
+          "
+          onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+        >
+          V
+        </div>
+        <div
+          style="
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text);
+            letter-spacing: 0.5px;
+            cursor: pointer;
+          "
+          onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+        >
+          VNX
+        </div>
+      </div>
+
+      <button
+        class="theme-toggle"
+        id="theme-toggle"
+        title="Chuyển theme"
+        onclick="toggleTheme()"
+        style="
+          pointer-events: auto;
+          position: static;
+          top: auto;
+          right: auto;
+          margin: 0;
+        "
+      >
+        ☀️
+      </button>
+    </div>
+
     <div class="container">
       <!-- Header -->
       <header>
@@ -572,21 +702,21 @@
               d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5z"
             />
           </svg>
-          VNX Address Converter
+          Việt Nam
         </div>
         <h1>Chuyển đổi <span>địa chỉ hành chính</span></h1>
         <p>
-          Tra cứu &amp; chuyển đổi giữa địa chỉ cũ (trước 2025) và địa chỉ mới
-          (sau 2025)
+          Tra cứu &amp; chuyển đổi giữa địa chỉ cũ (trước 01/07/2025) và địa chỉ
+          mới (sau 01/07/2025)
         </p>
       </header>
 
       <div class="info-box">
-        Từ <strong>01/01/2025</strong>, Việt Nam thực hiện sắp xếp lại đơn vị
+        Từ <strong>01/07/2025</strong>, Việt Nam thực hiện sắp xếp lại đơn vị
         hành chính cấp tỉnh &amp; huyện. Nhiều tỉnh thành được
-        <strong>sáp nhập, đổi tên</strong>; cấp huyện được giải thể. Công cụ này
-        giúp tra cứu địa chỉ <strong>v1 (cũ)</strong> →
-        <strong>v2 (mới)</strong> và ngược lại.
+        <strong>sáp nhập, đổi tên</strong>; cấp huyện được giải thể. Hướng tới
+        bộ máy 2 cấp. Công cụ này giúp tra cứu địa chỉ <strong>cũ</strong> →
+        <strong>mới</strong> và ngược lại.
       </div>
 
       <!-- Tabs -->
@@ -1356,5 +1486,78 @@
           .replace(/"/g, "&quot;");
       }
     </script>
+
+    <!-- ── Footer ── -->
+    <footer
+      style="
+        margin-top: 64px;
+        padding: 32px 0 24px;
+        border-top: 1px solid var(--border);
+        text-align: center;
+      "
+    >
+      <div class="container">
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+          "
+        >
+          <div style="display: flex; gap: 16px; margin-top: 8px">
+            <a
+              href="https://github.com/thuongtruong109/vnx"
+              target="_blank"
+              style="
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                color: var(--accent);
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: 500;
+                padding: 8px 12px;
+                border-radius: 6px;
+                transition: background-color 0.2s;
+              "
+              onmouseover="this.style.backgroundColor = 'var(--surface2)'"
+              onmouseout="this.style.backgroundColor = 'transparent'"
+            >
+              <span>📖</span>
+              Mã nguồn
+            </a>
+            <a
+              href="https://github.com/thuongtruong109/vnx/issues"
+              target="_blank"
+              style="
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                color: var(--accent);
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: 500;
+                padding: 8px 12px;
+                border-radius: 6px;
+                transition: background-color 0.2s;
+              "
+              onmouseover="this.style.backgroundColor = 'var(--surface2)'"
+              onmouseout="this.style.backgroundColor = 'transparent'"
+            >
+              <span>💬</span>
+              Báo lỗi
+            </a>
+          </div>
+
+          <div style="width: 100%">
+            <p style="color: var(--muted); font-size: 12px; line-height: 1.4">
+              Dữ liệu được cập nhật từ nguồn dữ liệu của Chính phủ Việt Nam.<br />
+              ©2026 bởi Thuong Truong. ❤️ Được phát triển để hỗ trợ cộng đồng.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
