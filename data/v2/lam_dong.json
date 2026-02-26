@@ -17,7 +17,7 @@
             "status": "active"
           },
           {
-            "name": "Phường Phú Thuỷ",
+            "name": "Phường Phú Thủy",
             "division_type": "phường",
             "code": 22924,
             "details": {
@@ -797,7 +797,7 @@
             "status": "active"
           },
           {
-            "name": "Phường B’Lao",
+            "name": "Phường B'Lao",
             "division_type": "phường",
             "code": 24829,
             "details": {
@@ -947,7 +947,7 @@
             "status": "active"
           },
           {
-            "name": "Xã D’Ran",
+            "name": "Xã D'Ran",
             "division_type": "xã",
             "code": 24934,
             "details": {

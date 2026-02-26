@@ -825,6 +825,28 @@
               <div class="hint">Chọn huyện trước để lọc phường/xã</div>
             </div>
           </div>
+
+          <!-- Street / hamlet – 4th level, shown only when ward has details -->
+          <div
+            class="field"
+            id="field-o2n-street"
+            style="display: none; margin-bottom: 20px"
+          >
+            <label>Đường / Thôn xóm cũ (tuỳ chọn)</label>
+            <div class="combo-wrap" id="wrap-o2n-street">
+              <input
+                id="o2n-street"
+                type="text"
+                placeholder="Chọn phường/xã trước…"
+                autocomplete="off"
+                disabled
+              />
+              <span class="combo-arrow">▼</span>
+              <div class="combo-list" id="list-o2n-street"></div>
+            </div>
+            <div class="hint">Đường / thôn xóm thuộc phường/xã đã chọn</div>
+          </div>
+
           <button
             class="btn btn-primary"
             id="btn-o2n"
@@ -904,6 +926,7 @@
         o2nProvince: "",
         o2nDistrict: "",
         o2nWard: "",
+        o2nStreet: "",
         n2oProvince: "",
         n2oWard: "",
       };
@@ -1149,6 +1172,11 @@
           o2nWardItems = [];
           enableCombo("o2n-district", false, "Đang tải huyện/quận…");
           enableCombo("o2n-ward", false, "Chọn huyện/quận trước…");
+          sel.o2nStreet = "";
+          document.getElementById("o2n-street").value = "";
+          o2nStreetItems = [];
+          document.getElementById("field-o2n-street").style.display = "none";
+          enableCombo("o2n-street", false, "Chọn phường/xã trước…");
 
           // Fetch districts for this v1 province using its numeric code
           const detail = await loadV1ProvinceDetail(item.value);
@@ -1174,14 +1202,20 @@
         (item) => {
           sel.o2nDistrict = item.value;
           sel.o2nWard = "";
+          sel.o2nStreet = "";
           document.getElementById("o2n-ward").value = "";
+          document.getElementById("o2n-street").value = "";
           o2nWardItems = [];
+          o2nStreetItems = [];
+          document.getElementById("field-o2n-street").style.display = "none";
+          enableCombo("o2n-street", false, "Chọn phường/xã trước…");
           const dist = o2nDistrictItems.find((d) => d.value === item.value);
           if (dist && dist.wards.length > 0) {
             o2nWardItems = dist.wards.map((w) => ({
               label: w.name,
               sub: w.code || undefined,
               value: String(w.code || w.name), // prefer code for resolve API
+              details: w.details || { streets: [], villages_hamlets: [] },
             }));
             enableCombo("o2n-ward", true, "Chọn phường/xã…");
           } else {
@@ -1190,6 +1224,8 @@
         },
       );
 
+      let o2nStreetItems = [];
+
       initCombo(
         "o2n-ward",
         "list-o2n-ward",
@@ -1197,6 +1233,39 @@
         () => o2nWardItems,
         (item) => {
           sel.o2nWard = item.value;
+          sel.o2nStreet = "";
+          document.getElementById("o2n-street").value = "";
+
+          // Build street/hamlet items from ward details
+          const ward = o2nWardItems.find((w) => w.value === item.value);
+          const streets = (ward?.details?.streets || []).map((s) => ({
+            label: s,
+            value: s,
+          }));
+          const hamlets = (ward?.details?.villages_hamlets || []).map((s) => ({
+            label: s,
+            value: s,
+          }));
+          o2nStreetItems = [...streets, ...hamlets];
+
+          const streetField = document.getElementById("field-o2n-street");
+          if (o2nStreetItems.length > 0) {
+            streetField.style.display = "";
+            enableCombo("o2n-street", true, "Chọn đường/thôn xóm…");
+          } else {
+            streetField.style.display = "none";
+            enableCombo("o2n-street", false, "Chọn phường/xã trước…");
+          }
+        },
+      );
+
+      initCombo(
+        "o2n-street",
+        "list-o2n-street",
+        "wrap-o2n-street",
+        () => o2nStreetItems,
+        (item) => {
+          sel.o2nStreet = item.value;
         },
       );
 
@@ -1320,6 +1389,8 @@
           document.getElementById("o2n-district").value.trim();
         const ward =
           sel.o2nWard || document.getElementById("o2n-ward").value.trim();
+        const street =
+          sel.o2nStreet || document.getElementById("o2n-street").value.trim();
 
         if (!province && !ward) {
           showError(
@@ -1343,7 +1414,7 @@
             return;
           }
           document.getElementById("result-old-to-new").innerHTML =
-            renderOldToNew(data);
+            renderOldToNew(data, { province, district, ward, street });
         } catch (e) {
           showError("result-old-to-new", "Không thể kết nối đến server.");
         } finally {
@@ -1351,34 +1422,54 @@
         }
       }
 
-      function renderOldToNew(data) {
+      function renderOldToNew(data, raw) {
         const q = data.query || {};
         const p = data.province;
         const w = data.ward;
-
-        // Build old address parts (what user queried)
-        const oldParts = [];
-        if (q.ward) oldParts.push(q.ward);
-        if (q.district) oldParts.push(q.district);
-        if (q.province) oldParts.push(q.province);
-
-        // Build new address parts from resolved data
-        const newParts = [];
-        if (w && w.found) newParts.push(w.v2_ward.name);
-        if (p && p.found) newParts.push(p.v2_province.name);
+        raw = raw || {};
 
         const notFound = [];
         if (q.province && p && !p.found)
           notFound.push(`tỉnh "<strong>${escHtml(q.province)}</strong>"`);
         if (q.ward && w && !w.found)
           notFound.push(`phường/xã "<strong>${escHtml(q.ward)}</strong>"`);
-
         if (notFound.length) {
           return `<div class="result-section"><div class="error-box">Không tìm thấy ${notFound.join(" và ")}.</div></div>`;
         }
+
+        // Build new address parts from resolved data
+        const newParts = [];
+        if (w && w.found && w.v2_ward) newParts.push(w.v2_ward.name);
+        if (p && p.found && p.v2_province) newParts.push(p.v2_province.name);
+
         if (!newParts.length) {
           return `<div class="result-section"><div class="error-box">Không có kết quả.</div></div>`;
         }
+
+        // Build old address parts (use resolved names when available)
+        const oldParts = [];
+        if (raw.street) oldParts.push(raw.street);
+        // Ward: prefer resolved v1 name (w.v1_wards[0].name) over raw code
+        if (w && w.found && w.v1_wards && w.v1_wards.length > 0) {
+          oldParts.push(w.v1_wards[0].name);
+        } else if (q.ward) {
+          oldParts.push(q.ward);
+        }
+        if (q.district) oldParts.push(q.district);
+        // Province: prefer resolved v1 name
+        if (p && p.found && p.v1_province) {
+          oldParts.push(p.v1_province.name);
+        } else if (q.province) {
+          // q.province may be a numeric code – look up label in combo
+          const match = (o2nProvinceItems || []).find(
+            (i) => i.value === q.province,
+          );
+          oldParts.push(match ? match.label : q.province);
+        }
+
+        const oldHtml = oldParts.length
+          ? `<span class="addr-part old">${escHtml(oldParts.join(", "))}</span><span class="addr-arrow">→</span>`
+          : "";
 
         return `
           <div class="result-section">
@@ -1386,6 +1477,7 @@
             <div class="result-single">
               <div class="addr-list">
                 <div class="addr-row">
+                  ${oldHtml}
                   <span class="addr-part new">${escHtml(newParts.join(", "))}</span>
                 </div>
               </div>

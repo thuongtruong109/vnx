@@ -6,13 +6,13 @@
         "name": "Thành phố Tây Ninh",
         "division_type": "thành phố thuộc tỉnh",
         "code": 703,
-        "status": "active",
+        "status": "inactive",
         "wards": [
           {
             "name": "Phường 1",
             "division_type": "phường",
             "code": 25456,
-            "status": "active",
+            "status": "inactive",
             "details": {
               "streets": [
                 "Cách Mạng Tháng 8"
@@ -21,22 +21,10 @@
             }
           },
           {
-            "name": "Phường 2",
-            "division_type": "phường",
-            "code": 25468,
-            "status": "active",
-            "details": {
-              "streets": [
-                "Trần Hưng Đạo"
-              ],
-              "villages_hamlets": []
-            }
-          },
-          {
             "name": "Phường 3",
             "division_type": "phường",
             "code": 25459,
-            "status": "active",
+            "status": "inactive",
             "details": {
               "streets": [
                 "30 Tháng 4"
@@ -45,10 +33,62 @@
             }
           },
           {
+            "name": "Phường 4",
+            "division_type": "phường",
+            "code": 25462,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
             "name": "Phường Hiệp Ninh",
             "division_type": "phường",
             "code": 25465,
-            "status": "active",
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường 2",
+            "division_type": "phường",
+            "code": 25468,
+            "status": "inactive",
+            "details": {
+              "streets": [
+                "Trần Hưng Đạo"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Thạnh Tân",
+            "division_type": "xã",
+            "code": 25471,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Tân Bình",
+            "division_type": "xã",
+            "code": 25474,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Bình Minh",
+            "division_type": "xã",
+            "code": 25477,
+            "status": "inactive",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -58,7 +98,7 @@
             "name": "Phường Ninh Sơn",
             "division_type": "phường",
             "code": 25480,
-            "status": "active",
+            "status": "inactive",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -70,19 +110,119 @@
             "name": "Phường Ninh Thạnh",
             "division_type": "phường",
             "code": 25483,
-            "status": "active",
+            "status": "inactive",
             "details": {
               "streets": [],
               "villages_hamlets": [
                 "Tòa Thánh Tây Ninh"
               ]
             }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tân Biên",
+        "division_type": "huyện",
+        "code": 705,
+        "status": "inactive",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Biên",
+            "division_type": "thị trấn",
+            "code": 25486,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Căn cứ Trung ương Cục miền Nam"
+              ]
+            }
           },
           {
-            "name": "Xã Thạnh Tân",
+            "name": "Xã Tân Lập",
             "division_type": "xã",
-            "code": 25471,
-            "status": "active",
+            "code": 25489,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Thạnh Bắc",
+            "division_type": "xã",
+            "code": 25492,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Tân Bình",
+            "division_type": "xã",
+            "code": 25495,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Thạnh Bình",
+            "division_type": "xã",
+            "code": 25498,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Thạnh Tây",
+            "division_type": "xã",
+            "code": 25501,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Hòa Hiệp",
+            "division_type": "xã",
+            "code": 25504,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Tân Phong",
+            "division_type": "xã",
+            "code": 25507,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Mỏ Công",
+            "division_type": "xã",
+            "code": 25510,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Trà Vong",
+            "division_type": "xã",
+            "code": 25513,
+            "status": "inactive",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -91,28 +231,404 @@
         ]
       },
       {
-        "name": "Thị xã Trảng Bàng",
-        "division_type": "thị xã",
-        "code": 712,
-        "status": "active",
+        "name": "Huyện Tân Châu",
+        "division_type": "huyện",
+        "code": 706,
+        "status": "inactive",
         "wards": [
           {
-            "name": "Phường Trảng Bàng",
-            "division_type": "phường",
-            "code": 25708,
-            "status": "active",
+            "name": "Thị trấn Tân Châu",
+            "division_type": "thị trấn",
+            "code": 25516,
+            "status": "inactive",
             "details": {
-              "streets": [
-                "Quốc lộ 22"
-              ],
+              "streets": [],
               "villages_hamlets": []
             }
           },
           {
-            "name": "Phường An Hòa",
-            "division_type": "phường",
-            "code": 25735,
-            "status": "active",
+            "name": "Xã Tân Hà",
+            "division_type": "xã",
+            "code": 25519,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Tân Đông",
+            "division_type": "xã",
+            "code": 25522,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Tân Hội",
+            "division_type": "xã",
+            "code": 25525,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Tân Hòa",
+            "division_type": "xã",
+            "code": 25528,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Suối Ngô",
+            "division_type": "xã",
+            "code": 25531,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Suối Dây",
+            "division_type": "xã",
+            "code": 25534,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Tân Hiệp",
+            "division_type": "xã",
+            "code": 25537,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Thạnh Đông",
+            "division_type": "xã",
+            "code": 25540,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Tân Thành",
+            "division_type": "xã",
+            "code": 25543,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Tân Phú",
+            "division_type": "xã",
+            "code": 25546,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Tân Hưng",
+            "division_type": "xã",
+            "code": 25549,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Dương Minh Châu",
+        "division_type": "huyện",
+        "code": 707,
+        "status": "inactive",
+        "wards": [
+          {
+            "name": "Thị trấn Dương Minh Châu",
+            "division_type": "thị trấn",
+            "code": 25552,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Hồ Dầu Tiếng"
+              ]
+            }
+          },
+          {
+            "name": "Xã Suối Đá",
+            "division_type": "xã",
+            "code": 25555,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Phan",
+            "division_type": "xã",
+            "code": 25558,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Phước Ninh",
+            "division_type": "xã",
+            "code": 25561,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Phước Minh",
+            "division_type": "xã",
+            "code": 25564,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Bàu Năng",
+            "division_type": "xã",
+            "code": 25567,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Chà Là",
+            "division_type": "xã",
+            "code": 25570,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Cầu Khởi",
+            "division_type": "xã",
+            "code": 25573,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Bến Củi",
+            "division_type": "xã",
+            "code": 25576,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Lộc Ninh",
+            "division_type": "xã",
+            "code": 25579,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Truông Mít",
+            "division_type": "xã",
+            "code": 25582,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Thành",
+        "division_type": "huyện",
+        "code": 708,
+        "status": "inactive",
+        "wards": [
+          {
+            "name": "Thị trấn Châu Thành",
+            "division_type": "thị trấn",
+            "code": 25585,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Hảo Đước",
+            "division_type": "xã",
+            "code": 25588,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Phước Vinh",
+            "division_type": "xã",
+            "code": 25591,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Đồng Khởi",
+            "division_type": "xã",
+            "code": 25594,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Thái Bình",
+            "division_type": "xã",
+            "code": 25597,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã An Cơ",
+            "division_type": "xã",
+            "code": 25600,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Biên Giới",
+            "division_type": "xã",
+            "code": 25603,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Hòa Thạnh",
+            "division_type": "xã",
+            "code": 25606,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Trí Bình",
+            "division_type": "xã",
+            "code": 25609,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Hòa Hội",
+            "division_type": "xã",
+            "code": 25612,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã An Bình",
+            "division_type": "xã",
+            "code": 25615,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Thanh Điền",
+            "division_type": "xã",
+            "code": 25618,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Thành Long",
+            "division_type": "xã",
+            "code": 25621,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Ninh Điền",
+            "division_type": "xã",
+            "code": 25624,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Long Vĩnh",
+            "division_type": "xã",
+            "code": 25627,
+            "status": "inactive",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -124,13 +640,13 @@
         "name": "Thị xã Hòa Thành",
         "division_type": "thị xã",
         "code": 709,
-        "status": "active",
+        "status": "inactive",
         "wards": [
           {
             "name": "Phường Long Hoa",
             "division_type": "phường",
             "code": 25630,
-            "status": "active",
+            "status": "inactive",
             "details": {
               "streets": [],
               "villages_hamlets": [
@@ -142,7 +658,67 @@
             "name": "Phường Hiệp Tân",
             "division_type": "phường",
             "code": 25633,
-            "status": "active",
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Long Thành Bắc",
+            "division_type": "phường",
+            "code": 25636,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Trường Hòa",
+            "division_type": "xã",
+            "code": 25639,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Trường Đông",
+            "division_type": "xã",
+            "code": 25642,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Long Thành Trung",
+            "division_type": "phường",
+            "code": 25645,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Trường Tây",
+            "division_type": "xã",
+            "code": 25648,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Long Thành Nam",
+            "division_type": "xã",
+            "code": 25651,
+            "status": "inactive",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -154,13 +730,93 @@
         "name": "Huyện Gò Dầu",
         "division_type": "huyện",
         "code": 710,
-        "status": "active",
+        "status": "inactive",
         "wards": [
           {
             "name": "Thị trấn Gò Dầu",
             "division_type": "thị trấn",
             "code": 25654,
-            "status": "active",
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Thạnh Đức",
+            "division_type": "xã",
+            "code": 25657,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Cẩm Giang",
+            "division_type": "xã",
+            "code": 25660,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Hiệp Thạnh",
+            "division_type": "xã",
+            "code": 25663,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Bàu Đồn",
+            "division_type": "xã",
+            "code": 25666,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Phước Thạnh",
+            "division_type": "xã",
+            "code": 25669,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Phước Đông",
+            "division_type": "xã",
+            "code": 25672,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Phước Trạch",
+            "division_type": "xã",
+            "code": 25675,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Thanh Phước",
+            "division_type": "xã",
+            "code": 25678,
+            "status": "inactive",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -172,53 +828,95 @@
         "name": "Huyện Bến Cầu",
         "division_type": "huyện",
         "code": 711,
-        "status": "active",
+        "status": "inactive",
         "wards": [
           {
             "name": "Thị trấn Bến Cầu",
             "division_type": "thị trấn",
             "code": 25681,
-            "status": "active",
+            "status": "inactive",
             "details": {
               "streets": [],
               "villages_hamlets": [
                 "Cửa khẩu quốc tế Mộc Bài"
               ]
             }
-          }
-        ]
-      },
-      {
-        "name": "Huyện Dương Minh Châu",
-        "division_type": "huyện",
-        "code": 707,
-        "status": "active",
-        "wards": [
+          },
           {
-            "name": "Thị trấn Dương Minh Châu",
-            "division_type": "thị trấn",
-            "code": 25552,
-            "status": "active",
+            "name": "Xã Long Chữ",
+            "division_type": "xã",
+            "code": 25684,
+            "status": "inactive",
             "details": {
               "streets": [],
-              "villages_hamlets": [
-                "Hồ Dầu Tiếng"
-              ]
+              "villages_hamlets": []
             }
-          }
-        ]
-      },
-      {
-        "name": "Huyện Tân Châu",
-        "division_type": "huyện",
-        "code": 706,
-        "status": "active",
-        "wards": [
+          },
           {
-            "name": "Thị trấn Tân Châu",
-            "division_type": "thị trấn",
-            "code": 25516,
-            "status": "active",
+            "name": "Xã Long Phước",
+            "division_type": "xã",
+            "code": 25687,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Long Giang",
+            "division_type": "xã",
+            "code": 25690,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Tiên Thuận",
+            "division_type": "xã",
+            "code": 25693,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Long Khánh",
+            "division_type": "xã",
+            "code": 25696,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Lợi Thuận",
+            "division_type": "xã",
+            "code": 25699,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Long Thuận",
+            "division_type": "xã",
+            "code": 25702,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã An Thạnh",
+            "division_type": "xã",
+            "code": 25705,
+            "status": "inactive",
             "details": {
               "streets": [],
               "villages_hamlets": []
@@ -227,36 +925,108 @@
         ]
       },
       {
-        "name": "Huyện Tân Biên",
-        "division_type": "huyện",
-        "code": 705,
-        "status": "active",
+        "name": "Thị xã Trảng Bàng",
+        "division_type": "thị xã",
+        "code": 712,
+        "status": "inactive",
         "wards": [
           {
-            "name": "Thị trấn Tân Biên",
-            "division_type": "thị trấn",
-            "code": 25486,
-            "status": "active",
+            "name": "Phường Trảng Bàng",
+            "division_type": "phường",
+            "code": 25708,
+            "status": "inactive",
+            "details": {
+              "streets": [
+                "Quốc lộ 22"
+              ],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Đôn Thuận",
+            "division_type": "xã",
+            "code": 25711,
+            "status": "inactive",
             "details": {
               "streets": [],
-              "villages_hamlets": [
-                "Căn cứ Trung ương Cục miền Nam"
-              ]
+              "villages_hamlets": []
             }
-          }
-        ]
-      },
-      {
-        "name": "Huyện Châu Thành",
-        "division_type": "huyện",
-        "code": 708,
-        "status": "active",
-        "wards": [
+          },
           {
-            "name": "Thị trấn Châu Thành",
-            "division_type": "thị trấn",
-            "code": 25585,
-            "status": "active",
+            "name": "Xã Hưng Thuận",
+            "division_type": "xã",
+            "code": 25714,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Lộc Hưng",
+            "division_type": "phường",
+            "code": 25717,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Gia Lộc",
+            "division_type": "phường",
+            "code": 25720,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường Gia Bình",
+            "division_type": "phường",
+            "code": 25723,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Phước Bình",
+            "division_type": "xã",
+            "code": 25729,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường An Tịnh",
+            "division_type": "phường",
+            "code": 25732,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Phường An Hòa",
+            "division_type": "phường",
+            "code": 25735,
+            "status": "inactive",
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            }
+          },
+          {
+            "name": "Xã Phước Chỉ",
+            "division_type": "xã",
+            "code": 25738,
+            "status": "inactive",
             "details": {
               "streets": [],
               "villages_hamlets": []

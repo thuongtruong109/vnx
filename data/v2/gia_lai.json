@@ -827,6 +827,16 @@
             "status": "active"
           },
           {
+            "name": "Xã Ia Mơ",
+            "division_type": "xã",
+            "code": 23737,
+            "details": {
+              "streets": [],
+              "villages_hamlets": []
+            },
+            "status": "active"
+          },
+          {
             "name": "Xã Ia Phí",
             "division_type": "xã",
             "code": 23749,
@@ -1134,7 +1144,7 @@
               "streets": [],
               "villages_hamlets": []
             },
-            "status": "active"
+            "status": "inactive"
           },
           {
             "name": "Xã Chư Sê",
