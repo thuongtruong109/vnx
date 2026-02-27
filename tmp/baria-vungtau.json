@@ -1,0 +1,386 @@
+[
+  {
+    "province_id": "77",
+    "districts": [
+      {
+        "name": "Thành phố Vũng Tàu",
+        "division_type": "thành phố thuộc tỉnh",
+        "code": 747,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "code": 26506,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Trần Phú",
+                "Quang Trung",
+                "Lý Thường Kiệt",
+                "Ba Cu",
+                "Lê Lợi"
+              ],
+              "villages_hamlets": ["Bãi Trước", "Công viên Bãi Trước"]
+            }
+          },
+          {
+            "name": "Phường 2",
+            "division_type": "phường",
+            "code": 26509,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Thùy Vân",
+                "Hoàng Hoa Thám",
+                "Phan Chu Trinh",
+                "Võ Thị Sáu"
+              ],
+              "villages_hamlets": [
+                "Bãi Sau",
+                "Tượng Chúa Kitô Vua",
+                "Mũi Nghinh Phong"
+              ]
+            }
+          },
+          {
+            "name": "Phường 3",
+            "division_type": "phường",
+            "code": 26512,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Nam Kỳ Khởi Nghĩa",
+                "Lê Hồng Phong",
+                "Trương Công Định"
+              ],
+              "villages_hamlets": [
+                "Khu phố 1",
+                "Khu phố 2",
+                "Khu phố 3",
+                "Khu phố 4",
+                "Khu phố 5"
+              ]
+            }
+          },
+          {
+            "name": "Phường 5",
+            "division_type": "phường",
+            "code": 26518,
+            "status": "active",
+            "details": {
+              "streets": ["Trần Phú", "Nguyễn An Ninh", "Lê Lợi"],
+              "villages_hamlets": [
+                "Thích Ca Phật Đài",
+                "Bãi Dâu",
+                "Cảng Sao Mai"
+              ]
+            }
+          },
+          {
+            "name": "Phường Thắng Tam",
+            "division_type": "phường",
+            "code": 26508,
+            "status": "active",
+            "details": {
+              "streets": ["Thùy Vân", "Hoàng Hoa Thám", "Xô Viết Nghệ Tĩnh"],
+              "villages_hamlets": [
+                "Bãi Sau",
+                "Đình Thắng Tam",
+                "Khu du lịch San Hô Xanh"
+              ]
+            }
+          },
+          {
+            "name": "Phường Thắng Nhì",
+            "division_type": "phường",
+            "code": 26521,
+            "status": "active",
+            "details": {
+              "streets": ["Lê Lợi", "Trần Phú", "Nguyễn Bảo"],
+              "villages_hamlets": [
+                "Khu phố 1",
+                "Khu phố 2",
+                "Khu phố 3",
+                "Cảng cá Sao Mai"
+              ]
+            }
+          },
+          {
+            "name": "Phường Rạch Dừa",
+            "division_type": "phường",
+            "code": 26535,
+            "status": "active",
+            "details": {
+              "streets": ["Đường 30 Tháng 4", "Bình Giã", "Lưu Chí Hiếu"],
+              "villages_hamlets": [
+                "Khu công nghiệp Đông Xuyên",
+                "Khu phố 1",
+                "Khu phố 2"
+              ]
+            }
+          },
+          {
+            "name": "Xã Long Sơn",
+            "division_type": "xã",
+            "code": 26545,
+            "status": "active",
+            "details": {
+              "streets": ["Trường Sa", "Hoàng Sa"],
+              "villages_hamlets": [
+                "Nhà Lớn Long Sơn",
+                "Thôn 1",
+                "Thôn 2",
+                "Đảo Gò Găng"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Bà Rịa",
+        "division_type": "thành phố thuộc tỉnh",
+        "code": 748,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Phường Phước Trung",
+            "division_type": "phường",
+            "code": 26560,
+            "status": "active",
+            "details": {
+              "streets": ["Cách Mạng Tháng 8", "Quốc lộ 51", "Trần Hưng Đạo"],
+              "villages_hamlets": [
+                "Bến xe Bà Rịa",
+                "Chợ Bà Rịa",
+                "Khu phố 1",
+                "Khu phố 2"
+              ]
+            }
+          },
+          {
+            "name": "Phường Phước Hiệp",
+            "division_type": "phường",
+            "code": 26557,
+            "status": "active",
+            "details": {
+              "streets": ["27 Tháng 4", "Nguyễn Tất Thành", "Điện Biên Phủ"],
+              "villages_hamlets": [
+                "Khu phố 1",
+                "Khu phố 2",
+                "Trung tâm hành chính tỉnh"
+              ]
+            }
+          },
+          {
+            "name": "Phường Phước Nguyên",
+            "division_type": "phường",
+            "code": 26554,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Nguyễn Tất Thành",
+                "Nguyễn Hữu Thọ",
+                "Huỳnh Tấn Phát"
+              ],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 2", "Khu phố 3"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Phú Mỹ",
+        "division_type": "thị xã",
+        "code": 754,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Phường Phú Mỹ",
+            "division_type": "phường",
+            "code": 26704,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 51", "Trần Hưng Đạo", "Nguyễn Huệ"],
+              "villages_hamlets": [
+                "Cảng Cái Mép - Thị Vải",
+                "Khu phố 1",
+                "Khu phố 2"
+              ]
+            }
+          },
+          {
+            "name": "Xã Tân Hải",
+            "division_type": "xã",
+            "code": 26710,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 51"],
+              "villages_hamlets": ["Núi Dinh", "Thôn Chu Hải", "Thôn Hội Bài"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Long Điền",
+        "division_type": "huyện",
+        "code": 752,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Long Điền",
+            "division_type": "thị trấn",
+            "code": 26662,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 55", "Võ Thị Sáu", "Dương Bạch Mai"],
+              "villages_hamlets": ["Khu phố Long Phượng", "Khu phố Long Tân"]
+            }
+          },
+          {
+            "name": "Thị trấn Long Hải",
+            "division_type": "thị trấn",
+            "code": 26665,
+            "status": "active",
+            "details": {
+              "streets": ["Võ Thị Sáu", "Hai Bà Trưng", "Tỉnh lộ 44A"],
+              "villages_hamlets": [
+                "Biển Long Hải",
+                "Dinh Cô",
+                "Khu phố Hải Tân",
+                "Khu phố Hải Hà"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đất Đỏ",
+        "division_type": "huyện",
+        "code": 753,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Đất Đỏ",
+            "division_type": "thị trấn",
+            "code": 26683,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 55", "Võ Thị Sáu", "Lê Duẩn"],
+              "villages_hamlets": [
+                "Công viên tượng đài Võ Thị Sáu",
+                "Khu phố Thanh Long"
+              ]
+            }
+          },
+          {
+            "name": "Thị trấn Phước Hải",
+            "division_type": "thị trấn",
+            "code": 26686,
+            "status": "active",
+            "details": {
+              "streets": ["Võ Thị Sáu", "Tỉnh lộ 44A"],
+              "villages_hamlets": [
+                "Làng chài Phước Hải",
+                "Khu phố Hải Tân",
+                "Khu phố Hải Sơn"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Xuyên Mộc",
+        "division_type": "huyện",
+        "code": 751,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Phước Bửu",
+            "division_type": "thị trấn",
+            "code": 26620,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 55", "Huỳnh Minh Thạnh"],
+              "villages_hamlets": ["Khu phố Thạnh Sơn", "Khu phố Phước Tiến"]
+            }
+          },
+          {
+            "name": "Xã Bình Châu",
+            "division_type": "xã",
+            "code": 26656,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 55", "Đường ven biển"],
+              "villages_hamlets": [
+                "Suối nước nóng Bình Châu",
+                "Ấp Thắng Hải",
+                "Ấp Bình Tiến"
+              ]
+            }
+          },
+          {
+            "name": "Xã Phước Thuận",
+            "division_type": "xã",
+            "code": 26623,
+            "status": "active",
+            "details": {
+              "streets": ["Đường ven biển"],
+              "villages_hamlets": ["Hồ Tràm", "Ấp Hồ Tràm", "Ấp Gò Cát"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Đức",
+        "division_type": "huyện",
+        "code": 750,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Ngãi Giao",
+            "division_type": "thị trấn",
+            "code": 26575,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 56", "Trần Hưng Đạo", "Hùng Vương"],
+              "villages_hamlets": [
+                "Khu phố 1",
+                "Khu phố 2",
+                "Khu phố 3",
+                "Khu phố 4"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Côn Đảo",
+        "division_type": "huyện",
+        "code": 755,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Khu vực Côn Đảo",
+            "division_type": "khu vực",
+            "status": "active",
+            "details": {
+              "streets": [
+                "Tôn Đức Thắng",
+                "Lê Duẩn",
+                "Nguyễn Huệ",
+                "Võ Thị Sáu"
+              ],
+              "villages_hamlets": [
+                "Nhà tù Côn Đảo",
+                "Nghĩa trang Hàng Dương",
+                "Sân bay Cỏ Ống",
+                "Cảng Bến Đầm",
+                "Bãi Đầm Trầu"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,315 @@
+[
+  {
+    "province_id": "83",
+    "districts": [
+      {
+        "name": "Thành phố Bến Tre",
+        "division_type": "thành phố thuộc tỉnh",
+        "code": 829,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Phường An Hội",
+            "division_type": "phường",
+            "code": 28777,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Nguyễn Đình Chiểu",
+                "Hùng Vương",
+                "Phan Ngọc Tòng",
+                "Cách Mạng Tháng 8"
+              ],
+              "villages_hamlets": ["Chợ Bến Tre", "Công viên An Hội"]
+            }
+          },
+          {
+            "name": "Phường 4",
+            "division_type": "phường",
+            "code": 28771,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Trần Quốc Tuấn",
+                "Nguyễn Trung Trực",
+                "Đại lộ Đồng Khởi"
+              ],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 2", "Khu phố 3"]
+            }
+          },
+          {
+            "name": "Phường 5",
+            "division_type": "phường",
+            "code": 28774,
+            "status": "active",
+            "details": {
+              "streets": ["Nguyễn Huệ", "Đại lộ Đồng Khởi", "Đoàn Hoàng Minh"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 2", "Khu phố 3"]
+            }
+          },
+          {
+            "name": "Phường 6",
+            "division_type": "phường",
+            "code": 28762,
+            "status": "active",
+            "details": {
+              "streets": ["Đoàn Hoàng Minh", "Trương Vĩnh Ký"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 2", "Khu phố 3"]
+            }
+          },
+          {
+            "name": "Phường 7",
+            "division_type": "phường",
+            "code": 28780,
+            "status": "active",
+            "details": {
+              "streets": ["Hùng Vương", "Nguyễn Văn Tư", "Nguyễn Thị Định"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 2", "Khu phố 3"]
+            }
+          },
+          {
+            "name": "Phường 8",
+            "division_type": "phường",
+            "code": 28759,
+            "status": "active",
+            "details": {
+              "streets": ["Nguyễn Văn Cánh", "Nguyễn Văn Trung"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 2", "Khu phố 3"]
+            }
+          },
+          {
+            "name": "Phường Phú Khương",
+            "division_type": "phường",
+            "code": 28756,
+            "status": "active",
+            "details": {
+              "streets": ["Đại lộ Đồng Khởi", "Nguyễn Thị Định", "Phan Liêm"],
+              "villages_hamlets": [
+                "Khu phố 1",
+                "Khu phố 2",
+                "Khu phố 3",
+                "Khu phố 4"
+              ]
+            }
+          },
+          {
+            "name": "Phường Phú Tân",
+            "division_type": "phường",
+            "code": 28757,
+            "status": "active",
+            "details": {
+              "streets": ["Nguyễn Thị Định", "Đường tỉnh 884"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 2", "Khu phố 3"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Thành",
+        "division_type": "huyện",
+        "code": 831,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Châu Thành",
+            "division_type": "thị trấn",
+            "code": 28810,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 60", "Huyện lộ 02"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 2", "Khu phố 3"]
+            }
+          },
+          {
+            "name": "Xã Tân Thạch",
+            "division_type": "xã",
+            "code": 28804,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 60"],
+              "villages_hamlets": [
+                "Cầu Rạch Miễu",
+                "Cồn Phụng",
+                "Ấp Tân Huệ",
+                "Ấp 1"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Chợ Lách",
+        "division_type": "huyện",
+        "code": 832,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Chợ Lách",
+            "division_type": "thị trấn",
+            "code": 28870,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 57"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 2", "Khu phố 3"]
+            }
+          },
+          {
+            "name": "Xã Vĩnh Thành",
+            "division_type": "xã",
+            "code": 28894,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 57"],
+              "villages_hamlets": [
+                "Cái Mơn",
+                "Làng hoa cảnh Chợ Lách",
+                "Ấp Vĩnh Bắc"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Mỏ Cày Nam",
+        "division_type": "huyện",
+        "code": 833,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Mỏ Cày",
+            "division_type": "thị trấn",
+            "code": 28903,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 60", "Quốc lộ 57", "Bùi Quang Chiêu"],
+              "villages_hamlets": [
+                "Khu phố 1",
+                "Khu phố 2",
+                "Khu phố 3",
+                "Khu phố 4"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Mỏ Cày Bắc",
+        "division_type": "huyện",
+        "code": 838,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Xã Phước Mỹ Trung",
+            "division_type": "xã",
+            "code": 28945,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 57"],
+              "villages_hamlets": [
+                "Ấp Phước Trung",
+                "Ấp Phước Hậu",
+                "Ấp Phước Thạnh"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Giồng Trôm",
+        "division_type": "huyện",
+        "code": 834,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Giồng Trôm",
+            "division_type": "thị trấn",
+            "code": 28984,
+            "status": "active",
+            "details": {
+              "streets": ["Đường tỉnh 885"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 2", "Khu phố 3"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bình Đại",
+        "division_type": "huyện",
+        "code": 835,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Bình Đại",
+            "division_type": "thị trấn",
+            "code": 29050,
+            "status": "active",
+            "details": {
+              "streets": ["Đường tỉnh 883"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 2", "Khu phố 3"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Ba Tri",
+        "division_type": "huyện",
+        "code": 836,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Ba Tri",
+            "division_type": "thị trấn",
+            "code": 29110,
+            "status": "active",
+            "details": {
+              "streets": ["Trần Tân Công", "Đường tỉnh 885"],
+              "villages_hamlets": [
+                "Khu phố 1",
+                "Khu phố 2",
+                "Khu phố 3",
+                "Khu phố 6"
+              ]
+            }
+          },
+          {
+            "name": "Xã An Hiệp",
+            "division_type": "xã",
+            "code": 29161,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Di tích cụ Nguyễn Đình Chiểu",
+                "Ấp An Bình",
+                "Ấp An Thuận"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thạnh Phú",
+        "division_type": "huyện",
+        "code": 837,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Thạnh Phú",
+            "division_type": "thị trấn",
+            "code": 29182,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 57", "Đồng Khởi"],
+              "villages_hamlets": [
+                "Khu phố 1",
+                "Khu phố 2",
+                "Khu phố 3",
+                "Khu phố 4"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

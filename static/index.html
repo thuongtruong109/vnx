@@ -484,6 +484,24 @@
         font-size: 11px;
         margin-left: 6px;
       }
+      .combo-item .item-code[data-type="phường"] {
+        color: var(--accent);
+        background: rgba(99, 102, 241, 0.1);
+        border-radius: 4px;
+        padding: 1px 5px;
+      }
+      .combo-item .item-code[data-type="xã"] {
+        color: var(--accent2);
+        background: rgba(5, 150, 105, 0.1);
+        border-radius: 4px;
+        padding: 1px 5px;
+      }
+      .combo-item .item-code[data-type="thị trấn"] {
+        color: #d97706;
+        background: rgba(217, 119, 6, 0.1);
+        border-radius: 4px;
+        padding: 1px 5px;
+      }
       .combo-empty {
         padding: 10px 14px;
         font-size: 13px;
@@ -985,7 +1003,7 @@
             ? items.filter(
                 (i) =>
                   normSearch(i.label).includes(q) ||
-                  (i.sub && String(i.sub).includes(q)),
+                  (i.sub && normSearch(String(i.sub)).includes(q)),
               )
             : items;
 
@@ -1009,7 +1027,7 @@
                 (item, idx) => `
             <div class="combo-item" data-idx="${idx}" data-value="${escHtml(item.value)}" data-label="${escHtml(item.label)}">
               ${escHtml(item.label)}
-              ${item.sub !== undefined ? `<span class="item-code">#${escHtml(String(item.sub))}</span>` : ""}
+              ${item.sub !== undefined ? `<span class="item-code" data-type="${escHtml(String(item.sub))}">${typeof item.sub === "number" ? "#" : ""}${escHtml(String(item.sub))}</span>` : ""}
             </div>
           `,
               )
@@ -1211,15 +1229,21 @@
           enableCombo("o2n-street", false, "Chọn phường/xã trước…");
           const dist = o2nDistrictItems.find((d) => d.value === item.value);
           if (dist && dist.wards.length > 0) {
-            o2nWardItems = dist.wards.map((w) => ({
+            const divOrder = { phường: 0, "thị trấn": 1, xã: 2 };
+            const sorted = dist.wards.slice().sort((a, b) => {
+              const oa = divOrder[a.division_type] ?? 3;
+              const ob = divOrder[b.division_type] ?? 3;
+              return oa !== ob ? oa - ob : a.name.localeCompare(b.name, "vi");
+            });
+            o2nWardItems = sorted.map((w) => ({
               label: w.name,
-              sub: w.code || undefined,
+              sub: w.division_type || undefined,
               value: String(w.code || w.name), // prefer code for resolve API
               details: w.details || { streets: [], villages_hamlets: [] },
             }));
-            enableCombo("o2n-ward", true, "Chọn phường/xã…");
+            enableCombo("o2n-ward", true, "Chọn phường/xã/thị trấn…");
           } else {
-            enableCombo("o2n-ward", false, "Không có dữ liệu xã");
+            enableCombo("o2n-ward", false, "Không có dữ liệu phường/xã");
           }
         },
       );
@@ -1449,9 +1473,13 @@
         // Build old address parts (use resolved names when available)
         const oldParts = [];
         if (raw.street) oldParts.push(raw.street);
-        // Ward: prefer resolved v1 name (w.v1_wards[0].name) over raw code
+        // Ward: find the specific v1 ward the user selected (match by code),
+        // do NOT blindly take [0] which may be a different ward in the same group.
         if (w && w.found && w.v1_wards && w.v1_wards.length > 0) {
-          oldParts.push(w.v1_wards[0].name);
+          const matched = w.v1_wards.find(
+            (v) => String(v.code) === String(raw.ward),
+          );
+          oldParts.push((matched || w.v1_wards[0]).name);
         } else if (q.ward) {
           oldParts.push(q.ward);
         }
