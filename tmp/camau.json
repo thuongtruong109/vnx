@@ -1,0 +1,992 @@
+[
+  {
+    "province_id": "96",
+    "province_name": "Tỉnh Cà Mau",
+    "districts": [
+      {
+        "name": "Thành phố Cà Mau",
+        "division_type": "thành phố thuộc tỉnh",
+        "code": 964,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Phường 1",
+            "division_type": "phường",
+            "code": 32005,
+            "status": "active",
+            "details": {
+              "streets": ["Lý Văn Lâm", "Ngô Quyền"],
+              "villages_hamlets": ["Khóm 1", "Khóm 5"]
+            }
+          },
+          {
+            "name": "Phường 2",
+            "division_type": "phường",
+            "code": 32002,
+            "status": "active",
+            "details": {
+              "streets": ["Phan Ngọc Hiển", "Lý Thường Kiệt", "Đề Thám"],
+              "villages_hamlets": ["Chợ Cà Mau", "Khóm 1", "Khóm 4"]
+            }
+          },
+          {
+            "name": "Phường 4",
+            "division_type": "phường",
+            "code": 31996,
+            "status": "active",
+            "details": {
+              "streets": ["Phan Bội Châu"],
+              "villages_hamlets": ["Khóm 1", "Khóm 2"]
+            }
+          },
+          {
+            "name": "Phường 5",
+            "division_type": "phường",
+            "code": 32008,
+            "status": "active",
+            "details": {
+              "streets": ["Trần Hưng Đạo", "Nguyễn Tất Thành"],
+              "villages_hamlets": ["Khóm 1", "Khóm 7"]
+            }
+          },
+          {
+            "name": "Phường 6",
+            "division_type": "phường",
+            "code": 32014,
+            "status": "active",
+            "details": {
+              "streets": ["Lý Văn Lâm"],
+              "villages_hamlets": ["Khóm 1", "Khóm 4"]
+            }
+          },
+          {
+            "name": "Phường 7",
+            "division_type": "phường",
+            "code": 32017,
+            "status": "active",
+            "details": {
+              "streets": ["Nguyễn Trãi"],
+              "villages_hamlets": ["Khóm 1", "Khóm 3"]
+            }
+          },
+          {
+            "name": "Phường 8",
+            "division_type": "phường",
+            "code": 32011,
+            "status": "active",
+            "details": {
+              "streets": ["Nguyễn Công Trứ"],
+              "villages_hamlets": ["Khóm 1", "Khóm 8"]
+            }
+          },
+          {
+            "name": "Phường 9",
+            "division_type": "phường",
+            "code": 31999,
+            "status": "active",
+            "details": {
+              "streets": ["Nguyễn Trãi", "Chu Văn An"],
+              "villages_hamlets": ["Khóm 1", "Khóm 5"]
+            }
+          },
+          {
+            "name": "Phường Tân Xuyên",
+            "division_type": "phường",
+            "code": 32022,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 63"],
+              "villages_hamlets": ["Khóm 1", "Khóm 4"]
+            }
+          },
+          {
+            "name": "Phường Tân Thành",
+            "division_type": "phường",
+            "code": 32025,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khóm 1", "Khóm 6"]
+            }
+          },
+          {
+            "name": "Xã Định Bình",
+            "division_type": "xã",
+            "code": 32034,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Cây Trâm", "Ấp Xóm Lẫm"]
+            }
+          },
+          {
+            "name": "Xã Hòa Tân",
+            "division_type": "xã",
+            "code": 32040,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Hòa Trung", "Ấp Tân Hòa"]
+            }
+          },
+          {
+            "name": "Xã Hòa Thành",
+            "division_type": "xã",
+            "code": 32037,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Tân Hóa", "Ấp Tân Thành"]
+            }
+          },
+          {
+            "name": "Xã Lý Văn Lâm",
+            "division_type": "xã",
+            "code": 32031,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Ông Muộn", "Ấp Bà Điều"]
+            }
+          },
+          {
+            "name": "Xã Tân Thành",
+            "division_type": "xã",
+            "code": 32028,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 6"] }
+          },
+          {
+            "name": "Xã An Xuyên",
+            "division_type": "xã",
+            "code": 32019,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 5"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Ngọc Hiển",
+        "division_type": "huyện",
+        "code": 973,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Rạch Gốc",
+            "division_type": "thị trấn",
+            "code": 32244,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khóm 1", "Khóm 8"]
+            }
+          },
+          {
+            "name": "Xã Đất Mũi",
+            "division_type": "xã",
+            "code": 32248,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Mũi Cà Mau",
+                "Cột mốc GPS 0001",
+                "Ấp Khai Long"
+              ]
+            }
+          },
+          {
+            "name": "Xã Tam Giang Tây",
+            "division_type": "xã",
+            "code": 32245,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Đường Kéo", "Ấp Bảo Vĩ"]
+            }
+          },
+          {
+            "name": "Xã Tân Ân",
+            "division_type": "xã",
+            "code": 32247,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Tân Lập", "Ấp Dinh Hạn"]
+            }
+          },
+          {
+            "name": "Xã Tân Ân Tây",
+            "division_type": "xã",
+            "code": 32246,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Công Nghiệp", "Ấp Đất Mới"]
+            }
+          },
+          {
+            "name": "Xã Viên An",
+            "division_type": "xã",
+            "code": 32249,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Ông Trang", "Ấp Xẻo Mắm"]
+            }
+          },
+          {
+            "name": "Xã Viên An Đông",
+            "division_type": "xã",
+            "code": 32251,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Xẻo Ngang", "Ấp Đầm Cùng"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện U Minh",
+        "division_type": "huyện",
+        "code": 966,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn U Minh",
+            "division_type": "thị trấn",
+            "code": 32044,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khóm 1", "Khóm 4"]
+            }
+          },
+          {
+            "name": "Xã Khánh An",
+            "division_type": "xã",
+            "code": 32056,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp 1", "Khu công nghiệp khí điện đạm"]
+            }
+          },
+          {
+            "name": "Xã Khánh Hòa",
+            "division_type": "xã",
+            "code": 32047,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 9"] }
+          },
+          {
+            "name": "Xã Khánh Hội",
+            "division_type": "xã",
+            "code": 32050,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp 1", "Ấp 4", "Cửa biển Khánh Hội"]
+            }
+          },
+          {
+            "name": "Xã Khánh Lâm",
+            "division_type": "xã",
+            "code": 32053,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 15"] }
+          },
+          {
+            "name": "Xã Khánh Thuận",
+            "division_type": "xã",
+            "code": 32045,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 18"] }
+          },
+          {
+            "name": "Xã Khánh Tiến",
+            "division_type": "xã",
+            "code": 32052,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 12"] }
+          },
+          {
+            "name": "Xã Nguyễn Phích",
+            "division_type": "xã",
+            "code": 32059,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp 1", "Vườn quốc gia U Minh Hạ"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Trần Văn Thời",
+        "division_type": "huyện",
+        "code": 968,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Trần Văn Thời",
+            "division_type": "thị trấn",
+            "code": 32095,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khóm 1", "Khóm 9"]
+            }
+          },
+          {
+            "name": "Thị trấn Sông Đốc",
+            "division_type": "thị trấn",
+            "code": 32098,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khóm 1", "Khóm 12", "Cửa biển Sông Đốc"]
+            }
+          },
+          {
+            "name": "Xã Khánh Hải",
+            "division_type": "xã",
+            "code": 32119,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Trung Công", "Hòn Đá Bạc"]
+            }
+          },
+          {
+            "name": "Xã Khánh Bình",
+            "division_type": "xã",
+            "code": 32101,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 10"] }
+          },
+          {
+            "name": "Xã Khánh Bình Đông",
+            "division_type": "xã",
+            "code": 32107,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 12"] }
+          },
+          {
+            "name": "Xã Khánh Bình Tây",
+            "division_type": "xã",
+            "code": 32113,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Đá Bạc", "Ấp 1"]
+            }
+          },
+          {
+            "name": "Xã Khánh Bình Tây Bắc",
+            "division_type": "xã",
+            "code": 32110,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 11"] }
+          },
+          {
+            "name": "Xã Khánh Hưng",
+            "division_type": "xã",
+            "code": 32122,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 12"] }
+          },
+          {
+            "name": "Xã Khánh Lộc",
+            "division_type": "xã",
+            "code": 32104,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 8"] }
+          },
+          {
+            "name": "Xã Lợi An",
+            "division_type": "xã",
+            "code": 32124,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 6"] }
+          },
+          {
+            "name": "Xã Phong Điền",
+            "division_type": "xã",
+            "code": 32117,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 6"] }
+          },
+          {
+            "name": "Xã Phong Lạc",
+            "division_type": "xã",
+            "code": 32125,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 5"] }
+          },
+          {
+            "name": "Xã Trần Hợi",
+            "division_type": "xã",
+            "code": 32116,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 14"] }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Năm Căn",
+        "division_type": "huyện",
+        "code": 971,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Năm Căn",
+            "division_type": "thị trấn",
+            "code": 32191,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 1A"],
+              "villages_hamlets": [
+                "Khóm 1",
+                "Khóm 8",
+                "Tượng đài Phan Ngọc Hiển"
+              ]
+            }
+          },
+          {
+            "name": "Xã Đất Mới",
+            "division_type": "xã",
+            "code": 32197,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Cái Keo", "Ấp Ông Do"]
+            }
+          },
+          {
+            "name": "Xã Hàm Rồng",
+            "division_type": "xã",
+            "code": 32194,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Cái Ngang", "Ấp Chống Mỹ"]
+            }
+          },
+          {
+            "name": "Xã Hàng Vịnh",
+            "division_type": "xã",
+            "code": 32200,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 5"] }
+          },
+          {
+            "name": "Xã Hiệp Tùng",
+            "division_type": "xã",
+            "code": 32203,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 6"] }
+          },
+          {
+            "name": "Xã Lâm Hải",
+            "division_type": "xã",
+            "code": 32206,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Trường Đức", "Ấp Khai Hoang"]
+            }
+          },
+          {
+            "name": "Xã Tam Giang",
+            "division_type": "xã",
+            "code": 32209,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 5"] }
+          },
+          {
+            "name": "Xã Tam Giang Đông",
+            "division_type": "xã",
+            "code": 32210,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Bãi Ghe", "Ấp Hố Gùi"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Cái Nước",
+        "division_type": "huyện",
+        "code": 969,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Cái Nước",
+            "division_type": "thị trấn",
+            "code": 32128,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 1A"],
+              "villages_hamlets": ["Khóm 1", "Khóm 3"]
+            }
+          },
+          {
+            "name": "Xã Đông Hưng",
+            "division_type": "xã",
+            "code": 32140,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Đông Hưng", "Ấp Cái Nước"]
+            }
+          },
+          {
+            "name": "Xã Đông Thới",
+            "division_type": "xã",
+            "code": 32143,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Mỹ Điền", "Ấp Đông Thới"]
+            }
+          },
+          {
+            "name": "Xã Hòa Mỹ",
+            "division_type": "xã",
+            "code": 32137,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Thị Tường", "Ấp Rau Dừa"]
+            }
+          },
+          {
+            "name": "Xã Hưng Mỹ",
+            "division_type": "xã",
+            "code": 32134,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Rau Dừa", "Ấp Hưng Mỹ"]
+            }
+          },
+          {
+            "name": "Xã Lương Thế Trân",
+            "division_type": "xã",
+            "code": 32131,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 5"] }
+          },
+          {
+            "name": "Xã Phú Hưng",
+            "division_type": "xã",
+            "code": 32146,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 10"] }
+          },
+          {
+            "name": "Xã Thạnh Phú",
+            "division_type": "xã",
+            "code": 32149,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Láng Cùng", "Ấp Sở Tại"]
+            }
+          },
+          {
+            "name": "Xã Trần Thới",
+            "division_type": "xã",
+            "code": 32151,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Nhà Phấn", "Ấp Cái Keo"]
+            }
+          },
+          {
+            "name": "Xã Tân Hưng",
+            "division_type": "xã",
+            "code": 32150,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 8"] }
+          },
+          {
+            "name": "Xã Tân Hưng Đông",
+            "division_type": "xã",
+            "code": 32135,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Tân Hưng", "Ấp Đông"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đầm Dơi",
+        "division_type": "huyện",
+        "code": 970,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Đầm Dơi",
+            "division_type": "thị trấn",
+            "code": 32152,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khóm 1", "Khóm 6"]
+            }
+          },
+          {
+            "name": "Xã Quách Phẩm",
+            "division_type": "xã",
+            "code": 32173,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Nhà Diệu", "Ấp Quách Phẩm"]
+            }
+          },
+          {
+            "name": "Xã Quách Phẩm Bắc",
+            "division_type": "xã",
+            "code": 32170,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 10"] }
+          },
+          {
+            "name": "Xã Tạ An Khương",
+            "division_type": "xã",
+            "code": 32158,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Tạ An Khương", "Ấp Tân Thành"]
+            }
+          },
+          {
+            "name": "Xã Tạ An Khương Đông",
+            "division_type": "xã",
+            "code": 32155,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Tân Nghĩa", "Ấp Tân Thắng"]
+            }
+          },
+          {
+            "name": "Xã Tạ An Khương Nam",
+            "division_type": "xã",
+            "code": 32161,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Tân Lợi", "Ấp Tân Mỹ"]
+            }
+          },
+          {
+            "name": "Xã Tân Dân",
+            "division_type": "xã",
+            "code": 32176,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Tân Dân", "Ấp Tân Long"]
+            }
+          },
+          {
+            "name": "Xã Tân Duyệt",
+            "division_type": "xã",
+            "code": 32179,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Tân Duyệt", "Ấp Tân Điền"]
+            }
+          },
+          {
+            "name": "Xã Tân Đức",
+            "division_type": "xã",
+            "code": 32185,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Tân Đức", "Ấp Tân Hiệp"]
+            }
+          },
+          {
+            "name": "Xã Tân Thuận",
+            "division_type": "xã",
+            "code": 32188,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Tân Thuận", "Ấp Lưu Hoa Thanh"]
+            }
+          },
+          {
+            "name": "Xã Tân Tiến",
+            "division_type": "xã",
+            "code": 32182,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Tân Tiến", "Ấp Tân Lợi"]
+            }
+          },
+          {
+            "name": "Xã Tân Trung",
+            "division_type": "xã",
+            "code": 32167,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Tân Trung", "Ấp Trung Hòa"]
+            }
+          },
+          {
+            "name": "Xã Thanh Tùng",
+            "division_type": "xã",
+            "code": 32165,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Thanh Tùng", "Ấp Cái Ngay"]
+            }
+          },
+          {
+            "name": "Xã Trần Phán",
+            "division_type": "xã",
+            "code": 32164,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Trần Phán", "Ấp Nhà Máy"]
+            }
+          },
+          {
+            "name": "Xã Ngọc Chánh",
+            "division_type": "xã",
+            "code": 32162,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Ngọc Chánh", "Ấp Tân Lập"]
+            }
+          },
+          {
+            "name": "Xã Nguyễn Huân",
+            "division_type": "xã",
+            "code": 32187,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Nguyễn Huân", "Ấp Tân Tiến"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phú Tân",
+        "division_type": "huyện",
+        "code": 972,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Cái Đôi Vàm",
+            "division_type": "thị trấn",
+            "code": 32212,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khóm 1", "Khóm 8"]
+            }
+          },
+          {
+            "name": "Xã Phú Mỹ",
+            "division_type": "xã",
+            "code": 32215,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Phú Thạnh", "Ấp Phú Mỹ"]
+            }
+          },
+          {
+            "name": "Xã Phú Tân",
+            "division_type": "xã",
+            "code": 32218,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Cái Đôi", "Ấp Phú Tân"]
+            }
+          },
+          {
+            "name": "Xã Phú Thuận",
+            "division_type": "xã",
+            "code": 32221,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 7"] }
+          },
+          {
+            "name": "Xã Rạch Chèo",
+            "division_type": "xã",
+            "code": 32224,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Rạch Chèo", "Ấp Tân Nghĩa"]
+            }
+          },
+          {
+            "name": "Xã Tân Hải",
+            "division_type": "xã",
+            "code": 32227,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Tân Hải", "Ấp Thanh Tùng"]
+            }
+          },
+          {
+            "name": "Xã Tân Hưng Tây",
+            "division_type": "xã",
+            "code": 32230,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Tân Hưng Tây", "Ấp Cái Cám"]
+            }
+          },
+          {
+            "name": "Xã Việt Thắng",
+            "division_type": "xã",
+            "code": 32233,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Việt Thắng", "Ấp Kiến Vàng"]
+            }
+          },
+          {
+            "name": "Xã Nguyễn Việt Khái",
+            "division_type": "xã",
+            "code": 32236,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Gò Công", "Ấp Sào Lưới"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thới Bình",
+        "division_type": "huyện",
+        "code": 967,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Thới Bình",
+            "division_type": "thị trấn",
+            "code": 32065,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khóm 1", "Khóm 4"]
+            }
+          },
+          {
+            "name": "Xã Biển Bạch",
+            "division_type": "xã",
+            "code": 32068,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 5"] }
+          },
+          {
+            "name": "Xã Biển Bạch Đông",
+            "division_type": "xã",
+            "code": 32071,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 10"] }
+          },
+          {
+            "name": "Xã Hồ Thị Kỷ",
+            "division_type": "xã",
+            "code": 32092,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Đường Đào", "Ấp Bến Gỗ"]
+            }
+          },
+          {
+            "name": "Xã Tân Bằng",
+            "division_type": "xã",
+            "code": 32074,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 9"] }
+          },
+          {
+            "name": "Xã Tân Lộc",
+            "division_type": "xã",
+            "code": 32086,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Ấp Tân Lộc", "Ấp 1"]
+            }
+          },
+          {
+            "name": "Xã Tân Lộc Bắc",
+            "division_type": "xã",
+            "code": 32089,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 5"] }
+          },
+          {
+            "name": "Xã Tân Lộc Đông",
+            "division_type": "xã",
+            "code": 32087,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 6"] }
+          },
+          {
+            "name": "Xã Tân Phú",
+            "division_type": "xã",
+            "code": 32083,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 5"] }
+          },
+          {
+            "name": "Xã Thới Bình",
+            "division_type": "xã",
+            "code": 32080,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 8"] }
+          },
+          {
+            "name": "Xã Trí Lực",
+            "division_type": "xã",
+            "code": 32075,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 5"] }
+          },
+          {
+            "name": "Xã Trí Phải",
+            "division_type": "xã",
+            "code": 32077,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Ấp 1", "Ấp 10"] }
+          }
+        ]
+      }
+    ]
+  }
+]

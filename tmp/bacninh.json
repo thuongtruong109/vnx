@@ -1,0 +1,421 @@
+[
+  {
+    "province_id": "27",
+    "districts": [
+      {
+        "name": "Thành phố Bắc Ninh",
+        "division_type": "thành phố thuộc tỉnh",
+        "code": 256,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Phường Suối Hoa",
+            "division_type": "phường",
+            "code": 9187,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Trần Hưng Đạo",
+                "Kinh Dương Vương",
+                "Ngô Gia Tự",
+                "Lê Văn Thịnh"
+              ],
+              "villages_hamlets": ["Khu 1", "Khu 2", "Khu 3", "Khu 4"]
+            }
+          },
+          {
+            "name": "Phường Tiền An",
+            "division_type": "phường",
+            "code": 9178,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Nguyễn Gia Thiều",
+                "Lý Đạo Thành",
+                "Nguyễn Huy Tưởng"
+              ],
+              "villages_hamlets": ["Khu phố Tiền Ngoài", "Khu phố Tiền Trong"]
+            }
+          },
+          {
+            "name": "Phường Ninh Xá",
+            "division_type": "phường",
+            "code": 9184,
+            "status": "active",
+            "details": {
+              "streets": ["Nguyễn Trãi", "Nguyễn Cao", "Ngô Gia Tự"],
+              "villages_hamlets": [
+                "Khu phố 1",
+                "Khu phố 2",
+                "Khu phố 3",
+                "Khu phố 4"
+              ]
+            }
+          },
+          {
+            "name": "Phường Đại Phúc",
+            "division_type": "phường",
+            "code": 9181,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 1A", "Trần Hưng Đạo", "Nguyễn Quyền"],
+              "villages_hamlets": ["Khu 1", "Khu 2", "Khu 3", "Khu 4", "Khu 10"]
+            }
+          },
+          {
+            "name": "Phường Đáp Cầu",
+            "division_type": "phường",
+            "code": 9166,
+            "status": "active",
+            "details": {
+              "streets": ["Vũ Kiệt", "Như Nguyệt"],
+              "villages_hamlets": ["Khu 1", "Khu 2", "Khu 3", "Khu 4", "Khu 5"]
+            }
+          },
+          {
+            "name": "Phường Thị Cầu",
+            "division_type": "phường",
+            "code": 9169,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 1A", "Hoàng Quốc Việt"],
+              "villages_hamlets": ["Khu 1", "Khu 2", "Khu 3", "Khu 4"]
+            }
+          },
+          {
+            "name": "Phường Vạn An",
+            "division_type": "phường",
+            "code": 9226,
+            "status": "active",
+            "details": {
+              "streets": ["Đường tỉnh 286"],
+              "villages_hamlets": [
+                "Khu Thụ Ninh",
+                "Khu Đương Xá",
+                "Khu Vạn Diệp",
+                "Khu Yên Mẫn"
+              ]
+            }
+          },
+          {
+            "name": "Phường Võ Cường",
+            "division_type": "phường",
+            "code": 9190,
+            "status": "active",
+            "details": {
+              "streets": ["Lý Thái Tổ", "Nguyễn Văn Cừ", "Lê Thái Tổ"],
+              "villages_hamlets": [
+                "Khu Hòa Đình",
+                "Khu Khả Lễ",
+                "Khu Xuân Ổ A",
+                "Khu Xuân Ổ B"
+              ]
+            }
+          },
+          {
+            "name": "Phường Kinh Bắc",
+            "division_type": "phường",
+            "code": 9172,
+            "status": "active",
+            "details": {
+              "streets": ["Y Na", "Kinh Dương Vương"],
+              "villages_hamlets": ["Khu Y Na", "Khu Hòa Mã", "Khu Phúc Sơn"]
+            }
+          },
+          {
+            "name": "Phường Hạp Lĩnh",
+            "division_type": "phường",
+            "code": 9331,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 38"],
+              "villages_hamlets": [
+                "Khu Tiên Xá",
+                "Khu Hạp Lĩnh",
+                "Khu Nam Tiến"
+              ]
+            }
+          },
+          {
+            "name": "Phường Khắc Niệm",
+            "division_type": "phường",
+            "code": 9325,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 38"],
+              "villages_hamlets": [
+                "Khu Nẫm",
+                "Khu Tiền Trong",
+                "Khu Tiền Ngoài",
+                "Khu Đông"
+              ]
+            }
+          },
+          {
+            "name": "Phường Khúc Xuyên",
+            "division_type": "phường",
+            "code": 9235,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu Khúc Toại", "Khu Trà Xuyên"]
+            }
+          },
+          {
+            "name": "Phường Phong Khê",
+            "division_type": "phường",
+            "code": 9244,
+            "status": "active",
+            "details": {
+              "streets": ["Đường tỉnh 286"],
+              "villages_hamlets": [
+                "Khu Dương Minh Tự",
+                "Khu Đào Xá",
+                "Khu Châm Khê"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Từ Sơn",
+        "division_type": "thành phố thuộc tỉnh",
+        "code": 261,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Phường Đông Ngàn",
+            "division_type": "phường",
+            "code": 9367,
+            "status": "active",
+            "details": {
+              "streets": ["Lý Thái Tổ", "Trần Phú", "Minh Khai"],
+              "villages_hamlets": [
+                "Khu phố 1",
+                "Khu phố 2",
+                "Khu phố 3",
+                "Khu phố 4"
+              ]
+            }
+          },
+          {
+            "name": "Phường Đình Bảng",
+            "division_type": "phường",
+            "code": 9394,
+            "status": "active",
+            "details": {
+              "streets": ["Trần Phú", "Lý Thái Tổ"],
+              "villages_hamlets": [
+                "Đền Đô",
+                "Khu phố Tỉnh Cầu",
+                "Khu phố Thọ Môn"
+              ]
+            }
+          },
+          {
+            "name": "Phường Đồng Kỵ",
+            "division_type": "phường",
+            "code": 9382,
+            "status": "active",
+            "details": {
+              "streets": ["Nguyễn Văn Cừ"],
+              "villages_hamlets": [
+                "Làng nghề gỗ Đồng Kỵ",
+                "Khu phố Thanh Bình",
+                "Khu phố Đồng Tiến"
+              ]
+            }
+          },
+          {
+            "name": "Phường Trang Hạ",
+            "division_type": "phường",
+            "code": 9383,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu phố Trang Liệt", "Khu phố Bính Hạ"]
+            }
+          },
+          {
+            "name": "Phường Đồng Nguyên",
+            "division_type": "phường",
+            "code": 9385,
+            "status": "active",
+            "details": {
+              "streets": ["Lý Thái Tổ", "Nguyễn Văn Cừ"],
+              "villages_hamlets": ["Khu phố Tam Lư", "Khu phố Vĩnh Kiều"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Quế Võ",
+        "division_type": "thị xã",
+        "code": 259,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Phường Phố Mới",
+            "division_type": "phường",
+            "code": 9247,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 18"],
+              "villages_hamlets": [
+                "Khu phố 1",
+                "Khu phố 2",
+                "Khu phố 3",
+                "Khu phố 4",
+                "Khu phố 5"
+              ]
+            }
+          },
+          {
+            "name": "Phường Bằng An",
+            "division_type": "phường",
+            "code": 9262,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Khu phố Bằng An", "Khu phố Đông Du"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Thuận Thành",
+        "division_type": "thị xã",
+        "code": 262,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Phường Hồ",
+            "division_type": "phường",
+            "code": 9400,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 38", "Âu Cơ"],
+              "villages_hamlets": ["Khu phố Hồ", "Khu phố Đông Côi"]
+            }
+          },
+          {
+            "name": "Phường Song Hồ",
+            "division_type": "phường",
+            "code": 9412,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Làng tranh Đông Hồ",
+                "Khu phố Đạo Tú",
+                "Khu phố Tú Tháp"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tiên Du",
+        "division_type": "huyện",
+        "code": 260,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Lim",
+            "division_type": "thị trấn",
+            "code": 9319,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 1A", "Lý Thường Kiệt"],
+              "villages_hamlets": [
+                "Thôn Lũng Giang",
+                "Thôn Duệ Đông",
+                "Thôn Đình Cả"
+              ]
+            }
+          },
+          {
+            "name": "Xã Phật Tích",
+            "division_type": "xã",
+            "code": 9349,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Chùa Phật Tích",
+                "Thôn Phật Tích",
+                "Thôn Cổ Lãm"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Yên Phong",
+        "division_type": "huyện",
+        "code": 258,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Chờ",
+            "division_type": "thị trấn",
+            "code": 9193,
+            "status": "active",
+            "details": {
+              "streets": ["Đường tỉnh 286", "Đường tỉnh 271"],
+              "villages_hamlets": [
+                "Thôn Phú Mẫn",
+                "Thôn Nghiêm Xá",
+                "Thôn Trung Bạn"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Gia Bình",
+        "division_type": "huyện",
+        "code": 263,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Gia Bình",
+            "division_type": "thị trấn",
+            "code": 9454,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 17"],
+              "villages_hamlets": [
+                "Thôn Đông Bình",
+                "Thôn Nội Phú",
+                "Thôn Tiêu Xá"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lương Tài",
+        "division_type": "huyện",
+        "code": 264,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Thứa",
+            "division_type": "thị trấn",
+            "code": 9496,
+            "status": "active",
+            "details": {
+              "streets": ["Đường tỉnh 280", "Đường tỉnh 281"],
+              "villages_hamlets": [
+                "Thôn Kim Đào",
+                "Thôn Phượng Giáo",
+                "Thôn Giàng"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

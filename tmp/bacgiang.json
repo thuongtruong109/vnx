@@ -1,0 +1,472 @@
+[
+  {
+    "province_id": "24",
+    "districts": [
+      {
+        "name": "Thành phố Bắc Giang",
+        "division_type": "thành phố thuộc tỉnh",
+        "code": 213,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Phường Hoàng Văn Thụ",
+            "division_type": "phường",
+            "code": 7210,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Xương Giang",
+                "Ngô Gia Tự",
+                "Nguyễn Văn Cừ",
+                "Lê Lợi",
+                "Hùng Vương"
+              ],
+              "villages_hamlets": [
+                "Tổ 1",
+                "Tổ 2",
+                "Tổ 3",
+                "Tổ 4",
+                "Tổ 5",
+                "Tổ 6"
+              ]
+            }
+          },
+          {
+            "name": "Phường Ngô Quyền",
+            "division_type": "phường",
+            "code": 7207,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Nguyễn Gia Thiều",
+                "Quách Nhẫn",
+                "Xương Giang",
+                "Nguyễn Thị Lưu"
+              ],
+              "villages_hamlets": ["Tổ 1", "Tổ 2", "Tổ 3", "Tổ 4", "Tổ 5"]
+            }
+          },
+          {
+            "name": "Phường Trần Phú",
+            "division_type": "phường",
+            "code": 7213,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Trần Phú",
+                "Nguyễn Văn Cừ",
+                "Lý Tự Trọng",
+                "Cổng Thành"
+              ],
+              "villages_hamlets": ["Tổ 1", "Tổ 2", "Tổ 3", "Tổ 4"]
+            }
+          },
+          {
+            "name": "Phường Lê Lợi",
+            "division_type": "phường",
+            "status": "active",
+            "details": {
+              "streets": ["Lê Lợi", "Huyền Quang", "Thân Nhân Trung"],
+              "villages_hamlets": [
+                "Tổ dân phố 1",
+                "Tổ dân phố 2",
+                "Tổ dân phố 3",
+                "Tổ dân phố Chùa"
+              ]
+            }
+          },
+          {
+            "name": "Phường Mỹ Độ",
+            "division_type": "phường",
+            "code": 7216,
+            "status": "active",
+            "details": {
+              "streets": ["Thân Nhân Trung", "Đào Sư Tích"],
+              "villages_hamlets": [
+                "Tổ dân phố 1",
+                "Tổ dân phố 2",
+                "Tổ dân phố 3",
+                "Tổ dân phố 4"
+              ]
+            }
+          },
+          {
+            "name": "Phường Thọ Xương",
+            "division_type": "phường",
+            "code": 7201,
+            "status": "active",
+            "details": {
+              "streets": ["Xương Giang", "Trần Nguyên Hãn", "Lý Thái Tổ"],
+              "villages_hamlets": [
+                "Tổ dân phố 1",
+                "Tổ dân phố Hòa Yên",
+                "Tổ dân phố Sen Hồ"
+              ]
+            }
+          },
+          {
+            "name": "Phường Trần Nguyên Hãn",
+            "division_type": "phường",
+            "status": "active",
+            "details": {
+              "streets": ["Trần Nguyên Hãn", "Trần Khanh Dư", "Cao Kỳ Vân"],
+              "villages_hamlets": ["Tổ 1", "Tổ 2", "Tổ 3", "Tổ 4"]
+            }
+          },
+          {
+            "name": "Phường Đa Mai",
+            "division_type": "phường",
+            "code": 7228,
+            "status": "active",
+            "details": {
+              "streets": ["Hoàng Hoa Thám", "Đa Mai"],
+              "villages_hamlets": [
+                "Tổ dân phố Mai Đa",
+                "Tổ dân phố Thanh Mai",
+                "Tổ dân phố Tân Mai"
+              ]
+            }
+          },
+          {
+            "name": "Phường Xương Giang",
+            "division_type": "phường",
+            "code": 7225,
+            "status": "active",
+            "details": {
+              "streets": ["Xương Giang", "Giáp Hải"],
+              "villages_hamlets": [
+                "Tổ dân phố Đông Giang",
+                "Tổ dân phố Nam Giang",
+                "Thành Xương Giang"
+              ]
+            }
+          },
+          {
+            "name": "Phường Dĩnh Kế",
+            "division_type": "phường",
+            "code": 7231,
+            "status": "active",
+            "details": {
+              "streets": ["Lê Lợi", "Giáp Hải", "Hoàng Văn Thụ"],
+              "villages_hamlets": [
+                "Tổ dân phố Kế",
+                "Tổ dân phố Vĩnh Ninh",
+                "Tổ dân phố Thanh Lương"
+              ]
+            }
+          },
+          {
+            "name": "Xã Dĩnh Trì",
+            "division_type": "xã",
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 31", "Quốc lộ 1A"],
+              "villages_hamlets": [
+                "Thôn Riễu",
+                "Thôn Trại",
+                "Thôn Thuyền",
+                "Thôn Bãi San"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Việt Yên",
+        "division_type": "thị xã",
+        "code": 222,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Phường Bích Động",
+            "division_type": "phường",
+            "code": 7777,
+            "status": "active",
+            "details": {
+              "streets": ["Thân Nhân Trung", "Quốc lộ 37", "Hoàng Hoa Thám"],
+              "villages_hamlets": [
+                "Tổ dân phố Thượng",
+                "Tổ dân phố Trung",
+                "Tổ dân phố Phan",
+                "Tổ dân phố Dục Quang"
+              ]
+            }
+          },
+          {
+            "name": "Phường Nếnh",
+            "division_type": "phường",
+            "code": 7795,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 1A", "Đường tỉnh 295B"],
+              "villages_hamlets": [
+                "Tổ dân phố Nếnh",
+                "Tổ dân phố My Điền",
+                "Tổ dân phố Sen Hồ"
+              ]
+            }
+          },
+          {
+            "name": "Phường Quang Châu",
+            "division_type": "phường",
+            "code": 7807,
+            "status": "active",
+            "details": {
+              "streets": ["Đường KCN Quang Châu"],
+              "villages_hamlets": [
+                "Tổ dân phố Quang Châu",
+                "Tổ dân phố Đạo Ngạn",
+                "Tổ dân phố Núi Hiểu"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hiệp Hòa",
+        "division_type": "huyện",
+        "code": 223,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Thắng",
+            "division_type": "thị trấn",
+            "code": 7840,
+            "status": "active",
+            "details": {
+              "streets": ["Trần Phụ", "Đường tỉnh 295", "Đường tỉnh 296"],
+              "villages_hamlets": [
+                "Tổ dân phố 1",
+                "Tổ dân phố 2",
+                "Tổ dân phố 3",
+                "Tổ dân phố 4",
+                "Tổ dân phố 5"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lạng Giang",
+        "division_type": "huyện",
+        "code": 217,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Vôi",
+            "division_type": "thị trấn",
+            "code": 7375,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 1A", "Đường tỉnh 295"],
+              "villages_hamlets": [
+                "Tổ dân phố Vôi",
+                "Tổ dân phố Tân Văn",
+                "Tổ dân phố Toàn Mỹ"
+              ]
+            }
+          },
+          {
+            "name": "Thị trấn Kép",
+            "division_type": "thị trấn",
+            "code": 7399,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 1A", "Quốc lộ 37"],
+              "villages_hamlets": [
+                "Tổ dân phố Kép",
+                "Tổ dân phố lữ đoàn 203",
+                "Tổ dân phố số 1"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lục Nam",
+        "division_type": "huyện",
+        "code": 218,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Đồi Ngô",
+            "division_type": "thị trấn",
+            "code": 7444,
+            "status": "active",
+            "details": {
+              "streets": ["Thân Nhân Trung", "Quốc lộ 31", "Quốc lộ 37"],
+              "villages_hamlets": [
+                "Tổ dân phố Đồi Ngô",
+                "Tổ dân phố Lục Nam",
+                "Tổ dân phố Thanh Xuân"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Lục Ngạn",
+        "division_type": "huyện",
+        "code": 219,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Chũ",
+            "division_type": "thị trấn",
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 31", "Trần Phú"],
+              "villages_hamlets": [
+                "Tổ dân phố Chũ",
+                "Tổ dân phố Minh Khai",
+                "Tổ dân phố Đài Sơn"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Sơn Động",
+        "division_type": "huyện",
+        "code": 220,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn An Châu",
+            "division_type": "thị trấn",
+            "code": 7615,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 31"],
+              "villages_hamlets": [
+                "Tổ dân phố số 1",
+                "Tổ dân phố số 2",
+                "Tổ dân phố số 3",
+                "Tổ dân phố số 4"
+              ]
+            }
+          },
+          {
+            "name": "Thị trấn Tây Yên Tử",
+            "division_type": "thị trấn",
+            "code": 7616,
+            "status": "active",
+            "details": {
+              "streets": ["Đường tỉnh 293"],
+              "villages_hamlets": [
+                "Tổ dân phố Đồng Thông",
+                "Tổ dân phố Mậu",
+                "Tổ dân phố Thẳng"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tân Yên",
+        "division_type": "huyện",
+        "code": 216,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Cao Thượng",
+            "division_type": "thị trấn",
+            "code": 7339,
+            "status": "active",
+            "details": {
+              "streets": ["Hoàng Hoa Thám", "Đường tỉnh 295", "Đường tỉnh 298"],
+              "villages_hamlets": [
+                "Tổ dân phố Cao Thượng",
+                "Tổ dân phố Ngoài Hạ",
+                "Tổ dân phố Bùi"
+              ]
+            }
+          },
+          {
+            "name": "Thị trấn Nhã Nam",
+            "division_type": "thị trấn",
+            "code": 7306,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 17", "Đường tỉnh 294"],
+              "villages_hamlets": [
+                "Tổ dân phố Nhã Nam",
+                "Tổ dân phố Cầu Đen",
+                "Tổ dân phố chùa Nguộn"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Yên Dũng",
+        "division_type": "huyện",
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Nham Biền",
+            "division_type": "thị trấn",
+            "status": "active",
+            "details": {
+              "streets": ["Đường tỉnh 293", "Đường tỉnh 299"],
+              "villages_hamlets": [
+                "Tổ dân phố Neo",
+                "Tổ dân phố Kem",
+                "Tổ dân phố Phấn Lôi"
+              ]
+            }
+          },
+          {
+            "name": "Thị trấn Tân An",
+            "division_type": "thị trấn",
+            "status": "active",
+            "details": {
+              "streets": ["Đường tỉnh 299B"],
+              "villages_hamlets": [
+                "Tổ dân phố Tân An",
+                "Tổ dân phố Thắng",
+                "Tổ dân phố Chợ"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Yên Thế",
+        "division_type": "huyện",
+        "code": 215,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Phồn Xương",
+            "division_type": "thị trấn",
+            "code": 7288,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 17", "Đường tỉnh 242"],
+              "villages_hamlets": [
+                "Tổ dân phố Phồn Xương",
+                "Tổ dân phố Cầu Gồ",
+                "Tổ dân phố Đề Thám"
+              ]
+            }
+          },
+          {
+            "name": "Thị trấn Bố Hạ",
+            "division_type": "thị trấn",
+            "code": 7294,
+            "status": "active",
+            "details": {
+              "streets": ["Đường tỉnh 242", "Đường tỉnh 265"],
+              "villages_hamlets": [
+                "Tổ dân phố Bố Hạ",
+                "Tổ dân phố Thống Nhất",
+                "Tổ dân phố Vĩnh Ninh"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

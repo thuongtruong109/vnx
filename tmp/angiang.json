@@ -1,0 +1,505 @@
+[
+  {
+    "province_id": "89",
+    "districts": [
+      {
+        "name": "Thành phố Long Xuyên",
+        "division_type": "thành phố thuộc tỉnh",
+        "code": 883,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Phường Mỹ Long",
+            "division_type": "phường",
+            "code": 30283,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Trần Hưng Đạo",
+                "Nguyễn Trãi",
+                "Hùng Vương",
+                "Hai Bà Trưng",
+                "Lê Minh Ngân",
+                "Nguyễn Huệ"
+              ],
+              "villages_hamlets": [
+                "Khóm 1",
+                "Khóm 2",
+                "Khóm 3",
+                "Khóm 4",
+                "Khóm 5",
+                "Khóm 6",
+                "Chợ Long Xuyên"
+              ]
+            }
+          },
+          {
+            "name": "Phường Mỹ Bình",
+            "division_type": "phường",
+            "code": 30280,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Lê Hồng Phong",
+                "Tôn Đức Thắng",
+                "Nguyễn Du",
+                "Thoại Ngọc Hầu",
+                "Trần Hưng Đạo",
+                "Nguyễn Huệ B"
+              ],
+              "villages_hamlets": [
+                "Khóm Bình Long",
+                "Khóm Bình Thới",
+                "Khóm Bình An",
+                "Khóm Bình Khánh"
+              ]
+            }
+          },
+          {
+            "name": "Phường Mỹ Thới",
+            "division_type": "phường",
+            "code": 30301,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 91", "Trần Hưng Đạo", "Cái Sao Thượng"],
+              "villages_hamlets": [
+                "Cảng Mỹ Thới",
+                "Khóm Mỹ Thạnh",
+                "Khóm Mỹ Thọ",
+                "Khóm Mỹ Huề",
+                "Khóm Mỹ Tân"
+              ]
+            }
+          },
+          {
+            "name": "Phường Mỹ Xuyên",
+            "division_type": "phường",
+            "code": 30286,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Hà Hoàng Hổ",
+                "Võ Thị Sáu",
+                "Lý Thái Tổ",
+                "Đông Xuyên"
+              ],
+              "villages_hamlets": [
+                "Khóm Đông Xuyên",
+                "Khóm Đông Xuyên 1",
+                "Khóm Đông Xuyên 2"
+              ]
+            }
+          },
+          {
+            "name": "Phường Mỹ Phước",
+            "division_type": "phường",
+            "code": 30289,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Phạm Cự Lượng",
+                "Trần Hưng Đạo",
+                "Lý Thái Tổ",
+                "Triệu Quang Phục"
+              ],
+              "villages_hamlets": [
+                "Khóm Đông Thịnh",
+                "Khóm Đông Thịnh 1",
+                "Khóm Đông Thịnh 2",
+                "Khóm Mỹ Lộc",
+                "Khóm Mỹ Quới"
+              ]
+            }
+          },
+          {
+            "name": "Xã Mỹ Hòa Hưng",
+            "division_type": "xã",
+            "code": 30313,
+            "status": "active",
+            "details": {
+              "streets": ["Đường liên xã Cù Lao Ông Hổ"],
+              "villages_hamlets": [
+                "Ấp Mỹ An",
+                "Ấp Mỹ Hòa",
+                "Ấp Mỹ Khánh",
+                "Ấp Mỹ Phước",
+                "Ấp Mỹ Thuận",
+                "Khu lưu niệm Cụ Tôn"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thành phố Châu Đốc",
+        "division_type": "thành phố thuộc tỉnh",
+        "code": 884,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Phường Châu Phú A",
+            "division_type": "phường",
+            "code": 30319,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Lê Lợi",
+                "Bạch Đằng",
+                "Trần Hưng Đạo",
+                "Thủ Khoa Huân",
+                "Nguyễn Văn Thoại"
+              ],
+              "villages_hamlets": [
+                "Khóm 1",
+                "Khóm 2",
+                "Khóm 3",
+                "Khóm 4",
+                "Khóm 5"
+              ]
+            }
+          },
+          {
+            "name": "Phường Châu Phú B",
+            "division_type": "phường",
+            "code": 30320,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Quang Trung",
+                "Nguyễn Văn Thoại",
+                "Kênh Đào",
+                "Phan Văn Vàng"
+              ],
+              "villages_hamlets": [
+                "Khóm Châu Thới",
+                "Khóm Châu Thới 1",
+                "Khóm Châu Thới 2",
+                "Khóm Châu Thới 3"
+              ]
+            }
+          },
+          {
+            "name": "Phường Núi Sam",
+            "division_type": "phường",
+            "code": 30325,
+            "status": "active",
+            "details": {
+              "streets": ["Tân Lộ Kiều Lương", "Vòng Núi Sam", "Châu Thị Tế"],
+              "villages_hamlets": [
+                "Khóm Vĩnh Tây",
+                "Khóm Vĩnh Tây 1",
+                "Khóm Vĩnh Đông",
+                "Khóm Vĩnh Đông 1",
+                "Miếu Bà Chúa Xứ",
+                "Lăng Thoại Ngọc Hầu"
+              ]
+            }
+          },
+          {
+            "name": "Phường Vĩnh Mỹ",
+            "division_type": "phường",
+            "code": 30322,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 91", "Tôn Đức Thắng"],
+              "villages_hamlets": [
+                "Khóm Mỹ Thành",
+                "Khóm Mỹ Hòa",
+                "Khóm Vĩnh Thạnh",
+                "Khóm Vĩnh Mỹ"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Tân Châu",
+        "division_type": "thị xã",
+        "code": 887,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Phường Long Thạnh",
+            "division_type": "phường",
+            "code": 30376,
+            "status": "active",
+            "details": {
+              "streets": ["Nguyễn Tri Phương", "Tôn Đức Thắng", "Nguyễn Huệ"],
+              "villages_hamlets": [
+                "Khóm Long Thạnh A",
+                "Khóm Long Thạnh B",
+                "Làng lụa Tân Châu"
+              ]
+            }
+          },
+          {
+            "name": "Phường Long Hưng",
+            "division_type": "phường",
+            "code": 30373,
+            "status": "active",
+            "details": {
+              "streets": ["Trần Hưng Đạo", "Nguyễn Văn Linh"],
+              "villages_hamlets": [
+                "Khóm Long Hưng A",
+                "Khóm Long Hưng B",
+                "Khóm Long Hưng C"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã Tịnh Biên",
+        "division_type": "thị xã",
+        "code": 890,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Phường Nhà Bàng",
+            "division_type": "phường",
+            "code": 30502,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 91", "Đường lên Núi Két"],
+              "villages_hamlets": [
+                "Khóm Thới Hòa",
+                "Khóm Hòa Thạnh",
+                "Khóm Hòa Thuận",
+                "Chùa Lầu"
+              ]
+            }
+          },
+          {
+            "name": "Phường An Phú",
+            "division_type": "phường",
+            "code": 30514,
+            "status": "active",
+            "details": {
+              "streets": ["Đường lên Núi Cấm"],
+              "villages_hamlets": [
+                "Ấp Thiên Tuế",
+                "Ấp Trung Sơn",
+                "Ấp Vồ Đầu",
+                "Núi Cấm",
+                "Chùa Phật Lớn"
+              ]
+            }
+          },
+          {
+            "name": "Phường Tịnh Biên",
+            "division_type": "phường",
+            "code": 30499,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 91", "Đường Hữu Nghị"],
+              "villages_hamlets": [
+                "Khóm Xuân Biên",
+                "Khóm Xuân Hòa",
+                "Cửa khẩu Tịnh Biên"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Thoại Sơn",
+        "division_type": "huyện",
+        "code": 894,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Núi Sập",
+            "division_type": "thị trấn",
+            "code": 30682,
+            "status": "active",
+            "details": {
+              "streets": ["Nguyễn Văn Trỗi", "Thoại Ngọc Hầu", "Trần Hưng Đạo"],
+              "villages_hamlets": [
+                "Khóm Tây Huề",
+                "Khóm Đông Sơn",
+                "Khóm Bắc Sơn",
+                "Hồ Ông Thoại"
+              ]
+            }
+          },
+          {
+            "name": "Thị trấn Óc Eo",
+            "division_type": "thị trấn",
+            "code": 30688,
+            "status": "active",
+            "details": {
+              "streets": ["Đường tỉnh 943"],
+              "villages_hamlets": [
+                "Ấp Tân Hiệp A",
+                "Ấp Tân Hiệp B",
+                "Khóm Trung Sơn",
+                "Di tích Óc Eo"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tri Tôn",
+        "division_type": "huyện",
+        "code": 891,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Tri Tôn",
+            "division_type": "thị trấn",
+            "code": 30544,
+            "status": "active",
+            "details": {
+              "streets": ["Trần Hưng Đạo", "Nam Kỳ Khởi Nghĩa", "Nguyễn Trãi"],
+              "villages_hamlets": [
+                "Khóm 1",
+                "Khóm 2",
+                "Khóm 3",
+                "Khóm 4",
+                "Khóm 5",
+                "Khóm 6",
+                "Núi Cô Tô"
+              ]
+            }
+          },
+          {
+            "name": "Xã An Hảo",
+            "division_type": "xã",
+            "status": "active",
+            "details": {
+              "streets": ["Tỉnh lộ 948"],
+              "villages_hamlets": [
+                "Ấp An Thạnh",
+                "Ấp An Hòa",
+                "Ấp An Hảo",
+                "Rừng tràm Trà Sư"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Phú",
+        "division_type": "huyện",
+        "code": 889,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Cái Dầu",
+            "division_type": "thị trấn",
+            "code": 30463,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 91", "Thái Phiên"],
+              "villages_hamlets": [
+                "Khóm Bình Đức",
+                "Khóm Bình Hòa",
+                "Khóm Bình Nghĩa"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Châu Thành",
+        "division_type": "huyện",
+        "code": 892,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn An Châu",
+            "division_type": "thị trấn",
+            "code": 30589,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 91", "Cách Mạng Tháng Tám"],
+              "villages_hamlets": [
+                "Khóm Hòa Thạnh",
+                "Khóm Hòa Long",
+                "Khóm Hòa An"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Chợ Mới",
+        "division_type": "huyện",
+        "code": 893,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Chợ Mới",
+            "division_type": "thị trấn",
+            "code": 30628,
+            "status": "active",
+            "details": {
+              "streets": ["Lê Lợi", "Nguyễn Huệ", "Trần Hưng Đạo"],
+              "villages_hamlets": [
+                "Khóm Thị 1",
+                "Khóm Thị 2",
+                "Khóm Xuân Mỹ Tây"
+              ]
+            }
+          },
+          {
+            "name": "Thị trấn Mỹ Luông",
+            "division_type": "thị trấn",
+            "code": 30631,
+            "status": "active",
+            "details": {
+              "streets": ["Tỉnh lộ 942"],
+              "villages_hamlets": ["Khóm Mỹ Hòa", "Khóm Mỹ Tân", "Khóm Mỹ Quới"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phú Tân",
+        "division_type": "huyện",
+        "code": 888,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Phú Mỹ",
+            "division_type": "thị trấn",
+            "code": 30406,
+            "status": "active",
+            "details": {
+              "streets": ["Tỉnh lộ 951", "Tỉnh lộ 954"],
+              "villages_hamlets": [
+                "Khóm Thượng 1",
+                "Khóm Thượng 2",
+                "Khóm Thượng 3",
+                "Khóm Trung 1"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện An Phú",
+        "division_type": "huyện",
+        "code": 886,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn An Phú",
+            "division_type": "thị trấn",
+            "code": 30337,
+            "status": "active",
+            "details": {
+              "streets": ["Quốc lộ 91C"],
+              "villages_hamlets": [
+                "Khóm An Thạnh",
+                "Khóm An Hưng",
+                "Khóm An Thịnh"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

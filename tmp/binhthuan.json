@@ -1,0 +1,811 @@
+[
+  {
+    "province_id": "60",
+    "province_name": "Tỉnh Bình Thuận",
+    "districts": [
+      {
+        "name": "Thành phố Phan Thiết",
+        "division_type": "thành phố thuộc tỉnh",
+        "code": 593,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Phường Mũi Né",
+            "division_type": "phường",
+            "code": 22915,
+            "status": "active",
+            "details": {
+              "streets": [
+                "Huỳnh Thúc Kháng",
+                "Võ Nguyên Giáp",
+                "Hồ Xuân Hương"
+              ],
+              "villages_hamlets": [
+                "Khu phố 1",
+                "Khu phố 5",
+                "Khu phố 14",
+                "Đồi Cát Bay"
+              ]
+            }
+          },
+          {
+            "name": "Phường Hàm Tiến",
+            "division_type": "phường",
+            "code": 22918,
+            "status": "active",
+            "details": {
+              "streets": ["Nguyễn Đình Chiểu", "Huỳnh Thúc Kháng"],
+              "villages_hamlets": [
+                "Khu phố 1",
+                "Khu phố 2",
+                "Khu phố 3",
+                "Khu phố 4",
+                "Suối Tiên"
+              ]
+            }
+          },
+          {
+            "name": "Phường Phú Hài",
+            "division_type": "phường",
+            "code": 22921,
+            "status": "active",
+            "details": {
+              "streets": ["Nguyễn Thông"],
+              "villages_hamlets": [
+                "Khu phố 1",
+                "Khu phố 2",
+                "Khu phố 5",
+                "Tháp Chăm Poshanư"
+              ]
+            }
+          },
+          {
+            "name": "Phường Phú Thủy",
+            "division_type": "phường",
+            "code": 22924,
+            "status": "active",
+            "details": {
+              "streets": ["Thủ Khoa Huân", "Lê Duẩn", "Tôn Đức Thắng"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 2", "Khu phố 10"]
+            }
+          },
+          {
+            "name": "Phường Phú Tài",
+            "division_type": "phường",
+            "code": 22927,
+            "status": "active",
+            "details": {
+              "streets": ["Đặng Văn Ngữ"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 3", "Khu phố 6"]
+            }
+          },
+          {
+            "name": "Phường Phú Trinh",
+            "division_type": "phường",
+            "code": 22930,
+            "status": "active",
+            "details": {
+              "streets": ["Trần Hưng Đạo", "Hải Thượng Lãn Ông"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 5", "Khu phố 11"]
+            }
+          },
+          {
+            "name": "Phường Xuân An",
+            "division_type": "phường",
+            "code": 22933,
+            "status": "active",
+            "details": {
+              "streets": ["Nguyễn Hội"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 2", "Khu phố 4"]
+            }
+          },
+          {
+            "name": "Phường Thanh Hải",
+            "division_type": "phường",
+            "code": 22936,
+            "status": "active",
+            "details": {
+              "streets": ["Hùng Vương"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 3", "Khu phố 5"]
+            }
+          },
+          {
+            "name": "Phường Bình Hưng",
+            "division_type": "phường",
+            "code": 22951,
+            "status": "active",
+            "details": {
+              "streets": ["Trần Hưng Đạo", "Nguyễn Tất Thành"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 2", "Khu phố 3"]
+            }
+          },
+          {
+            "name": "Phường Đức Nghĩa",
+            "division_type": "phường",
+            "code": 22942,
+            "status": "active",
+            "details": {
+              "streets": ["Trần Hưng Đạo", "Nguyễn Huệ", "Phan Bội Châu"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 2", "Khu phố 3"]
+            }
+          },
+          {
+            "name": "Phường Đức Thắng",
+            "division_type": "phường",
+            "code": 22948,
+            "status": "active",
+            "details": {
+              "streets": ["Trưng Trắc"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 3", "Khu phố 4"]
+            }
+          },
+          {
+            "name": "Phường Lạc Đạo",
+            "division_type": "phường",
+            "code": 22945,
+            "status": "active",
+            "details": {
+              "streets": ["Trần Quý Cáp"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 3", "Khu phố 5"]
+            }
+          },
+          {
+            "name": "Phường Đức Long",
+            "division_type": "phường",
+            "code": 22954,
+            "status": "active",
+            "details": {
+              "streets": ["Trương Văn Ly"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 4", "Khu phố 8"]
+            }
+          },
+          {
+            "name": "Xã Tiến Lợi",
+            "division_type": "xã",
+            "code": 22957,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Thôn Tiến Thạnh",
+                "Thôn Tiến Hòa",
+                "Thôn Tiến Hưng"
+              ]
+            }
+          },
+          {
+            "name": "Xã Tiến Thành",
+            "division_type": "xã",
+            "code": 22966,
+            "status": "active",
+            "details": {
+              "streets": ["Lạc Long Quân"],
+              "villages_hamlets": [
+                "Thôn Tiến An",
+                "Thôn Tiến Hòa",
+                "Thôn Tiến Phú",
+                "NovaWorld"
+              ]
+            }
+          },
+          {
+            "name": "Xã Phong Nẫm",
+            "division_type": "xã",
+            "code": 22960,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Xuân Phú", "Thôn Xuân Hòa"]
+            }
+          },
+          {
+            "name": "Xã Thiện Nghiệp",
+            "division_type": "xã",
+            "code": 22963,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Thiện Trung", "Thôn Thiện Sơn"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Thị xã La Gi",
+        "division_type": "thị xã",
+        "code": 594,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Phường Phước Hội",
+            "division_type": "phường",
+            "code": 23231,
+            "status": "active",
+            "details": {
+              "streets": ["Thống Nhất", "Lê Lợi"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 5"]
+            }
+          },
+          {
+            "name": "Phường Phước Lộc",
+            "division_type": "phường",
+            "code": 23234,
+            "status": "active",
+            "details": {
+              "streets": ["Bến Chương Dương"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 4"]
+            }
+          },
+          {
+            "name": "Phường Tân An",
+            "division_type": "phường",
+            "code": 23235,
+            "status": "active",
+            "details": {
+              "streets": ["Nguyễn Chí Thanh"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 6"]
+            }
+          },
+          {
+            "name": "Phường Tân Thiện",
+            "division_type": "phường",
+            "code": 23232,
+            "status": "active",
+            "details": {
+              "streets": ["Nguyễn Trường Tộ"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 3"]
+            }
+          },
+          {
+            "name": "Phường Bình Tân",
+            "division_type": "phường",
+            "code": 23233,
+            "status": "active",
+            "details": {
+              "streets": ["Cộng Hòa"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 11"]
+            }
+          },
+          {
+            "name": "Xã Tân Tiến",
+            "division_type": "xã",
+            "code": 23246,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Thôn Hiệp An",
+                "Thôn Tam Tân",
+                "Dinh Thầy Thím"
+              ]
+            }
+          },
+          {
+            "name": "Xã Tân Bình",
+            "division_type": "xã",
+            "code": 23242,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Bình An", "Thôn Tân Lý"]
+            }
+          },
+          {
+            "name": "Xã Tân Hải",
+            "division_type": "xã",
+            "code": 23243,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Hiệp Lễ", "Thôn Hiệp Hòa"]
+            }
+          },
+          {
+            "name": "Xã Tân Phước",
+            "division_type": "xã",
+            "code": 23245,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Phước Thọ", "Thôn Phước Tiến"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tuy Phong",
+        "division_type": "huyện",
+        "code": 595,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Liên Hương",
+            "division_type": "thị trấn",
+            "code": 22969,
+            "status": "active",
+            "details": {
+              "streets": ["Võ Thị Sáu"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 14"]
+            }
+          },
+          {
+            "name": "Thị trấn Phan Rí Cửa",
+            "division_type": "thị trấn",
+            "code": 22972,
+            "status": "active",
+            "details": {
+              "streets": ["Thống Nhất"],
+              "villages_hamlets": ["Khu phố 1", "Khu phố 21"]
+            }
+          },
+          {
+            "name": "Xã Vĩnh Hảo",
+            "division_type": "xã",
+            "code": 22975,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Vĩnh Sanh", "Thôn Vĩnh Bưởi"]
+            }
+          },
+          {
+            "name": "Xã Vĩnh Tân",
+            "division_type": "xã",
+            "code": 22978,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Vĩnh Tiến", "Thôn Vĩnh Phúc"]
+            }
+          },
+          {
+            "name": "Xã Phú Lạc",
+            "division_type": "xã",
+            "code": 22981,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Lạc Trị", "Thôn Vĩnh Hanh"]
+            }
+          },
+          {
+            "name": "Xã Phong Phú",
+            "division_type": "xã",
+            "code": 22987,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Tuy Tịnh", "Thôn Nha Mé"]
+            }
+          },
+          {
+            "name": "Xã Chí Công",
+            "division_type": "xã",
+            "code": 22993,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Hiệp Đức", "Thôn Hà Thủy"]
+            }
+          },
+          {
+            "name": "Xã Bình Thạnh",
+            "division_type": "xã",
+            "code": 22999,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn 1", "Chùa Cổ Thạch", "Bãi đá Bảy Màu"]
+            }
+          },
+          {
+            "name": "Xã Hòa Minh",
+            "division_type": "xã",
+            "code": 23002,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn 1", "Thôn 2"]
+            }
+          },
+          {
+            "name": "Xã Phước Thể",
+            "division_type": "xã",
+            "code": 22990,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn 1", "Thôn 2"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Bắc Bình",
+        "division_type": "huyện",
+        "code": 596,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Chợ Lầu",
+            "division_type": "thị trấn",
+            "code": 23005,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["KP Xuân An", "KP Xuân Hội"]
+            }
+          },
+          {
+            "name": "Thị trấn Lương Sơn",
+            "division_type": "thị trấn",
+            "code": 23032,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["KP Lương Nam", "KP Lương Bắc"]
+            }
+          },
+          {
+            "name": "Xã Phan Lâm",
+            "division_type": "xã",
+            "code": 23008,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn 1", "Thôn 2"]
+            }
+          },
+          {
+            "name": "Xã Phan Sơn",
+            "division_type": "xã",
+            "code": 23011,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn 1", "Thôn 2"]
+            }
+          },
+          {
+            "name": "Xã Phan Điền",
+            "division_type": "xã",
+            "code": 23014,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["Thôn 1"] }
+          },
+          {
+            "name": "Xã Hòa Thắng",
+            "division_type": "xã",
+            "code": 23053,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Thôn Hồng Lâm",
+                "Thôn Hồng Thắng",
+                "Bàu Trắng"
+              ]
+            }
+          },
+          {
+            "name": "Xã Phan Rí Thành",
+            "division_type": "xã",
+            "code": 23041,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Chanh", "Thôn Bình Thủy"]
+            }
+          },
+          {
+            "name": "Xã Hồng Thái",
+            "division_type": "xã",
+            "code": 23038,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Thái An", "Thôn Thái Hòa"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hàm Thuận Bắc",
+        "division_type": "huyện",
+        "code": 597,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Ma Lâm",
+            "division_type": "thị trấn",
+            "code": 23059,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["KP 1", "KP 2", "KP 3"]
+            }
+          },
+          {
+            "name": "Thị trấn Phú Long",
+            "division_type": "thị trấn",
+            "code": 23062,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["KP Phú Cường", "KP Phú Hòa"]
+            }
+          },
+          {
+            "name": "Xã Hàm Chính",
+            "division_type": "xã",
+            "code": 23089,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn 1", "Thôn 2", "Thôn 6"]
+            }
+          },
+          {
+            "name": "Xã Hàm Liêm",
+            "division_type": "xã",
+            "code": 23095,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn 1", "Thôn 4"]
+            }
+          },
+          {
+            "name": "Xã Hàm Thắng",
+            "division_type": "xã",
+            "code": 23098,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Thắng Hiệp", "Thôn Thắng Hòa"]
+            }
+          },
+          {
+            "name": "Xã Hàm Hiệp",
+            "division_type": "xã",
+            "code": 23101,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Đại Lộc", "Thôn Phú Nẫm"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hàm Thuận Nam",
+        "division_type": "huyện",
+        "code": 598,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Thuận Nam",
+            "division_type": "thị trấn",
+            "code": 23110,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["KP Nam Trung", "KP Nam Tân"]
+            }
+          },
+          {
+            "name": "Xã Tân Thành",
+            "division_type": "xã",
+            "code": 23146,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": [
+                "Thôn Kê Gà",
+                "Thôn Văn Kê",
+                "Hải đăng Kê Gà"
+              ]
+            }
+          },
+          {
+            "name": "Xã Thuận Quý",
+            "division_type": "xã",
+            "code": 23143,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Thuận Thành"]
+            }
+          },
+          {
+            "name": "Xã Hàm Minh",
+            "division_type": "xã",
+            "code": 23134,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Minh Tiến", "Thôn Minh Thành"]
+            }
+          },
+          {
+            "name": "Xã Hàm Cường",
+            "division_type": "xã",
+            "code": 23131,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Phú Cường", "Thôn Phú Sung"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Tánh Linh",
+        "division_type": "huyện",
+        "code": 599,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Lạc Tánh",
+            "division_type": "thị trấn",
+            "code": 23149,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["KP 1", "KP 9"] }
+          },
+          {
+            "name": "Xã Gia An",
+            "division_type": "xã",
+            "code": 23176,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn 1", "Thôn 2", "Thôn 3"]
+            }
+          },
+          {
+            "name": "Xã Đức Thuận",
+            "division_type": "xã",
+            "code": 23155,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn 1", "Thôn 2"]
+            }
+          },
+          {
+            "name": "Xã Nghị Đức",
+            "division_type": "xã",
+            "code": 23170,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn 1", "Thôn 5"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Đức Linh",
+        "division_type": "huyện",
+        "code": 600,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Võ Xu",
+            "division_type": "thị trấn",
+            "code": 23191,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["KP 1", "KP 9"] }
+          },
+          {
+            "name": "Thị trấn Đức Tài",
+            "division_type": "thị trấn",
+            "code": 23194,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["KP 1", "KP 10"] }
+          },
+          {
+            "name": "Xã Mê Pu",
+            "division_type": "xã",
+            "code": 23200,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn 1", "Thôn 6"]
+            }
+          },
+          {
+            "name": "Xã Sùng Nhơn",
+            "division_type": "xã",
+            "code": 23203,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn 1", "Thôn 2"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Hàm Tân",
+        "division_type": "huyện",
+        "code": 601,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Thị trấn Tân Nghĩa",
+            "division_type": "thị trấn",
+            "code": 23236,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["KP 1", "KP 5"] }
+          },
+          {
+            "name": "Thị trấn Tân Minh",
+            "division_type": "thị trấn",
+            "code": 23230,
+            "status": "active",
+            "details": { "streets": [], "villages_hamlets": ["KP 1", "KP 4"] }
+          },
+          {
+            "name": "Xã Tân Thắng",
+            "division_type": "xã",
+            "code": 23224,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Gò Găng", "Thôn Hiệp Hòa"]
+            }
+          },
+          {
+            "name": "Xã Thắng Hải",
+            "division_type": "xã",
+            "code": 23227,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Suối Bang", "Thôn Hà Lãng"]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Huyện Phú Quý",
+        "division_type": "huyện",
+        "code": 602,
+        "status": "active",
+        "wards": [
+          {
+            "name": "Xã Tam Thanh",
+            "division_type": "xã",
+            "code": 23251,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Mỹ Khê", "Thôn Hội An", "Cảng Phú Quý"]
+            }
+          },
+          {
+            "name": "Xã Ngũ Phụng",
+            "division_type": "xã",
+            "code": 23248,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Thương Châu", "Thôn Quý Thạnh"]
+            }
+          },
+          {
+            "name": "Xã Long Hải",
+            "division_type": "xã",
+            "code": 23254,
+            "status": "active",
+            "details": {
+              "streets": [],
+              "villages_hamlets": ["Thôn Đông Hải", "Thôn Tân Hải"]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
