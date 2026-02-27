@@ -65,3 +65,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ for the Vietnamese community**</content>
 <parameter name="filePath">c:\Users\admin\Downloads\Projects\vnx\README.md
+
+<!-- Data:
+
+- Old: https://raw.githubusercontent.com/sunshine-tech/VietnamProvinces/main/vietnam_provinces/data/nested-divisions.json, https://raw.githubusercontent.com/sunshine-tech/VietnamProvinces/main/vietnam_provinces/data/flat-divisions.json
+
+- New: https://raw.githubusercontent.com/foxidigital/database-dia-ban-hanh-chinh-1-7-2025-sau-sat-nhap/main/wards.sql' -->
